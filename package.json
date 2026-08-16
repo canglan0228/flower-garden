@@ -1,0 +1,19 @@
+{
+  "name": "flower-garden",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "花语花园：收录中外常见花卉，每日一朵今日之花，支持搜索与分类浏览的纯前端静态网站。",
+  "scripts": {
+    "test": "node --test",
+    "fetch": "node scripts/fetch-flowers.mjs",
+    "fetch:inat": "node scripts/fetch-inat.mjs",
+    "build": "node scripts/build-data.mjs",
+    "check": "node scripts/check-data.mjs",
+    "check:all": "node scripts/check-data.mjs && node --test",
+    "serve": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}

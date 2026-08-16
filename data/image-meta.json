@@ -1,0 +1,3530 @@
+{
+  "prunus-mume": {
+    "title": "File:Prunus mume.JPG",
+    "artist": "Kakidai",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Prunus_mume.JPG",
+    "queryUsed": "Prunus mume",
+    "ext": "webp"
+  },
+  "prunus-persica": {
+    "title": "File:PrunusPersica4.jpg",
+    "artist": "Fanghong",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:PrunusPersica4.jpg",
+    "queryUsed": "Prunus persica",
+    "ext": "webp"
+  },
+  "prunus-serrulata": {
+    "title": "File:Prunus serrulata 2005 spring 025.jpg",
+    "artist": "Kropsoq",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Prunus_serrulata_2005_spring_025.jpg",
+    "queryUsed": "Prunus serrulata",
+    "ext": "webp"
+  },
+  "prunus-armeniaca": {
+    "title": "File:Prunus armeniaca in Donetsk.jpg",
+    "artist": "Andrey Butko",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Prunus_armeniaca_in_Donetsk.jpg",
+    "queryUsed": "Prunus armeniaca",
+    "ext": "webp"
+  },
+  "pyrus-pyrifolia": {
+    "title": "File:Pyrus pyrifolia var culta2.jpg",
+    "artist": "KENPEI",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Pyrus_pyrifolia_var_culta2.jpg",
+    "queryUsed": "Pyrus pyrifolia",
+    "ext": "webp"
+  },
+  "prunus-salicina": {
+    "title": "File:Prunus salicina.jpg",
+    "artist": "",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Prunus_salicina.jpg",
+    "queryUsed": "Prunus salicina",
+    "ext": "webp"
+  },
+  "malus-domestica": {
+    "title": "File:Malus domestica LC0122.jpg",
+    "artist": "Jörg Hempel",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Malus_domestica_LC0122.jpg",
+    "queryUsed": "Malus domestica",
+    "ext": "webp"
+  },
+  "chaenomeles-speciosa": {
+    "title": "File:(ms) Chaenomeles speciosa 1.jpg",
+    "artist": "Hladac",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:(ms)_Chaenomeles_speciosa_1.jpg",
+    "queryUsed": "Chaenomeles speciosa",
+    "ext": "webp"
+  },
+  "sorbaria-sorbifolia": {
+    "title": "File:SorbariaSorbifolia3.jpg",
+    "artist": "Taken by Fanghong",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:SorbariaSorbifolia3.jpg",
+    "queryUsed": "Sorbaria sorbifolia",
+    "ext": "webp"
+  },
+  "prunus-triloba": {
+    "title": "Prunus triloba（iNaturalist 观察 389036972）",
+    "artist": "(c) darkflamew, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/712503456/large.jpg",
+    "queryUsed": "Prunus triloba",
+    "ext": "webp"
+  },
+  "spiraea-salicifolia": {
+    "title": "Spiraea salicifolia（iNaturalist 观察 389636842）",
+    "artist": "no rights reserved",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/713724385/large.jpg",
+    "queryUsed": "Spiraea salicifolia",
+    "ext": "webp"
+  },
+  "malus-halliana": {
+    "title": "Malus halliana（iNaturalist 观察 349709246）",
+    "artist": "(c) 정소민, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/637981140/large.jpg",
+    "queryUsed": "Malus halliana",
+    "ext": "webp"
+  },
+  "crataegus-pinnatifida": {
+    "title": "Crataegus pinnatifida（iNaturalist 观察 390870546）",
+    "artist": "(c) Anthony Rw, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/716141397/large.jpg",
+    "queryUsed": "Crataegus pinnatifida",
+    "ext": "webp"
+  },
+  "rosa-rugosa": {
+    "title": "Rosa rugosa（iNaturalist 观察 391574897）",
+    "artist": "(c) carter, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717519931/large.jpg",
+    "queryUsed": "Rosa rugosa",
+    "ext": "webp"
+  },
+  "rosa-chinensis": {
+    "title": "Rosa chinensis（iNaturalist 观察 391338416）",
+    "artist": "(c) HM Emon, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717061888/large.jpg",
+    "queryUsed": "Rosa chinensis",
+    "ext": "webp"
+  },
+  "malus-spectabilis": {
+    "title": "Malus spectabilis（iNaturalist 观察 373810411）",
+    "artist": "(c) angryphyco, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/683187842/large.jpg",
+    "queryUsed": "Malus spectabilis",
+    "ext": "webp"
+  },
+  "rosa-odorata": {
+    "title": "Rosa × odorata（iNaturalist 观察 340170968）",
+    "artist": "(c) Clive Freedman, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/618986855/large.jpg",
+    "queryUsed": "Rosa odorata",
+    "ext": "webp"
+  },
+  "camellia-japonica": {
+    "title": "Camellia japonica（iNaturalist 观察 391624356）",
+    "artist": "(c) fentomfromjapan, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717618454/large.jpg",
+    "queryUsed": "Camellia japonica",
+    "ext": "webp"
+  },
+  "rosa-banksiae": {
+    "title": "Rosa banksiae（iNaturalist 观察 386022249）",
+    "artist": "no rights reserved",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/706751649/large.jpg",
+    "queryUsed": "Rosa banksiae",
+    "ext": "webp"
+  },
+  "rhododendron-simsii": {
+    "title": "Rhododendron simsii（iNaturalist 观察 388774880）",
+    "artist": "(c) memo_1, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/712076392/large.jpg",
+    "queryUsed": "Rhododendron simsii",
+    "ext": "webp"
+  },
+  "camellia-nitidissima": {
+    "title": "Camellia nitidissima（iNaturalist 观察 72430336）",
+    "artist": "(c) manassas, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/118091155/large.jpeg",
+    "queryUsed": "Camellia nitidissima",
+    "ext": "webp"
+  },
+  "camellia-sasanqua": {
+    "title": "Camellia sasanqua（iNaturalist 观察 387536893）",
+    "artist": "no rights reserved",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/709653442/large.jpg",
+    "queryUsed": "Camellia sasanqua",
+    "ext": "webp"
+  },
+  "rhododendron-delavayi": {
+    "title": "Rhododendron delavayi（iNaturalist 观察 343444867）",
+    "artist": "(c) amicius, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/625598406/large.jpg",
+    "queryUsed": "Rhododendron delavayi",
+    "ext": "webp"
+  },
+  "osmanthus-fragrans": {
+    "title": "Osmanthus fragrans（iNaturalist 观察 391051262）",
+    "artist": "(c) 振远 王, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/716498543/large.jpg",
+    "queryUsed": "Osmanthus fragrans",
+    "ext": "webp"
+  },
+  "rhododendron-hybridum": {
+    "title": "Rhododendron × hybridum（iNaturalist 观察 367488560）",
+    "artist": "(c) Вадим Рыбаков, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/671106216/large.jpg",
+    "queryUsed": "Rhododendron hybridum",
+    "ext": "webp"
+  },
+  "syringa-oblata": {
+    "title": "Syringa oblata（iNaturalist 观察 361096711）",
+    "artist": "(c) Oleksandr Shynder, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/658977988/large.jpg",
+    "queryUsed": "Syringa oblata",
+    "ext": "webp"
+  },
+  "forsythia-suspensa": {
+    "title": "Forsythia suspensa（iNaturalist 观察 389487911）",
+    "artist": "(c) Nathan Aaron, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/713441488/large.jpg",
+    "queryUsed": "Forsythia suspensa",
+    "ext": "webp"
+  },
+  "jasminum-sambac": {
+    "title": "Jasminum sambac（iNaturalist 观察 390452402）",
+    "artist": "(c) Sathida Deechaiyo, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/715336629/large.jpg",
+    "queryUsed": "Jasminum sambac",
+    "ext": "webp"
+  },
+  "wisteria-sinensis": {
+    "title": "Wisteria sinensis（iNaturalist 观察 391278676）",
+    "artist": "(c) JESSIKA LYNN ROBERTS, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/716941213/large.jpg",
+    "queryUsed": "Wisteria sinensis",
+    "ext": "webp"
+  },
+  "campsis-grandiflora": {
+    "title": "Campsis grandiflora（iNaturalist 观察 390210326）",
+    "artist": "(c) turtlecrab, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/714857240/large.jpg",
+    "queryUsed": "Campsis grandiflora",
+    "ext": "webp"
+  },
+  "delonix-regia": {
+    "title": "Delonix regia（iNaturalist 观察 391318003）",
+    "artist": "(c) Raja Sekhar Chimirala, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717018301/large.jpg",
+    "queryUsed": "Delonix regia",
+    "ext": "webp"
+  },
+  "alcea-rosea": {
+    "title": "Alcea rosea（iNaturalist 观察 391506746）",
+    "artist": "(c) Jacqueline Worthington, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717385477/large.jpg",
+    "queryUsed": "Alcea rosea",
+    "ext": "webp"
+  },
+  "magnolia-denudata": {
+    "title": "Magnolia denudata（iNaturalist 观察 391036255）",
+    "artist": "(c) thorn133, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/716468153/large.jpg",
+    "queryUsed": "Magnolia denudata",
+    "ext": "webp"
+  },
+  "hibiscus-schizopetalus": {
+    "title": "Hibiscus schizopetalus（iNaturalist 观察 391083506）",
+    "artist": "(c) Fahlatda Souliyadeth, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/716562210/large.jpg",
+    "queryUsed": "Hibiscus schizopetalus",
+    "ext": "webp"
+  },
+  "michelia-figo": {
+    "title": "Magnolia figo（iNaturalist 观察 382332501）",
+    "artist": "(c) Chris Trestick, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/699666950/large.jpg",
+    "queryUsed": "Michelia figo",
+    "ext": "webp"
+  },
+  "liriodendron-chinense": {
+    "title": "Liriodendron chinense（iNaturalist 观察 384483389）",
+    "artist": "(c) pheonix_qiu, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/702684216/large.jpg",
+    "queryUsed": "Liriodendron chinense",
+    "ext": "webp"
+  },
+  "hibiscus-rosa-sinensis": {
+    "title": "Hibiscus × rosa-sinensis（iNaturalist 观察 391190059）",
+    "artist": "(c) ian_kinahan, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/716766621/large.jpg",
+    "queryUsed": "Hibiscus rosa-sinensis",
+    "ext": "webp"
+  },
+  "jacaranda-mimosifolia": {
+    "title": "Jacaranda mimosifolia（iNaturalist 观察 391390727）",
+    "artist": "(c) mrt30, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717156772/large.jpg",
+    "queryUsed": "Jacaranda mimosifolia",
+    "ext": "webp"
+  },
+  "bauhinia-purpurea": {
+    "title": "Bauhinia purpurea（iNaturalist 观察 391347429）",
+    "artist": "no rights reserved",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717075858/large.jpg",
+    "queryUsed": "Bauhinia purpurea",
+    "ext": "webp"
+  },
+  "wisteria-floribunda": {
+    "title": "Wisteria floribunda（iNaturalist 分类 170331）",
+    "artist": "(c) 104623964081378888743, some rights reserved (CC BY-NC), uploaded by 104623964081378888743",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/357944/large.jpg",
+    "queryUsed": "Wisteria floribunda",
+    "ext": "webp"
+  },
+  "jasminum-nudiflorum": {
+    "title": "Jasminum nudiflorum（iNaturalist 分类 164232）",
+    "artist": "(c) viviancui, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/361222488/large.jpeg",
+    "queryUsed": "Jasminum nudiflorum",
+    "ext": "webp"
+  },
+  "jasminum-polyanthum": {
+    "title": "Jasminum polyanthum（iNaturalist 分类 342641）",
+    "artist": "(c) KENPEI, some rights reserved (CC BY-SA)",
+    "license": "cc-by-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/40081250/large.jpg",
+    "queryUsed": "Jasminum polyanthum",
+    "ext": "webp"
+  },
+  "sophora-japonica": {
+    "title": "Styphnolobium japonicum（iNaturalist 分类 53945）",
+    "artist": "(c) Michael Ellis, some rights reserved (CC BY), uploaded by Michael Ellis",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/21952068/large.jpg",
+    "queryUsed": "Sophora japonica",
+    "ext": "webp"
+  },
+  "spathodea-campanulata": {
+    "title": "Spathodea campanulata（iNaturalist 分类 126566）",
+    "artist": "(c) squirrelwatcher019, some rights reserved (CC BY-NC), uploaded by squirrelwatcher019",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/29187199/large.jpeg",
+    "queryUsed": "Spathodea campanulata",
+    "ext": "webp"
+  },
+  "albizia-julibrissin": {
+    "title": "Albizia julibrissin（iNaturalist 分类 47443）",
+    "artist": "(c) Andrew Butko, some rights reserved (CC BY-SA)",
+    "license": "cc-by-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/146757188/large.jpg",
+    "queryUsed": "Albizia julibrissin",
+    "ext": "webp"
+  },
+  "lagerstroemia-speciosa": {
+    "title": "Lagerstroemia speciosa（iNaturalist 分类 133607）",
+    "artist": "(c) Mark Roberts, some rights reserved (CC BY-NC), uploaded by Mark Roberts",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/79053352/large.jpg",
+    "queryUsed": "Lagerstroemia speciosa",
+    "ext": "webp"
+  },
+  "rosa-multiflora": {
+    "title": "Rosa multiflora（iNaturalist 分类 78882）",
+    "artist": "(c) Douglas Goldman, some rights reserved (CC BY-SA), uploaded by Douglas Goldman",
+    "license": "cc-by-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/252786276/large.jpg",
+    "queryUsed": "Rosa multiflora",
+    "ext": "webp"
+  },
+  "robinia-pseudoacacia": {
+    "title": "Robinia pseudoacacia（iNaturalist 分类 56088）",
+    "artist": "(c) Eric Koberle, some rights reserved (CC BY-NC), uploaded by Eric Koberle",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/37431398/large.jpeg",
+    "queryUsed": "Robinia pseudoacacia",
+    "ext": "webp"
+  },
+  "hibiscus-syriacus": {
+    "title": "Hibiscus syriacus（iNaturalist 分类 126585）",
+    "artist": "(c) Kai Yan,  Joseph Wong, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/94974/large.jpg",
+    "queryUsed": "Hibiscus syriacus",
+    "ext": "webp"
+  },
+  "magnolia-grandiflora": {
+    "title": "Magnolia grandiflora（iNaturalist 分类 83074）",
+    "artist": "(c) 潘立傑 LiChieh Pan, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/82254330/large.jpg",
+    "queryUsed": "Magnolia grandiflora",
+    "ext": "webp"
+  },
+  "magnolia-soulangeana": {
+    "title": "Magnolia × soulangeana（iNaturalist 分类 204586）",
+    "artist": "(c) Kew on Flickr, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/246162/large.jpg",
+    "queryUsed": "Magnolia soulangeana",
+    "ext": "webp"
+  },
+  "michelia-alba": {
+    "title": "Magnolia × alba（iNaturalist 分类 1070812）",
+    "artist": "(c) hollythefrog, some rights reserved (CC BY-NC), uploaded by hollythefrog",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/125738009/large.jpeg",
+    "queryUsed": "Michelia alba",
+    "ext": "webp"
+  },
+  "acacia-farnesiana": {
+    "title": "Vachellia farnesiana（iNaturalist 分类 79472）",
+    "artist": "(c) pleiovn, some rights reserved (CC BY-NC), uploaded by pleiovn",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/849349/large.jpg",
+    "queryUsed": "Acacia farnesiana",
+    "ext": "webp"
+  },
+  "lagerstroemia-indica": {
+    "title": "Lagerstroemia indica（iNaturalist 分类 135394）",
+    "artist": "(c) Rich_Yang, some rights reserved (CC BY-NC), uploaded by Rich_Yang",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/203337469/large.jpeg",
+    "queryUsed": "Lagerstroemia indica",
+    "ext": "webp"
+  },
+  "michelia-champaca": {
+    "title": "Magnolia champaca（iNaturalist 分类 344667）",
+    "artist": "(c) Ong Jyh Seng, some rights reserved (CC BY-SA), uploaded by Ong Jyh Seng",
+    "license": "cc-by-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/21480087/large.jpeg",
+    "queryUsed": "Michelia champaca",
+    "ext": "webp"
+  },
+  "allamanda-schottii": {
+    "title": "Allamanda schottii（iNaturalist 分类 327732）",
+    "artist": "(c) Luís A. Funez, some rights reserved (CC BY-NC), uploaded by Luís A. Funez",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/139344357/large.jpeg",
+    "queryUsed": "Allamanda schottii",
+    "ext": "webp"
+  },
+  "bauhinia-blakeana": {
+    "title": "Bauhinia × blakeana（iNaturalist 分类 181672）",
+    "artist": "(c) annecasson, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/60176406/large.jpg",
+    "queryUsed": "Bauhinia blakeana",
+    "ext": "webp"
+  },
+  "erythrina-variegata": {
+    "title": "Erythrina variegata（iNaturalist 分类 139168）",
+    "artist": "(c) wanyu_, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/285528539/large.jpeg",
+    "queryUsed": "Erythrina variegata",
+    "ext": "webp"
+  },
+  "nerium-oleander": {
+    "title": "Nerium oleander（iNaturalist 分类 47563）",
+    "artist": "(c) Cheng-wei, Liu (Jack), some rights reserved (CC BY-NC), uploaded by Cheng-wei, Liu (Jack)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/392455529/large.jpeg",
+    "queryUsed": "Nerium oleander",
+    "ext": "webp"
+  },
+  "punica-granatum": {
+    "title": "Punica granatum（iNaturalist 分类 58300）",
+    "artist": "(c) H. Zell, some rights reserved (CC BY-SA)",
+    "license": "cc-by-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/4956594/large.jpeg",
+    "queryUsed": "Punica granatum",
+    "ext": "webp"
+  },
+  "caragana-sinica": {
+    "title": "Caragana sinica（iNaturalist 观察 384733478）",
+    "artist": "(c) 강민재, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/704294895/large.jpg",
+    "queryUsed": "Caragana sinica",
+    "ext": "webp"
+  },
+  "hydrangea-macrophylla": {
+    "title": "Hydrangea macrophylla（iNaturalist 分类 122034）",
+    "artist": "(c) miyuu, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/45518546/large.jpg",
+    "queryUsed": "Hydrangea macrophylla",
+    "ext": "webp"
+  },
+  "chionanthus-retusus": {
+    "title": "Chionanthus retusus（iNaturalist 分类 452213）",
+    "artist": "(c) Penny Wang, some rights reserved (CC BY-NC), uploaded by Penny Wang",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/33641311/large.jpeg",
+    "queryUsed": "Chionanthus retusus",
+    "ext": "webp"
+  },
+  "gardenia-jasminoides": {
+    "title": "Gardenia jasminoides（iNaturalist 分类 210990）",
+    "artist": "no rights reserved, uploaded by 葉子",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/430635084/large.jpeg",
+    "queryUsed": "Gardenia jasminoides",
+    "ext": "webp"
+  },
+  "edgeworthia-chrysantha": {
+    "title": "Edgeworthia chrysantha（iNaturalist 分类 133126）",
+    "artist": "(c) Ben Zerante, some rights reserved (CC BY-NC), uploaded by Ben Zerante",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/63720866/large.jpeg",
+    "queryUsed": "Edgeworthia chrysantha",
+    "ext": "webp"
+  },
+  "euphorbia-milii": {
+    "title": "Euphorbia milii（iNaturalist 分类 162839）",
+    "artist": "(c) dirlid, some rights reserved (CC BY-NC), uploaded by dirlid",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/293971347/large.jpeg",
+    "queryUsed": "Euphorbia milii",
+    "ext": "webp"
+  },
+  "epiphyllum-oxypetalum": {
+    "title": "Epiphyllum oxypetalum（iNaturalist 分类 85410）",
+    "artist": "no rights reserved, uploaded by 葉子",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/40327377/large.jpeg",
+    "queryUsed": "Epiphyllum oxypetalum",
+    "ext": "webp"
+  },
+  "opuntia-ficus-indica": {
+    "title": "Opuntia ficus-indica（iNaturalist 分类 64119）",
+    "artist": "(c) Richard Boon, some rights reserved (CC BY-NC), uploaded by Richard Boon",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/471957144/large.jpg",
+    "queryUsed": "Opuntia ficus-indica",
+    "ext": "webp"
+  },
+  "bougainvillea-spectabilis": {
+    "title": "Bougainvillea spectabilis（iNaturalist 分类 62949）",
+    "artist": "(c) Prenn, some rights reserved (CC BY-SA)",
+    "license": "cc-by-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/393467193/large.jpeg",
+    "queryUsed": "Bougainvillea spectabilis",
+    "ext": "webp"
+  },
+  "schlumbergera-truncata": {
+    "title": "Schlumbergera truncata（iNaturalist 分类 51223）",
+    "artist": "(c) Felipe Tubarão, some rights reserved (CC BY-NC), uploaded by Felipe Tubarão",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/257014573/large.jpg",
+    "queryUsed": "Schlumbergera truncata",
+    "ext": "webp"
+  },
+  "hypericum-monogynum": {
+    "title": "Hypericum monogynum（iNaturalist 观察 372872987）",
+    "artist": "(c) Hugo Sun, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/681396975/large.jpg",
+    "queryUsed": "Hypericum monogynum",
+    "ext": "webp"
+  },
+  "daphne-odora": {
+    "title": "Daphne odora（iNaturalist 观察 391213324）",
+    "artist": "(c) Lyn, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/716812705/large.jpg",
+    "queryUsed": "Daphne odora",
+    "ext": "webp"
+  },
+  "malva-sylvestris": {
+    "title": "Malva sylvestris（iNaturalist 分类 56162）",
+    "artist": "(c) Alvesgaspar, some rights reserved (CC BY-SA)",
+    "license": "cc-by-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/608220986/large.jpg",
+    "queryUsed": "Malva sylvestris",
+    "ext": "webp"
+  },
+  "lycoris-aurea": {
+    "title": "Lycoris aurea（iNaturalist 分类 508760）",
+    "artist": "no rights reserved, uploaded by 葉子",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/55355558/large.jpeg",
+    "queryUsed": "Lycoris aurea",
+    "ext": "webp"
+  },
+  "hylocereus-undatus": {
+    "title": "Selenicereus undatus（iNaturalist 分类 1038928）",
+    "artist": "no rights reserved, uploaded by 葉子",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/51196862/large.jpeg",
+    "queryUsed": "Hylocereus undatus",
+    "ext": "webp"
+  },
+  "narcissus-tazetta": {
+    "title": "Narcissus tazetta（iNaturalist 分类 56027）",
+    "artist": "(c) Mathis Buriasco, some rights reserved (CC BY-NC), uploaded by Mathis Buriasco",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/654841439/large.jpg",
+    "queryUsed": "Narcissus tazetta",
+    "ext": "webp"
+  },
+  "lycoris-radiata": {
+    "title": "Lycoris radiata（iNaturalist 分类 164975）",
+    "artist": "(c) Aidan Campos, some rights reserved (CC BY-NC), uploaded by Aidan Campos",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/96576964/large.jpg",
+    "queryUsed": "Lycoris radiata",
+    "ext": "webp"
+  },
+  "agapanthus-africanus": {
+    "title": "Agapanthus africanus（iNaturalist 分类 56019）",
+    "artist": "(c) Nick Helme, some rights reserved (CC BY-NC), uploaded by Nick Helme",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/60830630/large.jpeg",
+    "queryUsed": "Agapanthus africanus",
+    "ext": "webp"
+  },
+  "clivia-miniata": {
+    "title": "Clivia miniata（iNaturalist 分类 210194）",
+    "artist": "(c) Allister Starke, some rights reserved (CC BY-NC), uploaded by Allister Starke",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/335128592/large.jpeg",
+    "queryUsed": "Clivia miniata",
+    "ext": "webp"
+  },
+  "polianthes-tuberosa": {
+    "title": "Polianthes tuberosa（iNaturalist 分类 290891）",
+    "artist": "(c) SONU KUMAR, some rights reserved (CC BY-NC), uploaded by SONU KUMAR",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/391781291/large.jpeg",
+    "queryUsed": "Polianthes tuberosa",
+    "ext": "webp"
+  },
+  "zephyranthes-candida": {
+    "title": "Zephyranthes candida（iNaturalist 分类 170415）",
+    "artist": "(c) Forest and Kim Starr, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/150236281/large.jpg",
+    "queryUsed": "Zephyranthes candida",
+    "ext": "webp"
+  },
+  "lilium-lancifolium": {
+    "title": "Lilium lancifolium（iNaturalist 观察 390799306）",
+    "artist": "(c) 이상길, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/716006204/large.jpg",
+    "queryUsed": "Lilium lancifolium",
+    "ext": "webp"
+  },
+  "hemerocallis-fulva": {
+    "title": "Hemerocallis fulva（iNaturalist 分类 126583）",
+    "artist": "(c) Susan Elliott, some rights reserved (CC BY-NC), uploaded by Susan Elliott",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/82351245/large.jpg",
+    "queryUsed": "Hemerocallis fulva",
+    "ext": "webp"
+  },
+  "hyacinthus-orientalis": {
+    "title": "Hyacinthus orientalis（iNaturalist 分类 126637）",
+    "artist": "(c) gemmamorabito, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/42029432/large.jpg",
+    "queryUsed": "Hyacinthus orientalis",
+    "ext": "webp"
+  },
+  "muscari-botryoides": {
+    "title": "Muscari botryoides（iNaturalist 观察 390529670）",
+    "artist": "(c) Danila, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/715484784/large.jpg",
+    "queryUsed": "Muscari botryoides",
+    "ext": "webp"
+  },
+  "iris-germanica": {
+    "title": "Iris × germanica（iNaturalist 观察 390562798）",
+    "artist": "(c) wild_restoration, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/715547336/large.jpg",
+    "queryUsed": "Iris germanica",
+    "ext": "webp"
+  },
+  "hosta-plantaginea": {
+    "title": "Hosta plantaginea（iNaturalist 观察 391669201）",
+    "artist": "(c) Andrejus Gaidamavičius, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717697736/large.jpg",
+    "queryUsed": "Hosta plantaginea",
+    "ext": "webp"
+  },
+  "lilium-pumilum": {
+    "title": "Lilium pumilum（iNaturalist 观察 389006222）",
+    "artist": "(c) Сойжина Цыдыпылова, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/712518023/large.jpg",
+    "queryUsed": "Lilium pumilum",
+    "ext": "webp"
+  },
+  "freesia-refracta": {
+    "title": "Freesia refracta（iNaturalist 分类 339427）",
+    "artist": "(c) Patrick Lane, some rights reserved (CC BY-NC), uploaded by Patrick Lane",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/15474410/large.jpg",
+    "queryUsed": "Freesia refracta",
+    "ext": "webp"
+  },
+  "iris-tectorum": {
+    "title": "Iris tectorum（iNaturalist 分类 57732）",
+    "artist": "(c) 非常豹, some rights reserved (CC BY-NC), uploaded by 非常豹",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/86247215/large.jpeg",
+    "queryUsed": "Iris tectorum",
+    "ext": "webp"
+  },
+  "belamcanda-chinensis": {
+    "title": "Iris domestica（iNaturalist 分类 204330）",
+    "artist": "no rights reserved, uploaded by 葉子",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/65066126/large.jpeg",
+    "queryUsed": "Belamcanda chinensis",
+    "ext": "webp"
+  },
+  "iris-pseudacorus": {
+    "title": "Iris pseudacorus（iNaturalist 观察 391127774）",
+    "artist": "(c) Owen and Carol Fawcett., some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/716645588/large.jpg",
+    "queryUsed": "Iris pseudacorus",
+    "ext": "webp"
+  },
+  "allium-giganteum": {
+    "title": "Allium giganteum（iNaturalist 分类 550792）",
+    "artist": "(c) Наталья Бешко, some rights reserved (CC BY-NC), uploaded by Наталья Бешко",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/114262754/large.jpg",
+    "queryUsed": "Allium giganteum",
+    "ext": "webp"
+  },
+  "cymbidium-faberi": {
+    "title": "Cymbidium faberi（iNaturalist 分类 737318）",
+    "artist": "(c) Linnunrata, some rights reserved (CC BY-NC), uploaded by Linnunrata",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/675728840/large.jpg",
+    "queryUsed": "Cymbidium faberi",
+    "ext": "webp"
+  },
+  "phalaenopsis-aphrodite": {
+    "title": "Phalaenopsis aphrodite（iNaturalist 分类 864477）",
+    "artist": "(c) 夏曼威廉斯, some rights reserved (CC BY-NC), uploaded by 夏曼威廉斯",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/483770714/large.jpg",
+    "queryUsed": "Phalaenopsis aphrodite",
+    "ext": "webp"
+  },
+  "paphiopedilum-insigne": {
+    "title": "Paphiopedilum insigne（iNaturalist 分类 423674）",
+    "artist": "(c) Gabriel Camilo Jaramillo Giraldo, some rights reserved (CC BY-NC-SA), uploaded by Gabriel Camilo Jaramillo Giraldo",
+    "license": "cc-by-nc-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/58981172/large.jpeg",
+    "queryUsed": "Paphiopedilum insigne",
+    "ext": "webp"
+  },
+  "cattleya-labiata": {
+    "title": "Cattleya labiata（iNaturalist 分类 140837）",
+    "artist": "(c) Jose Amorin, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/127799924/large.jpg",
+    "queryUsed": "Cattleya labiata",
+    "ext": "webp"
+  },
+  "dendrobium-phalaenopsis": {
+    "title": "Dendrobium bigibbum（iNaturalist 分类 344967）",
+    "artist": "(c) Jason Searle, some rights reserved (CC BY-NC), uploaded by Jason Searle",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/408262365/large.jpg",
+    "queryUsed": "Dendrobium phalaenopsis",
+    "ext": "webp"
+  },
+  "iris-lactea": {
+    "title": "Iris lactea（iNaturalist 观察 389191258）",
+    "artist": "(c) liam1294, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/712866478/large.jpg",
+    "queryUsed": "Iris lactea",
+    "ext": "webp"
+  },
+  "phaius-tankervilleae": {
+    "title": "Phaius australis（iNaturalist 分类 802831）",
+    "artist": "(c) gumnutbabies, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/60369833/large.jpg",
+    "queryUsed": "Phaius tankervilleae",
+    "ext": "webp"
+  },
+  "cymbidium-sinense": {
+    "title": "Cymbidium sinense（iNaturalist 观察 377724794）",
+    "artist": "(c) 方偉宇, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/690765181/large.jpg",
+    "queryUsed": "Cymbidium sinense",
+    "ext": "webp"
+  },
+  "cymbidium-goeringii": {
+    "title": "Cymbidium goeringii（iNaturalist 分类 452320）",
+    "artist": "(c) vico, some rights reserved (CC BY-NC), uploaded by vico",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/527399674/large.jpg",
+    "queryUsed": "Cymbidium goeringii",
+    "ext": "webp"
+  },
+  "hoya-carnosa": {
+    "title": "Hoya carnosa（iNaturalist 分类 129523）",
+    "artist": "no rights reserved, uploaded by 葉子",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/165589748/large.jpeg",
+    "queryUsed": "Hoya carnosa",
+    "ext": "webp"
+  },
+  "cypripedium-calceolus": {
+    "title": "Cypripedium calceolus（iNaturalist 分类 54638）",
+    "artist": "(c) walidnemer, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/110231911/large.jpeg",
+    "queryUsed": "Cypripedium calceolus",
+    "ext": "webp"
+  },
+  "bletilla-striata": {
+    "title": "Bletilla striata（iNaturalist 分类 131245）",
+    "artist": "(c) Laurent Quéno, some rights reserved (CC BY-NC), uploaded by Laurent Quéno",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/38672433/large.jpeg",
+    "queryUsed": "Bletilla striata",
+    "ext": "webp"
+  },
+  "ravenala-madagascariensis": {
+    "title": "Ravenala madagascariensis（iNaturalist 观察 391505664）",
+    "artist": "(c) nikschmidt, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717383437/large.jpg",
+    "queryUsed": "Ravenala madagascariensis",
+    "ext": "webp"
+  },
+  "nuphar-pumila": {
+    "title": "Nuphar pumila（iNaturalist 分类 198897）",
+    "artist": "no rights reserved, uploaded by 葉子",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/55527710/large.jpeg",
+    "queryUsed": "Nuphar pumila",
+    "ext": "webp"
+  },
+  "nymphaea-tetragona": {
+    "title": "Nymphaea tetragona（iNaturalist 分类 165756）",
+    "artist": "(c) naokitakebayashi, some rights reserved (CC BY-SA), uploaded by naokitakebayashi",
+    "license": "cc-by-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/45212075/large.jpg",
+    "queryUsed": "Nymphaea tetragona",
+    "ext": "webp"
+  },
+  "thalia-dealbata": {
+    "title": "Thalia dealbata（iNaturalist 分类 169652）",
+    "artist": "(c) Pauline Zinn, some rights reserved (CC BY-NC), uploaded by Pauline Zinn",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/84955827/large.jpg",
+    "queryUsed": "Thalia dealbata",
+    "ext": "webp"
+  },
+  "euryale-ferox": {
+    "title": "Euryale ferox（iNaturalist 观察 390803923）",
+    "artist": "(c) Yokogawa, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/716015567/large.jpg",
+    "queryUsed": "Euryale ferox",
+    "ext": "webp"
+  },
+  "heliconia-rostrata": {
+    "title": "Heliconia rostrata（iNaturalist 观察 390664329）",
+    "artist": "(c) Martin Jung, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/715741343/large.jpg",
+    "queryUsed": "Heliconia rostrata",
+    "ext": "webp"
+  },
+  "spathiphyllum-wallisii": {
+    "title": "Spathiphyllum wallisii（iNaturalist 分类 284040）",
+    "artist": "(c) ignputraa, some rights reserved (CC BY-NC), uploaded by ignputraa",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/212419198/large.jpeg",
+    "queryUsed": "Spathiphyllum wallisii",
+    "ext": "webp"
+  },
+  "acorus-calamus": {
+    "title": "Acorus calamus（iNaturalist 分类 82306）",
+    "artist": "(c) Eduard Garin, some rights reserved (CC BY-NC), uploaded by Eduard Garin",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/31058762/large.jpg",
+    "queryUsed": "Acorus calamus",
+    "ext": "webp"
+  },
+  "pontederia-cordata": {
+    "title": "Pontederia cordata（iNaturalist 观察 391614887）",
+    "artist": "(c) Laura Gaudette, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717561964/large.jpg",
+    "queryUsed": "Pontederia cordata",
+    "ext": "webp"
+  },
+  "canna-generalis": {
+    "title": "Canna × hybrida（iNaturalist 分类 1535043）",
+    "artist": "(c) kathrynhammond20, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/111238890/large.jpg",
+    "queryUsed": "Canna generalis",
+    "ext": "webp"
+  },
+  "cosmos-bipinnatus": {
+    "title": "Cosmos bipinnatus（iNaturalist 分类 68562）",
+    "artist": "(c) Francisco J. Muñoz Nolasco, some rights reserved (CC BY-NC), uploaded by Francisco J. Muñoz Nolasco",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/456061565/large.jpg",
+    "queryUsed": "Cosmos bipinnatus",
+    "ext": "webp"
+  },
+  "helianthus-annuus": {
+    "title": "Helianthus annuus（iNaturalist 分类 57983）",
+    "artist": "(c) Emily Scherer, some rights reserved (CC BY-NC), uploaded by Emily Scherer",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/323768723/large.jpg",
+    "queryUsed": "Helianthus annuus",
+    "ext": "webp"
+  },
+  "callistephus-chinensis": {
+    "title": "Callistephus chinensis（iNaturalist 分类 159684）",
+    "artist": "(c) Emőke Dénes, some rights reserved (CC BY-SA)",
+    "license": "cc-by-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/50369077/large.jpg",
+    "queryUsed": "Callistephus chinensis",
+    "ext": "webp"
+  },
+  "sagittaria-trifolia": {
+    "title": "Sagittaria trifolia（iNaturalist 分类 206167）",
+    "artist": "no rights reserved, uploaded by 葉子",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/65363020/large.jpeg",
+    "queryUsed": "Sagittaria trifolia",
+    "ext": "webp"
+  },
+  "alisma-plantago-aquatica": {
+    "title": "Alisma plantago-aquatica（iNaturalist 分类 60253）",
+    "artist": "(c) Ольга Курякова, some rights reserved (CC BY-NC), uploaded by Ольга Курякова",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/83555577/large.jpeg",
+    "queryUsed": "Alisma plantago-aquatica",
+    "ext": "webp"
+  },
+  "dendranthema-morifolium": {
+    "title": "Chrysanthemum × morifolium（iNaturalist 分类 53806）",
+    "artist": "(c) Erica Dunlap, some rights reserved (CC BY-NC), uploaded by Erica Dunlap",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/236151541/large.jpeg",
+    "queryUsed": "Dendranthema morifolium",
+    "ext": "webp"
+  },
+  "zinnia-elegans": {
+    "title": "Zinnia elegans（iNaturalist 分类 181901）",
+    "artist": "(c) Erick Noe Tapia Banda, some rights reserved (CC BY-NC), uploaded by Erick Noe Tapia Banda",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/24339002/large.jpeg",
+    "queryUsed": "Zinnia elegans",
+    "ext": "webp"
+  },
+  "calendula-officinalis": {
+    "title": "Calendula officinalis（iNaturalist 观察 391382325）",
+    "artist": "(c) Ульяна Ярцева, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717140125/large.jpg",
+    "queryUsed": "Calendula officinalis",
+    "ext": "webp"
+  },
+  "alocasia-macrorrhiza": {
+    "title": "Alocasia macrorrhizos（iNaturalist 分类 126165）",
+    "artist": "(c) SunGW, some rights reserved (CC BY-NC), uploaded by SunGW",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/62771804/large.jpeg",
+    "queryUsed": "Alocasia macrorrhiza",
+    "ext": "webp"
+  },
+  "magnolia-liliiflora": {
+    "title": "Magnolia liliiflora（iNaturalist 分类 125761）",
+    "artist": "(c) m. m. v., some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/628831937/large.jpg",
+    "queryUsed": "Magnolia liliiflora",
+    "ext": "webp"
+  },
+  "bombax-ceiba": {
+    "title": "Bombax ceiba（iNaturalist 分类 68313）",
+    "artist": "(c) Raymond Khoo, some rights reserved (CC BY-NC), uploaded by Raymond Khoo",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/258660286/large.jpg",
+    "queryUsed": "Bombax ceiba",
+    "ext": "webp"
+  },
+  "erythrina-corallodendron": {
+    "title": "Erythrina corallodendron（iNaturalist 分类 327716）",
+    "artist": "(c) Christian Grenier, some rights reserved (CC BY-NC), uploaded by Christian Grenier",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/106225186/large.jpg",
+    "queryUsed": "Erythrina corallodendron",
+    "ext": "webp"
+  },
+  "plumeria-rubra": {
+    "title": "Plumeria rubra（iNaturalist 观察 391316419）",
+    "artist": "(c) Raja Sekhar Chimirala, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717015021/large.jpg",
+    "queryUsed": "Plumeria rubra",
+    "ext": "webp"
+  },
+  "catharanthus-roseus": {
+    "title": "Catharanthus roseus（iNaturalist 分类 62924）",
+    "artist": "(c) James Bailey, some rights reserved (CC BY-NC), uploaded by James Bailey",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/625888487/large.jpg",
+    "queryUsed": "Catharanthus roseus",
+    "ext": "webp"
+  },
+  "cercis-chinensis": {
+    "title": "Cercis chinensis（iNaturalist 分类 139471）",
+    "artist": "(c) Chicago Botanic Garden 2010, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/1071698/large.jpeg",
+    "queryUsed": "Cercis chinensis",
+    "ext": "webp"
+  },
+  "hibiscus-mutabilis": {
+    "title": "Hibiscus mutabilis（iNaturalist 分类 163770）",
+    "artist": "(c) Suma Urang, some rights reserved (CC BY-NC), uploaded by Suma Urang",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/376153382/large.jpeg",
+    "queryUsed": "Hibiscus mutabilis",
+    "ext": "webp"
+  },
+  "mussaenda-pubescens": {
+    "title": "Mussaenda pubescens（iNaturalist 观察 387148764）",
+    "artist": "(c) 孟尝君, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/708894650/large.jpg",
+    "queryUsed": "Mussaenda pubescens",
+    "ext": "webp"
+  },
+  "ceiba-speciosa": {
+    "title": "Ceiba speciosa（iNaturalist 观察 390631005）",
+    "artist": "(c) Maria Patricia Gorges, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/715676994/large.jpg",
+    "queryUsed": "Ceiba speciosa",
+    "ext": "webp"
+  },
+  "pyrostegia-venusta": {
+    "title": "Pyrostegia venusta（iNaturalist 分类 126634）",
+    "artist": "(c) pvrooman, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/85275005/large.jpg",
+    "queryUsed": "Pyrostegia venusta",
+    "ext": "webp"
+  },
+  "serissa-japonica": {
+    "title": "Serissa japonica（iNaturalist 分类 344327）",
+    "artist": "(c) r0829, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/363617380/large.jpg",
+    "queryUsed": "Serissa japonica",
+    "ext": "webp"
+  },
+  "ixora-chinensis": {
+    "title": "龙船花Ixorachinensis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/87291",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "hydrangea-paniculata": {
+    "title": "圆锥绣球Hydrangeapaniculata",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2825895",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "hypericum-patulum": {
+    "title": "金丝梅Hypericumpatulum",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/401303",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "euphorbia-pulcherrima": {
+    "title": "一品红Euphorbiapulcherrima",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1184139",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "oenothera-biennis": {
+    "title": "月见草Oenotherabiennis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/170564",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "nopalxochia-ackermannii": {
+    "title": "令箭荷花Nopalxochiaackermannii",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/148343",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "crinum-asiaticum": {
+    "title": "文殊兰Crinumasiaticumvar.sinicum",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/314385",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "narcissus-pseudonarcissus": {
+    "title": "火焰洋水仙Narcissuspseudonarcissus'Jetfire'",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2663143",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "lilium-brownii": {
+    "title": "百合Liliumbrowniivar.viridulum",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/597462",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "lilium-casa-blanca": {
+    "title": "香水百合Lilium'CasaBlanca'",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/27046207",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "tulipa-gesneriana": {
+    "title": "郁金香Tulipa×gesneriana",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/124653",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "convallaria-majalis": {
+    "title": "铃兰Convallariakeiskei",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2072858",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "hemerocallis-hybrida": {
+    "title": "大花萱草Hemerocallishybridus",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/429338",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "hosta-ventricosa": {
+    "title": "紫萼Hostaventricosa",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2204079",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "iris-sanguinea": {
+    "title": "溪荪Irissanguinea",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1636698",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "gladiolus-gandavensis": {
+    "title": "唐菖蒲Gladiolus×gandavensis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/161233",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "crocus-sativus": {
+    "title": "番红花Crocussativus",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/6097854",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "tulbaghia-violacea": {
+    "title": "紫娇花Tulbaghiaviolacea",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2797880",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "cymbidium-ensifolium": {
+    "title": "建兰Cymbidiumensifolium",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2816108",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "cymbidium-kanran": {
+    "title": "寒兰Cymbidiumkanran",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/3180614",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "cymbidium-hybridum": {
+    "title": "大花蕙兰Cymbidiumhybrid",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1688244",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "dendrobium-nobile": {
+    "title": "石斛Dendrobiumnobile",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2811418",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "oncidium-flexuosum": {
+    "title": "文心兰Oncidiumflexuosum",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1301186",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "vanda-coerulea": {
+    "title": "大花万代兰Vandacoerulea",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2145796",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "calanthe-discolor": {
+    "title": "虾脊兰Calanthediscolor",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2273321",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "strelitzia-reginae": {
+    "title": "鹤望兰Strelitziareginae",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1414647",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "anthurium-andraeanum": {
+    "title": "黑皇后红掌Anthuriumandraeanum'BlackQueen'",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2376338",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "zantedeschia-aethiopica": {
+    "title": "马蹄莲Zantedeschiaaethiopica",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2182571",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "nelumbo-nucifera": {
+    "title": "莲Nelumbonucifera",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/601282",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "victoria-amazonica": {
+    "title": "王莲Victoriaamazonica",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/599874",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "lythrum-salicaria": {
+    "title": "千屈菜Lythrumsalicaria",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/357199",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "canna-indica": {
+    "title": "美人蕉Cannaindica",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1195655",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "eichhornia-crassipes": {
+    "title": "凤眼莲Pontederiacrassipes",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/153674",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "bellis-perennis": {
+    "title": "雏菊Bellisperennis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2094532",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "cosmos-sulphureus": {
+    "title": "黄秋英Cosmossulphureus",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/157761",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "aster-tataricus": {
+    "title": "紫菀Astertataricus",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/3100433",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "tagetes-erecta": {
+    "title": "万寿菊Tageteserecta",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1414687",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "tagetes-patula": {
+    "title": "锦绣孔雀草Tagetespatula'Jinxiu'",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/3159743",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "dahlia-pinnata": {
+    "title": "大丽花Dahliapinnata",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1248348",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "dahlia-hybrida": {
+    "title": "小丽花Dahliapinnata'Nana'",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1802330",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "gerbera-jamesonii": {
+    "title": "非洲菊Gerberajamesonii",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1596470",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "argyranthemum-frutescens": {
+    "title": "木茼蒿Argyranthemumfrutescens",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2464824",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "matricaria-chamomilla": {
+    "title": "母菊Matricariachamomilla",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/3100427",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "rudbeckia-laciniata": {
+    "title": "金光菊Rudbeckialaciniata",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/558065",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "rudbeckia-hirta": {
+    "title": "黑心菊Rudbeckiahirta",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2149536",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "echinacea-purpurea": {
+    "title": "松果菊Echinaceapurpurea",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/125349",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "gaillardia-pulchella": {
+    "title": "天人菊Gaillardiapulchella",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/538433",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "taraxacum-officinale": {
+    "title": "蒲公英Taraxacummongolicum",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/134418",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "achillea-millefolium": {
+    "title": "皇冠蓍草Achilleamillefolium'CoronationGold'",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/290931",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "leucanthemum-maximum": {
+    "title": "大滨菊Leucanthemum×superbum",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/15098343",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "leucanthemum-vulgare": {
+    "title": "滨菊Leucanthemumvulgare",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/126076",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "aster-novi-belgii": {
+    "title": "粉雀荷兰菊Symphyotrichumnovi-belgii'FenQue'",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/607991",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "helenium-autumnale": {
+    "title": "堆心菊Heleniumautumnale",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1536993",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "osteospermum-ecklonis": {
+    "title": "蓝眼菊Arctotisvenusta",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/20623372",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "gazania-rigens": {
+    "title": "勋章菊Gazaniarigens",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1239954",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "coreopsis-lanceolata": {
+    "title": "金鸡菊Coreopsisbasalis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/13787819",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "liatris-spicata": {
+    "title": "蛇鞭菊Liatrisspicata",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/609765",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "xerochrysum-bracteatum": {
+    "title": "麦秆菊Xerochrysumbracteatum",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2939522",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "centaurea-cyanus": {
+    "title": "矢车菊Centaureacyanus",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2261938",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "consolida-ajacis": {
+    "title": "飞燕草Consolidaajacis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1581948",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "nigella-damascena": {
+    "title": "黑种草Nigelladamascena",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/12366406",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "anemone-coronaria": {
+    "title": "银莲花Anemonecathayensis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/442211",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "ranunculus-asiaticus": {
+    "title": "花毛茛Ranunculusasiaticus",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2073668",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "ranunculus-japonicus": {
+    "title": "毛茛Ranunculusjaponicus",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1637120",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "pulsatilla-chinensis": {
+    "title": "白头翁Pulsatillachinensis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/139141",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "clematis-florida": {
+    "title": "铁线莲Clematisflorida",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1104801",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "clematis-patens": {
+    "title": "转子莲Clematispatens",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/170103",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "paeonia-suffruticosa": {
+    "title": "牡丹Paeonia×suffruticosa",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/124839",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "paeonia-lactiflora": {
+    "title": "芍药Paeonialactiflora",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/150944",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "dicentra-spectabilis": {
+    "title": "荷包牡丹Lamprocapnosspectabilis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/525352",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "papaver-rhoeas": {
+    "title": "虞美人Papaverrhoeas",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/22036319",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "papaver-nudicaule": {
+    "title": "光果野罂粟Papavernudicaulevar.aquilegioides",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2336916",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "eschscholzia-californica": {
+    "title": "花菱草Eschscholziacalifornica",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/800853",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "matthiola-incana": {
+    "title": "紫罗兰Matthiolaincana",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/87530",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "lobularia-maritima": {
+    "title": "香雪球Lobulariamaritima",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/3129699",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "cheiranthus-cheiri": {
+    "title": "桂竹香Erysimum×cheiri",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/86614",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "orychophragmus-violaceus": {
+    "title": "齿瓣二月兰Orychophragmusviolaceusf.crenatus",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/12282495",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "brassica-napus": {
+    "title": "欧洲油菜Brassicanapus",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1590702",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "viola-tricolor": {
+    "title": "三色堇Violatricolor",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/257067",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "viola-cornuta": {
+    "title": "角堇Violacornuta",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2348577",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "viola-philippica": {
+    "title": "紫花地丁Violaphilippica",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/131539",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "dianthus-chinensis": {
+    "title": "石竹Dianthuschinensis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/158668",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "dianthus-caryophyllus": {
+    "title": "香石竹Dianthuscaryophyllus",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/4434151",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "lychnis-fulgens": {
+    "title": "剪秋罗Silenefulgens",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1632728",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "silene-pendula": {
+    "title": "高雪轮Atocionarmeria",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1061946",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "saponaria-officinalis": {
+    "title": "肥皂草Saponariaofficinalis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1543787",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "limonium-sinuatum": {
+    "title": "补血草Limoniumsinense",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/572877",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "myosotis-sylvatica": {
+    "title": "森林勿忘草Myosotissylvatica",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/801666",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "borago-officinalis": {
+    "title": "玻璃苣Boragoofficinalis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2041593",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "echium-vulgare": {
+    "title": "蓝蓟Echiumvulgare",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/5833059",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "delphinium-grandiflorum": {
+    "title": "翠雀Delphiniumgrandiflorum",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1679717",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "verbena-hybrida": {
+    "title": "美女樱Glandularia×hybrida",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1337206",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "verbena-officinalis": {
+    "title": "马鞭草Verbenaofficinalis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/3212202",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "verbena-bonariensis": {
+    "title": "柳叶马鞭草Verbenabonariensis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2496780",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "lavandula-angustifolia": {
+    "title": "薰衣草Lavandulaangustifolia",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/3018889",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "lavandula-stoechas": {
+    "title": "西班牙薰衣草Lavandulastoechas",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1478657",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "salvia-japonica": {
+    "title": "鼠尾草Salviajaponica",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/6174854",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "salvia-farinacea": {
+    "title": "蓝花鼠尾草Salviafarinacea",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/952903",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "salvia-splendens": {
+    "title": "一串红Salviasplendens",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/598750",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "salvia-coccinea": {
+    "title": "朱唇Salviacoccinea",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/586552",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "rosmarinus-officinalis": {
+    "title": "迷迭香Rosmarinusofficinalis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1081267",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "thymus-mongolicus": {
+    "title": "百里香Thymusmongolicus",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/355989",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "antirrhinum-majus": {
+    "title": "金鱼草Antirrhinummajus",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/5033533",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "linaria-vulgaris": {
+    "title": "柳穿鱼Linariavulgarissubsp.chinensis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2607157",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "digitalis-purpurea": {
+    "title": "毛地黄Digitalispurpurea",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/153685",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "penstemon-barbatus": {
+    "title": "钓钟柳Penstemoncampanulatus",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2583348",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "campanula-medium": {
+    "title": "风铃草Campanulamedium",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/12507484",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "campanula-glomerata": {
+    "title": "聚花风铃草Campanulaglomeratasubsp.speciosa",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1633208",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "platycodon-grandiflorus": {
+    "title": "桔梗Platycodongrandiflorus",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/124208",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "eustoma-grandiflorum": {
+    "title": "洋桔梗Eustomagrandiflorum",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2798726",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "gentiana-scabra": {
+    "title": "龙胆Gentianascabra",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/896911",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "primula-malacoides": {
+    "title": "报春花Primulamalacoides",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/135590",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "primula-obconica": {
+    "title": "贵妇人四季报春Primulaobconica'Juno'",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/12913355",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "primula-sinensis": {
+    "title": "藏报春Primulasinensis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/6162621",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "cyclamen-persicum": {
+    "title": "仙客来Cyclamenpersicum",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/3113431",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "pericallis-hybrida": {
+    "title": "瓜叶菊Pericallis×hybrida",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/3113899",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "lobelia-erinus": {
+    "title": "六倍利Lobeliaerinus",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1105123",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "lobelia-sessilifolia": {
+    "title": "山梗菜Lobeliasessilifolia",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/884309",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "lobelia-chinensis": {
+    "title": "半边莲Lobeliachinensis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1653021",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "ipomoea-nil": {
+    "title": "牵牛Ipomoeanil",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2707872",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "ipomoea-purpurea": {
+    "title": "圆叶牵牛Ipomoeapurpurea",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/125497",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "ipomoea-quamoclit": {
+    "title": "茑萝Ipomoeaquamoclit",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/607694",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "calystegia-hederacea": {
+    "title": "打碗花Calystegiahederacea",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/129568",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "convolvulus-arvensis": {
+    "title": "田旋花Convolvulusarvensis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1543744",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "ipomoea-alba": {
+    "title": "月光花Ipomoeaalba",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2850014",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "tropaeolum-majus": {
+    "title": "旱金莲Tropaeolummajus",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/254562",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "impatiens-balsamina": {
+    "title": "凤仙花Impatiensbalsamina",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1625053",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "impatiens-hawkeri": {
+    "title": "新几内亚凤仙花Impatienshawkeri",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/6026813",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "impatiens-walleriana": {
+    "title": "领航非洲凤仙Impatienswalleriana'Beacon'",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/4432721",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "celosia-cristata": {
+    "title": "鸡冠花Celosiacristata",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/124289",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "gomphrena-globosa": {
+    "title": "千日红Gomphrenaglobosa",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/422854",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "gypsophila-paniculata": {
+    "title": "圆锥石头花Gypsophilapaniculata",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/407616",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "mirabilis-jalapa": {
+    "title": "紫茉莉Mirabilisjalapa",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/4699936",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "cestrum-nocturnum": {
+    "title": "夜来香Telosmacordata",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1741131",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "datura-stramonium": {
+    "title": "曼陀罗Daturastramonium",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/171380",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "brugmansia-suaveolens": {
+    "title": "大花木曼陀罗Brugmansiasuaveolens",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/3351357",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "petunia-hybrida": {
+    "title": "矮牵牛Petunia×atkinsiana",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2403351",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "nicotiana-alata": {
+    "title": "花烟草Nicotianaalata",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2550316",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "lantana-camara": {
+    "title": "马缨丹Lantanacamara",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1652991",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "cleome-spinosa": {
+    "title": "醉蝶花Tarenayahassleriana",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/971688",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "mimosa-pudica": {
+    "title": "含羞草Mimosapudica",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/3034249",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "astragalus-sinicus": {
+    "title": "紫云英Astragalussinicus",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/413559",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "medicago-sativa": {
+    "title": "苜蓿Medicagosativa",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/4360503",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "trifolium-repens": {
+    "title": "白车轴草Trifoliumrepens",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1878339",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "trifolium-pratense": {
+    "title": "红车轴草Trifoliumpratense",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/5380143",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "lupinus-micranthus": {
+    "title": "羽扇豆Lupinusmicranthus",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/153681",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "lathyrus-odoratus": {
+    "title": "香豌豆Lathyrusodoratus",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1255803",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "pisum-sativum": {
+    "title": "豌豆Pisumsativum",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/354829",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "oxalis-corymbosa": {
+    "title": "红花酢浆草Oxaliscorymbosa",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2722201",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "oxalis-corniculata": {
+    "title": "酢浆草Oxaliscorniculata",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/163189",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "oxalis-triangularis": {
+    "title": "紫叶酢浆草Oxalistriangularis'Mijke'",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/3101264",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "kalanchoe-blossfeldiana": {
+    "title": "长寿花Kalanchoeblossfeldiana",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/12012",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "bryophyllum-pinnatum": {
+    "title": "落地生根Bryophyllumpinnatum",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1085685",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "hylotelephium-erythrostictum": {
+    "title": "八宝Hylotelephiumerythrostictum",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/607659",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "sedum-lineare": {
+    "title": "佛甲草Sedumlineare",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/3174111",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "orostachys-fimbriata": {
+    "title": "瓦松Orostachysfimbriata",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/3089501",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "pelargonium-hortorum": {
+    "title": "天竺葵Pelargonium×hortorum",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2566721",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "pelargonium-graveolens": {
+    "title": "香叶天竺葵Pelargoniumgraveolens",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/331777",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "pelargonium-domesticum": {
+    "title": "大花天竺葵Pelargoniumgrandiflorum",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/9621434",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "geranium-wilfordii": {
+    "title": "老鹳草Geraniumwilfordii",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/171136",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "saintpaulia-ionantha": {
+    "title": "由子非洲堇Saintpauliaionantha'Yukako'",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2944188",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "sinningia-speciosa": {
+    "title": "大岩桐Sinningiaspeciosa",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/7031371",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "aeschynanthus-radicans": {
+    "title": "口红花Aeschynanthuspulcher",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/9646779",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "ceratostigma-plumbaginoides": {
+    "title": "蓝雪花Ceratostigmaplumbaginoides",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2079193",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "abution-pictum": {
+    "title": "金铃花Abutilonpictum",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/887819",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "anisodontea-capensis": {
+    "title": "小木槿Anisodonteacapensis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/3293858",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "malvaviscus-arboreus": {
+    "title": "悬铃花Malvaviscusarboreus",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/3328063",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "caesalpinia-pulcherrima": {
+    "title": "洋金凤Caesalpiniapulcherrima",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/3008454",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "senna-bicapsularis": {
+    "title": "双荚决明Sennabicapsularis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/149343",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "senna-surattensis": {
+    "title": "黄槐决明Sennasurattensis",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/3006674",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "calceolaria-herbeohybrida": {
+    "title": "观赏蒲包花Calceolaria×herbeohybrida",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/15267999",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "aquilegia-viridiflora": {
+    "title": "耧斗菜Aquilegiaviridiflora",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/351715",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "aquilegia-glandulosa": {
+    "title": "大花耧斗菜Aquilegiaglandulosa",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/401845",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "scabiosa-japonica": {
+    "title": "日本蓝盆花Scabiosajaponica",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/1967869",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "cirsium-japonicum": {
+    "title": "蓟Cirsiumjaponicum",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/2973309",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "matricaria-recutita": {
+    "title": "Matricaria chamomilla（iNaturalist 分类 77965）",
+    "artist": "(c) anaxvp, some rights reserved (CC BY-NC), uploaded by anaxvp",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/528185258/large.jpg",
+    "queryUsed": "Matricaria recutita",
+    "ext": "webp"
+  },
+  "lonicera-maackii": {
+    "title": "Lonicera maackii（iNaturalist 分类 82342）",
+    "artist": "(c) Andrew Conboy, some rights reserved (CC BY), uploaded by Andrew Conboy",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/277949422/large.jpg",
+    "queryUsed": "Lonicera maackii",
+    "ext": "webp"
+  },
+  "saxifraga-stolonifera": {
+    "title": "Saxifraga stolonifera（iNaturalist 观察 390156227）",
+    "artist": "(c) wiktorbort, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/714722092/large.jpg",
+    "queryUsed": "Saxifraga stolonifera",
+    "ext": "webp"
+  },
+  "zephyranthes-grandiflora": {
+    "title": "Zephyranthes minuta（iNaturalist 观察 380379442）",
+    "artist": "(c) kak_satelite, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/695880537/large.jpg",
+    "queryUsed": "Zephyranthes grandiflora",
+    "ext": "webp"
+  },
+  "deutzia-scabra": {
+    "title": "Deutzia scabra（iNaturalist 分类 161761）",
+    "artist": "(c) harum.koh, some rights reserved (CC BY-SA)",
+    "license": "cc-by-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/291144248/large.jpg",
+    "queryUsed": "Deutzia scabra",
+    "ext": "webp"
+  },
+  "pyracantha-fortuneana": {
+    "title": "Pyracantha crenulata（iNaturalist 分类 78790）",
+    "artist": "(c) Leon Xu, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/180145215/large.jpeg",
+    "queryUsed": "Pyracantha fortuneana",
+    "ext": "webp"
+  },
+  "philadelphus-incanus": {
+    "title": "Philadelphus incanus（iNaturalist 分类 932040）",
+    "artist": "(c) MP Zhou, some rights reserved (CC BY-NC), uploaded by MP Zhou",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/207612165/large.jpg",
+    "queryUsed": "Philadelphus incanus",
+    "ext": "webp"
+  },
+  "sambucus-nigra": {
+    "title": "Sambucus nigra（iNaturalist 分类 765394）",
+    "artist": "(c) Attila Oláh, some rights reserved (CC BY), uploaded by Attila Oláh",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/39872800/large.jpeg",
+    "queryUsed": "Sambucus nigra",
+    "ext": "webp"
+  },
+  "viburnum-macrocephalum-f-keteleeri": {
+    "title": "Viburnum macrocephalum（iNaturalist 分类 496549）",
+    "artist": "(c) wrbuckbe, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/123000782/large.jpg",
+    "queryUsed": "Chinese snowball",
+    "ext": "webp"
+  },
+  "duchesnea-indica": {
+    "title": "Potentilla indica（iNaturalist 分类 243824）",
+    "artist": "(c) Rob Curtis, some rights reserved (CC BY-NC-SA), uploaded by Rob Curtis",
+    "license": "cc-by-nc-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/8835174/large.jpg",
+    "queryUsed": "Duchesnea indica",
+    "ext": "webp"
+  },
+  "photinia-serratifolia": {
+    "title": "Photinia serratifolia（iNaturalist 分类 166740）",
+    "artist": "(c) hansoes, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/263176329/large.jpg",
+    "queryUsed": "Photinia serratifolia",
+    "ext": "webp"
+  },
+  "lonicera-japonica": {
+    "title": "Lonicera japonica（iNaturalist 观察 391490024）",
+    "artist": "no rights reserved",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717459178/large.jpg",
+    "queryUsed": "Lonicera japonica",
+    "ext": "webp"
+  },
+  "aglaia-odorata": {
+    "title": "Aglaia odorata（iNaturalist 分类 189056）",
+    "artist": "(c) multiplex, some rights reserved (CC BY-NC), uploaded by multiplex",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/68298922/large.jpg",
+    "queryUsed": "Aglaia odorata",
+    "ext": "webp"
+  },
+  "citrus-maxima": {
+    "title": "Citrus maxima（iNaturalist 分类 54299）",
+    "artist": "no rights reserved, uploaded by 葉子",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/46345818/large.jpeg",
+    "queryUsed": "Citrus maxima",
+    "ext": "webp"
+  },
+  "eriobotrya-japonica": {
+    "title": "Eriobotrya japonica（iNaturalist 分类 76949）",
+    "artist": "(c) ms_starla, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/34746885/large.jpg",
+    "queryUsed": "Eriobotrya japonica",
+    "ext": "webp"
+  },
+  "murraya-exotica": {
+    "title": "Murraya paniculata（iNaturalist 分类 287316）",
+    "artist": "(c) jinze, some rights reserved (CC BY-NC), uploaded by jinze",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/169096158/large.jpg",
+    "queryUsed": "Murraya exotica",
+    "ext": "webp"
+  },
+  "viburnum-macrocephalum": {
+    "title": "Viburnum macrocephalum（iNaturalist 分类 496549）",
+    "artist": "(c) wrbuckbe, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/123000782/large.jpg",
+    "queryUsed": "Viburnum macrocephalum",
+    "ext": "webp"
+  },
+  "fragaria-ananassa": {
+    "title": "Fragaria × ananassa（iNaturalist 分类 55366）",
+    "artist": "(c) cinema, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/74966564/large.jpg",
+    "queryUsed": "Fragaria ananassa",
+    "ext": "webp"
+  },
+  "echinops-latifolius": {
+    "title": "Echinops davuricus（iNaturalist 分类 1181468）",
+    "artist": "(c) Nan Yang, some rights reserved (CC BY-NC), uploaded by Nan Yang",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/110487765/large.jpg",
+    "queryUsed": "Echinops latifolius",
+    "ext": "webp"
+  },
+  "hippeastrum-vittatum": {
+    "title": "Hippeastrum vittatum（iNaturalist 分类 472232）",
+    "artist": "(c) Rafael Tosi, some rights reserved (CC BY), uploaded by Rafael Tosi",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/253423441/large.jpg",
+    "queryUsed": "Hippeastrum vittatum",
+    "ext": "webp"
+  },
+  "gloriosa-superba": {
+    "title": "Gloriosa superba（iNaturalist 分类 141177）",
+    "artist": "(c) Tan Yi Hern, Tan Chin Qian, Tan Li TA, Tan Hou Aun, some rights reserved (CC BY-NC), uploaded by Tan Yi Hern, Tan Chin Qian, Tan Li TA, Tan Hou Aun",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/31827544/large.jpeg",
+    "queryUsed": "Gloriosa superba",
+    "ext": "webp"
+  },
+  "trachelospermum-jasminoides": {
+    "title": "Trachelospermum jasminoides（iNaturalist 分类 169856）",
+    "artist": "(c) 羅忠良, some rights reserved (CC BY-NC), uploaded by 羅忠良",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/65041960/large.jpeg",
+    "queryUsed": "Trachelospermum jasminoides",
+    "ext": "webp"
+  },
+  "isotoma-axillaris": {
+    "title": "Lithotoma axillaris（iNaturalist 观察 384465750）",
+    "artist": "(c) spacegecko, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/703775944/large.jpg",
+    "queryUsed": "Isotoma axillaris",
+    "ext": "webp"
+  },
+  "clerodendrum-thomsoniae": {
+    "title": "Clerodendrum thomsoniae（iNaturalist 分类 278703）",
+    "artist": "no rights reserved, uploaded by 葉子",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/78698501/large.jpeg",
+    "queryUsed": "Clerodendrum thomsoniae",
+    "ext": "webp"
+  },
+  "prunus-cerasifera-f-atropurpurea": {
+    "title": "Prunus cerasifera（iNaturalist 观察 391339549）",
+    "artist": "(c) unmotivated_frog, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717054962/large.jpg",
+    "queryUsed": "Purple leaf plum",
+    "ext": "webp"
+  },
+  "callistemon-rigidus": {
+    "title": "Melaleuca linearis linearis（iNaturalist 分类 600233）",
+    "artist": "(c) Tony Rebelo, some rights reserved (CC BY-SA), uploaded by Tony Rebelo",
+    "license": "cc-by-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/102013662/large.jpeg",
+    "queryUsed": "Callistemon rigidus",
+    "ext": "webp"
+  },
+  "citrus-sinensis": {
+    "title": "Citrus × aurantium（iNaturalist 分类 331122）",
+    "artist": "(c) Roberto R. Calderón, some rights reserved (CC BY-NC), uploaded by Roberto R. Calderón",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/65848421/large.jpg",
+    "queryUsed": "Citrus sinensis",
+    "ext": "webp"
+  },
+  "vaccinium-corymbosum": {
+    "title": "Vaccinium corymbosum（iNaturalist 观察 391544329）",
+    "artist": "(c) Turner Brockman, some rights reserved (CC BY-SA)",
+    "license": "cc-by-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717459887/large.jpg",
+    "queryUsed": "Vaccinium corymbosum",
+    "ext": "webp"
+  },
+  "rhodomyrtus-tomentosa": {
+    "title": "Rhodomyrtus tomentosa（iNaturalist 观察 391613974）",
+    "artist": "(c) LW Ridge, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717585093/large.jpg",
+    "queryUsed": "Rhodomyrtus tomentosa",
+    "ext": "webp"
+  },
+  "protea-cynaroides": {
+    "title": "Protea cynaroides（iNaturalist 分类 132848）",
+    "artist": "no rights reserved, uploaded by Klaus Wehrlin",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/180107528/large.jpg",
+    "queryUsed": "Protea cynaroides",
+    "ext": "webp"
+  },
+  "loropetalum-chinense": {
+    "title": "Loropetalum chinense（iNaturalist 分类 186063）",
+    "artist": "(c) Stargazer, some rights reserved (CC BY-NC), uploaded by Stargazer",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/260516582/large.jpg",
+    "queryUsed": "Loropetalum chinense",
+    "ext": "webp"
+  },
+  "leucadendron-salignum": {
+    "title": "Leucadendron salignum（iNaturalist 分类 566478）",
+    "artist": "(c) Martina Fynbos Treurnicht, some rights reserved (CC BY-NC), uploaded by Martina Fynbos Treurnicht",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/26210761/large.jpeg",
+    "queryUsed": "Leucadendron salignum",
+    "ext": "webp"
+  },
+  "citrus-limon": {
+    "title": "Citrus × limon（iNaturalist 观察 389190764）",
+    "artist": "(c) claire, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/712865492/large.jpg",
+    "queryUsed": "Citrus limon",
+    "ext": "webp"
+  },
+  "aechmea-fasciata": {
+    "title": "Aechmea fasciata（iNaturalist 分类 416202）",
+    "artist": "(c) stevj, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/156663195/large.jpeg",
+    "queryUsed": "Aechmea fasciata",
+    "ext": "webp"
+  },
+  "exochorda-racemosa": {
+    "title": "Exochorda racemosa（iNaturalist 分类 162922）",
+    "artist": "(c) zhangqianyi, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/415341126/large.jpeg",
+    "queryUsed": "Exochorda racemosa",
+    "ext": "webp"
+  },
+  "hamamelis-mollis": {
+    "title": "Hamamelis mollis（iNaturalist 分类 410828）",
+    "artist": "(c) Fred Gibbs, some rights reserved (CC BY-NC), uploaded by Fred Gibbs",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/173896283/large.jpeg",
+    "queryUsed": "Hamamelis mollis",
+    "ext": "webp"
+  },
+  "begonia-hiemalis": {
+    "title": "Begonia × hiemalis（iNaturalist 分类 1230245）",
+    "artist": "(c) Aleksandr_Levon, some rights reserved (CC BY-NC), uploaded by Aleksandr_Levon",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/260384014/large.jpeg",
+    "queryUsed": "Begonia hiemalis",
+    "ext": "webp"
+  },
+  "leptospermum-scoparium": {
+    "title": "Leptospermum scoparium（iNaturalist 分类 54699）",
+    "artist": "no rights reserved, uploaded by Peter de Lange",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/57833486/large.jpg",
+    "queryUsed": "Leptospermum scoparium",
+    "ext": "webp"
+  },
+  "prunus-japonica": {
+    "title": "Prunus japonica（iNaturalist 分类 452158）",
+    "artist": "(c) Chuangzao, some rights reserved (CC BY-NC), uploaded by Chuangzao",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/458229974/large.jpg",
+    "queryUsed": "Prunus japonica",
+    "ext": "webp"
+  },
+  "petrea-volubilis": {
+    "title": "Petrea volubilis（iNaturalist 分类 166546）",
+    "artist": "(c) Gabrielly Benaducci Tolentino, some rights reserved (CC BY-NC), uploaded by Gabrielly Benaducci Tolentino",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/45881615/large.jpg",
+    "queryUsed": "Petrea volubilis",
+    "ext": "webp"
+  },
+  "leucospermum-cordifolium": {
+    "title": "Leucospermum cordifolium（iNaturalist 分类 320030）",
+    "artist": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/350504/large.JPG",
+    "queryUsed": "Leucospermum cordifolium",
+    "ext": "webp"
+  },
+  "saraca-dives": {
+    "title": "Saraca dives（iNaturalist 分类 431596）",
+    "artist": "(c) 小铖/Smalltown, some rights reserved (CC BY-NC), uploaded by 小铖/Smalltown",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/113682369/large.jpeg",
+    "queryUsed": "Saraca dives",
+    "ext": "webp"
+  },
+  "handroanthus-chrysanthus": {
+    "title": "Handroanthus chrysanthus（iNaturalist 观察 388352730）",
+    "artist": "(c) Tony Bean, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/711240195/large.jpg",
+    "queryUsed": "Handroanthus chrysanthus",
+    "ext": "webp"
+  },
+  "cananga-odorata": {
+    "title": "Cananga odorata（iNaturalist 分类 154842）",
+    "artist": "(c) 106611639464075912591, some rights reserved (CC BY-NC-SA), uploaded by 106611639464075912591",
+    "license": "cc-by-nc-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/970863/large.JPG",
+    "queryUsed": "Cananga odorata",
+    "ext": "webp"
+  },
+  "tabebuia-rosea": {
+    "title": "Tabebuia rosea（iNaturalist 分类 209270）",
+    "artist": "(c) Jan Meerman, some rights reserved (CC BY-NC), uploaded by Jan Meerman",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/48615788/large.jpeg",
+    "queryUsed": "Tabebuia rosea",
+    "ext": "webp"
+  },
+  "felicia-amelloides": {
+    "title": "Felicia amelloides（iNaturalist 分类 146915）",
+    "artist": "(c) pineapplerenee, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/35769277/large.jpg",
+    "queryUsed": "Felicia amelloides",
+    "ext": "webp"
+  },
+  "corylopsis-sinensis": {
+    "title": "Corylopsis sinensis（iNaturalist 观察 281630770）",
+    "artist": "no rights reserved",
+    "license": "cc0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/505930026/large.jpg",
+    "queryUsed": "Corylopsis sinensis",
+    "ext": "webp"
+  },
+  "begonia-semperflorens": {
+    "title": "Begonia × semperflorens-cultorum（iNaturalist 分类 380721）",
+    "artist": "(c) Leyla Cárdenas, some rights reserved (CC BY-NC), uploaded by Leyla Cárdenas",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/105515860/large.jpeg",
+    "queryUsed": "Begonia semperflorens",
+    "ext": "webp"
+  },
+  "iris-japonica": {
+    "title": "Iris japonica（iNaturalist 分类 322012）",
+    "artist": "(c) Marz88, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/11562842/large.jpg",
+    "queryUsed": "Iris japonica",
+    "ext": "webp"
+  },
+  "begonia-grandis": {
+    "title": "Begonia grandis（iNaturalist 分类 345985）",
+    "artist": "(c) Jernej Polajnar, some rights reserved (CC BY), uploaded by Jernej Polajnar",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/428908099/large.jpg",
+    "queryUsed": "Begonia grandis",
+    "ext": "webp"
+  },
+  "veronica-longifolia": {
+    "title": "Veronica longifolia（iNaturalist 观察 391653632）",
+    "artist": "(c) Марина Садыкова, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717673600/large.jpg",
+    "queryUsed": "Veronica longifolia",
+    "ext": "webp"
+  },
+  "begonia-maculata": {
+    "title": "Begonia maculata（iNaturalist 分类 284651）",
+    "artist": "(c) claudia_mermelstein, some rights reserved (CC BY-NC), uploaded by claudia_mermelstein",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/176033720/large.jpeg",
+    "queryUsed": "Begonia maculata",
+    "ext": "webp"
+  },
+  "buddleja-davidii": {
+    "title": "Buddleja davidii（iNaturalist 分类 75916）",
+    "artist": "(c) aquadragonfly, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/411134966/large.jpeg",
+    "queryUsed": "Buddleja davidii",
+    "ext": "webp"
+  },
+  "iris-ensata": {
+    "title": "Iris ensata（iNaturalist 分类 164125）",
+    "artist": "(c) Gularjanz Grigoryi Mihajlovich, some rights reserved (CC BY-NC), uploaded by Gularjanz Grigoryi Mihajlovich",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/46354738/large.jpeg",
+    "queryUsed": "Iris ensata",
+    "ext": "webp"
+  },
+  "pieris-japonica": {
+    "title": "Pieris japonica（iNaturalist 分类 127181）",
+    "artist": "(c) pumpernickel, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/127071264/large.jpeg",
+    "queryUsed": "Pieris japonica",
+    "ext": "webp"
+  },
+  "perilla-frutescens": {
+    "title": "Perilla frutescens（iNaturalist 分类 119136）",
+    "artist": "(c) H. Wilson Montgomery, Jr., some rights reserved (CC BY-NC), uploaded by H. Wilson Montgomery, Jr.",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/227679054/large.jpg",
+    "queryUsed": "Perilla frutescens",
+    "ext": "webp"
+  },
+  "euryops-pectinatus": {
+    "title": "Euryops pectinatus（iNaturalist 分类 347968）",
+    "artist": "(c) Vuyokazi Rubushe, some rights reserved (CC BY-NC), uploaded by Vuyokazi Rubushe",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/185587883/large.jpeg",
+    "queryUsed": "Euryops pectinatus",
+    "ext": "webp"
+  },
+  "hyacinthoides-non-scripta": {
+    "title": "Hyacinthoides non-scripta（iNaturalist 分类 56132）",
+    "artist": "(c) Ian Hayhurst, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/10647/large.jpg",
+    "queryUsed": "Hyacinthoides non-scripta",
+    "ext": "webp"
+  },
+  "handroanthus-impetiginosus": {
+    "title": "Handroanthus impetiginosus（iNaturalist 观察 391417203）",
+    "artist": "(c) Paulo Nogueira, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717187487/large.jpg",
+    "queryUsed": "Handroanthus impetiginosus",
+    "ext": "webp"
+  },
+  "galanthus-nivalis": {
+    "title": "Galanthus nivalis（iNaturalist 观察 391318480）",
+    "artist": "(c) enhuii_w, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717018749/large.jpg",
+    "queryUsed": "Galanthus nivalis",
+    "ext": "webp"
+  },
+  "nepeta-cataria": {
+    "title": "Nepeta cataria（iNaturalist 分类 48622）",
+    "artist": "(c) Mark Kluge, some rights reserved (CC BY-NC), uploaded by Mark Kluge",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/4209829/large.JPG",
+    "queryUsed": "Nepeta cataria",
+    "ext": "webp"
+  },
+  "ocimum-basilicum": {
+    "title": "Ocimum basilicum（iNaturalist 分类 61398）",
+    "artist": "(c) Sune Holt, some rights reserved (CC BY-NC), uploaded by Sune Holt",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/154769884/large.jpg",
+    "queryUsed": "Ocimum basilicum",
+    "ext": "webp"
+  },
+  "combretum-indicum": {
+    "title": "Combretum indicum（iNaturalist 观察 390776129）",
+    "artist": "(c) Raja Sekhar Chimirala, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/715963918/large.jpg",
+    "queryUsed": "Combretum indicum",
+    "ext": "webp"
+  },
+  "nandina-domestica": {
+    "title": "Nandina domestica（iNaturalist 分类 127010）",
+    "artist": "(c) Sam Kieschnick, some rights reserved (CC BY), uploaded by Sam Kieschnick",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/71351881/large.jpg",
+    "queryUsed": "Nandina domestica",
+    "ext": "webp"
+  },
+  "jasminum-mesnyi": {
+    "title": "Jasminum mesnyi（iNaturalist 分类 164229）",
+    "artist": "(c) Jesús Cabrera, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/90954673/large.jpg",
+    "queryUsed": "Jasminum mesnyi",
+    "ext": "webp"
+  },
+  "helleborus-niger": {
+    "title": "Helleborus niger（iNaturalist 分类 55841）",
+    "artist": "(c) Alberto Colatore, some rights reserved (CC BY-NC), uploaded by Alberto Colatore",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/610531198/large.jpg",
+    "queryUsed": "Helleborus niger",
+    "ext": "webp"
+  },
+  "jasminum-floridum": {
+    "title": "Chrysojasminum floridum（iNaturalist 分类 1043840）",
+    "artist": "(c) johnnieinsh, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/153649328/large.jpg",
+    "queryUsed": "Jasminum floridum",
+    "ext": "webp"
+  },
+  "helleborus-thibetanus": {
+    "title": "Helleborus thibetanus（iNaturalist 观察 71929488）",
+    "artist": "(c) zhangshen, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/117189474/large.jpeg",
+    "queryUsed": "Helleborus thibetanus",
+    "ext": "webp"
+  },
+  "leucojum-vernum": {
+    "title": "Leucojum vernum（iNaturalist 分类 57510）",
+    "artist": "(c) Alberto Colatore, some rights reserved (CC BY-NC), uploaded by Alberto Colatore",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/474290861/large.jpeg",
+    "queryUsed": "Leucojum vernum",
+    "ext": "webp"
+  },
+  "veronica-persica": {
+    "title": "Veronica persica（iNaturalist 分类 55666）",
+    "artist": "(c) liriodendron_tulipifera, some rights reserved (CC BY-NC), uploaded by liriodendron_tulipifera",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/472978578/large.jpeg",
+    "queryUsed": "Veronica persica",
+    "ext": "webp"
+  },
+  "fuchsia-hybrida": {
+    "title": "Fuchsia × hybrida（iNaturalist 分类 411036）",
+    "artist": "(c) Maribel Armenteros, some rights reserved (CC BY-NC), uploaded by Maribel Armenteros",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/32503094/large.jpg",
+    "queryUsed": "Fuchsia hybrida",
+    "ext": "webp"
+  },
+  "rhododendron-lapponicum": {
+    "title": "Rhododendron lapponicum（iNaturalist 分类 167817）",
+    "artist": "(c) wanderingeden, some rights reserved (CC BY-NC), uploaded by wanderingeden",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/208495354/large.jpeg",
+    "queryUsed": "Rhododendron lapponicum",
+    "ext": "webp"
+  },
+  "corydalis-incisa": {
+    "title": "Corydalis incisa（iNaturalist 分类 447077）",
+    "artist": "(c) 藜梓柠, some rights reserved (CC BY-NC), uploaded by 藜梓柠",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/630935471/large.jpg",
+    "queryUsed": "Corydalis incisa",
+    "ext": "webp"
+  },
+  "ruellia-simplex": {
+    "title": "Ruellia simplex（iNaturalist 分类 126633）",
+    "artist": "(c) Te Chang, some rights reserved (CC BY-NC), uploaded by Te Chang",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/73486570/large.jpeg",
+    "queryUsed": "Ruellia simplex",
+    "ext": "webp"
+  },
+  "crossandra-infundibuliformis": {
+    "title": "Crossandra infundibuliformis（iNaturalist 分类 344178）",
+    "artist": "(c) Ng Yu Fei, some rights reserved (CC BY-NC), uploaded by Ng Yu Fei",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/228862076/large.jpeg",
+    "queryUsed": "Crossandra infundibuliformis",
+    "ext": "webp"
+  },
+  "salvia-leucantha": {
+    "title": "Salvia leucantha（iNaturalist 观察 390169000）",
+    "artist": "(c) jl_alice, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/714776838/large.jpg",
+    "queryUsed": "Salvia leucantha",
+    "ext": "webp"
+  },
+  "justicia-brandegeeana": {
+    "title": "Justicia brandegeeana（iNaturalist 观察 388582025）",
+    "artist": "(c) sam-lira, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/711700991/large.jpg",
+    "queryUsed": "Justicia brandegeeana",
+    "ext": "webp"
+  },
+  "pachystachys-lutea": {
+    "title": "Pachystachys lutea（iNaturalist 观察 390726813）",
+    "artist": "(c) Carmen Choussy, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/715864242/large.jpg",
+    "queryUsed": "Pachystachys lutea",
+    "ext": "webp"
+  },
+  "astilbe-chinensis": {
+    "title": "Astilbe chinensis（iNaturalist 观察 391510353）",
+    "artist": "(c) carter, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717393171/large.jpg",
+    "queryUsed": "Astilbe chinensis",
+    "ext": "webp"
+  },
+  "loropetalum-chinense-var-rubrum": {
+    "title": "红花檵木Loropetalumchinensevar.rubrum",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/532209",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  },
+  "mentha-haplocalyx": {
+    "title": "Mentha canadensis（iNaturalist 观察 391652290）",
+    "artist": "(c) Ethan S, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source": "https://inaturalist-open-data.s3.amazonaws.com/photos/717671476/large.jpg",
+    "queryUsed": "inat-fix",
+    "ext": "webp"
+  },
+  "chimonanthus-praecox": {
+    "title": "蜡梅Chimonanthuspraecox",
+    "artist": "PPBC",
+    "license": "ppbc 个人娱乐授权",
+    "licenseUrl": "",
+    "source": "https://ppbc.iplant.cn/tu/4124864",
+    "queryUsed": "ppbc",
+    "ext": "webp"
+  }
+}
