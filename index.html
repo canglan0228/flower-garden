@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="site-bg" id="site-bg" aria-hidden="true"></div>
   <header class="site-header">
     <a class="brand" href="#/" aria-label="花语花园首页">
       <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
@@ -29,8 +30,16 @@
 
   <footer class="site-footer">
     <p>花语花园 · 每日一花，愿你与美好不期而遇</p>
-    <p class="footer-note">图片来自 Wikimedia Commons，每朵花均标注作者与许可</p>
+    <p class="footer-note">花卉图片来自 Wikimedia Commons 并标注作者与许可；背景插画来自 Pixabay，可按右下角按钮切换</p>
   </footer>
+
+  <button class="bg-toggle" id="bg-toggle" type="button" aria-label="切换背景图" title="切换背景图">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <rect x="3" y="3" width="18" height="18" rx="4"/>
+      <circle cx="9" cy="9" r="2"/>
+      <path d="m21 15-4.2-4.2a2 2 0 0 0-2.8 0L6 19"/>
+    </svg>
+  </button>
 
   <script src="data/flowers.js"></script>
   <script src="js/core.js"></script>

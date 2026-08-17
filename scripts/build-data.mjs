@@ -20,7 +20,7 @@ function parseSeed() {
     const parts = line.split('\t');
     if (parts.length < 9) continue;
     if (parts[0].trim() === 'name') continue;
-    const [name, en, latin, family, colors, aliases, meaning, season, blurb, morph, culture, care] = parts;
+    const [name, en, latin, family, colors, aliases, meaning, season, blurb, morph, culture, care, story] = parts;
     rows.push({
       name: name.trim(),
       en: (en || '').trim(),
@@ -33,7 +33,8 @@ function parseSeed() {
       blurb: (blurb || '').trim(),
       morph: (morph || '').trim(),
       culture: (culture || '').trim(),
-      care: (care || '').trim()
+      care: (care || '').trim(),
+      story: (story || '').trim()
     });
   }
   return rows;
@@ -73,6 +74,7 @@ for (const row of rows) {
     morph: row.morph,
     culture: row.culture,
     care: row.care,
+    story: row.story,
     image: `images/${id}.${m.ext}`,
     credit: {
       author: m.artist || 'Wikimedia Commons',

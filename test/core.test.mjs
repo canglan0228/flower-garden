@@ -18,7 +18,8 @@ const flowers = [
     blurb: '带刺而温柔，爱情的象征。',
     morph: '落叶灌木，枝干带刺，花朵单瓣或重瓣，色分红、粉、白。',
     culture: '西方文化中象征爱情与浪漫，常用于婚礼与告白。',
-    care: '原产亚洲，喜光耐寒，栽培需通风透光。'
+    care: '原产亚洲，喜光耐寒，栽培需通风透光。',
+    story: '《小王子》中，星球上那朵骄傲又温柔的玫瑰教会他爱与责任。'
   },
   {
     id: 'tulipa-gesneriana',
@@ -118,6 +119,10 @@ test('searchFlowers 可命中形态特征、文化典故与养护内容', () => 
   assert.equal(core.searchFlowers(flowers, '鳞茎').length, 1);
 });
 
+test('searchFlowers 可命中小故事内容', () => {
+  assert.equal(core.searchFlowers(flowers, '小王子').length, 1);
+});
+
 test('searchFlowers 空查询返回全部', () => {
   assert.equal(core.searchFlowers(flowers, '').length, flowers.length);
 });
@@ -158,6 +163,32 @@ test('slugify 生成稳定 id', () => {
 test('seasonTags 从花期文本提取季节', () => {
   assert.deepEqual(core.seasonTags('春夏'), ['春', '夏']);
   assert.deepEqual(core.seasonTags('5-8月'), []);
+});
+
+test('seasonForDate 北半球四季边界', () => {
+  assert.equal(core.seasonForDate('2026-03-20', 30).name, '春');
+  assert.equal(core.seasonForDate('2026-05-31', 30).name, '春');
+  assert.equal(core.seasonForDate('2026-06-01', 30).name, '夏');
+  assert.equal(core.seasonForDate('2026-09-01', 30).name, '秋');
+  assert.equal(core.seasonForDate('2026-12-01', 30).name, '冬');
+  assert.equal(core.seasonForDate('2026-02-28', 30).name, '冬');
+});
+
+test('seasonForDate 南半球季节相反', () => {
+  assert.equal(core.seasonForDate('2026-06-01', -33).name, '冬');
+  assert.equal(core.seasonForDate('2026-12-01', -33).name, '夏');
+});
+
+test('weatherText 映射 WMO 天气码', () => {
+  assert.equal(core.weatherText(0, 1).label, '晴');
+  assert.equal(core.weatherText(2, 1).label, '多云');
+  assert.equal(core.weatherText(3, 1).label, '阴');
+  assert.equal(core.weatherText(45, 1).label, '雾');
+  assert.equal(core.weatherText(61, 1).label, '雨');
+  assert.equal(core.weatherText(71, 1).label, '雪');
+  assert.equal(core.weatherText(95, 1).label, '雷暴');
+  assert.equal(core.weatherText(999, 1).label, '天气未知');
+  assert.equal(core.weatherText(0, 0).icon, '🌙');
 });
 
 test('relatedFlowers 优先同科属或同色并排除自身', () => {

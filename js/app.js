@@ -11,6 +11,16 @@
 
   const COLOR_ORDER = ['红', '粉', '白', '黄', '橙', '紫', '蓝', '绿', '黑', '多彩'];
   const SEASONS = ['春', '夏', '秋', '冬'];
+  const BG_KEY = 'flowergarden.bg';
+  const BACKGROUNDS = [
+    { name: '奶油原色', css: '' },
+    { name: '樱落小径', css: 'url("backgrounds/bg-01.webp")' },
+    { name: '紫花春树', css: 'url("backgrounds/bg-02.webp")' },
+    { name: '初夏晴空', css: 'url("backgrounds/bg-03.webp")' },
+    { name: '花田远山', css: 'url("backgrounds/bg-04.webp")' },
+    { name: '秋雪星野', css: 'url("backgrounds/bg-05.webp")' },
+    { name: '冬雪暖灯', css: 'url("backgrounds/bg-06.webp")' }
+  ];
 
   const state = {
     routeKey: '',
@@ -76,6 +86,23 @@
       if (!idxs.includes(r)) idxs.push(r);
     }
     return idxs.map(function (i) { return FLOWERS[i]; });
+  }
+
+  function fetchJson(url, timeoutMs) {
+    return new Promise(function (resolve, reject) {
+      const ctrl = typeof AbortController !== 'undefined' ? new AbortController() : null;
+      const timer = window.setTimeout(function () {
+        if (ctrl) ctrl.abort();
+        reject(new Error('timeout'));
+      }, timeoutMs || 4000);
+      fetch(url, ctrl ? { signal: ctrl.signal } : {})
+        .then(function (r) {
+          if (!r.ok) throw new Error('http ' + r.status);
+          return r.json();
+        })
+        .then(resolve, reject)
+        .finally(function () { window.clearTimeout(timer); });
+    });
   }
 
   function cardHtml(f, opts) {
@@ -441,9 +468,13 @@
               '<div class="detail-latin item-enter" style="animation-delay:80ms">' + esc(f.latin) + (f.en ? ' · ' + esc(f.en) : '') + '</div>' +
               '<div class="detail-meaning item-enter" style="animation-delay:160ms">' + esc(f.meaning) + '</div>' +
               '<p class="detail-blurb item-enter" style="animation-delay:240ms">' + esc(f.blurb) + '</p>' +
-              '<div class="item-enter" style="animation-delay:320ms">' + sectionHtml(f, false) + '</div>' +
-              '<div class="detail-facts item-enter" style="animation-delay:420ms">' + facts + '</div>' +
-              '<div class="detail-credit item-enter" style="animation-delay:500ms">' +
+              '<div class="detail-story item-enter" style="animation-delay:320ms">' +
+                '<h3 class="detail-section-title">小故事 · 文艺与流行文化</h3>' +
+                '<p>' + esc(f.story) + '</p>' +
+              '</div>' +
+              '<div class="item-enter" style="animation-delay:420ms">' + sectionHtml(f, false) + '</div>' +
+              '<div class="detail-facts item-enter" style="animation-delay:520ms">' + facts + '</div>' +
+              '<div class="detail-credit item-enter" style="animation-delay:600ms">' +
                 '图片：' + esc(f.credit.author) + '，' + esc(f.credit.license) +
                 (f.credit.source ? '，<a href="' + esc(f.credit.source) + '" target="_blank" rel="noopener noreferrer">查看原图</a>' : '') +
                 '（来源 Wikimedia Commons）' +
@@ -527,4 +558,180 @@
 
   window.addEventListener('hashchange', render);
   render();
+
+  /* ---------- 背景图切换 ---------- */
+  function applyBg(idx) {
+    const entry = BACKGROUNDS[idx] || BACKGROUNDS[0];
+    const el = document.getElementById('site-bg');
+    if (el) {
+      el.style.backgroundImage = entry.css || 'none';
+      el.setAttribute('data-mode', entry.css ? 'image' : 'cream');
+    }
+    const btn = document.getElementById('bg-toggle');
+    if (btn) btn.setAttribute('aria-label', '切换背景图（当前：' + entry.name + '）');
+    return entry;
+  }
+
+  function switchBg(nextIdx) {
+    if (nextIdx < 0 || nextIdx >= BACKGROUNDS.length) return;
+    if (nextIdx === state.bg) return;
+    const entry = BACKGROUNDS[nextIdx];
+    const veil = document.createElement('div');
+    veil.className = 'bg-veil' + (entry.css ? '' : ' is-cream');
+    veil.setAttribute('aria-hidden', 'true');
+    if (entry.css) veil.style.backgroundImage = entry.css;
+    document.body.appendChild(veil);
+    void veil.offsetWidth;
+    veil.classList.add('is-in');
+    let swapped = false;
+    veil.addEventListener('transitionend', function onVeilEnd(ev) {
+      if (ev.propertyName !== 'opacity') return;
+      if (!swapped) {
+        swapped = true;
+        applyBg(nextIdx);
+        veil.classList.remove('is-in');
+      } else {
+        veil.removeEventListener('transitionend', onVeilEnd);
+        veil.remove();
+      }
+    });
+    window.setTimeout(function () {
+      if (!swapped) {
+        swapped = true;
+        applyBg(nextIdx);
+        veil.classList.remove('is-in');
+      }
+      state.bg = nextIdx;
+      try { localStorage.setItem(BG_KEY, String(nextIdx)); } catch (e) {}
+    }, 1200);
+    window.setTimeout(function () {
+      if (veil.parentNode) veil.remove();
+    }, 3000);
+  }
+
+  state.bg = (function () {
+    let idx = 0;
+    try { idx = Number(localStorage.getItem(BG_KEY)); } catch (e) {}
+    return (idx >= 0 && idx < BACKGROUNDS.length) ? idx : 0;
+  })();
+  applyBg(state.bg);
+
+  const bgBtn = document.getElementById('bg-toggle');
+  if (bgBtn) {
+    bgBtn.addEventListener('click', function () {
+      switchBg((state.bg + 1) % BACKGROUNDS.length);
+    });
+  }
+
+  window.addEventListener('load', function () {
+    BACKGROUNDS.forEach(function (b) {
+      if (b.css) {
+        const img = new Image();
+        img.src = b.css.replace(/^url\("|"\)$/g, '');
+      }
+    });
+  });
+
+  /* ---------- 季节 + 天气开场动画 ---------- */
+  function spawnParticles(overlay, type) {
+    const wrap = overlay.querySelector('.intro-particles');
+    if (!wrap) return;
+    const kind = type || 'petal';
+    const count = kind === 'sun' ? 14 : 20;
+    for (let i = 0; i < count; i++) {
+      const p = document.createElement('span');
+      p.className = 'intro-particle particle-' + kind;
+      p.style.left = (Math.random() * 100) + '%';
+      if (kind === 'sun') {
+        p.style.animationDelay = (Math.random() * 2.5) + 's';
+        p.style.animationDuration = (2.6 + Math.random() * 2.6) + 's';
+      } else {
+        p.style.animationDelay = (Math.random() * 4) + 's';
+        p.style.animationDuration = (5 + Math.random() * 5) + 's';
+      }
+      p.style.transform = 'scale(' + (0.6 + Math.random() * 0.9).toFixed(2) + ')';
+      wrap.appendChild(p);
+    }
+  }
+
+  function showIntro() {
+    const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const overlay = document.createElement('div');
+    overlay.className = 'intro-overlay';
+    overlay.innerHTML =
+      '<div class="intro-card">' +
+        '<div class="intro-season" aria-hidden="true"></div>' +
+        '<div class="intro-line"></div>' +
+        '<div class="intro-weather"></div>' +
+        '<div class="intro-hint">点击任意处跳过</div>' +
+      '</div>' +
+      '<div class="intro-particles" aria-hidden="true"></div>';
+    document.body.appendChild(overlay);
+
+    const seasonEl = overlay.querySelector('.intro-season');
+    const lineEl = overlay.querySelector('.intro-line');
+    const weatherEl = overlay.querySelector('.intro-weather');
+
+    let season = core.seasonForDate(localDateStr(), null);
+    let weather = core.weatherText(Number.NaN, 1);
+    let place = '';
+
+    seasonEl.textContent = season.name;
+    lineEl.textContent = season.line;
+    weatherEl.innerHTML = '<span class="intro-weather-icon">' + weather.icon + '</span>' + weather.label;
+    if (!reduced) spawnParticles(overlay, season.particle);
+
+    fetchJson('https://ipwho.is/', 4000)
+      .then(function (data) {
+        if (!data || data.success === false) throw new Error('ip fail');
+        const lat = Number(data.latitude);
+        if (!isNaN(lat)) {
+          season = core.seasonForDate(localDateStr(), lat);
+          seasonEl.textContent = season.name;
+          lineEl.textContent = season.line;
+        }
+        place = String(data.city || data.country || '').trim();
+        return fetchJson(
+          'https://api.open-meteo.com/v1/forecast?latitude=' + data.latitude +
+          '&longitude=' + data.longitude +
+          '&current=temperature_2m,weather_code,is_day',
+          4000
+        );
+      })
+      .then(function (w) {
+        if (!w || !w.current) throw new Error('weather fail');
+        const cur = w.current;
+        weather = core.weatherText(cur.weather_code, cur.is_day);
+        weatherEl.innerHTML =
+          '<span class="intro-weather-icon">' + weather.icon + '</span>' +
+          esc(weather.label) + ' ' + Math.round(cur.temperature_2m) + '°C' +
+          (place ? ' · ' + esc(place) : '');
+      })
+      .catch(function () {
+        weatherEl.innerHTML = '<span class="intro-weather-icon">🌿</span>天气未知 · 愿花常开';
+      });
+
+    let done = false;
+    function dismiss() {
+      if (done) return;
+      done = true;
+      overlay.classList.add('is-hidden');
+      overlay.addEventListener('transitionend', function onEnd(ev) {
+        if (ev.propertyName === 'opacity') {
+          overlay.removeEventListener('transitionend', onEnd);
+          overlay.remove();
+        }
+      });
+      window.setTimeout(function () { if (overlay.parentNode) overlay.remove(); }, 900);
+      document.removeEventListener('keydown', onKey);
+    }
+    function onKey(e) {
+      if (e.key === 'Escape' || e.key === 'Enter' || e.key === ' ') dismiss();
+    }
+    overlay.addEventListener('click', dismiss);
+    document.addEventListener('keydown', onKey);
+    window.setTimeout(dismiss, 2600);
+  }
+
+  showIntro();
 })();

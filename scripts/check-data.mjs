@@ -25,7 +25,7 @@ for (const f of flowers || []) {
   if (seen.has(f.id)) errors.push(`id 重复：${f.id}`);
   seen.add(f.id);
 
-  for (const key of ['id', 'name', 'latin', 'family', 'meaning', 'season', 'blurb', 'image']) {
+  for (const key of ['id', 'name', 'latin', 'family', 'meaning', 'season', 'blurb', 'story', 'image']) {
     if (!f[key] || !String(f[key]).trim()) errors.push(`${f.id || '?'}: 缺少 ${key}`);
   }
   if (!Array.isArray(f.colors) || !f.colors.length) errors.push(`${f.id}: colors 为空`);
@@ -34,6 +34,9 @@ for (const f of flowers || []) {
     const v = String(f[key] || '');
     if (v.length < 8) errors.push(`${f.id}: ${key} 过短（${v.length} 字，要求 >= 8）`);
   }
+  const storyLen = String(f.story || '').length;
+  if (storyLen < 60) errors.push(`${f.id}: story 过短（${storyLen} 字，要求 >= 60）`);
+  else if (storyLen < 100) warnings.push(`${f.id}: story 偏短（${storyLen} 字，建议 100-150）`);
   const detailLen = String(f.morph || '').length + String(f.culture || '').length + String(f.care || '').length;
   if (detailLen < 35) errors.push(`${f.id}: 形态/文化/养护合计过短（${detailLen} 字，要求 >= 35）`);
   if (!f.credit || !f.credit.author || !f.credit.license || !f.credit.source) {

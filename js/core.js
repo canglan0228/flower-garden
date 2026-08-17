@@ -56,11 +56,52 @@
         f.morph,
         f.culture,
         f.care,
+        f.story,
         (f.aliases || []).join(' '),
         (f.colors || []).join(' ')
       ].join(' ');
       return core.normalize(haystack).includes(q);
     });
+  };
+
+  core.seasonForDate = function (dateStr, latitude) {
+    const d = dateStr ? new Date(String(dateStr) + 'T12:00:00') : new Date();
+    const m = d.getMonth() + 1;
+    const south = typeof latitude === 'number' && latitude < 0;
+    const table = [
+      { key: 'spring', name: '春', line: '春风拂面，花开正好', particle: 'petal' },
+      { key: 'summer', name: '夏', line: '夏日限定，绿意盎然', particle: 'sun' },
+      { key: 'autumn', name: '秋', line: '秋高气爽，一叶知秋', particle: 'leaf' },
+      { key: 'winter', name: '冬', line: '岁寒知松，静待花开', particle: 'snow' }
+    ];
+    let idx;
+    if (m >= 3 && m <= 5) idx = 0;
+    else if (m >= 6 && m <= 8) idx = 1;
+    else if (m >= 9 && m <= 11) idx = 2;
+    else idx = 3;
+    if (south) idx = (idx + 2) % 4;
+    const s = table[idx];
+    return { key: s.key, name: s.name, line: s.line, particle: s.particle };
+  };
+
+  core.weatherText = function (code, isDay) {
+    const c = Number(code);
+    const day = isDay !== 0;
+    let label = '天气未知';
+    let icon = '🌿';
+    if (c === 0) { label = '晴'; icon = day ? '☀️' : '🌙'; }
+    else if (c === 1) { label = '大致晴朗'; icon = '🌤️'; }
+    else if (c === 2) { label = '多云'; icon = '⛅'; }
+    else if (c === 3) { label = '阴'; icon = '☁️'; }
+    else if (c === 45 || c === 48) { label = '雾'; icon = '🌫️'; }
+    else if (c >= 51 && c <= 57) { label = '毛毛雨'; icon = '🌦️'; }
+    else if (c >= 61 && c <= 67) { label = '雨'; icon = '🌧️'; }
+    else if (c >= 71 && c <= 77) { label = '雪'; icon = '❄️'; }
+    else if (c >= 80 && c <= 82) { label = '阵雨'; icon = '🌦️'; }
+    else if (c === 85 || c === 86) { label = '阵雪'; icon = '❄️'; }
+    else if (c === 95) { label = '雷暴'; icon = '⛈️'; }
+    else if (c === 96 || c === 99) { label = '雷暴伴冰雹'; icon = '⛈️'; }
+    return { label: label, icon: icon };
   };
 
   core.seasonTags = function (seasonText) {
