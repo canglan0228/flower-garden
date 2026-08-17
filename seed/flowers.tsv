@@ -1,396 +1,397 @@
 # 花语花园种子清单
-# 列：中文名 | 英文名 | 学名 | 科 | 颜色（、分隔） | 别名（、分隔） | 花语 | 花期 | 简介
+# 列：中文名 | 英文名 | 学名 | 科 | 颜色（、分隔） | 别名（、分隔） | 花语 | 花期 | 简介 | 形态特征 | 花语与文化 | 分布与养护
 # 以 # 开头的行会被忽略
-name	en	latin	family	colors	aliases	meaning	season	blurb
-梅花	Plum blossom	Prunus mume	蔷薇科	红、粉、白	春梅、干枝梅	坚强、高洁	冬春	凌寒独自开，报春第一枝。
-腊梅	Wintersweet	Chimonanthus praecox	腊梅科	黄	蜡梅、黄梅花	慈爱、坚韧	冬	金黄色的花朵在寒冬中绽放。
-桃花	Peach blossom	Prunus persica	蔷薇科	粉、红	碧桃、花桃	爱情、好运	春	灼灼其华，春日的浪漫符号。
-樱花	Cherry blossom	Prunus serrulata	蔷薇科	粉、白	山樱花	生命、希望	春	落樱如雪，短暂而绚烂。
-杏花	Apricot blossom	Prunus armeniaca	蔷薇科	白、粉	杏子花	春色、羞涩	春	淡雅清秀，春意盎然的信使。
-梨花	Pear blossom	Pyrus pyrifolia	蔷薇科	白	沙梨花	纯洁、陪伴	春	满树洁白，如雪落枝头。
-李花	Plum blossom (Prunus salicina)	Prunus salicina	蔷薇科	白	中国李花	纯真	春	细碎白花，清新素雅。
-苹果花	Apple blossom	Malus domestica	蔷薇科	白、粉	林檎花	平实、美好	春	花白微粉，果香的前奏。
-海棠花	Crabapple blossom	Malus spectabilis	蔷薇科	粉	西府海棠	温柔、思念	春	花姿潇洒，花开似锦。
-垂丝海棠	Hall crabapple	Malus halliana	蔷薇科	粉	垂枝海棠	温婉	春	花梗下垂如丝，楚楚动人。
-贴梗海棠	Flowering quince	Chaenomeles speciosa	蔷薇科	红、粉、白	皱皮木瓜	热情	春	枝干遒劲，红花如火。
-榆叶梅	Flowering plum	Prunus triloba	蔷薇科	粉	小桃红	春意	春	花似梅花叶如榆，粉霞满枝。
-珍珠梅	False spirea	Sorbaria sorbifolia	蔷薇科	白	山高粱条子	清净	夏	白色小花成串，如珍珠瀑布。
-绣线菊	Bridal wreath spirea	Spiraea salicifolia	蔷薇科	白、粉	柳叶绣线菊	纯洁	春夏	细碎小花簇拥成团。
-山楂花	Hawthorn blossom	Crataegus pinnatifida	蔷薇科	白	山里红	守护	春	白花如雪，秋来红果满枝。
-玫瑰	Rose	Rosa rugosa	蔷薇科	红、粉、白	刺玫、徘徊花	热烈的爱	春夏	带刺而温柔，爱情与浪漫的象征。
-月季	China rose	Rosa chinensis	蔷薇科	多彩	月月红、四季花	热情、持之以恒	四季	花中皇后，四季常开。
-蔷薇	Multiflora rose	Rosa multiflora	蔷薇科	粉、白	野蔷薇	浪漫、思念	春夏	爬满篱墙的粉色浪漫。
-香水月季	Tea rose	Rosa odorata	蔷薇科	粉、黄、白	茶香月季	优雅	春夏	花香清甜，色韵柔和。
-木香花	Banks rose	Rosa banksiae	蔷薇科	白、黄	木香、七里香	纯洁	春夏	花开成瀑，香飘数里。
-山茶花	Camellia	Camellia japonica	蔷薇科	红、粉、白	茶花、曼陀罗树	理想的爱	冬春	花大色艳，经冬不凋。
-茶梅	Camellia sasanqua	Camellia sasanqua	山茶科	红、粉、白	小茶梅	谦让	秋冬	山茶与梅之间的清雅之花。
-金花茶	Golden camellia	Camellia nitidissima	山茶科	黄	黄色山茶	稀有、珍贵	冬春	罕见的金黄色茶花。
-杜鹃花	Azalea	Rhododendron simsii	杜鹃花科	红、粉、白、紫	映山红	爱的喜悦	春	满山红遍，热烈奔放。
-西洋杜鹃	Hybrid azalea	Rhododendron hybridum	杜鹃花科	多彩	比利时杜鹃	节制、喜悦	春夏	花色繁多，园艺宠儿。
-马缨杜鹃	Horse-chestnut azalea	Rhododendron delavayi	杜鹃花科	红	大树杜鹃	热情	春	高山上的红色火焰。
-桂花	Sweet osmanthus	Osmanthus fragrans	木犀科	黄、白	木樨、丹桂	崇高、收获	秋	八月桂花香，清可绝尘。
-丁香	Lilac	Syringa oblata	木犀科	紫、白	紫丁香	纯洁、初恋	春	愁绪与思念化作一树紫云。
-茉莉花	Jasmine	Jasminum sambac	木犀科	白	茉莉	忠贞、清纯	夏	一卉能熏一室香。
-迎春花	Winter jasmine	Jasminum nudiflorum	木犀科	黄	金腰带	希望、坚强	春	百花未醒它先开。
-连翘	Forsythia	Forsythia suspensa	木犀科	黄	黄金条	预言	春	金黄繁花，报春使者。
-素馨花	Pink jasmine	Jasminum polyanthum	木犀科	白、粉	多花素馨	清白	春夏	藤蔓攀援，清香四溢。
-紫藤	Wisteria	Wisteria sinensis	豆科	紫	藤萝	思念、依依不舍	春	紫色花串垂如瀑布。
-多花紫藤	Japanese wisteria	Wisteria floribunda	豆科	紫	日本紫藤	沉迷的爱	春	花穗更长，烂漫如帘。
-槐花	Pagoda tree flower	Sophora japonica	豆科	白	国槐花	清新	夏	夏日街头的一抹清香。
-洋槐花	Black locust flower	Robinia pseudoacacia	豆科	白	刺槐花	童年的甜	春末	串串白花，蜜香扑鼻。
-合欢花	Silk tree flower	Albizia julibrissin	豆科	粉	绒花树、马缨花	团圆、阖家欢乐	夏	粉色绒球，温柔缱绻。
-金合欢	Sweet acacia	Acacia farnesiana	豆科	黄	鸭皂树	友情	冬春	金黄绒球，香气馥郁。
-凤凰木	Flame tree	Delonix regia	豆科	红	红花楹、火树	离别、思念	夏	盛夏如火，花开满城。
-蓝花楹	Jacaranda	Jacaranda mimosifolia	紫葳科	蓝、紫	紫云木	宁静、深远	春夏	一树蓝紫，如梦如幻。
-火焰木	African tulip tree	Spathodea campanulata	紫葳科	红	火焰树、苞萼木	热情似火	春夏	杯状红花，如火焰燃烧。
-凌霄花	Trumpet creeper	Campsis grandiflora	紫葳科	橙、红	紫葳、倒挂金钟	慈爱、敬佩	夏	攀援而上，凌云之志。
-炮仗花	Flame vine	Pyrostegia venusta	紫葳科	橙、红	鞭炮花	喜庆	冬春	橙红成串，如炮仗高挂。
-紫薇	Crape myrtle	Lagerstroemia indica	千屈菜科	粉、紫、红、白	百日红、痒痒树	好运、沉迷	夏秋	紫薇花开百日红。
-大花紫薇	Queen's crape myrtle	Lagerstroemia speciosa	千屈菜科	紫	大叶紫薇	幸福	夏	东南亚的夏日之花。
-石榴花	Pomegranate flower	Punica granatum	石榴科	红	安石榴	成熟的美	夏	红艳如火，象征丰收与繁荣。
-木芙蓉	Cotton rose	Hibiscus mutabilis	锦葵科	粉、白、红	芙蓉花、拒霜花	贞洁、纤细	秋	朝白暮红，一日三变。
-木槿	Rose of Sharon	Hibiscus syriacus	锦葵科	紫、粉、白	朝开暮落花	温柔、坚持	夏秋	朝开暮落，生生不息。
-扶桑花	Chinese hibiscus	Hibiscus rosa-sinensis	锦葵科	红、粉、黄	朱槿、大红花	新鲜的恋情	夏	热情明艳，四季常开。
-吊灯扶桑	Fringed hibiscus	Hibiscus schizopetalus	锦葵科	红、粉	灯笼花、吊灯花	魅力	夏秋	花瓣反卷，如吊灯垂挂。
-蜀葵	Hollyhock	Alcea rosea	锦葵科	多彩	一丈红、端午花	梦想、温和	夏	高挑花柱，节节盛开。
-锦葵	Common mallow	Malva sylvestris	锦葵科	紫、粉	钱葵	温婉	夏	朴素小花，田园风韵。
-玉兰	Yulan magnolia	Magnolia denudata	木兰科	白	白玉兰、望春花	纯洁、真挚	春	净若清荷，先花后叶。
-紫玉兰	Lily magnolia	Magnolia liliiflora	木兰科	紫	辛夷、木笔	芳香的情思	春	紫花亭亭，古意盎然。
-二乔玉兰	Magnolia soulangeana	Magnolia soulangeana	木兰科	粉、紫	苏郎木兰	优雅	春	白紫交融，如二乔并立。
-广玉兰	Southern magnolia	Magnolia grandiflora	木兰科	白	荷花玉兰	生生不息	夏	叶大花硕，清雅大方。
-含笑花	Banana shrub	Michelia figo	木兰科	白、黄	含笑	含蓄、矜持	春	花半开似含笑，香如香蕉。
-白兰花	White champaca	Michelia alba	木兰科	白	白兰、白玉兰	纯真	夏	夏日街头，香气袭人。
-黄兰	Champaca	Michelia champaca	木兰科	黄	黄玉兰	永恒的爱	夏	金黄花朵，香气浓郁。
-鹅掌楸花	Tulip tree flower	Liriodendron chinense	木兰科	黄、绿	马褂木花	秋日	春	花似郁金香，叶如马褂。
-木棉	Silk cotton tree	Bombax ceiba	木棉科	红	英雄树、攀枝花	英雄气概	春	红棉怒放，英雄之花。
-美丽异木棉	Floss silk tree	Ceiba speciosa	木棉科	粉	美人树、丝绵树	浪漫	秋冬	冬日里的粉色浪漫。
-鸡蛋花	Frangipani	Plumeria rubra	夹竹桃科	白、黄、粉	缅栀子、蛋黄花	孕育希望	夏	热带风情的五瓣小花。
-黄蝉	Golden trumpet	Allamanda schottii	夹竹桃科	黄	硬枝黄蝉	活泼	夏秋	喇叭状黄花，明亮夺目。
-夹竹桃	Oleander	Nerium oleander	夹竹桃科	粉、白、红	柳叶桃	注意危险	夏秋	花美但全株有毒，只可远观。
-长春花	Madagascar periwinkle	Catharanthus roseus	夹竹桃科	粉、红、白	日日春、四时春	愉快的回忆	夏秋	花期极长，日日见春。
-紫荆花	Hong Kong orchid	Bauhinia blakeana	豆科	紫、红	洋紫荆	和睦、亲情	冬春	香港市花，花形如蝶。
-羊蹄甲	Camel's foot	Bauhinia purpurea	豆科	粉、紫	紫荆、洋紫荆	亲情	秋冬	粉紫满树，南国风情。
-刺桐	Coral tree	Erythrina variegata	豆科	红	木本象牙红	红火	春	红色花序如珊瑚串。
-龙牙花	Coral bean	Erythrina corallodendron	豆科	红	象牙红	热情	夏	弯月形红花，热烈奔放。
-金雀花	Pea tree	Caragana sinica	豆科	黄	锦鸡儿	谦逊	春夏	金黄小花如雀鸟飞舞。
-紫荆	Chinese redbud	Cercis chinensis	豆科	紫	满条红	家庭和睦	春	老干生花，紫气满枝。
-流苏树花	Fringe tree	Chionanthus retusus	木犀科	白	四月雪、流苏花	清净	春	白色流苏，如四月飘雪。
-六月雪	Snow of June	Serissa japonica	茜草科	白	满天星、白马骨	爱恋	夏	细白小花如碎雪。
-龙船花	Chinese ixora	Ixora chinensis	茜草科	红、橙、黄	水绣球	热情	夏秋	团团锦簇，如龙舟竞渡。
-栀子花	Gardenia	Gardenia jasminoides	茜草科	白	水横枝、玉荷花	永恒的爱	夏	素洁芬芳，一生的守候。
-玉叶金花	Buddha's lamp	Mussaenda pubescens	茜草科	白、黄	白纸扇	宁静	夏	白色萼片如叶片般舒展。
-绣球花	Hydrangea	Hydrangea macrophylla	绣球花科	蓝、粉、紫、白	八仙花、紫阳花	团圆美满	夏	绣球般的花团，美满的祝福。
-圆锥绣球	Panicled hydrangea	Hydrangea paniculata	绣球花科	白、粉	水亚木	希望	夏秋	圆锥花序，由白转粉。
-金丝桃	St John's wort	Hypericum monogynum	金丝桃科	黄	土连翘	神秘	夏	金色丝蕊，灿烂夺目。
-金丝梅	Golden cup	Hypericum patulum	金丝桃科	黄	芒种花	光明	春夏	花瓣金黄，蕊丝纤细。
-瑞香	Winter daphne	Daphne odora	瑞香科	白、粉、紫	睡香、蓬莱花	祥瑞	冬春	花香浓郁，瑞气盈门。
-结香	Paperbush	Edgeworthia chrysantha	瑞香科	黄	打结花、梦花	喜结连枝	冬春	枝条可打结，花黄如球。
-一品红	Poinsettia	Euphorbia pulcherrima	大戟科	红	圣诞红、象牙红	祝福你	冬	圣诞节的经典红。
-虎刺梅	Crown of thorns	Euphorbia milii	大戟科	红、粉、黄	铁海棠	倔强坚强	四季	带刺的茎上开出小花。
-三角梅	Bougainvillea	Bougainvillea spectabilis	紫茉莉科	红、粉、紫、白	叶子花、三角花	热情	四季	彩色苞片如花瓣般艳丽。
-月见草	Evening primrose	Oenothera biennis	柳叶菜科	黄	待霄草	默默的爱	夏	黄昏绽放，暗香浮动。
-昙花	Night-blooming cereus	Epiphyllum oxypetalum	仙人掌科	白	月下美人、韦陀花	刹那永恒	夏秋	昙花一现，为韦陀而开。
-令箭荷花	Red orchid cactus	Nopalxochia ackermannii	仙人掌科	红、粉	孔雀仙人掌	热烈	春夏	扁平如令箭，花开如荷。
-仙人掌花	Prickly pear flower	Opuntia ficus-indica	仙人掌科	黄、橙	霸王花	坚强	夏	荒漠中的金色花朵。
-蟹爪兰	Christmas cactus	Schlumbergera truncata	仙人掌科	红、粉、白	圣诞仙人掌	鸿运当头	冬	节节相连，冬日盛放。
-量天尺花	Dragon fruit flower	Hylocereus undatus	仙人掌科	白	火龙果花	吉祥	夏秋	巨大的白色夜花。
-君子兰	Clivia	Clivia miniata	石蒜科	橙、红	大花君子兰	高贵、谦谦君子	春	端庄典雅，君子之风。
-文殊兰	Grand crinum	Crinum asiaticum	石蒜科	白	十八学士、文珠兰	与君同行	夏	洁白大花，香气幽远。
-水仙花	Narcissus	Narcissus tazetta	石蒜科	白、黄	中国水仙、雅蒜	思念、纯洁	冬春	凌波仙子，岁朝清供。
-洋水仙	Wild daffodil	Narcissus pseudonarcissus	石蒜科	黄、白	黄水仙	自信	春	金黄喇叭，春天使节。
-红花石蒜	Red spider lily	Lycoris radiata	石蒜科	红	彼岸花、曼珠沙华	离别、重逢	夏秋	花叶永不相见。
-忽地笑	Golden spider lily	Lycoris aurea	石蒜科	黄	金花石蒜	快乐	夏秋	花先叶后，灿烂金黄。
-葱兰	Zephyr lily	Zephyranthes candida	石蒜科	白	玉帘、葱莲	初恋	夏秋	雨后清丽，素白如葱。
-韭兰	Rain lily	Zephyranthes grandiflora	石蒜科	粉、红	风雨花	坚强	夏	风雨过后，依然盛开。
-百子莲	African lily	Agapanthus africanus	石蒜科	蓝、紫	紫君子兰、非洲百合	恋爱的造访	夏	蓝色花球，清凉一夏。
-晚香玉	Tuberose	Polianthes tuberosa	石蒜科	白	月下香、夜来香	危险的快乐	夏秋	夜晚香气格外浓郁。
-百合	Lily	Lilium brownii	百合科	白	野百合	百年好合	夏	圣洁之花，幸福团圆。
-卷丹	Tiger lily	Lilium lancifolium	百合科	橙、红	虎皮百合	财富、自信	夏	花瓣带斑如虎纹。
-香水百合	Casa blanca lily	Lilium casa blanca	百合科	白	卡萨布兰卡	伟大的爱	夏	洁白芬芳，婚礼常客。
-山丹	Pumilum lily	Lilium pumilum	百合科	红	细叶百合、山丹丹	热烈	夏	山丹丹开花红艳艳。
-郁金香	Tulip	Tulipa gesneriana	百合科	多彩	洋荷花	博爱、祝福	春	荷兰国花，色彩斑斓。
-风信子	Hyacinth	Hyacinthus orientalis	百合科	多彩	五色水仙	喜悦、重生	春	花香浓郁，串串铃铛。
-葡萄风信子	Grape hyacinth	Muscari botryoides	百合科	蓝、紫	蓝壶花	忧郁	春	蓝色小串，如葡萄挂枝。
-铃兰	Lily of the valley	Convallaria majalis	百合科	白	君影草、谷中百合	幸福归来	春	白色铃铛，幸福摇响。
-萱草	Daylily	Hemerocallis fulva	百合科	橙、黄	忘忧草	忘记忧愁	夏	一花一谢，日日新颜。
-大花萱草	Hybrid daylily	Hemerocallis hybrida	百合科	多彩	杂交萱草	快乐	夏	花色繁多，灿烂一夏。
-玉簪	Fragrant plantain lily	Hosta plantaginea	百合科	白	玉春棒、白鹤仙	恬静	夏秋	白花如玉簪，幽香宜人。
-紫萼	Blue plantain lily	Hosta ventricosa	百合科	紫	紫玉簪	宁静	夏	紫色钟形花，清雅含蓄。
-德国鸢尾	German iris	Iris germanica	鸢尾科	紫、蓝	鸢尾花	爱的使者	春末	花大色艳，虹膜如彩。
-鸢尾	Japanese roof iris	Iris tectorum	鸢尾科	蓝、紫	蓝蝴蝶、扁竹花	想念你	春	蓝色花瓣如蝴蝶飞舞。
-黄菖蒲	Yellow iris	Iris pseudacorus	鸢尾科	黄	水生鸢尾	信守承诺	春末夏	水边的一抹亮黄。
-溪荪	Siberian iris	Iris sanguinea	鸢尾科	蓝、紫	东方鸢尾	优雅	初夏	花姿挺拔，蓝紫雅致。
-马蔺	Lactea iris	Iris lactea	鸢尾科	蓝、紫	马兰花	善良	春	蓝紫色小花，韧性十足。
-射干	Blackberry lily	Belamcanda chinensis	鸢尾科	橙、红	乌扇、扁竹兰	阳光	夏	花瓣橙红带斑，如蝶似星。
-唐菖蒲	Gladiolus	Gladiolus gandavensis	鸢尾科	多彩	剑兰、菖兰	用心	夏秋	剑形叶，花穗直上。
-小苍兰	Freesia	Freesia refracta	鸢尾科	多彩	香雪兰	纯洁	春	花香清雅，色彩柔和。
-番红花	Saffron crocus	Crocus sativus	鸢尾科	紫、白	藏红花、西红花	喜悦	秋	秋日里的紫色惊喜。
-大花葱	Giant allium	Allium giganteum	石蒜科	紫	巨葱、硕葱	聪明	春末	紫色花球，圆润可爱。
-紫娇花	Society garlic	Tulbaghia violacea	石蒜科	紫	野蒜、非洲小百合	坚强	夏	蒜香小花，紫色成丛。
-春兰	Spring orchid	Cymbidium goeringii	兰科	绿、黄	兰花、朵兰	高洁、清雅	春	空谷幽兰，王者之香。
-蕙兰	Faber cymbidium	Cymbidium faberi	兰科	黄、绿	九子兰、夏兰	丰盛	春	花繁叶茂，气势挺拔。
-建兰	Four-season orchid	Cymbidium ensifolium	兰科	黄、绿	四季兰、秋兰	清雅	夏秋	四季可赏，香清色淡。
-墨兰	Chinese cymbidium	Cymbidium sinense	兰科	紫、褐	报岁兰、入岁兰	淡泊	冬春	花色深浓，岁末开花。
-寒兰	Cold orchid	Cymbidium kanran	兰科	绿、紫	冬兰	清冷	冬	花姿清瘦，幽香袭人。
-蝴蝶兰	Moth orchid	Phalaenopsis aphrodite	兰科	多彩	蝶兰	幸福飞来	冬春	形如彩蝶，优雅端庄。
-大花蕙兰	Cymbidium hybridum	Cymbidium hybridum	兰科	多彩	虎头兰、喜姆比兰	高贵	冬春	花大色艳，年宵花卉。
-兜兰	Slipper orchid	Paphiopedilum insigne	兰科	黄、绿、紫	拖鞋兰	谦逊	冬春	唇瓣如兜，奇特可爱。
-石斛	Dendrobium	Dendrobium nobile	兰科	粉、白、紫	金钗石斛	父爱	春夏	附生兰花，药食同源。
-秋石斛	Phalaenopsis dendrobium	Dendrobium phalaenopsis	兰科	多彩	蝴蝶石斛	欢迎	夏秋	花似蝴蝶，色彩明快。
-文心兰	Dancing lady orchid	Oncidium flexuosum	兰科	黄	跳舞兰、吉祥兰	隐藏的爱	秋冬	金色小花如舞者翩跹。
-卡特兰	Cattleya	Cattleya labiata	兰科	多彩	嘉德丽亚兰	敬爱	秋冬	兰中皇后，花大华美。
-万代兰	Blue vanda	Vanda coerulea	兰科	蓝、紫	蓝色万代兰	高雅	夏秋	天蓝色花朵，稀有美丽。
-鹤顶兰	Phaius orchid	Phaius tankervilleae	兰科	棕、红	仙鹤兰	庄重	春夏	花梗高挺，花似仙鹤。
-白及	Hyacinth bletilla	Bletilla striata	兰科	粉、紫	紫兰、连及草	纯洁	春	紫粉小花，林下精灵。
-虾脊兰	Calanthe	Calanthe discolor	兰科	紫、白	细辛兰	清秀	春	花姿小巧，山林野趣。
-杓兰	Lady's slipper	Cypripedium calceolus	兰科	黄、紫	仙履兰	谦逊	春末夏	唇瓣如靴，欧洲珍品。
-球兰	Wax flower	Hoya carnosa	萝藦科	粉、白	蜡花、樱兰	青春美丽	夏	花球如蜡，清甜芬芳。
-鹤望兰	Bird of paradise	Strelitzia reginae	芭蕉科	橙、蓝	天堂鸟、极乐鸟花	自由	四季	形如仙鹤，展翅欲飞。
-旅人蕉花	Traveller's palm	Ravenala madagascariensis	芭蕉科	白	扇芭蕉	热情	四季	扇形大叶，洁白花序。
-蝎尾蕉	Hanging lobster claw	Heliconia rostrata	芭蕉科	红、黄	垂花火鸟蕉	热情	四季	垂吊红花，热带风情。
-红掌	Anthurium	Anthurium andraeanum	天南星科	红、粉、白	花烛、安祖花	热情、好运	四季	佛焰苞明艳，寓意大展宏图。
-白掌	Peace lily	Spathiphyllum wallisii	天南星科	白	一帆风顺、白鹤芋	平静	四季	白色佛焰苞如白帆。
-马蹄莲	Calla lily	Zantedeschia aethiopica	天南星科	白、黄、粉	慈姑花、水芋	忠贞不渝	春	马蹄形花朵，清丽脱俗。
-海芋花	Giant alocasia	Alocasia macrorrhiza	天南星科	白	滴水观音	纯净	夏	巨型佛焰苞，亭亭玉立。
-荷花	Lotus	Nelumbo nucifera	莲科	粉、白	莲花、水芙蓉	纯洁高雅	夏	出淤泥而不染，濯清涟而不妖。
-睡莲	Water lily	Nymphaea tetragona	睡莲科	多彩	子午莲	洁净、纯真	夏	清晨绽放，午后闭合。
-王莲	Victoria water lily	Victoria amazonica	睡莲科	白、粉	帝王莲、亚马逊王莲	霸气	夏秋	叶片可载人，花硕大。
-萍蓬草	Yellow water lily	Nuphar pumila	睡莲科	黄	黄金莲	宁静	夏	金黄小花浮于水面。
-芡实花	Fox nut flower	Euryale ferox	睡莲科	紫	鸡头米花	含蓄	夏	紫花出水，果可食用。
-千屈菜	Purple loosestrife	Lythrum salicaria	千屈菜科	紫、红	水柳	夏日的清凉	夏	水边紫红花穗。
-再力花	Powdery alligator-flag	Thalia dealbata	竹芋科	紫、白	水竹芋	清逸	夏秋	水生挺拔，花穗雅致。
-美人蕉	Canna	Canna indica	美人蕉科	红、黄、橙	红艳蕉	坚实的未来	夏秋	大叶大花，热带风情。
-大花美人蕉	Large-flowered canna	Canna generalis	美人蕉科	多彩	法尼亚美人蕉	热恋	夏秋	花大色艳，庭院焦点。
-凤眼莲	Water hyacinth	Eichhornia crassipes	雨久花科	紫、蓝	水葫芦	不安	夏秋	蓝紫花朵，浮水而生。
-梭鱼草	Pickerel weed	Pontederia cordata	雨久花科	蓝、紫	海寿花	清新	夏	水边蓝紫色花穗。
-菖蒲花	Sweet flag flower	Acorus calamus	菖蒲科	黄、绿	白菖蒲	信仰	夏	水边绿剑，端午香草。
-慈姑花	Arrowhead flower	Sagittaria trifolia	泽泻科	白	燕尾草花	坚韧	夏	三白花瓣，水中清影。
-泽泻花	Water plantain	Alisma plantago-aquatica	泽泻科	白、粉	水白菜花	清幽	夏	细小白花，亭立水畔。
-向日葵	Sunflower	Helianthus annuus	菊科	黄	太阳花、葵花	忠诚、向阳	夏秋	永远追逐太阳的光芒。
-雏菊	English daisy	Bellis perennis	菊科	白、粉	延命菊	天真、和平	春	小小雏菊，纯真无邪。
-波斯菊	Cosmos	Cosmos bipinnatus	菊科	粉、白、紫	秋英、大波斯菊	自由、少女心	夏秋	随风摇曳，浪漫花海。
-硫华菊	Golden cosmos	Cosmos sulphureus	菊科	黄、橙	黄秋英	野性美	夏秋	金黄色调，热烈明快。
-金盏菊	Pot marigold	Calendula officinalis	菊科	黄、橙	长生菊、金盏花	离别、惜别	春夏	金黄灿烂，花期长久。
-翠菊	China aster	Callistephus chinensis	菊科	多彩	江西腊、七月菊	可靠的爱	夏秋	花色繁多，明丽清新。
-紫菀	Tatarian aster	Aster tataricus	菊科	紫、蓝	青菀	追忆	秋	秋日紫色小菊，淡雅宜人。
-菊花	Chrysanthemum	Dendranthema morifolium	菊科	多彩	秋菊、黄花	高洁、长寿	秋	采菊东篱下，悠然见南山。
-万寿菊	Marigold	Tagetes erecta	菊科	黄、橙	臭芙蓉、万寿灯	健康长寿	夏秋	金黄花球，寓意长寿。
-孔雀草	French marigold	Tagetes patula	菊科	黄、橙	小万寿菊	惜别	夏秋	红黄花边，热闹明快。
-百日草	Zinnia	Zinnia elegans	菊科	多彩	步步高、百日菊	友谊	夏秋	节节升高，寓意上进。
-大丽花	Dahlia	Dahlia pinnata	菊科	多彩	天竺牡丹、大理花	大方、富贵	夏秋	花型多变，雍容华丽。
-小丽花	Dwarf dahlia	Dahlia hybrida	菊科	多彩	迷你大丽花	风趣	夏秋	小巧精致，花园点缀。
-非洲菊	Gerbera	Gerbera jamesonii	菊科	多彩	扶郎花、太阳花	神秘、互敬互爱	四季	花大色艳，瓶插之选。
-玛格丽特	Marguerite daisy	Argyranthemum frutescens	菊科	白、粉、黄	木茼蒿、蓬蒿菊	期待的爱	春夏	白色小花，温柔清新。
-洋甘菊	Chamomile	Matricaria chamomilla	菊科	白、黄	母菊	逆境中的坚强	春夏	香气清甜，安神佳品。
-德国洋甘菊	German chamomile	Matricaria recutita	菊科	白、黄	洋甘菊	治愈	春夏	金黄芯，白花瓣，清雅。
-金光菊	Cutleaf coneflower	Rudbeckia laciniata	菊科	黄	黄菊芋	公正	夏秋	金黄花瓣，明艳照人。
-黑心金光菊	Black-eyed Susan	Rudbeckia hirta	菊科	黄	黑心菊	公平	夏秋	金黄花瓣配深色花心。
-松果菊	Purple coneflower	Echinacea purpurea	菊科	粉、紫	紫锥菊	健康	夏秋	花心突起如松果。
-天人菊	Firewheel	Gaillardia pulchella	菊科	红、黄	虎皮菊	团结	夏秋	红黄双色，热烈粗犷。
-蒲公英	Dandelion	Taraxacum officinale	菊科	黄	婆婆丁	自由、坚持	春	黄花满地，绒球随风。
-蓍草	Yarrow	Achillea millefolium	菊科	白、粉	千叶蓍	治愈	夏	羽状细叶，伞形小花。
-大滨菊	Max chrysanthemum	Leucanthemum maximum	菊科	白	西洋滨菊	真诚	夏	纯白花瓣，金黄花心。
-滨菊	Oxeye daisy	Leucanthemum vulgare	菊科	白	牛眼菊	友谊	夏	田野里的经典白菊。
-荷兰菊	New York aster	Aster novi-belgii	菊科	紫、粉	纽约紫菀	诚信	秋	紫色小花，秋日盛放。
-堆心菊	Sneezeweed	Helenium autumnale	菊科	黄、橙	臭菊	平安	夏秋	花瓣外展，中心凸起。
-蓝眼菊	African daisy	Osteospermum ecklonis	菊科	蓝、紫、白	蓝目菊	活力	春夏	蓝紫色花心如眼眸。
-勋章菊	African sunflower	Gazania rigens	菊科	橙、黄	非洲太阳花	辉煌	春夏	花色斑斓如勋章。
-金鸡菊	Lanceleaf coreopsis	Coreopsis lanceolata	菊科	黄	剑叶波斯菊	竞争心	夏秋	金黄小花，灿烂成片。
-蛇鞭菊	Blazing star	Liatris spicata	菊科	紫、粉	麒麟菊	热情	夏秋	紫色花穗自下而上开放。
-麦秆菊	Strawflower	Xerochrysum bracteatum	菊科	多彩	蜡菊、永久花	永恒的记忆	夏秋	花瓣干燥如蜡，久放不谢。
-矢车菊	Cornflower	Centaurea cyanus	菊科	蓝、紫	蓝芙蓉、翠蓝	遇见幸福	春	深邃蓝紫，清新灵动。
-飞燕草	Larkspur	Consolida ajacis	毛茛科	蓝、紫、粉	千鸟草	自由	春夏	花穗高挑，如燕群飞。
-翠雀花	Delphinium	Delphinium grandiflorum	毛茛科	蓝、紫	大花飞燕草	清静	夏	蓝色花穗，园艺名角。
-黑种草	Love in a mist	Nigella damascena	毛茛科	蓝、白	波斯黑种草	梦幻	春夏	花姿轻盈，果如气泡。
-银莲花	Anemone	Anemone coronaria	毛茛科	红、粉、蓝	罂粟秋牡丹	期待	春夏	色彩浓艳，花心深邃。
-花毛茛	Persian buttercup	Ranunculus asiaticus	毛茛科	多彩	波斯毛茛、洋牡丹	魅力	春	层叠花瓣如牡丹。
-毛茛	Japanese buttercup	Ranunculus japonicus	毛茛科	黄	老虎脚爪草	童真	春	金黄小花，田边常见。
-白头翁	Chinese pasqueflower	Pulsatilla chinensis	毛茛科	紫	老公花	追忆	春	紫花垂首，果毛如翁。
-铁线莲	Clematis	Clematis florida	毛茛科	紫、白、粉	藤本皇后	高洁	春夏	花大色繁，藤蔓优雅。
-大花铁线莲	Patens clematis	Clematis patens	毛茛科	多彩	大花钟花藤	心灵之美	春夏	碗状大花，色彩丰富。
-牡丹	Tree peony	Paeonia suffruticosa	芍药科	红、粉、白、紫	木芍药、富贵花	富贵圆满	春末	花中之王，国色天香。
-芍药	Chinese peony	Paeonia lactiflora	芍药科	多彩	将离、殿春花	情有所钟	春末夏初	花相之美，依依惜别。
-荷包牡丹	Bleeding heart	Dicentra spectabilis	罂粟科	粉、红、白	兔儿牡丹	同情	春夏	心形花朵，串串垂挂。
-虞美人	Field poppy	Papaver rhoeas	罂粟科	红、粉	丽春花	安慰	春夏	花瓣如绸，轻盈摇曳。
-冰岛罂粟	Iceland poppy	Papaver nudicaule	罂粟科	多彩	北极虞美人	安然	春夏	薄如蝉翼，色彩明快。
-花菱草	California poppy	Eschscholzia californica	罂粟科	黄、橙	加州罂粟	成功	春夏	金黄花朵，加州州花。
-紫罗兰	Stock	Matthiola incana	十字花科	紫、粉、白	草紫罗兰	永恒的美	春	香气馥郁，紫色浪漫。
-香雪球	Sweet alyssum	Lobularia maritima	十字花科	白、粉、紫	庭荠	甜蜜	春夏	白色小花如雪球铺地。
-桂竹香	Wallflower	Cheiranthus cheiri	十字花科	黄、橙	七里黄	逆境中的忠诚	春	橙黄小花，芳香怡人。
-二月兰	Orychophragmus	Orychophragmus violaceus	十字花科	紫	诸葛菜	谦逊	春	紫色花海，早春铺地。
-油菜花	Rapeseed flower	Brassica napus	十字花科	黄	芸薹	加油、奉献	春	金黄田野，春天的画卷。
-三色堇	Pansy	Viola tricolor	堇菜科	紫、黄、白	猫儿脸、蝴蝶花	思念	春夏	花瓣如猫脸，俏皮可爱。
-角堇	Horned violet	Viola cornuta	堇菜科	多彩	小三色堇	快乐	春夏	小巧花容，色彩斑斓。
-紫花地丁	Violet	Viola philippica	堇菜科	紫	野堇菜	真诚的爱	春	路边小紫花，朴素动人。
-石竹	China pink	Dianthus chinensis	石竹科	红、粉、白	洛阳花	纯洁的爱	夏	花瓣边缘如锯齿。
-香石竹	Carnation	Dianthus caryophyllus	石竹科	多彩	康乃馨	母爱	四季	母亲节之花，温柔馨香。
-满天星	Baby's breath	Gypsophila paniculata	石竹科	白	丝石竹、霞草	思念、配角	春夏	白色小花如满天星辰。
-剪秋罗	Brilliant lychnis	Lychnis fulgens	石竹科	红、橙	剪红纱花	激情	夏	红色小花，热烈醒目。
-雪轮	Soapwort catchfly	Silene pendula	石竹科	粉、白	矮雪轮	沉默的爱	春夏	粉嫩小花，垂枝优雅。
-肥皂草	Soapwort	Saponaria officinalis	石竹科	粉、白	石碱花	清净	夏	根可起泡，花团锦簇。
-补血草	Sea lavender	Limonium sinuatum	白花丹科	蓝、紫、黄	星辰花、勿忘我	永恒	夏	纸质花瓣，久放不谢。
-勿忘我	Forget-me-not	Myosotis sylvatica	紫草科	蓝	勿忘草	永恒的爱	春夏	蓝色小花，诉说不忘。
-琉璃苣	Borage	Borago officinalis	紫草科	蓝	星花	勇气	夏	蓝色星花，清新药草。
-蓝蓟	Viper's bugloss	Echium vulgare	紫草科	蓝、紫	蓝箭	静谧	夏	蓝色花穗，蜜源植物。
-美女樱	Verbena	Verbena hybrida	马鞭草科	多彩	铺地锦	和乐	春夏秋	花球铺地，色彩缤纷。
-马鞭草	European verbena	Verbena officinalis	马鞭草科	紫	紫顶龙芽	正义	夏秋	细长花穗，药草芬芳。
-柳叶马鞭草	Purpletop vervain	Verbena bonariensis	马鞭草科	紫	南美马鞭草	浪漫	夏秋	紫色花海，轻盈摇曳。
-薰衣草	Lavender	Lavandula angustifolia	唇形科	紫	香水草、宁静的香水	等待爱情	夏	紫色花田，香气安宁。
-法国薰衣草	Spanish lavender	Lavandula stoechas	唇形科	紫	西班牙薰衣草	神秘	春夏	顶部兔耳状苞片。
-鼠尾草	Sage	Salvia japonica	唇形科	蓝、紫	洋苏草	家庭观念	夏秋	紫色花穗，清新自然。
-一串蓝	Mealycup sage	Salvia farinacea	唇形科	蓝、紫	蓝花鼠尾草	思念	夏秋	蓝紫色花穗，成片种植。
-一串红	Scarlet sage	Salvia splendens	唇形科	红	西洋红、爆竹红	热情	夏秋	红色花串，喜庆热烈。
-朱唇	Texas sage	Salvia coccinea	唇形科	红	红花鼠尾草	活力	夏秋	猩红小花，蜂蝶喜爱。
-迷迭香	Rosemary	Rosmarinus officinalis	唇形科	蓝、紫	海洋之露	回忆	春夏	香气浓郁，地中海香草。
-百里香	Thyme	Thymus mongolicus	唇形科	粉、紫	地椒	勇气	夏	细小紫花，芳香扑鼻。
-薄荷花	Mint flower	Mentha haplocalyx	唇形科	紫、白	野薄荷	美德	夏	清新小紫花，清凉香气。
-金鱼草	Snapdragon	Antirrhinum majus	车前科	多彩	龙口花	活泼	春夏	花形如金鱼张口。
-柳穿鱼	Butter and eggs	Linaria vulgaris	车前科	黄、橙	小金鱼草	宽容	春夏	橙黄小花如飞鸟。
-毛地黄	Foxglove	Digitalis purpurea	车前科	粉、紫、白	洋地黄	热爱	夏	钟形花朵，串串高挂。
-钓钟柳	Beardtongue	Penstemon barbatus	车前科	红、粉	吊钟柳	真诚	夏	红色管状花，蜂鸟喜爱。
-风铃草	Canterbury bells	Campanula medium	桔梗科	蓝、紫、粉	钟花	感谢	春夏	花朵如铃，随风轻响。
-聚花风铃草	Clustered bellflower	Campanula glomerata	桔梗科	蓝、紫	聚铃花	团结	夏	花簇成球，蓝紫迷人。
-桔梗	Balloon flower	Platycodon grandiflorus	桔梗科	蓝、紫、白	铃铛花	永恒的爱	夏秋	花苞如气球，绽放成星。
-洋桔梗	Lisianthus	Eustoma grandiflorum	龙胆科	多彩	草原龙胆	不变的爱	夏秋	层叠花瓣，温婉优雅。
-龙胆	Chinese gentian	Gentiana scabra	龙胆科	蓝、紫	胆草花	喜欢忧伤	秋	深蓝花朵，高山精灵。
-报春花	Fairy primrose	Primula malacoides	报春花科	粉、白、紫	小樱草	希望	春	春日最早的报信者。
-四季报春	Obconica primrose	Primula obconica	报春花科	多彩	鄂报春	青春	春夏	花色繁多，四季可赏。
-藏报春	Chinese primrose	Primula sinensis	报春花科	粉、红	年景花	纯洁	春	中国原产，花色娇艳。
-仙客来	Cyclamen	Cyclamen persicum	报春花科	红、粉、白	兔耳花、萝卜海棠	羞怯	冬春	花瓣反卷如兔耳。
-瓜叶菊	Cineraria	Pericallis hybrida	菊科	多彩	富贵菊	喜悦	冬春	花团锦簇，年宵佳品。
-六倍利	Lobelia	Lobelia erinus	桔梗科	蓝、紫、白	半边莲	可怜	春夏	蓝色小花，悬吊佳品。
-山梗菜	Great blue lobelia	Lobelia sessilifolia	桔梗科	蓝、紫	水苋菜	诚实	夏	蓝紫花穗，水边清影。
-半边莲	Chinese lobelia	Lobelia chinensis	桔梗科	粉、紫	细米草	坚持	夏	小巧粉花，药草之用。
-牵牛花	Morning glory	Ipomoea nil	旋花科	蓝、紫、粉	喇叭花	爱情永固	夏秋	清晨绽放，朝颜之美。
-圆叶牵牛	Common morning glory	Ipomoea purpurea	旋花科	紫、粉	紫牵牛	平静	夏秋	藤蔓绕篱，紫色花铃。
-茑萝	Cardinal climber	Ipomoea quamoclit	旋花科	红	五角星花	相互关怀	夏秋	红色星花，纤巧藤蔓。
-打碗花	Hedge bindweed	Calystegia hederacea	旋花科	粉、白	小旋花	童年	春夏	喇叭小花，田野记忆。
-田旋花	Field bindweed	Convolvulus arvensis	旋花科	粉、白	旋花	坚韧	夏	匍匐藤蔓，粉白小花。
-月光花	Moonflower	Ipomoea alba	旋花科	白	夕颜	夜晚之美	夏秋	白色大花，月夜绽放。
-旱金莲	Nasturtium	Tropaeolum majus	旱金莲科	黄、橙、红	金莲花、荷叶花	爱国心	春夏	圆叶如荷，花如金盏。
-凤仙花	Garden balsam	Impatiens balsamina	凤仙花科	多彩	指甲花、急性子	怀念	夏秋	染红指甲的童年记忆。
-新几内亚凤仙	New Guinea impatiens	Impatiens hawkeri	凤仙花科	多彩	新几内亚凤仙花	活力	春夏	叶色深亮，花色缤纷。
-非洲凤仙	Busy Lizzie	Impatiens walleriana	凤仙花科	多彩	玻璃翠、苏丹凤仙	甜蜜	春夏秋	耐阴花丛，四季繁茂。
-鸡冠花	Cockscomb	Celosia cristata	苋科	红、黄	鸡髻花	真爱	夏秋	花序如鸡冠，热烈夺目。
-千日红	Globe amaranth	Gomphrena globosa	苋科	紫、红、白	火球花	永恒的爱	夏秋	干花不谢，寓意长久。
-紫茉莉	Four o'clock flower	Mirabilis jalapa	紫茉莉科	多彩	地雷花、晚饭花	含蓄	夏秋	傍晚开放，香气幽幽。
-夜来香	Night jessamine	Cestrum nocturnum	茄科	黄、绿	夜香木	危险的快乐	夏秋	入夜香气浓郁迷人。
-曼陀罗	Jimsonweed	Datura stramonium	茄科	白、紫	洋金花	敬畏	夏秋	花大而美，全株有毒。
-木本曼陀罗	Angel's trumpet	Brugmansia suaveolens	茄科	白、粉、黄	大花曼陀罗	神秘	夏秋	巨型喇叭花垂挂枝头。
-矮牵牛	Petunia	Petunia hybrida	茄科	多彩	碧冬茄	安全感	春夏秋	花坛主角，色彩无尽。
-花烟草	Flowering tobacco	Nicotiana alata	茄科	白、粉	烟草花	夜的美丽	夏	傍晚开放，清香淡雅。
-五色梅	Lantana	Lantana camara	马鞭草科	多彩	马缨丹、臭草	开朗	四季	花球变色，四季常开。
-醉蝶花	Spider flower	Cleome spinosa	白花菜科	粉、紫、白	凤蝶草、紫龙须	神秘	夏秋	雄蕊细长如蝶须。
-含羞草	Sensitive plant	Mimosa pudica	豆科	粉、紫	知羞草、怕羞草	敏感	夏秋	轻轻触碰，叶片闭合。
-紫云英	Chinese milk vetch	Astragalus sinicus	豆科	紫、红	红花草	幸福	春	南方田间的紫色花毯。
-苜蓿花	Alfalfa flower	Medicago sativa	豆科	紫	紫花苜蓿	幸运	春夏	紫色小花，牧草之王。
-白车轴草	White clover	Trifolium repens	豆科	白	三叶草	幸运	春夏	四叶草是幸运的传说。
-红三叶草花	Red clover	Trifolium pratense	豆科	红、紫	红车轴草	幸福	春夏	粉红花球，蜜源植物。
-羽扇豆	Lupine	Lupinus micranthus	豆科	多彩	鲁冰花	母爱	春夏	多彩花穗，母亲的赞歌。
-香豌豆	Sweet pea	Lathyrus odoratus	豆科	多彩	花豌豆	温柔的回忆	春夏	蝶形小花，芳香清甜。
-豌豆花	Garden pea flower	Pisum sativum	豆科	白、粉、紫	荷兰豆花	喜悦	春夏	朴素小花，田园气息。
-红花酢浆草	Pink sorrel	Oxalis corymbosa	豆科	粉、红	三叶草	璀璨的心	春夏	粉色小花成簇开放。
-酢浆草	Creeping woodsorrel	Oxalis corniculata	酢浆草科	黄	酸酸草	快乐	春夏	黄色小花，生命力顽强。
-紫叶酢浆草	Purple shamrock	Oxalis triangularis	酢浆草科	粉、白	幸运草	幸运	春夏	紫叶粉花，精致可爱。
-长寿花	Kalanchoe	Kalanchoe blossfeldiana	景天科	红、粉、黄	寿星花	大吉大利	冬春	小花成团，花期超长。
-落地生根	Air plant	Bryophyllum pinnatum	景天科	红、紫	打不死	顽强	冬春	叶缘生芽，落地即活。
-八宝景天	Stonecrop	Hylotelephium erythrostictum	景天科	粉、白	华丽景天	长寿	夏秋	粉白花团，耐旱易养。
-佛甲草	Gold moss sedum	Sedum lineare	景天科	黄	指甲草	坚韧	春夏	金黄小花，屋顶绿化。
-瓦松	Fimbriate orostachys	Orostachys fimbriata	景天科	粉、白	天王瓦塔	古朴	夏秋	瓦片上的多肉小花。
-天竺葵	Geranium	Pelargonium hortorum	牻牛儿苗科	多彩	洋绣球、入腊红	幸福在身边	四季	花球饱满，窗台经典。
-香叶天竺葵	Scented geranium	Pelargonium graveolens	牻牛儿苗科	粉	香葵、驱蚊草	思念	夏	叶片带香，可驱蚊虫。
-大花天竺葵	Regal geranium	Pelargonium domesticum	牻牛儿苗科	多彩	蝴蝶天竺葵	华丽	春夏	花大色艳，雍容舒展。
-老鹳草	Cranesbill	Geranium wilfordii	牻牛儿苗科	粉、紫	牻牛儿苗	安宁	夏	野地小花，朴素雅致。
-非洲紫罗兰	African violet	Saintpaulia ionantha	苦苣苔科	紫、蓝、粉	非洲堇	永恒的爱	四季	四季开花的小型盆栽。
-大岩桐	Gloxinia	Sinningia speciosa	苦苣苔科	多彩	落雪泥	华丽	春夏	丝绒质感的硕大花朵。
-口红花	Lipstick plant	Aeschynanthus radicans	苦苣苔科	红	口红吊兰	热情	夏	花朵如口红破壳而出。
-蓝雪花	Blue plumbago	Ceratostigma plumbaginoides	白花丹科	蓝	蓝花丹	冷淡	夏秋	清凉蓝花，夏日解暑。
-金铃花	Flowering maple	Abution pictum	锦葵科	橙、红	灯笼花、摇钱树	珍惜	夏秋	红灯笼般的垂挂小花。
-小木槿	African mallow	Anisodontea capensis	锦葵科	粉	南非葵	温柔	四季	粉色小花，日日开放。
-悬铃花	Slipper flower	Malvaviscus arboreus	锦葵科	红	垂花悬铃花	永远	四季	花苞不展开，如悬铃。
-洋金凤	Peacock flower	Caesalpinia pulcherrima	豆科	红、黄	金凤花	热情	四季	花瓣如凤尾，绚烂夺目。
-双荚决明	Candle bush	Senna bicapsularis	豆科	黄	双荚槐	光明	秋冬	金黄小花，冬日暖阳。
-黄槐	Sunshine tree	Senna surattensis	豆科	黄	粉叶决明	乐观	夏秋	满树金黄，明媚开朗。
-蒲包花	Slipperwort	Calceolaria herbeohybrida	玄参科	黄、橙	荷包花	富贵	春	花形如荷包，逗趣可爱。
-耧斗菜	Columbine	Aquilegia viridiflora	毛茛科	蓝、紫	漏斗花	胜利	春	花形奇特，如漏斗展翅。
-大花耧斗菜	Gland columbine	Aquilegia glandulosa	毛茛科	蓝、紫、白	洋牡丹	坦率	春夏	蓝紫大花，高山精灵。
-蓝盆花	Scabiosa	Scabiosa japonica	忍冬科	蓝、紫	松虫草	清静	夏秋	花球如针垫，轻盈柔美。
-蓟花	Japanese thistle	Cirsium japonicum	菊科	紫	大蓟	独立	夏	紫色刺头，野性之美。
-蓝刺头	Globe thistle	Echinops latifolius	菊科	蓝	禹州漏芦	智慧	夏	蓝色球状花序，别致硬朗。
-落新妇	False goat's beard	Astilbe chinensis	虎耳草科	粉、红、白	升麻花	欣喜	夏	羽毛状花穗，柔美朦胧。
-虎耳草	Strawberry geranium	Saxifraga stolonifera	虎耳草科	白	金线吊芙蓉	真实	春夏	白花细巧，叶片斑纹。
-山梅花	Mock orange	Philadelphus incanus	绣球花科	白	四月雪	清雅	春末夏	白花成簇，香如茉莉。
-溲疏	Deutzia	Deutzia scabra	绣球花科	白、粉	空疏	随和	春末夏	细碎白花，繁密如雪。
-金银木花	Amur honeysuckle	Lonicera maackii	忍冬科	白、黄	金银忍冬	快乐	春夏	白花初开，渐变金黄。
-接骨木花	Elderflower	Sambucus nigra	忍冬科	白	西洋接骨木	热心	春夏	乳白花簇，香气温和。
-琼花	Viburnum	Viburnum macrocephalum	忍冬科	白	聚八仙	美丽	春	八朵白花环绕中心，如绣球。
-木绣球	Chinese snowball	Viburnum macrocephalum f. keteleeri	忍冬科	白	绣球荚蒾	清纯	春	雪白花球，初青后白。
-金银花	Honeysuckle	Lonicera japonica	忍冬科	白、黄	忍冬、鸳鸯藤	忠贞	春夏	花开先白后黄，香气清甜。
-石楠花	Photinia flower	Photinia serratifolia	蔷薇科	白	千年红	孤傲	春	白花成伞，红果如珠。
-火棘花	Firethorn flower	Pyracantha fortuneana	蔷薇科	白	救军粮	吉祥	春	白色小花，秋果红艳。
-郁李花	Japanese bush cherry	Prunus japonica	蔷薇科	粉、白	爵梅	温柔	春	粉白小花，娇小玲珑。
-紫叶李花	Purple leaf plum	Prunus cerasifera f. atropurpurea	蔷薇科	粉、白	红叶李	幸福	春	花叶同放，粉白满枝。
-草莓花	Strawberry flower	Fragaria ananassa	蔷薇科	白	地莓花	甜蜜	春	白花素雅，果香在前。
-蛇莓花	Indian strawberry	Duchesnea indica	蔷薇科	黄	三匹风	童年	春夏	金黄色小花，田埂记忆。
-枇杷花	Loquat flower	Eriobotrya japonica	蔷薇科	白	卢橘花	温暖	冬	冬日开放，来年果甜。
-米兰花	Aglaia flower	Aglaia odorata	楝科	黄	米仔兰	有爱	夏秋	小米粒般的金黄小花，香远益清。
-九里香	Orange jessamine	Murraya exotica	芸香科	白	七里香	勇敢	春夏	花香浓郁，可绕九里。
-柚花	Pomelo flower	Citrus maxima	芸香科	白	文旦花	清新	春	洁白花瓣，馥郁甜香。
-橙花	Orange blossom	Citrus sinensis	芸香科	白	甜橙花	新娘的喜悦	春	洁白小花，婚礼经典香氛。
-柠檬花	Lemon blossom	Citrus limon	芸香科	白、粉	柠檬树花	忠诚	春	紫红花苞，洁白花瓣。
-络石花	Star jasmine	Trachelospermum jasminoides	夹竹桃科	白	风车茉莉	宁静	春夏	白色风车状小花，香如茉莉。
-龙吐珠	Bleeding glory bower	Clerodendrum thomsoniae	唇形科	白、红	珍珠宝莲	珍贵	夏	白色萼片托起红色花心。
-嘉兰	Glory lily	Gloriosa superba	秋水仙科	橙、红、黄	火焰百合	荣光	夏秋	花瓣反卷如火焰。
-朱顶红	Barbados lily	Hippeastrum vittatum	石蒜科	红、粉、白	孤挺花、百枝莲	渴望被爱	春夏	硕大喇叭花，喜庆夺目。
-蓝星花	Blue star	Isotoma axillaris	桔梗科	蓝	星辰花	幸福	春夏	蓝色星花，清澈明亮。
-松红梅	Manuka	Leptospermum scoparium	桃金娘科	红、粉、白	新西兰茶花	坚定	冬春	细碎小花，覆满枝头。
-蓝莓花	Blueberry blossom	Vaccinium corymbosum	杜鹃花科	白、粉	越橘花	甜美	春	铃铛状白花，清雅可爱。
-红千层	Bottlebrush	Callistemon rigidus	桃金娘科	红	瓶刷子树	热情	春夏	红色刷状花序，独特醒目。
-桃金娘花	Rose myrtle	Rhodomyrtus tomentosa	桃金娘科	粉、紫	山稔子	思念	夏	粉紫小花，山野果香。
-金缕梅	Chinese witch hazel	Hamamelis mollis	金缕梅科	黄	木里香	灵感	冬春	细瓣如丝，冬日早花。
-蜡瓣花	Chinese winter hazel	Corylopsis sinensis	金缕梅科	黄	连核梅	喜悦	春	金黄垂序，清香淡雅。
-檵木花	Loropetalum flower	Loropetalum chinense	金缕梅科	白	纸末花	清新	春	白色细瓣，如纸屑纷飞。
-红花檵木	Red loropetalum	Loropetalum chinense var. rubrum	金缕梅科	紫、红	红桎木	热烈	春	紫红花带，春意红火。
-白鹃梅	Pearl bush	Exochorda racemosa	蔷薇科	白	茧子花	纯洁	春	满树白花，如雪覆枝。
-帝王花	King protea	Protea cynaroides	山龙眼科	粉、红	菩提花、花中之王	圆满	秋冬	南非国花，硕大华贵。
-针垫花	Pincushion protea	Leucospermum cordifolium	山龙眼科	红、橙	针垫山龙眼	热情	秋冬	红色针状花蕊如针垫。
-木百合	Sunshine conebush	Leucadendron salignum	山龙眼科	黄、红	银叶木百合	阳光	秋冬	苞片变色，四季观赏。
-光萼荷花	Urn plant	Aechmea fasciata	凤梨科	粉、蓝	蜻蜓凤梨	完美	四季	粉蓝花序，室内佳品。
-秋海棠	Begonia	Begonia grandis	秋海棠科	粉、红	八月春	亲切	夏秋	花叶俱美，秋日清姿。
-四季海棠	Wax begonia	Begonia semperflorens	秋海棠科	多彩	玻璃翠	娇艳	四季	四季开花，窗台常客。
-丽格海棠	Elatior begonia	Begonia hiemalis	秋海棠科	多彩	玫瑰海棠	华丽	冬春	层层花瓣，如玫瑰绽放。
-竹节海棠	Polka dot begonia	Begonia maculata	秋海棠科	粉、白	斑点秋海棠	优雅	四季	银点叶面，粉花垂挂。
-蓝花藤	Purple wreath	Petrea volubilis	唇形科	蓝、紫	紫霞藤	浪漫	春夏	蓝紫串花，藤蔓如瀑。
-使君子	Rangoon creeper	Combretum indicum	使君子科	红、粉、白	留求子	纯真	夏秋	花初白后红，芳香醉人。
-无忧花	Ashoka flower	Saraca dives	豆科	黄	火焰花、无忧树花	无忧无虑	春	金黄簇花，树下无忧。
-黄花风铃木	Yellow trumpet tree	Handroanthus chrysanthus	紫葳科	黄	黄金风铃木	感谢	春	满树金黄，春日的风铃。
-粉花风铃木	Pink trumpet tree	Tabebuia rosea	紫葳科	粉	蔷薇风铃木	美丽	春	粉色云霞，落英缤纷。
-紫花风铃木	Purple trumpet tree	Handroanthus impetiginosus	紫葳科	紫	紫绣球	智慧	春	紫花满树，端庄大气。
-醉鱼草	Butterfly bush	Buddleja davidii	玄参科	紫、粉、白	大叶醉鱼草	魅力	夏秋	紫色花穗，蝴蝶纷至。
-依兰花	Ylang ylang	Cananga odorata	番荔枝科	黄	香水树	优雅	四季	世界香水之树的芬芳。
-蓝雏菊	Blue daisy	Felicia amelloides	菊科	蓝	费利菊	纯净	春夏	蓝色小花，清新如天空。
-黄金菊	Golden marguerite	Euryops pectinatus	菊科	黄	梳黄菊	光明	春夏	金黄小菊，灿烂成丛。
-蝴蝶花	Japanese iris (Iris japonica)	Iris japonica	鸢尾科	白、蓝	日本鸢尾	想念	春	白蓝小花，似蝶停栖。
-花菖蒲	Japanese iris (Iris ensata)	Iris ensata	鸢尾科	蓝、紫、粉	玉蝉花	信任	初夏	硕大水边鸢尾，花色清丽。
-阿拉伯婆婆纳	Field speedwell	Veronica persica	车前科	蓝	波斯婆婆纳	诚实	春	蓝色小星花，铺满春野。
-长叶婆婆纳	Longleaf speedwell	Veronica longifolia	车前科	蓝	穗花婆婆纳	忠贞	夏	蓝紫花穗，直立成束。
-猫薄荷花	Catmint flower	Nepeta cataria	唇形科	白、紫	荆芥花	治愈	夏	薄荷清香，猫咪最爱。
-罗勒花	Basil flower	Ocimum basilicum	唇形科	白、粉	九层塔花	好运	夏	香草之花，层层叠叠。
-紫苏花	Perilla flower	Perilla frutescens	唇形科	粉、紫	苏子花	平凡	夏秋	朴素小花，叶香四溢。
-马醉木花	Japanese pieris	Pieris japonica	杜鹃花科	白、粉	梫木	清雅	春	白花串串，如铃垂挂。
-高山杜鹃	Alpine rhododendron	Rhododendron lapponicum	杜鹃花科	粉、紫	牛皮杜鹃	坚韧	夏	高山之上，花开如霞。
-蓝铃花	Bluebell	Hyacinthoides non-scripta	天门冬科	蓝、紫	野风信子	遗憾	春	英国林间的蓝色地毯。
-雪滴花	Snowdrop	Galanthus nivalis	石蒜科	白	雪花莲	希望	冬春	雪中第一朵花，纯洁无畏。
-圣诞玫瑰	Christmas rose	Helleborus niger	毛茛科	白、粉	铁筷子	安慰	冬春	寒冬绽放，温暖安慰。
-铁筷子	Hellebore	Helleborus thibetanus	毛茛科	粉、紫、绿	嚏根草	坚强	冬春	垂首之花，山野精灵。
-紫堇花	Incisory fumewort	Corydalis incisa	罂粟科	紫、粉	断肠草	思念	春	紫色小花，清明时节。
-雪片莲	Spring snowflake	Leucojum vernum	石蒜科	白	雪片水仙	纯洁	春	白花带绿点，清新脱俗。
-南天竹花	Heavenly bamboo flower	Nandina domestica	小檗科	白	南天竺	吉祥	夏	小白花簇，秋红果串。
-探春花	Flowering jasmine	Jasminum floridum	木犀科	黄	迎夏	快乐	夏	迎春之后，夏日再开。
-云南黄馨	Primrose jasmine	Jasminum mesnyi	木犀科	黄	云南迎春	明亮	春	垂枝黄花，亮丽活泼。
-倒挂金钟	Fuchsia	Fuchsia hybrida	柳叶菜科	红、粉、紫	灯笼花、吊钟海棠	相信爱情	春夏秋	花朵如彩灯倒挂。
-墨西哥鼠尾草	Mexican bush sage	Salvia leucantha	唇形科	紫、白	紫绒鼠尾草	思念	秋冬	毛绒紫花，触感温柔。
-鸟尾花	Firecracker flower	Crossandra infundibuliformis	爵床科	橙	十字爵床	热情	四季	橙色花穗，热带明艳。
-蓝花草	Mexican petunia	Ruellia simplex	爵床科	蓝、紫	翠芦莉	自由	春夏秋	日日开花，蓝紫温柔。
-金苞花	Golden shrimp plant	Pachystachys lutea	爵床科	黄	金包花	富贵	四季	金黄苞片层层如宝塔。
-虾衣花	Shrimp plant	Justicia brandegeeana	爵床科	白、红	狐尾木	俏皮	四季	红褐苞片如虾壳。
+name	en	latin	family	colors	aliases	meaning	season	blurb	morph	culture	care
+梅花	Plum blossom	Prunus mume	蔷薇科	红、粉、白	春梅、干枝梅	坚强、高洁	冬春	凌寒独自开，报春第一枝。	落叶乔木，先花后叶，花单生或并生，白粉或红色，香气清冽。	岁寒三友之一，象征坚强高洁，文人常以咏梅言志。	原产中国，喜光耐寒，宜排水良好的微酸性土壤。
+腊梅	Wintersweet	Chimonanthus praecox	腊梅科	黄	蜡梅、黄梅花	慈爱、坚韧	冬	金黄色的花朵在寒冬中绽放。	落叶灌木，花蜡黄色，内层带紫红晕，冬季先叶开放，香气浓郁。	寒冬绽放，象征慈爱与坚韧，是岁朝清供之花。	原产中国中部，喜光耐寒，耐修剪，忌积水。
+桃花	Peach blossom	Prunus persica	蔷薇科	粉、红	碧桃、花桃	爱情、好运	春	灼灼其华，春日的浪漫符号。	落叶小乔木，花单生枝顶，粉红或白色，先叶开放，烂漫成霞。	象征爱情与好运，桃花运即指美好缘分。	原产中国，喜光喜排水，花后需疏枝。
+樱花	Cherry blossom	Prunus serrulata	蔷薇科	粉、白	山樱花	生命、希望	春	落樱如雪，短暂而绚烂。	落叶乔木，花三五朵成伞房状，白或淡粉，花瓣顶端有缺口。	象征生命与希望，落樱之美喻绚烂易逝。	原产东亚，喜光喜湿润，注意防治蚜虫与流胶。
+杏花	Apricot blossom	Prunus armeniaca	蔷薇科	白、粉	杏子花	春色、羞涩	春	淡雅清秀，春意盎然的信使。	落叶乔木，花单生，白色或淡粉，先叶开放，花萼反折。	象征春色与羞涩，杏花春雨是经典江南意象。	原产中国北方，喜光耐旱，忌低洼积水。
+梨花	Pear blossom	Pyrus pyrifolia	蔷薇科	白	沙梨花	纯洁、陪伴	春	满树洁白，如雪落枝头。	落叶乔木，伞形花序，花白色，花药紫红，叶卵形。	象征纯洁，雨打梨花常喻孤寂与思念。	原产中国，喜光，抗寒耐旱，注意梨锈病。
+李花	Plum blossom (Prunus salicina)	Prunus salicina	蔷薇科	白	中国李花	纯真	春	细碎白花，清新素雅。	落叶小乔木，花二三朵簇生，白色细小，繁密如雪。	象征纯真，桃李满天下喻育人成果。	原产中国，喜光耐旱，结果枝需合理修剪。
+苹果花	Apple blossom	Malus domestica	蔷薇科	白、粉	林檎花	平实、美好	春	花白微粉，果香的前奏。	落叶乔木，伞房花序，花白带粉晕，与叶同放。	象征平实与美好，亦喻丰收与圆满。	原产亚洲与欧洲，喜光喜凉，需配置授粉树。
+海棠花	Crabapple blossom	Malus spectabilis	蔷薇科	粉	西府海棠	温柔、思念	春	花姿潇洒，花开似锦。	落叶小乔木，花簇生，粉红色，花梗细长，花姿潇洒。	海棠无香，花语温柔思念，是传统名花。	原产中国，喜光耐寒，喜湿润怕涝。
+垂丝海棠	Hall crabapple	Malus halliana	蔷薇科	粉	垂枝海棠	温婉	春	花梗下垂如丝，楚楚动人。	落叶小乔木，花梗细弱下垂，花粉红色，伞房花序。	象征温婉，垂丝之姿如少女低眉。	原产中国，喜光，宜肥沃湿润土壤。
+贴梗海棠	Flowering quince	Chaenomeles speciosa	蔷薇科	红、粉、白	皱皮木瓜	热情	春	枝干遒劲，红花如火。	落叶灌木，花单生叶腋，猩红或粉白，枝干有刺。	象征热情，早春红艳如火。	原产中国，喜光耐寒，萌蘖力强。
+榆叶梅	Flowering plum	Prunus triloba	蔷薇科	粉	小桃红	春意	春	花似梅花叶如榆，粉霞满枝。	落叶灌木，花单瓣或重瓣，粉红色，叶形似榆。	象征春意，北方春日重要花灌木。	原产中国北方，喜光耐寒，耐旱怕涝。
+珍珠梅	False spirea	Sorbaria sorbifolia	蔷薇科	白	山高粱条子	清净	夏	白色小花成串，如珍珠瀑布。	落叶灌木，羽状复叶，白色小花密集成圆锥花序。	象征清净，夏日花似串串珍珠。	原产东亚，喜光也耐半阴，病虫害少。
+绣线菊	Bridal wreath spirea	Spiraea salicifolia	蔷薇科	白、粉	柳叶绣线菊	纯洁	春夏	细碎小花簇拥成团。	落叶灌木，伞形或圆锥花序，白或粉色小花繁密。	象征纯洁，是庭院基础花灌木。	原产北半球温带，喜光耐旱，萌芽力强。
+山楂花	Hawthorn blossom	Crataegus pinnatifida	蔷薇科	白	山里红	守护	春	白花如雪，秋来红果满枝。	落叶小乔木，伞房花序，花白色，花药粉色。	象征守护，秋日红果寓意收获。	原产中国，喜光耐寒，抗逆性强。
+玫瑰	Rose	Rosa rugosa	蔷薇科	红、粉、白	刺玫、徘徊花	热烈的爱	春夏	带刺而温柔，爱情与浪漫的象征。	落叶灌木，茎密生皮刺，花单瓣或重瓣，红粉白等色，香气浓郁。	爱情的象征，玫瑰之约是浪漫的代名词。	原产东亚，喜光喜肥，需修剪通风防病。
+月季	China rose	Rosa chinensis	蔷薇科	多彩	月月红、四季花	热情、持之以恒	四季	花中皇后，四季常开。	常绿或半常绿灌木，花多季开放，色彩极丰，花中皇后。	象征热情与持之以恒，中国十大名花之一。	原产中国，喜光，需勤修剪与防治病虫害。
+蔷薇	Multiflora rose	Rosa multiflora	蔷薇科	粉、白	野蔷薇	浪漫、思念	春夏	爬满篱墙的粉色浪漫。	落叶攀援灌木，圆锥花序，粉白小花繁密带香。	象征浪漫与思念，爬满篱墙的经典意象。	原产东亚，喜光耐寒，需支架牵引。
+香水月季	Tea rose	Rosa odorata	蔷薇科	粉、黄、白	茶香月季	优雅	春夏	花香清甜，色韵柔和。	藤性灌木，花朵硕大，粉黄或白色，茶香馥郁。	象征优雅，是玫瑰园中的香气担当。	栽培品种，喜光喜肥，冬季需防寒。
+木香花	Banks rose	Rosa banksiae	蔷薇科	白、黄	木香、七里香	纯洁	春夏	花开成瀑，香飘数里。	落叶攀援灌木，花白或黄，多朵成伞形，香气远播。	象征纯洁，十里香是庭院经典。	原产中国，喜光耐半阴，藤蔓需牵引。
+山茶花	Camellia	Camellia japonica	蔷薇科	红、粉、白	茶花、曼陀罗树	理想的爱	冬春	花大色艳，经冬不凋。	常绿灌木或小乔木，花大，红粉白各色，花瓣层层叠叠。	象征理想的爱，云南名花，冬日盛放。	原产东亚，喜半阴酸性土，怕涝怕晒。
+茶梅	Camellia sasanqua	Camellia sasanqua	山茶科	红、粉、白	小茶梅	谦让	秋冬	山茶与梅之间的清雅之花。	常绿灌木，花较小，粉红或白色，秋冬开放，叶似茶。	象征谦让，是冬园一景。	原产日本与中国，喜半阴，耐修剪。
+金花茶	Golden camellia	Camellia nitidissima	山茶科	黄	黄色山茶	稀有、珍贵	冬春	罕见的金黄色茶花。	常绿灌木，花瓣金黄色，蜡质光泽，山茶中最稀有。	象征珍贵稀有，有植物界大熊猫之称。	原产广西，喜温暖湿润半阴环境。
+杜鹃花	Azalea	Rhododendron simsii	杜鹃花科	红、粉、白、紫	映山红	爱的喜悦	春	满山红遍，热烈奔放。	落叶或常绿灌木，花冠漏斗形，红粉白紫，簇生枝头。	映山红，象征爱的喜悦与热烈。	原产东亚山地，喜酸性土，忌碱性水肥。
+西洋杜鹃	Hybrid azalea	Rhododendron hybridum	杜鹃花科	多彩	比利时杜鹃	节制、喜悦	春夏	花色繁多，园艺宠儿。	常绿灌木，花色繁多，花大，多为重瓣盆栽品种。	象征节制与喜悦，是年宵花市宠儿。	温室栽培品种，喜凉爽湿润半阴。
+马缨杜鹃	Horse-chestnut azalea	Rhododendron delavayi	杜鹃花科	红	大树杜鹃	热情	春	高山上的红色火焰。	常绿乔木状杜鹃，花深红色，簇生成球，高山壮丽。	象征热情，是高原花海的主角。	原产中国西南高山，喜凉爽，忌酷热。
+桂花	Sweet osmanthus	Osmanthus fragrans	木犀科	黄、白	木樨、丹桂	崇高、收获	秋	八月桂花香，清可绝尘。	常绿乔木或灌木，花小，黄白或橙红，聚伞花序，香气馥郁。	象征崇高与收获，蟾宫折桂喻功名有成。	原产中国，喜光耐半阴，忌积水。
+丁香	Lilac	Syringa oblata	木犀科	紫、白	紫丁香	纯洁、初恋	春	愁绪与思念化作一树紫云。	落叶灌木或小乔木，圆锥花序，紫白花色，芳香浓郁。	象征纯洁与初恋，结着愁怨的经典意象。	原产中国华北，喜光耐寒，忌涝。
+茉莉花	Jasmine	Jasminum sambac	木犀科	白	茉莉	忠贞、清纯	夏	一卉能熏一室香。	常绿灌木，花白色，单瓣或重瓣，清香四溢。	象征忠贞清纯，茉莉花歌传唱四方。	原产南亚，喜温暖湿润强光，忌霜冻。
+迎春花	Winter jasmine	Jasminum nudiflorum	木犀科	黄	金腰带	希望、坚强	春	百花未醒它先开。	落叶灌木，花黄色，先叶开放，枝条拱垂如金带。	象征希望与坚强，百花未醒它先开。	原产中国，喜光耐寒，耐旱怕涝。
+连翘	Forsythia	Forsythia suspensa	木犀科	黄	黄金条	预言	春	金黄繁花，报春使者。	落叶灌木，花金黄色，四瓣，先叶开放，满枝金灿。	象征预言，是早春报信之花。	原产中国，喜光耐寒，果实入药。
+素馨花	Pink jasmine	Jasminum polyanthum	木犀科	白、粉	多花素馨	清白	春夏	藤蔓攀援，清香四溢。	常绿攀援藤本，花白色或粉红，多朵成聚伞花序，香气清甜。	象征清白，是南国香花。	原产中国南方，喜温暖湿润，需支架。
+紫藤	Wisteria	Wisteria sinensis	豆科	紫	藤萝	思念、依依不舍	春	紫色花串垂如瀑布。	落叶木质藤本，总状花序下垂，紫蓝色花如帘幕。	象征思念与依依不舍，是庭院花瀑。	原产中国，喜光，藤粗壮需强支撑。
+多花紫藤	Japanese wisteria	Wisteria floribunda	豆科	紫	日本紫藤	沉迷的爱	春	花穗更长，烂漫如帘。	落叶藤本，花序更长，紫蓝色小花密集下垂。	象征沉迷的爱，日本庭院常见。	原产日本，喜光，需修剪控制生长。
+槐花	Pagoda tree flower	Sophora japonica	豆科	白	国槐花	清新	夏	夏日街头的一抹清香。	落叶乔木，圆锥花序，花白或淡黄，清香，可食。	象征清新，夏初街头槐香是记忆符号。	原产中国，喜光耐旱，抗污染。
+洋槐花	Black locust flower	Robinia pseudoacacia	豆科	白	刺槐花	童年的甜	春末	串串白花，蜜香扑鼻。	落叶乔木，总状花序下垂，白色蝶形花，蜜香浓。	象征童年的甜，槐花蜜是名品。	原产北美，已广植中国，喜光耐旱。
+合欢花	Silk tree flower	Albizia julibrissin	豆科	粉	绒花树、马缨花	团圆、阖家欢乐	夏	粉色绒球，温柔缱绻。	落叶乔木，头状花序呈绒球状，粉红色，夜合昼开。	象征团圆，合欢寓意阖家欢乐。	原产中国，喜光耐旱，不耐涝。
+金合欢	Sweet acacia	Acacia farnesiana	豆科	黄	鸭皂树	友情	冬春	金黄绒球，香气馥郁。	常绿灌木或小乔木，头状花序金黄绒球，香气馥郁。	象征友情，是温暖的香花树。	原产美洲热带，喜温暖阳光。
+凤凰木	Flame tree	Delonix regia	豆科	红	红花楹、火树	离别、思念	夏	盛夏如火，花开满城。	落叶乔木，伞房花序，花鲜红带黄晕，夏开如火。	象征离别与思念，盛夏凤凰花季。	原产马达加斯加，喜热带光热。
+蓝花楹	Jacaranda	Jacaranda mimosifolia	紫葳科	蓝、紫	紫云木	宁静、深远	春夏	一树蓝紫，如梦如幻。	落叶乔木，圆锥花序，蓝紫色花串，满树如紫云。	象征宁静深远，是梦幻花城的代表。	原产南美，喜温暖，忌霜冻与积水。
+火焰木	African tulip tree	Spathodea campanulata	紫葳科	红	火焰树、苞萼木	热情似火	春夏	杯状红花，如火焰燃烧。	常绿乔木，杯状花簇生枝顶，鲜红如火焰。	象征热情似火，是热带行道树。	原产热带非洲，喜高温强光。
+凌霄花	Trumpet creeper	Campsis grandiflora	紫葳科	橙、红	紫葳、倒挂金钟	慈爱、敬佩	夏	攀援而上，凌云之志。	落叶木质藤本，漏斗状花橙红色，攀援而上。	象征慈爱敬佩，凌霄之志喻志向高远。	原产中国，喜光耐寒，需支架。
+炮仗花	Flame vine	Pyrostegia venusta	紫葳科	橙、红	鞭炮花	喜庆	冬春	橙红成串，如炮仗高挂。	常绿藤本，花橙红色，密集成串，形如鞭炮垂挂。	象征喜庆，是新春庭院红火景致。	原产南美，喜温暖阳光，华南常见。
+紫薇	Crape myrtle	Lagerstroemia indica	千屈菜科	粉、紫、红、白	百日红、痒痒树	好运、沉迷	夏秋	紫薇花开百日红。	落叶灌木或小乔木，圆锥花序，粉紫红白，夏秋百日红。	象征好运，痒痒树之名富趣味。	原产中国，喜光耐旱，花后修剪。
+大花紫薇	Queen's crape myrtle	Lagerstroemia speciosa	千屈菜科	紫	大叶紫薇	幸福	夏	东南亚的夏日之花。	落叶乔木，花大，紫红色，圆锥花序，热带皇后。	象征幸福，是东南亚盛夏花树。	原产东南亚，喜高温湿润。
+石榴花	Pomegranate flower	Punica granatum	石榴科	红	安石榴	成熟的美	夏	红艳如火，象征丰收与繁荣。	落叶灌木或小乔木，花萼筒状，花瓣红艳，五月如霞。	象征成熟的美与繁荣，多子多福。	原产西亚，喜光耐旱，怕涝。
+木芙蓉	Cotton rose	Hibiscus mutabilis	锦葵科	粉、白、红	芙蓉花、拒霜花	贞洁、纤细	秋	朝白暮红，一日三变。	落叶灌木或小乔木，花大，晨白午粉暮红，一日三变。	象征贞洁纤细，芙蓉国里尽朝晖。	原产中国，喜光耐水湿，宜植水边。
+木槿	Rose of Sharon	Hibiscus syriacus	锦葵科	紫、粉、白	朝开暮落花	温柔、坚持	夏秋	朝开暮落，生生不息。	落叶灌木，花钟形，紫粉白，朝开暮落。	象征温柔坚持，是韩国国花无穷花。	原产东亚，喜光耐旱，萌蘖力强。
+扶桑花	Chinese hibiscus	Hibiscus rosa-sinensis	锦葵科	红、粉、黄	朱槿、大红花	新鲜的恋情	夏	热情明艳，四季常开。	常绿灌木，花大，红粉黄，花柱长伸，四季开花。	象征新鲜恋情，热情明艳。	原产中国南部，喜温暖强光。
+吊灯扶桑	Fringed hibiscus	Hibiscus schizopetalus	锦葵科	红、粉	灯笼花、吊灯花	魅力	夏秋	花瓣反卷，如吊灯垂挂。	常绿灌木，花瓣反卷上翘，红粉色，如吊灯垂挂。	象征魅力，是园林观赏佳品。	原产非洲热带，喜温暖湿润。
+蜀葵	Hollyhock	Alcea rosea	锦葵科	多彩	一丈红、端午花	梦想、温和	夏	高挑花柱，节节盛开。	二年生或多年生草本，茎直立高大，花多色，单瓣或重瓣，自下而上开放。	象征梦想与温和，一丈红之名。	原产中国，喜光耐寒，自播力强。
+锦葵	Common mallow	Malva sylvestris	锦葵科	紫、粉	钱葵	温婉	夏	朴素小花，田园风韵。	二年生或多年生草本，花紫红或粉色，瓣脉明显，田园风韵。	象征温婉，朴素小花不争春。	原产欧洲与亚洲，喜光耐旱，自播力强。
+玉兰	Yulan magnolia	Magnolia denudata	木兰科	白	白玉兰、望春花	纯洁、真挚	春	净若清荷，先花后叶。	落叶乔木，花大洁白，先叶开放，杯状挺立，清香。	象征纯洁真挚，望春花是早春信使。	原产中国中部，喜光，喜肥沃深厚土壤。
+紫玉兰	Lily magnolia	Magnolia liliiflora	木兰科	紫	辛夷、木笔	芳香的情思	春	紫花亭亭，古意盎然。	落叶灌木，花紫色或紫红，直立杯状，先叶开放。	象征芳香的情思，辛夷可入药。	原产中国，喜光耐寒，忌积水。
+二乔玉兰	Magnolia soulangeana	Magnolia soulangeana	木兰科	粉、紫	苏郎木兰	优雅	春	白紫交融，如二乔并立。	落叶小乔木，花白紫相间，内外轮颜色不同，典雅。	象征优雅，是玉兰与紫玉兰的杂交种。	栽培广泛，喜光，喜湿润肥沃土。
+广玉兰	Southern magnolia	Magnolia grandiflora	木兰科	白	荷花玉兰	生生不息	夏	叶大花硕，清雅大方。	常绿乔木，花大如荷，乳白色，夏日开放，叶革质油亮。	象征生生不息，是南方常见庭荫树。	原产北美东南部，喜光湿润。
+含笑花	Banana shrub	Michelia figo	木兰科	白、黄	含笑	含蓄、矜持	春	花半开似含笑，香如香蕉。	常绿灌木，花半开似含笑，乳白带黄晕，香如香蕉。	象征含蓄矜持，花小而香远。	原产中国南部，喜半阴湿润。
+白兰花	White champaca	Michelia alba	木兰科	白	白兰、白玉兰	纯真	夏	夏日街头，香气袭人。	常绿乔木，花白色狭长，极香，夏季盛放。	象征纯真，是街头串花经典。	原产东南亚，喜温暖湿润强光。
+黄兰	Champaca	Michelia champaca	木兰科	黄	黄玉兰	永恒的爱	夏	金黄花朵，香气浓郁。	常绿乔木，花金黄色，狭长浓香，与白兰同属。	象征永恒的爱，热带香花。	原产印度与东南亚，喜暖湿。
+鹅掌楸花	Tulip tree flower	Liriodendron chinense	木兰科	黄、绿	马褂木花	秋日	春	花似郁金香，叶如马褂。	落叶乔木，花黄绿色，形似郁金香，叶如马褂。	象征秋日与山林，古老孑遗植物。	原产中国中部，喜凉爽湿润。
+木棉	Silk cotton tree	Bombax ceiba	木棉科	红	英雄树、攀枝花	英雄气概	春	红棉怒放，英雄之花。	落叶大乔木，花红色杯状，先叶开放，满树如炬。	象征英雄气概，英雄树之名由此而来。	原产中国南方，喜光耐旱。
+美丽异木棉	Floss silk tree	Ceiba speciosa	木棉科	粉	美人树、丝绵树	浪漫	秋冬	冬日里的粉色浪漫。	落叶乔木，花粉色，花瓣反卷，秋冬开放。	象征浪漫，是冬日里的粉色云霞。	原产南美，华南常见，喜暖光。
+鸡蛋花	Frangipani	Plumeria rubra	夹竹桃科	白、黄、粉	缅栀子、蛋黄花	孕育希望	夏	热带风情的五瓣小花。	落叶小乔木，花白心黄或粉红，五瓣旋生，香气清甜。	象征孕育希望，是热带海岛符号。	原产美洲热带，喜光耐旱。
+黄蝉	Golden trumpet	Allamanda schottii	夹竹桃科	黄	硬枝黄蝉	活泼	夏秋	喇叭状黄花，明亮夺目。	常绿灌木，花黄色漏斗状，明艳夺目，花期长。	象征活泼，是热带花篱常用种。	原产南美，喜温暖湿润强光。
+夹竹桃	Oleander	Nerium oleander	夹竹桃科	粉、白、红	柳叶桃	注意危险	夏秋	花美但全株有毒，只可远观。	常绿灌木，花粉红白或红，聚伞花序，全株有毒。	花美而危险，只可远观，可抗污染。	原产南亚，喜光耐旱，适应性强。
+长春花	Madagascar periwinkle	Catharanthus roseus	夹竹桃科	粉、红、白	日日春、四时春	愉快的回忆	夏秋	花期极长，日日见春。	亚灌木状草本，花红粉白，单生叶腋，几乎全年开花。	象征愉快的回忆，日日春名不虚传。	原产马达加斯加，喜暖光，忌涝。
+紫荆花	Hong Kong orchid	Bauhinia blakeana	豆科	紫、红	洋紫荆	和睦、亲情	冬春	香港市花，花形如蝶。	常绿乔木，花紫红色，形似蝴蝶，冬季至早春盛开。	象征和睦亲情，是香港区花。	原产华南，喜暖湿，宜酸性土。
+羊蹄甲	Camel's foot	Bauhinia purpurea	豆科	粉、紫	紫荆、洋紫荆	亲情	秋冬	粉紫满树，南国风情。	落叶乔木，花粉紫，叶先端二裂如羊蹄。	象征亲情，南国秋冬花树。	原产南亚，喜暖光，耐旱。
+刺桐	Coral tree	Erythrina variegata	豆科	红	木本象牙红	红火	春	红色花序如珊瑚串。	落叶乔木，花红色，花序如珊瑚串，先叶开放。	象征红火，是南国热烈之花。	原产亚洲热带，喜暖光。
+龙牙花	Coral bean	Erythrina corallodendron	豆科	红	象牙红	热情	夏	弯月形红花，热烈奔放。	落叶灌木或小乔木，花猩红，弯月形，成簇开放。	象征热情，是庭园焦点。	原产南美，喜温暖阳光。
+金雀花	Pea tree	Caragana sinica	豆科	黄	锦鸡儿	谦逊	春夏	金黄小花如雀鸟飞舞。	落叶灌木，花金黄色，蝶形，如雀鸟栖枝。	象征谦逊，山野春光。	原产中国，喜光耐旱，忌涝。
+紫荆	Chinese redbud	Cercis chinensis	豆科	紫	满条红	家庭和睦	春	老干生花，紫气满枝。	落叶灌木或小乔木，花紫红，簇生老干，满条红。	象征家庭和睦，先花后叶。	原产中国，喜光耐寒。
+流苏树花	Fringe tree	Chionanthus retusus	木犀科	白	四月雪、流苏花	清净	春	白色流苏，如四月飘雪。	落叶乔木，花白色，花瓣细长流苏状，四五月如雪。	象征清净，四月雪之名雅致。	原产中国，喜光，耐寒耐旱。
+六月雪	Snow of June	Serissa japonica	茜草科	白	满天星、白马骨	爱恋	夏	细白小花如碎雪。	常绿小灌木，花白色或淡粉，细小繁密如碎雪。	象征爱恋，是盆景经典素材。	原产中国长江流域，喜半阴湿润。
+龙船花	Chinese ixora	Ixora chinensis	茜草科	红、橙、黄	水绣球	热情	夏秋	团团锦簇，如龙舟竞渡。	常绿灌木，花红橙黄，聚生成球，夏秋繁盛。	象征热情，端午前后盛开似龙舟。	原产中国南方，喜暖湿强光。
+栀子花	Gardenia	Gardenia jasminoides	茜草科	白	水横枝、玉荷花	永恒的爱	夏	素洁芬芳，一生的守候。	常绿灌木，花白色，重瓣浓香，夏初开放。	象征永恒的爱，水横枝之名清雅。	原产中国，喜酸性土，喜光耐半阴。
+玉叶金花	Buddha's lamp	Mussaenda pubescens	茜草科	白、黄	白纸扇	宁静	夏	白色萼片如叶片般舒展。	常绿灌木，白色萼片似叶，金色小花居中，奇特。	象征宁静，园林观赏灌木。	原产中国南方，喜暖湿半阴。
+绣球花	Hydrangea	Hydrangea macrophylla	绣球花科	蓝、粉、紫、白	八仙花、紫阳花	团圆美满	夏	绣球般的花团，美满的祝福。	落叶灌木，花球硕大，蓝粉紫白随土壤酸碱变化。	象征团圆美满，八仙花之名传世。	原产中国与日本，喜半阴湿润，酸性土开蓝花。
+圆锥绣球	Panicled hydrangea	Hydrangea paniculata	绣球花科	白、粉	水亚木	希望	夏秋	圆锥花序，由白转粉。	落叶灌木，圆锥花序，花白渐变粉，夏秋开放。	象征希望，庭院新宠。	原产东亚，喜光耐寒，宜湿润。
+金丝桃	St John's wort	Hypericum monogynum	金丝桃科	黄	土连翘	神秘	夏	金色丝蕊，灿烂夺目。	半常绿灌木，花金黄色，雄蕊细长如丝，灿烂。	象征神秘，亮丽而不张扬。	原产中国，喜光耐半阴，忌涝。
+金丝梅	Golden cup	Hypericum patulum	金丝桃科	黄	芒种花	光明	春夏	花瓣金黄，蕊丝纤细。	半常绿灌木，花金黄，雄蕊短于金丝桃，夏季开放。	象征光明，山坡灌丛常见。	原产中国，喜光耐旱。
+瑞香	Winter daphne	Daphne odora	瑞香科	白、粉、紫	睡香、蓬莱花	祥瑞	冬春	花香浓郁，瑞气盈门。	常绿灌木，花白粉或紫红，头状花序，浓香袭人。	象征祥瑞，睡香之名叫人神往。	原产中国长江流域，喜半阴，忌暴晒。
+结香	Paperbush	Edgeworthia chrysantha	瑞香科	黄	打结花、梦花	喜结连枝	冬春	枝条可打结，花黄如球。	落叶灌木，花黄色，头状花序下垂，枝软可打结。	象征喜结连枝，梦花之名浪漫。	原产中国，喜半阴湿润，耐寒。
+一品红	Poinsettia	Euphorbia pulcherrima	大戟科	红	圣诞红、象牙红	祝福你	冬	圣诞节的经典红。	常绿灌木，苞片鲜红似花，聚生枝顶，冬春上市。	象征祝福，是圣诞节经典盆花。	原产墨西哥，喜温暖，短日照促花。
+虎刺梅	Crown of thorns	Euphorbia milii	大戟科	红、粉、黄	铁海棠	倔强坚强	四季	带刺的茎上开出小花。	多刺灌木，花小，红粉或黄色，几乎全年开花。	象征倔强坚强，带刺的温柔。	原产马达加斯加，喜暖光，忌涝。
+三角梅	Bougainvillea	Bougainvillea spectabilis	紫茉莉科	红、粉、紫、白	叶子花、三角花	热情	四季	彩色苞片如花瓣般艳丽。	常绿藤状灌木，彩色苞片似花，红粉紫白，四季常开。	象征热情，是华南花墙主角。	原产南美，喜强光，控水促花。
+月见草	Evening primrose	Oenothera biennis	柳叶菜科	黄	待霄草	默默的爱	夏	黄昏绽放，暗香浮动。	二年生草本，花黄色，傍晚开放，次日凋谢。	象征默默的爱，待霄草之名诗意。	原产美洲，已逸生中国，喜光耐旱。
+昙花	Night-blooming cereus	Epiphyllum oxypetalum	仙人掌科	白	月下美人、韦陀花	刹那永恒	夏秋	昙花一现，为韦陀而开。	附生肉质灌木，花白色硕大，夜间开放，数小时即谢。	象征刹那永恒，昙花一现为韦陀。	原产中美洲，喜半阴湿润，忌暴晒。
+令箭荷花	Red orchid cactus	Nopalxochia ackermannii	仙人掌科	红、粉	孔雀仙人掌	热烈	春夏	扁平如令箭，花开如荷。	附生肉质灌木，茎扁平如令箭，花大红粉，春夏开放。	象征热烈，似荷非荷。	原产墨西哥，喜半阴，冬季需凉。
+仙人掌花	Prickly pear flower	Opuntia ficus-indica	仙人掌科	黄、橙	霸王花	坚强	夏	荒漠中的金色花朵。	肉质植物，花黄橙或红，生于刺座，荒漠亮色。	象征坚强，沙漠中的温柔。	原产美洲，喜强光干燥，忌水湿。
+蟹爪兰	Christmas cactus	Schlumbergera truncata	仙人掌科	红、粉、白	圣诞仙人掌	鸿运当头	冬	节节相连，冬日盛放。	附生肉质灌木，茎节相连如蟹爪，花红粉白，冬季开放。	象征鸿运当头，圣诞仙人掌。	原产巴西，喜半阴湿润，短日照促花。
+量天尺花	Dragon fruit flower	Hylocereus undatus	仙人掌科	白	火龙果花	吉祥	夏秋	巨大的白色夜花。	攀援肉质植物，花白色巨大，夜间开放，果为火龙果。	象征吉祥，月夜巨花。	原产中美洲，喜暖光，耐旱。
+君子兰	Clivia	Clivia miniata	石蒜科	橙、红	大花君子兰	高贵、谦谦君子	春	端庄典雅，君子之风。	多年生草本，叶宽带形，花橙红或黄，伞形花序。	象征高贵谦和，君子之风。	原产南非，喜半阴凉爽，忌暴晒。
+文殊兰	Grand crinum	Crinum asiaticum	石蒜科	白	十八学士、文珠兰	与君同行	夏	洁白大花，香气幽远。	多年生草本，叶宽大，花白色，伞形花序，芳香。	象征与君同行，十八学士之名。	原产亚洲热带，喜暖湿半阴。
+水仙花	Narcissus	Narcissus tazetta	石蒜科	白、黄	中国水仙、雅蒜	思念、纯洁	冬春	凌波仙子，岁朝清供。	多年生草本，鳞茎球状，花白瓣黄心，冬春开放。	象征思念与纯洁，凌波仙子。	原产中国，喜冷凉，水养或土栽。
+洋水仙	Wild daffodil	Narcissus pseudonarcissus	石蒜科	黄、白	黄水仙	自信	春	金黄喇叭，春天使节。	多年生草本，花黄或白，副冠喇叭状，春日开放。	象征自信，是春天使节。	原产欧洲，喜冷凉，球根需春化。
+红花石蒜	Red spider lily	Lycoris radiata	石蒜科	红	彼岸花、曼珠沙华	离别、重逢	夏秋	花叶永不相见。	多年生草本，花鲜红，花瓣反卷，花叶不相见。	象征离别与重逢，彼岸花之名凄美。	原产中国与日本，喜半阴湿润。
+忽地笑	Golden spider lily	Lycoris aurea	石蒜科	黄	金花石蒜	快乐	夏秋	花先叶后，灿烂金黄。	多年生草本，花金黄，形似石蒜，夏秋开放。	象征快乐，金色彼岸花。	原产中国，喜半阴湿润。
+葱兰	Zephyr lily	Zephyranthes candida	石蒜科	白	玉帘、葱莲	初恋	夏秋	雨后清丽，素白如葱。	多年生草本，叶细如葱，花白色，单生，雨后清新。	象征初恋，风雨过后仍盛开。	原产美洲，喜光耐旱，球根植物。
+韭兰	Rain lily	Zephyranthes grandiflora	石蒜科	粉、红	风雨花	坚强	夏	风雨过后，依然盛开。	多年生草本，叶似韭菜，花粉红，雨后盛开。	象征坚强，风雨花之名贴切。	原产南美，喜光，耐热耐旱。
+百子莲	African lily	Agapanthus africanus	石蒜科	蓝、紫	紫君子兰、非洲百合	恋爱的造访	夏	蓝色花球，清凉一夏。	多年生草本，叶带状，花蓝紫，伞形花序成球。	象征恋爱的造访，夏日清凉色。	原产南非，喜光，喜湿润肥沃。
+晚香玉	Tuberose	Polianthes tuberosa	石蒜科	白	月下香、夜来香	危险的快乐	夏秋	夜晚香气格外浓郁。	多年生草本，花白色，穗状花序，夜晚香气尤浓。	象征危险的快乐，月下香之名。	原产墨西哥，喜暖光，球茎栽植。
+百合	Lily	Lilium brownii	百合科	白	野百合	百年好合	夏	圣洁之花，幸福团圆。	多年生草本，鳞茎鳞片抱合，花白色或带紫纹，喇叭形。	象征百年好合，婚礼常用花。	原产中国，喜凉光，喜排水良好土壤。
+卷丹	Tiger lily	Lilium lancifolium	百合科	橙、红	虎皮百合	财富、自信	夏	花瓣带斑如虎纹。	多年生草本，花橙红，花瓣反卷带紫黑斑，如虎纹。	象征财富与自信，虎皮百合。	原产中国，喜光，球根可食。
+香水百合	Casa blanca lily	Lilium casa blanca	百合科	白	卡萨布兰卡	伟大的爱	夏	洁白芬芳，婚礼常客。	多年生草本，花大洁白，重瓣或单瓣，浓香。	象征伟大的爱，卡萨布兰卡之名浪漫。	栽培品种，喜凉光，忌闷热。
+山丹	Pumilum lily	Lilium pumilum	百合科	红	细叶百合、山丹丹	热烈	夏	山丹丹开花红艳艳。	多年生草本，花鲜红，花瓣反卷，山野明艳。	象征热烈，山丹丹开花红艳艳。	原产中国北方，喜光耐寒。
+郁金香	Tulip	Tulipa gesneriana	百合科	多彩	洋荷花	博爱、祝福	春	荷兰国花，色彩斑斓。	多年生草本，鳞茎扁圆，花杯状单生，色彩极丰。	象征博爱与祝福，荷兰国花。	原产中亚，喜冷凉，球根需低温春化。
+风信子	Hyacinth	Hyacinthus orientalis	百合科	多彩	五色水仙	喜悦、重生	春	花香浓郁，串串铃铛。	多年生草本，鳞茎球状，花穗密集，钟形，香浓。	象征喜悦与重生，五色水仙。	原产地中海，喜冷凉，球根可水培。
+葡萄风信子	Grape hyacinth	Muscari botryoides	百合科	蓝、紫	蓝壶花	忧郁	春	蓝色小串，如葡萄挂枝。	多年生草本，花蓝紫，小钟形密生成串，如葡萄。	象征忧郁，蓝色小花串串垂。	原产欧洲，喜凉光，球根植物。
+铃兰	Lily of the valley	Convallaria majalis	百合科	白	君影草、谷中百合	幸福归来	春	白色铃铛，幸福摇响。	多年生草本，叶卵形，花白铃铛状，悬垂成串。	象征幸福归来，谷中百合。	原产北半球温带，喜半阴湿润凉爽。
+萱草	Daylily	Hemerocallis fulva	百合科	橙、黄	忘忧草	忘记忧愁	夏	一花一谢，日日新颜。	多年生草本，花橙黄，漏斗形，每朵仅开一日。	象征忘记忧愁，忘忧草之名。	原产中国，喜光耐旱，花可食用。
+大花萱草	Hybrid daylily	Hemerocallis hybrida	百合科	多彩	杂交萱草	快乐	夏	花色繁多，灿烂一夏。	多年生草本，花大色艳，多彩，花期长。	象征快乐，现代园艺杂交种。	栽培品种，喜光，耐旱耐热。
+玉簪	Fragrant plantain lily	Hosta plantaginea	百合科	白	玉春棒、白鹤仙	恬静	夏秋	白花如玉簪，幽香宜人。	多年生草本，叶大心形，花白色，芳香，黄昏开放。	象征恬静，玉春棒之名雅致。	原产中国，喜阴湿，忌强光。
+紫萼	Blue plantain lily	Hosta ventricosa	百合科	紫	紫玉簪	宁静	夏	紫色钟形花，清雅含蓄。	多年生草本，叶似玉簪，花紫色，钟形。	象征宁静，林下阴生佳品。	原产中国，喜阴湿。
+德国鸢尾	German iris	Iris germanica	鸢尾科	紫、蓝	鸢尾花	爱的使者	春末	花大色艳，虹膜如彩。	多年生草本，根茎粗壮，花大，紫蓝黄白，垂瓣带须。	象征爱的使者，虹膜之名源于花色。	原产欧洲，喜光，耐旱，忌涝。
+鸢尾	Japanese roof iris	Iris tectorum	鸢尾科	蓝、紫	蓝蝴蝶、扁竹花	想念你	春	蓝色花瓣如蝴蝶飞舞。	多年生草本，花蓝紫色，外轮垂瓣，叶剑形。	象征想念你，蓝蝴蝶振翅欲飞。	原产中国，喜半阴湿润。
+黄菖蒲	Yellow iris	Iris pseudacorus	鸢尾科	黄	水生鸢尾	信守承诺	春末夏	水边的一抹亮黄。	多年生水生草本，花黄色，生于水边，叶剑形。	象征信守承诺，水边亮色。	原产欧洲，已广植，喜水湿强光。
+溪荪	Siberian iris	Iris sanguinea	鸢尾科	蓝、紫	东方鸢尾	优雅	初夏	花姿挺拔，蓝紫雅致。	多年生草本，花蓝紫，花茎直立，水边雅致。	象征优雅，东方鸢尾。	原产东亚，喜湿润半阴。
+马蔺	Lactea iris	Iris lactea	鸢尾科	蓝、紫	马兰花	善良	春	蓝紫色小花，韧性十足。	多年生草本，花蓝紫，叶坚韧，生于路旁草地。	象征善良，马兰花是儿歌主角。	原产中国，耐旱耐盐碱，极强韧。
+射干	Blackberry lily	Belamcanda chinensis	鸢尾科	橙、红	乌扇、扁竹兰	阳光	夏	花瓣橙红带斑，如蝶似星。	多年生草本，花橙红带斑，花后蒴果如黑色浆果。	象征阳光，扁竹兰之名。	原产东亚，喜光耐旱。
+唐菖蒲	Gladiolus	Gladiolus gandavensis	鸢尾科	多彩	剑兰、菖兰	用心	夏秋	剑形叶，花穗直上。	多年生草本，叶剑形，花穗直立，花色繁多。	象征用心，剑兰切花之王。	原产非洲，喜光，球茎栽植。
+小苍兰	Freesia	Freesia refracta	鸢尾科	多彩	香雪兰	纯洁	春	花香清雅，色彩柔和。	多年生草本，花漏斗形，多彩，芳香清雅。	象征纯洁，香雪兰之名。	原产南非，喜凉光，球茎植物。
+番红花	Saffron crocus	Crocus sativus	鸢尾科	紫、白	藏红花、西红花	喜悦	秋	秋日里的紫色惊喜。	多年生草本，花紫白，柱头红色，秋季开放。	象征喜悦，藏红花为珍贵香料。	原产欧洲与西亚，喜凉光，球茎栽植。
+大花葱	Giant allium	Allium giganteum	石蒜科	紫	巨葱、硕葱	聪明	春末	紫色花球，圆润可爱。	多年生草本，花紫红色，球状花序硕大，亭亭玉立。	象征聪明，巨型葱花。	原产中亚，喜光，忌积水。
+紫娇花	Society garlic	Tulbaghia violacea	石蒜科	紫	野蒜、非洲小百合	坚强	夏	蒜香小花，紫色成丛。	多年生草本，叶似韭，花紫色，伞形花序，具蒜香。	象征坚强，非洲小百合。	原产南非，喜光耐旱。
+春兰	Spring orchid	Cymbidium goeringii	兰科	绿、黄	兰花、朵兰	高洁、清雅	春	空谷幽兰，王者之香。	多年生草本，叶狭带形，花单生，黄绿色，幽香。	象征高洁清雅，空谷幽兰。	原产中国，喜半阴凉爽湿润。
+蕙兰	Faber cymbidium	Cymbidium faberi	兰科	黄、绿	九子兰、夏兰	丰盛	春	花繁叶茂，气势挺拔。	多年生草本，叶直立，花茎挺出，花多黄绿，香浓。	象征丰盛，九子兰之名。	原产中国，喜凉爽半阴。
+建兰	Four-season orchid	Cymbidium ensifolium	兰科	黄、绿	四季兰、秋兰	清雅	夏秋	四季可赏，香清色淡。	多年生草本，叶宽，花黄绿，夏秋开放，四季可赏。	象征清雅，四季兰之名。	原产中国南方，喜温暖半阴。
+墨兰	Chinese cymbidium	Cymbidium sinense	兰科	紫、褐	报岁兰、入岁兰	淡泊	冬春	花色深浓，岁末开花。	多年生草本，叶宽厚，花色深褐紫，冬春开放。	象征淡泊，报岁兰迎春。	原产中国南方，喜温暖湿润半阴。
+寒兰	Cold orchid	Cymbidium kanran	兰科	绿、紫	冬兰	清冷	冬	花姿清瘦，幽香袭人。	多年生草本，叶窄，花绿紫，花姿清瘦，冬开。	象征清冷，幽香独守寒窗。	原产中国南方，喜凉爽半阴。
+蝴蝶兰	Moth orchid	Phalaenopsis aphrodite	兰科	多彩	蝶兰	幸福飞来	冬春	形如彩蝶，优雅端庄。	多年生附生草本，花形如蝶，多彩，花序拱垂。	象征幸福飞来，年宵花之王。	原产东南亚，喜暖湿半阴，附生栽培。
+大花蕙兰	Cymbidium hybridum	Cymbidium hybridum	兰科	多彩	虎头兰、喜姆比兰	高贵	冬春	花大色艳，年宵花卉。	多年生草本，花大色艳，花序直立，冬春上市。	象征高贵，年宵名品。	栽培杂交种，喜凉爽昼夜温差。
+兜兰	Slipper orchid	Paphiopedilum insigne	兰科	黄、绿、紫	拖鞋兰	谦逊	冬春	唇瓣如兜，奇特可爱。	多年生草本，唇瓣袋状如拖鞋，花形奇特。	象征谦逊，拖鞋兰之名。	原产亚洲热带，喜暖湿半阴。
+石斛	Dendrobium	Dendrobium nobile	兰科	粉、白、紫	金钗石斛	父爱	春夏	附生兰花，药食同源。	多年生附生草本，茎节状，花白粉紫，可观可药。	象征父爱，金钗石斛是名药材。	原产亚洲热带，喜暖湿半阴，附生栽培。
+秋石斛	Phalaenopsis dendrobium	Dendrobium phalaenopsis	兰科	多彩	蝴蝶石斛	欢迎	夏秋	花似蝴蝶，色彩明快。	多年生附生草本，花似蝴蝶，色彩明快，秋开。	象征欢迎，蝴蝶石斛。	原产大洋洲热带，喜暖光湿润。
+文心兰	Dancing lady orchid	Oncidium flexuosum	兰科	黄	跳舞兰、吉祥兰	隐藏的爱	秋冬	金色小花如舞者翩跹。	多年生附生草本，花金黄，唇瓣似舞裙，繁密。	象征隐藏的爱，跳舞兰之名。	原产美洲热带，喜暖湿半阴。
+卡特兰	Cattleya	Cattleya labiata	兰科	多彩	嘉德丽亚兰	敬爱	秋冬	兰中皇后，花大华美。	多年生附生草本，花大华美，唇瓣突出，兰中皇后。	象征敬爱，嘉德丽亚兰。	原产美洲热带，喜暖湿强光。
+万代兰	Blue vanda	Vanda coerulea	兰科	蓝、紫	蓝色万代兰	高雅	夏秋	天蓝色花朵，稀有美丽。	多年生附生草本，花蓝紫，唇瓣深色，附生气生根。	象征高雅，天蓝花朵稀有。	原产东南亚，喜高温强光湿润。
+鹤顶兰	Phaius orchid	Phaius tankervilleae	兰科	棕、红	仙鹤兰	庄重	春夏	花梗高挺，花似仙鹤。	多年生地生兰，花梗高，花棕红，似仙鹤。	象征庄重，大花地生兰。	原产亚洲热带，喜暖湿半阴。
+白及	Hyacinth bletilla	Bletilla striata	兰科	粉、紫	紫兰、连及草	纯洁	春	紫粉小花，林下精灵。	多年生地生兰，花紫粉，唇瓣明显，块茎入药。	象征纯洁，林下精灵。	原产东亚，喜凉爽半阴湿润。
+虾脊兰	Calanthe	Calanthe discolor	兰科	紫、白	细辛兰	清秀	春	花姿小巧，山林野趣。	多年生地生兰，花紫白，小巧，早春开放。	象征清秀，山林野趣。	原产东亚，喜凉爽湿润半阴。
+杓兰	Lady's slipper	Cypripedium calceolus	兰科	黄、紫	仙履兰	谦逊	春末夏	唇瓣如靴，欧洲珍品。	多年生地生兰，唇瓣囊状如靴，黄紫相间。	象征谦逊，仙履兰之名。	原产北温带，喜凉爽湿润。
+球兰	Wax flower	Hoya carnosa	萝藦科	粉、白	蜡花、樱兰	青春美丽	夏	花球如蜡，清甜芬芳。	常绿攀援藤本，叶肉质，花球状，粉白蜡质，香。	象征青春美丽，蜡花之名。	原产亚洲热带，喜半阴，忌暴晒。
+鹤望兰	Bird of paradise	Strelitzia reginae	芭蕉科	橙、蓝	天堂鸟、极乐鸟花	自由	四季	形如仙鹤，展翅欲飞。	多年生草本，叶似芭蕉，花橙蓝，形如仙鹤。	象征自由，天堂鸟之花。	原产南非，喜暖光，忌涝。
+旅人蕉花	Traveller's palm	Ravenala madagascariensis	芭蕉科	白	扇芭蕉	热情	四季	扇形大叶，洁白花序。	常绿乔木状草本，叶扇形巨大，花白色。	象征热情，马达加斯加国树。	原产马达加斯加，喜暖湿强光。
+蝎尾蕉	Hanging lobster claw	Heliconia rostrata	芭蕉科	红、黄	垂花火鸟蕉	热情	四季	垂吊红花，热带风情。	多年生草本，花序垂挂，红黄苞片如龙虾爪。	象征热情，热带花材。	原产南美热带，喜暖湿半阴。
+红掌	Anthurium	Anthurium andraeanum	天南星科	红、粉、白	花烛、安祖花	热情、好运	四季	佛焰苞明艳，寓意大展宏图。	多年生草本，佛焰苞红粉白，肉穗花序金黄，四季开花。	象征热情好运，大展宏图。	原产南美热带，喜暖湿半阴。
+白掌	Peace lily	Spathiphyllum wallisii	天南星科	白	一帆风顺、白鹤芋	平静	四季	白色佛焰苞如白帆。	多年生草本，佛焰苞白色，似白帆，四季开花。	象征平静，一帆风顺。	原产美洲热带，喜半阴湿润。
+马蹄莲	Calla lily	Zantedeschia aethiopica	天南星科	白、黄、粉	慈姑花、水芋	忠贞不渝	春	马蹄形花朵，清丽脱俗。	多年生草本，佛焰苞白黄粉，漏斗形，挺立。	象征忠贞不渝，慈姑花之名。	原产非洲，喜暖湿半阴。
+海芋花	Giant alocasia	Alocasia macrorrhiza	天南星科	白	滴水观音	纯净	夏	巨型佛焰苞，亭亭玉立。	多年生草本，叶巨大箭形，佛焰苞白色，亭亭玉立。	象征纯净，滴水观音。	原产亚洲热带，喜暖湿半阴。
+荷花	Lotus	Nelumbo nucifera	莲科	粉、白	莲花、水芙蓉	纯洁高雅	夏	出淤泥而不染，濯清涟而不妖。	多年生水生草本，叶盾形，花粉白，挺出水面。	出淤泥而不染，象征纯洁高雅。	原产亚洲，喜温暖强光，水池栽植。
+睡莲	Water lily	Nymphaea tetragona	睡莲科	多彩	子午莲	洁净、纯真	夏	清晨绽放，午后闭合。	多年生水生草本，叶圆形浮水，花多彩，昼开夜合。	象征洁净纯真，子午莲之名。	原产全球温热带，喜暖光静水。
+王莲	Victoria water lily	Victoria amazonica	睡莲科	白、粉	帝王莲、亚马逊王莲	霸气	夏秋	叶片可载人，花硕大。	多年生水生草本，叶巨大如盘，可载人，花白转粉。	象征霸气，亚马逊王莲。	原产南美亚马逊，喜高温强光。
+萍蓬草	Yellow water lily	Nuphar pumila	睡莲科	黄	黄金莲	宁静	夏	金黄小花浮于水面。	多年生水生草本，叶心形浮水，花金黄，挺出水面。	象征宁静，黄金莲。	原产北半球，喜暖光浅水。
+芡实花	Fox nut flower	Euryale ferox	睡莲科	紫	鸡头米花	含蓄	夏	紫花出水，果可食用。	一年生水生草本，叶面多刺，花紫，果可食。	象征含蓄，鸡头米之花。	原产亚洲，喜暖光静水。
+千屈菜	Purple loosestrife	Lythrum salicaria	千屈菜科	紫、红	水柳	夏日的清凉	夏	水边紫红花穗。	多年生湿生草本，花紫红，穗状花序，水边成丛。	象征夏日的清凉，水柳之名。	原产欧亚，喜水湿强光。
+再力花	Powdery alligator-flag	Thalia dealbata	竹芋科	紫、白	水竹芋	清逸	夏秋	水生挺拔，花穗雅致。	多年生水生草本，叶大，花紫白，花梗挺拔。	象征清逸，水竹芋。	原产美洲，喜暖湿强光。
+美人蕉	Canna	Canna indica	美人蕉科	红、黄、橙	红艳蕉	坚实的未来	夏秋	大叶大花，热带风情。	多年生草本，叶大，花红黄橙，总状花序，热带风情。	象征坚实的未来，红艳蕉。	原产美洲热带，喜暖光湿润。
+大花美人蕉	Large-flowered canna	Canna generalis	美人蕉科	多彩	法尼亚美人蕉	热恋	夏秋	花大色艳，庭院焦点。	多年生草本，花大色艳，多彩，花期长。	象征热恋，庭院焦点。	栽培杂交种，喜暖光湿润。
+凤眼莲	Water hyacinth	Eichhornia crassipes	雨久花科	紫、蓝	水葫芦	不安	夏秋	蓝紫花朵，浮水而生。	多年生浮水草本，叶柄膨大如葫芦，花蓝紫，上有黄斑。	象征不安，水葫芦之害。	原产南美，繁殖极快，需控养。
+梭鱼草	Pickerel weed	Pontederia cordata	雨久花科	蓝、紫	海寿花	清新	夏	水边蓝紫色花穗。	多年生水生草本，叶箭形，花蓝紫，穗状花序。	象征清新，海寿花。	原产北美，喜暖湿强光。
+菖蒲花	Sweet flag flower	Acorus calamus	菖蒲科	黄、绿	白菖蒲	信仰	夏	水边绿剑，端午香草。	多年生水生草本，叶剑形如蒲，花黄绿，肉穗花序。	象征信仰，端午香草。	原产东亚，喜水湿半阴。
+慈姑花	Arrowhead flower	Sagittaria trifolia	泽泻科	白	燕尾草花	坚韧	夏	三白花瓣，水中清影。	多年生水生草本，叶箭形，花白色，三枚花瓣。	象征坚韧，燕尾草之花。	原产亚洲，喜暖湿浅水。
+泽泻花	Water plantain	Alisma plantago-aquatica	泽泻科	白、粉	水白菜花	清幽	夏	细小白花，亭立水畔。	多年生水生草本，叶卵形，花白粉，伞形花序。	象征清幽，水白菜之花。	原产欧亚，喜水湿强光。
+向日葵	Sunflower	Helianthus annuus	菊科	黄	太阳花、葵花	忠诚、向阳	夏秋	永远追逐太阳的光芒。	一年生草本，茎粗壮，头状花序金黄，随日转。	象征忠诚向阳，永远的追光者。	原产北美，喜光，耐旱耐热。
+雏菊	English daisy	Bellis perennis	菊科	白、粉	延命菊	天真、和平	春	小小雏菊，纯真无邪。	多年生草本，头状花序白粉，花心金黄，矮小丛生。	象征天真和平，延命菊。	原产欧洲，喜凉光，耐寒。
+波斯菊	Cosmos	Cosmos bipinnatus	菊科	粉、白、紫	秋英、大波斯菊	自由、少女心	夏秋	随风摇曳，浪漫花海。	一年生草本，花白粉紫，舌状花八枚，轻盈摇曳。	象征自由与少女心，秋英。	原产墨西哥，喜光耐旱，自播力强。
+硫华菊	Golden cosmos	Cosmos sulphureus	菊科	黄、橙	黄秋英	野性美	夏秋	金黄色调，热烈明快。	一年生草本，花金黄橙红，花瓣舒展，热烈。	象征野性美，黄秋英。	原产墨西哥，喜光，花期长。
+金盏菊	Pot marigold	Calendula officinalis	菊科	黄、橙	长生菊、金盏花	离别、惜别	春夏	金黄灿烂，花期长久。	一年生或多年生草本，花黄橙，花瓣重，春日开放。	象征离别惜别，长生菊。	原产地中海，喜凉光，耐寒。
+翠菊	China aster	Callistephus chinensis	菊科	多彩	江西腊、七月菊	可靠的爱	夏秋	花色繁多，明丽清新。	一年生草本，花多彩，头状花序，夏秋开放。	象征可靠的爱，江西腊。	原产中国，喜光，忌连作。
+紫菀	Tatarian aster	Aster tataricus	菊科	紫、蓝	青菀	追忆	秋	秋日紫色小菊，淡雅宜人。	多年生草本，花紫蓝，头状花序，秋日开放。	象征追忆，秋色小菊。	原产东亚，喜光耐寒。
+菊花	Chrysanthemum	Dendranthema morifolium	菊科	多彩	秋菊、黄花	高洁、长寿	秋	采菊东篱下，悠然见南山。	多年生草本，花型花色极丰，秋日盛放，凌霜不凋。	象征高洁长寿，花中四君子之一。	原产中国，喜光，短日照促花。
+万寿菊	Marigold	Tagetes erecta	菊科	黄、橙	臭芙蓉、万寿灯	健康长寿	夏秋	金黄花球，寓意长寿。	一年生草本，花金黄橙红，球状重瓣，夏秋开放。	象征健康长寿，臭芙蓉。	原产墨西哥，喜光，耐热。
+孔雀草	French marigold	Tagetes patula	菊科	黄、橙	小万寿菊	惜别	夏秋	红黄花边，热闹明快。	一年生草本，花黄橙带红晕，密集，夏秋开放。	象征惜别，小万寿菊。	原产墨西哥，喜光，花坛常用。
+百日草	Zinnia	Zinnia elegans	菊科	多彩	步步高、百日菊	友谊	夏秋	节节升高，寓意上进。	一年生草本，花多彩，头状花序单生，节节升高。	象征友谊与上进，步步高。	原产墨西哥，喜光耐旱。
+大丽花	Dahlia	Dahlia pinnata	菊科	多彩	天竺牡丹、大理花	大方、富贵	夏秋	花型多变，雍容华丽。	多年生草本，块根，花型硕大多变，多彩。	象征大方富贵，天竺牡丹。	原产墨西哥，喜凉光，忌霜。
+小丽花	Dwarf dahlia	Dahlia hybrida	菊科	多彩	迷你大丽花	风趣	夏秋	小巧精致，花园点缀。	多年生草本，花型似大丽花而小巧，多彩。	象征风趣，迷你大丽花。	栽培品种，喜光，花期长。
+非洲菊	Gerbera	Gerbera jamesonii	菊科	多彩	扶郎花、太阳花	神秘、互敬互爱	四季	花大色艳，瓶插之选。	多年生草本，花大，多彩，花茎长，切花之王。	象征互敬互爱，扶郎花。	原产南非，喜暖光，忌涝。
+玛格丽特	Marguerite daisy	Argyranthemum frutescens	菊科	白、粉、黄	木茼蒿、蓬蒿菊	期待的爱	春夏	白色小花，温柔清新。	多年生草本，花白粉黄，细瓣繁密，春开成球。	象征期待的爱，木茼蒿。	原产加那利群岛，喜凉光。
+洋甘菊	Chamomile	Matricaria chamomilla	菊科	白、黄	母菊	逆境中的坚强	春夏	香气清甜，安神佳品。	一年生草本，花白瓣黄心，气味清甜，可代茶。	象征逆境中的坚强，母菊。	原产欧亚，喜凉光，自播力强。
+德国洋甘菊	German chamomile	Matricaria recutita	菊科	白、黄	洋甘菊	治愈	春夏	金黄芯，白花瓣，清雅。	一年生草本，花白瓣黄心，茎中空，精油入药。	象征治愈，洋甘菊茶之源。	原产欧洲，喜光，耐旱。
+金光菊	Cutleaf coneflower	Rudbeckia laciniata	菊科	黄	黄菊芋	公正	夏秋	金黄花瓣，明艳照人。	多年生草本，花金黄，舌状花下垂，花心高起。	象征公正，黄菊芋。	原产北美，喜光，耐旱。
+黑心金光菊	Black-eyed Susan	Rudbeckia hirta	菊科	黄	黑心菊	公平	夏秋	金黄花瓣配深色花心。	一年生或多年生草本，花金黄，花心黑褐，明艳。	象征公平，黑眼菊。	原产北美，喜光耐旱。
+松果菊	Purple coneflower	Echinacea purpurea	菊科	粉、紫	紫锥菊	健康	夏秋	花心突起如松果。	多年生草本，花紫粉，花心球状凸起如松果。	象征健康，紫锥菊是草药明星。	原产北美，喜光耐旱。
+天人菊	Firewheel	Gaillardia pulchella	菊科	红、黄	虎皮菊	团结	夏秋	红黄双色，热烈粗犷。	一年生或多年生草本，花红黄双色，粗犷热烈。	象征团结，虎皮菊。	原产北美，喜光耐旱耐热。
+蒲公英	Dandelion	Taraxacum officinale	菊科	黄	婆婆丁	自由、坚持	春	黄花满地，绒球随风。	多年生草本，花金黄，果序白色绒球，随风散播。	象征自由坚持，婆婆丁。	原产北半球，喜光，适应性强。
+蓍草	Yarrow	Achillea millefolium	菊科	白、粉	千叶蓍	治愈	夏	羽状细叶，伞形小花。	多年生草本，叶羽状细裂，花白粉，伞房花序。	象征治愈，千叶蓍。	原产北半球，喜光耐旱。
+大滨菊	Max chrysanthemum	Leucanthemum maximum	菊科	白	西洋滨菊	真诚	夏	纯白花瓣，金黄花心。	多年生草本，花白瓣金心，花大，夏开。	象征真诚，西洋滨菊。	原产欧洲，喜光耐寒。
+滨菊	Oxeye daisy	Leucanthemum vulgare	菊科	白	牛眼菊	友谊	夏	田野里的经典白菊。	多年生草本，花白瓣金心，田野经典白菊。	象征友谊，牛眼菊。	原产欧洲，喜光耐旱。
+荷兰菊	New York aster	Aster novi-belgii	菊科	紫、粉	纽约紫菀	诚信	秋	紫色小花，秋日盛放。	多年生草本，花紫粉，头状花序密集，秋开。	象征诚信，纽约紫菀。	原产北美，喜光耐寒。
+堆心菊	Sneezeweed	Helenium autumnale	菊科	黄、橙	臭菊	平安	夏秋	花瓣外展，中心凸起。	多年生草本，花黄橙，花瓣外展，花心高凸。	象征平安，臭菊。	原产北美，喜光湿润。
+蓝眼菊	African daisy	Osteospermum ecklonis	菊科	蓝、紫、白	蓝目菊	活力	春夏	蓝紫色花心如眼眸。	多年生草本，花白蓝紫，花心蓝紫如眼眸。	象征活力，蓝目菊。	原产南非，喜暖光耐旱。
+勋章菊	African sunflower	Gazania rigens	菊科	橙、黄	非洲太阳花	辉煌	春夏	花色斑斓如勋章。	多年生草本，花橙黄带斑纹，如勋章华丽。	象征辉煌，非洲太阳花。	原产南非，喜强光，日开夜合。
+金鸡菊	Lanceleaf coreopsis	Coreopsis lanceolata	菊科	黄	剑叶波斯菊	竞争心	夏秋	金黄小花，灿烂成片。	多年生草本，花金黄，舌状花四至六枚，灿烂。	象征竞争心，剑叶波斯菊。	原产北美，喜光耐旱。
+蛇鞭菊	Blazing star	Liatris spicata	菊科	紫、粉	麒麟菊	热情	夏秋	紫色花穗自下而上开放。	多年生草本，花紫粉，穗状花序自下而上开放。	象征热情，麒麟菊。	原产北美，喜光湿润。
+麦秆菊	Strawflower	Xerochrysum bracteatum	菊科	多彩	蜡菊、永久花	永恒的记忆	夏秋	花瓣干燥如蜡，久放不谢。	一年生或多年生草本，苞片干燥如蜡，久放不谢。	象征永恒的记忆，蜡菊。	原产澳洲，喜光，宜干花。
+矢车菊	Cornflower	Centaurea cyanus	菊科	蓝、紫	蓝芙蓉、翠蓝	遇见幸福	春	深邃蓝紫，清新灵动。	一年生草本，花蓝紫，头状花序，边缘花裂。	象征遇见幸福，蓝芙蓉。	原产欧洲，喜凉光，蜜源植物。
+飞燕草	Larkspur	Consolida ajacis	毛茛科	蓝、紫、粉	千鸟草	自由	春夏	花穗高挑，如燕群飞。	一年生草本，花蓝紫粉，总状花序高挑，如燕群飞。	象征自由，千鸟草。	原产欧洲，喜凉光，忌暑湿。
+翠雀花	Delphinium	Delphinium grandiflorum	毛茛科	蓝、紫	大花飞燕草	清静	夏	蓝色花穗，园艺名角。	多年生草本，花蓝紫，距细长，花穗挺拔。	象征清静，大花飞燕草。	原产北温带，喜凉光，忌高温。
+黑种草	Love in a mist	Nigella damascena	毛茛科	蓝、白	波斯黑种草	梦幻	春夏	花姿轻盈，果如气泡。	一年生草本，花蓝白，叶细裂，果如气泡。	象征梦幻，波斯黑种草。	原产地中海，喜凉光，自播力强。
+银莲花	Anemone	Anemone coronaria	毛茛科	红、粉、蓝	罂粟秋牡丹	期待	春夏	色彩浓艳，花心深邃。	多年生草本，花红粉蓝，瓣多而薄，花心深色。	象征期待，罂粟秋牡丹。	原产地中海，喜凉光，忌湿热。
+花毛茛	Persian buttercup	Ranunculus asiaticus	毛茛科	多彩	波斯毛茛、洋牡丹	魅力	春	层叠花瓣如牡丹。	多年生草本，块根，花重瓣似牡丹，多彩。	象征魅力，洋牡丹。	原产西亚，喜凉光，忌暑湿。
+毛茛	Japanese buttercup	Ranunculus japonicus	毛茛科	黄	老虎脚爪草	童真	春	金黄小花，田边常见。	多年生草本，花金黄，具光泽，田边常见。	象征童真，老虎脚爪草。	原产东亚，喜湿润半阴。
+白头翁	Chinese pasqueflower	Pulsatilla chinensis	毛茛科	紫	老公花	追忆	春	紫花垂首，果毛如翁。	多年生草本，花紫，果序银发如翁，早春开放。	象征追忆，老公花。	原产东亚，喜光耐寒，忌涝。
+铁线莲	Clematis	Clematis florida	毛茛科	紫、白、粉	藤本皇后	高洁	春夏	花大色繁，藤蔓优雅。	多年生藤本，花大，紫白粉，花瓣状萼片，藤本皇后。	象征高洁，攀援成墙。	原产北温带，喜光，根喜阴凉。
+大花铁线莲	Patens clematis	Clematis patens	毛茛科	多彩	大花钟花藤	心灵之美	春夏	碗状大花，色彩丰富。	多年生藤本，花碗状硕大，多彩，春夏盛开。	象征心灵之美，花园明星。	栽培品种，喜光，忌暴晒根部。
+牡丹	Tree peony	Paeonia suffruticosa	芍药科	红、粉、白、紫	木芍药、富贵花	富贵圆满	春末	花中之王，国色天香。	落叶灌木，花大色艳，层层叠瓣，花中之王。	象征富贵圆满，国色天香。	原产中国，喜凉光，忌积水，宜秋栽。
+芍药	Chinese peony	Paeonia lactiflora	芍药科	多彩	将离、殿春花	情有所钟	春末夏初	花相之美，依依惜别。	多年生草本，花大，瓣多，粉红白紫，春末开放。	象征情有所钟，将离之花。	原产中国，喜光耐寒，花后可分株。
+荷包牡丹	Bleeding heart	Dicentra spectabilis	罂粟科	粉、红、白	兔儿牡丹	同情	春夏	心形花朵，串串垂挂。	多年生草本，花心形悬垂，粉红白，串串如荷包。	象征同情，兔儿牡丹。	原产东亚与北美，喜半阴凉爽。
+虞美人	Field poppy	Papaver rhoeas	罂粟科	红、粉	丽春花	安慰	春夏	花瓣如绸，轻盈摇曳。	一年生草本，花红粉，瓣薄如绸，随风摇曳。	象征安慰，丽春花。	原产欧亚，喜凉光，自播力强。
+冰岛罂粟	Iceland poppy	Papaver nudicaule	罂粟科	多彩	北极虞美人	安然	春夏	薄如蝉翼，色彩明快。	多年生草本，花多彩，瓣薄，花梗细长。	象征安然，北极虞美人。	原产寒带，喜凉光，忌暑热。
+花菱草	California poppy	Eschscholzia californica	罂粟科	黄、橙	加州罂粟	成功	春夏	金黄花朵，加州州花。	一年生或多年生草本，花金黄橙，瓣如绸，日开夜合。	象征成功，加州罂粟。	原产北美西部，喜光耐旱。
+紫罗兰	Stock	Matthiola incana	十字花科	紫、粉、白	草紫罗兰	永恒的美	春	香气馥郁，紫色浪漫。	多年生或二年生草本，花紫粉白，总状花序，芳香。	象征永恒的美，草紫罗兰。	原产地中海，喜凉光，香花植物。
+香雪球	Sweet alyssum	Lobularia maritima	十字花科	白、粉、紫	庭荠	甜蜜	春夏	白色小花如雪球铺地。	多年生草本，花白粉紫，密集如雪球铺地。	象征甜蜜，庭荠。	原产地中海，喜凉光，耐旱。
+桂竹香	Wallflower	Cheiranthus cheiri	十字花科	黄、橙	七里黄	逆境中的忠诚	春	橙黄小花，芳香怡人。	多年生草本，花黄橙，芳香，春日开放。	象征逆境中的忠诚，七里黄。	原产欧洲，喜凉光，忌湿热。
+二月兰	Orychophragmus	Orychophragmus violaceus	十字花科	紫	诸葛菜	谦逊	春	紫色花海，早春铺地。	一二年生草本，花紫色，四瓣，早春铺地成海。	象征谦逊，诸葛菜。	原产中国，喜半阴，自播力强。
+油菜花	Rapeseed flower	Brassica napus	十字花科	黄	芸薹	加油、奉献	春	金黄田野，春天的画卷。	一年生草本，花金黄，总状花序，春日成海。	象征加油与奉献，春天的画卷。	原产欧亚，喜凉光，经济作物。
+三色堇	Pansy	Viola tricolor	堇菜科	紫、黄、白	猫儿脸、蝴蝶花	思念	春夏	花瓣如猫脸，俏皮可爱。	一二年生草本，花紫黄白，瓣如猫脸，春秋开。	象征思念，猫儿脸。	原产欧洲，喜凉光，耐寒。
+角堇	Horned violet	Viola cornuta	堇菜科	多彩	小三色堇	快乐	春夏	小巧花容，色彩斑斓。	一二年生草本，花小而繁，多彩，冬春开放。	象征快乐，小三色堇。	原产欧洲，喜凉光，耐寒。
+紫花地丁	Violet	Viola philippica	堇菜科	紫	野堇菜	真诚的爱	春	路边小紫花，朴素动人。	多年生草本，花紫色，早春路边开放。	象征真诚的爱，野堇菜。	原产东亚，喜光耐旱，自播力强。
+石竹	China pink	Dianthus chinensis	石竹科	红、粉、白	洛阳花	纯洁的爱	夏	花瓣边缘如锯齿。	多年生草本，花红粉白，瓣缘齿裂，夏开。	象征纯洁的爱，洛阳花。	原产中国，喜光耐旱。
+香石竹	Carnation	Dianthus caryophyllus	石竹科	多彩	康乃馨	母爱	四季	母亲节之花，温柔馨香。	多年生草本，花多彩，重瓣，芳香，四季可开。	象征母爱，康乃馨。	原产地中海，喜凉光，温室栽培。
+满天星	Baby's breath	Gypsophila paniculata	石竹科	白	丝石竹、霞草	思念、配角	春夏	白色小花如满天星辰。	多年生草本，花白色细小，密生成雾状。	象征思念，花束中的配角。	原产欧亚，喜凉光，忌湿热。
+剪秋罗	Brilliant lychnis	Lychnis fulgens	石竹科	红、橙	剪红纱花	激情	夏	红色小花，热烈醒目。	多年生草本，花红橙，瓣缘齿裂，夏日明艳。	象征激情，剪红纱花。	原产东亚，喜光湿润。
+雪轮	Soapwort catchfly	Silene pendula	石竹科	粉、白	矮雪轮	沉默的爱	春夏	粉嫩小花，垂枝优雅。	一年生或多年生草本，花粉色，瓣端微凹，垂枝。	象征沉默的爱，矮雪轮。	原产欧洲，喜凉光，自播力强。
+肥皂草	Soapwort	Saponaria officinalis	石竹科	粉、白	石碱花	清净	夏	根可起泡，花团锦簇。	多年生草本，花白粉，密集，根可起泡。	象征清净，石碱花。	原产欧洲，喜光耐旱。
+补血草	Sea lavender	Limonium sinuatum	白花丹科	蓝、紫、黄	星辰花、勿忘我	永恒	夏	纸质花瓣，久放不谢。	多年生草本，花蓝紫黄，苞片纸质，久放不谢。	象征永恒，星辰花。	原产地中海，喜光耐旱，宜干花。
+勿忘我	Forget-me-not	Myosotis sylvatica	紫草科	蓝	勿忘草	永恒的爱	春夏	蓝色小花，诉说不忘。	多年生草本，花蓝色，五瓣，春日开放。	象征永恒的爱，勿忘草。	原产欧洲，喜凉光湿润。
+琉璃苣	Borage	Borago officinalis	紫草科	蓝	星花	勇气	夏	蓝色星花，清新药草。	一年生草本，花蓝色星形，叶带黄瓜香，可食。	象征勇气，星花。	原产地中海，喜光，自播力强。
+蓝蓟	Viper's bugloss	Echium vulgare	紫草科	蓝、紫	蓝箭	静谧	夏	蓝色花穗，蜜源植物。	二年生草本，花蓝紫，穗状花序，蜜源植物。	象征静谧，蓝箭。	原产欧洲，喜光耐旱。
+美女樱	Verbena	Verbena hybrida	马鞭草科	多彩	铺地锦	和乐	春夏秋	花球铺地，色彩缤纷。	多年生或一年生草本，花多彩，伞房花序成球，铺地。	象征和乐，铺地锦。	原产南美，喜暖光湿润。
+马鞭草	European verbena	Verbena officinalis	马鞭草科	紫	紫顶龙芽	正义	夏秋	细长花穗，药草芬芳。	多年生草本，花紫色，细长穗状花序，药草芬芳。	象征正义，紫顶龙芽。	原产欧亚，喜光耐旱。
+柳叶马鞭草	Purpletop vervain	Verbena bonariensis	马鞭草科	紫	南美马鞭草	浪漫	夏秋	紫色花海，轻盈摇曳。	多年生草本，花紫，聚伞花序，花海轻盈。	象征浪漫，南美马鞭草。	原产南美，喜暖光湿润。
+薰衣草	Lavender	Lavandula angustifolia	唇形科	紫	香水草、宁静的香水	等待爱情	夏	紫色花田，香气安宁。	常绿小灌木，花蓝紫，穗状花序，香气安宁。	象征等待爱情，普罗旺斯花田。	原产地中海，喜光干燥，忌涝。
+法国薰衣草	Spanish lavender	Lavandula stoechas	唇形科	紫	西班牙薰衣草	神秘	春夏	顶部兔耳状苞片。	常绿小灌木，花紫，顶部苞片如兔耳，芳香。	象征神秘，西班牙薰衣草。	原产地中海，喜光干燥。
+鼠尾草	Sage	Salvia japonica	唇形科	蓝、紫	洋苏草	家庭观念	夏秋	紫色花穗，清新自然。	多年生草本，花蓝紫，轮伞花序，清新。	象征家庭观念，洋苏草。	原产东亚，喜光耐旱。
+一串蓝	Mealycup sage	Salvia farinacea	唇形科	蓝、紫	蓝花鼠尾草	思念	夏秋	蓝紫色花穗，成片种植。	多年生草本，花蓝紫，穗状花序，成片清凉。	象征思念，蓝花鼠尾草。	原产北美，喜暖光。
+一串红	Scarlet sage	Salvia splendens	唇形科	红	西洋红、爆竹红	热情	夏秋	红色花串，喜庆热烈。	多年生或一年生草本，花红，串状花序，喜庆。	象征热情，爆竹红。	原产南美，喜暖光，忌涝。
+朱唇	Texas sage	Salvia coccinea	唇形科	红	红花鼠尾草	活力	夏秋	猩红小花，蜂蝶喜爱。	多年生草本，花猩红，唇形小花，蜂蝶喜爱。	象征活力，红花鼠尾草。	原产北美，喜暖光耐旱。
+迷迭香	Rosemary	Rosmarinus officinalis	唇形科	蓝、紫	海洋之露	回忆	春夏	香气浓郁，地中海香草。	常绿灌木，叶针形，花蓝紫，香气浓郁，可入菜。	象征回忆，海洋之露。	原产地中海，喜光干燥，忌涝。
+百里香	Thyme	Thymus mongolicus	唇形科	粉、紫	地椒	勇气	夏	细小紫花，芳香扑鼻。	常绿小灌木，叶小，花紫粉，芳香，可入菜。	象征勇气，地椒。	原产欧亚，喜光干燥耐旱。
+薄荷花	Mint flower	Mentha haplocalyx	唇形科	紫、白	野薄荷	美德	夏	清新小紫花，清凉香气。	多年生草本，叶对生，花紫白轮生，清凉香气。	象征美德，薄荷之香。	原产北半球，喜光湿润，蔓延快。
+金鱼草	Snapdragon	Antirrhinum majus	车前科	多彩	龙口花	活泼	春夏	花形如金鱼张口。	多年生或一年生草本，花多彩，唇形如金鱼张口。	象征活泼，龙口花。	原产地中海，喜凉光。
+柳穿鱼	Butter and eggs	Linaria vulgaris	车前科	黄、橙	小金鱼草	宽容	春夏	橙黄小花如飞鸟。	多年生草本，花黄橙，唇形，总状花序。	象征宽容，小金鱼草。	原产欧亚，喜光耐旱。
+毛地黄	Foxglove	Digitalis purpurea	车前科	粉、紫、白	洋地黄	热爱	夏	钟形花朵，串串高挂。	二年生草本，花钟形，粉紫白带斑，总状高挑。	象征热爱，洋地黄，全株有毒。	原产欧洲，喜半阴凉爽。
+钓钟柳	Beardtongue	Penstemon barbatus	车前科	红、粉	吊钟柳	真诚	夏	红色管状花，蜂鸟喜爱。	多年生草本，花红粉，管状，花穗直立。	象征真诚，吊钟柳。	原产北美，喜光耐旱。
+风铃草	Canterbury bells	Campanula medium	桔梗科	蓝、紫、粉	钟花	感谢	春夏	花朵如铃，随风轻响。	二年生或多年生草本，花钟形，蓝紫粉，摇曳。	象征感谢，钟花。	原产欧洲，喜凉光。
+聚花风铃草	Clustered bellflower	Campanula glomerata	桔梗科	蓝、紫	聚铃花	团结	夏	花簇成球，蓝紫迷人。	多年生草本，花蓝紫，簇生成球，夏日开放。	象征团结，聚铃花。	原产欧洲，喜凉光。
+桔梗	Balloon flower	Platycodon grandiflorus	桔梗科	蓝、紫、白	铃铛花	永恒的爱	夏秋	花苞如气球，绽放成星。	多年生草本，花蓝紫白，钟形，花苞如气球。	象征永恒的爱，铃铛花。	原产东亚，喜光耐旱，根入药。
+洋桔梗	Lisianthus	Eustoma grandiflorum	龙胆科	多彩	草原龙胆	不变的爱	夏秋	层叠花瓣，温婉优雅。	多年生草本，花多彩，重瓣，层叠如玫瑰。	象征不变的爱，草原龙胆。	原产北美，喜暖光，切花名品。
+龙胆	Chinese gentian	Gentiana scabra	龙胆科	蓝、紫	胆草花	喜欢忧伤	秋	深蓝花朵，高山精灵。	多年生草本，花蓝紫，筒钟形，秋日山野亮色。	象征喜欢忧伤，高山精灵。	原产东亚，喜凉湿半阴。
+报春花	Fairy primrose	Primula malacoides	报春花科	粉、白、紫	小樱草	希望	春	春日最早的报信者。	多年生草本，花白粉紫，伞形花序，早春第一花。	象征希望，春日信使。	原产中国，喜凉湿半阴。
+四季报春	Obconica primrose	Primula obconica	报春花科	多彩	鄂报春	青春	春夏	花色繁多，四季可赏。	多年生草本，花多彩，冬春开放，盆栽常客。	象征青春，鄂报春。	原产中国，喜凉湿半阴。
+藏报春	Chinese primrose	Primula sinensis	报春花科	粉、红	年景花	纯洁	春	中国原产，花色娇艳。	多年生草本，花粉红，层叠娇艳，中国原产。	象征纯洁，年景花。	原产中国西南，喜凉湿半阴。
+仙客来	Cyclamen	Cyclamen persicum	报春花科	红、粉、白	兔耳花、萝卜海棠	羞怯	冬春	花瓣反卷如兔耳。	多年生草本，块茎，花瓣反卷如兔耳，冬春开放。	象征羞怯，兔耳花。	原产地中海，喜凉光，忌暴晒。
+瓜叶菊	Cineraria	Pericallis hybrida	菊科	多彩	富贵菊	喜悦	冬春	花团锦簇，年宵佳品。	多年生草本，花多彩，密集如球，冬春上市。	象征喜悦，富贵菊。	原产加那利群岛，喜凉光湿润。
+六倍利	Lobelia	Lobelia erinus	桔梗科	蓝、紫、白	半边莲	可怜	春夏	蓝色小花，悬吊佳品。	多年生草本，花蓝紫白，密集成串，垂吊佳品。	象征可怜可爱，半边莲。	原产南非，喜凉光湿润。
+山梗菜	Great blue lobelia	Lobelia sessilifolia	桔梗科	蓝、紫	水苋菜	诚实	夏	蓝紫花穗，水边清影。	多年生草本，花蓝紫，总状花序，水边清影。	象征诚实，水苋菜。	原产东亚，喜湿润半阴。
+半边莲	Chinese lobelia	Lobelia chinensis	桔梗科	粉、紫	细米草	坚持	夏	小巧粉花，药草之用。	多年生草本，花淡紫粉，花冠偏向一侧，药草。	象征坚持，细米草。	原产东亚，喜湿润强光。
+牵牛花	Morning glory	Ipomoea nil	旋花科	蓝、紫、粉	喇叭花	爱情永固	夏秋	清晨绽放，朝颜之美。	一年生缠绕藤本，花喇叭形，蓝紫粉，朝开午谢。	象征爱情永固，朝颜之美。	原产热带美洲，喜光，攀援。
+圆叶牵牛	Common morning glory	Ipomoea purpurea	旋花科	紫、粉	紫牵牛	平静	夏秋	藤蔓绕篱，紫色花铃。	一年生缠绕藤本，叶心形，花紫粉，篱间常见。	象征平静，紫牵牛。	原产热带美洲，喜光，自播力强。
+茑萝	Cardinal climber	Ipomoea quamoclit	旋花科	红	五角星花	相互关怀	夏秋	红色星花，纤巧藤蔓。	一年生缠绕藤本，叶羽状细裂，花红五角星形。	象征相互关怀，五角星花。	原产美洲热带，喜暖光。
+打碗花	Hedge bindweed	Calystegia hederacea	旋花科	粉、白	小旋花	童年	春夏	喇叭小花，田野记忆。	多年生缠绕草本，花粉白，喇叭形，田野记忆。	象征童年，小旋花。	原产东亚，喜光耐旱。
+田旋花	Field bindweed	Convolvulus arvensis	旋花科	粉、白	旋花	坚韧	夏	匍匐藤蔓，粉白小花。	多年生缠绕草本，花白粉，漏斗形，田间韧草。	象征坚韧，旋花。	原产欧亚，喜光耐旱。
+月光花	Moonflower	Ipomoea alba	旋花科	白	夕颜	夜晚之美	夏秋	白色大花，月夜绽放。	一年生缠绕藤本，花白色大喇叭，夜间开放。	象征夜晚之美，夕颜。	原产美洲热带，喜暖光。
+旱金莲	Nasturtium	Tropaeolum majus	旱金莲科	黄、橙、红	金莲花、荷叶花	爱国心	春夏	圆叶如荷，花如金盏。	一年生或多年生草本，叶圆如荷，花黄橙红，可食。	象征爱国心，金莲花。	原产南美，喜凉光湿润。
+凤仙花	Garden balsam	Impatiens balsamina	凤仙花科	多彩	指甲花、急性子	怀念	夏秋	染红指甲的童年记忆。	一年生草本，花多彩，瓣如凤羽，果荚弹射。	象征怀念，指甲花。	原产亚洲，喜暖光湿润。
+新几内亚凤仙	New Guinea impatiens	Impatiens hawkeri	凤仙花科	多彩	新几内亚凤仙花	活力	春夏	叶色深亮，花色缤纷。	多年生草本，叶色亮，花多彩，耐半阴。	象征活力，新几内亚凤仙花。	原产新几内亚，喜暖湿半阴。
+非洲凤仙	Busy Lizzie	Impatiens walleriana	凤仙花科	多彩	玻璃翠、苏丹凤仙	甜蜜	春夏秋	耐阴花丛，四季繁茂。	多年生草本，花多彩，耐阴，四季繁茂。	象征甜蜜，玻璃翠。	原产东非，喜暖湿半阴。
+鸡冠花	Cockscomb	Celosia cristata	苋科	红、黄	鸡髻花	真爱	夏秋	花序如鸡冠，热烈夺目。	一年生草本，花序扁平如鸡冠，红黄。	象征真爱，鸡髻花。	原产亚洲热带，喜暖光耐旱。
+千日红	Globe amaranth	Gomphrena globosa	苋科	紫、红、白	火球花	永恒的爱	夏秋	干花不谢，寓意长久。	一年生草本，花紫红白，苞片纸质，干花不谢。	象征永恒的爱，火球花。	原产美洲热带，喜暖光耐旱。
+紫茉莉	Four o'clock flower	Mirabilis jalapa	紫茉莉科	多彩	地雷花、晚饭花	含蓄	夏秋	傍晚开放，香气幽幽。	一年生或多年生草本，花多彩，傍晚开放，香。	象征含蓄，晚饭花。	原产美洲热带，喜暖光，自播力强。
+夜来香	Night jessamine	Cestrum nocturnum	茄科	黄、绿	夜香木	危险的快乐	夏秋	入夜香气浓郁迷人。	常绿藤状灌木，花黄绿，入夜香气浓郁。	象征危险的快乐，夜香木。	原产美洲热带，喜暖光湿润。
+曼陀罗	Jimsonweed	Datura stramonium	茄科	白、紫	洋金花	敬畏	夏秋	花大而美，全株有毒。	一年生草本，花白色或紫，喇叭形，全株有毒。	象征敬畏，洋金花。	原产美洲，喜光耐旱，只宜远观。
+木本曼陀罗	Angel's trumpet	Brugmansia suaveolens	茄科	白、粉、黄	大花曼陀罗	神秘	夏秋	巨型喇叭花垂挂枝头。	常绿灌木或小乔木，花白粉黄，喇叭形巨大下垂。	象征神秘，天使号角。	原产南美，喜暖光湿润。
+矮牵牛	Petunia	Petunia hybrida	茄科	多彩	碧冬茄	安全感	春夏秋	花坛主角，色彩无尽。	多年生或一年生草本，花多彩，漏斗形，花坛主角。	象征安全感，碧冬茄。	原产南美，喜暖光，忌涝。
+花烟草	Flowering tobacco	Nicotiana alata	茄科	白、粉	烟草花	夜的美丽	夏	傍晚开放，清香淡雅。	多年生或一年生草本，花白粉，傍晚开放，香。	象征夜的美丽，烟草花。	原产南美，喜暖光。
+五色梅	Lantana	Lantana camara	马鞭草科	多彩	马缨丹、臭草	开朗	四季	花球变色，四季常开。	常绿灌木，花球变色，黄橙红粉，四季常开。	象征开朗，马缨丹。	原产美洲热带，喜暖光耐旱。
+醉蝶花	Spider flower	Cleome spinosa	白花菜科	粉、紫、白	凤蝶草、紫龙须	神秘	夏秋	雄蕊细长如蝶须。	一年生草本，花粉紫白，雄蕊细长如蝶须。	象征神秘，凤蝶草。	原产美洲热带，喜暖光。
+含羞草	Sensitive plant	Mimosa pudica	豆科	粉、紫	知羞草、怕羞草	敏感	夏秋	轻轻触碰，叶片闭合。	多年生草本，羽叶触之闭合，花粉紫绒球。	象征敏感，知羞草。	原产美洲热带，喜暖光。
+紫云英	Chinese milk vetch	Astragalus sinicus	豆科	紫、红	红花草	幸福	春	南方田间的紫色花毯。	二年生草本，花紫红，早春田野生机，绿肥。	象征幸福，红花草。	原产中国，喜凉湿。
+苜蓿花	Alfalfa flower	Medicago sativa	豆科	紫	紫花苜蓿	幸运	春夏	紫色小花，牧草之王。	多年生草本，花紫色，蝶形，簇生成头状花序。	象征幸运，紫花苜蓿。	原产西亚，喜光耐旱，牧草之王。
+白车轴草	White clover	Trifolium repens	豆科	白	三叶草	幸运	春夏	四叶草是幸运的传说。	多年生匍匐草本，花白色，头状花序，三小叶。	象征幸运，三叶草。	原产欧洲，喜光湿润。
+红三叶草花	Red clover	Trifolium pratense	豆科	红、紫	红车轴草	幸福	春夏	粉红花球，蜜源植物。	多年生草本，花粉红，头状花序，蜜源植物。	象征幸福，红车轴草。	原产欧洲，喜凉湿。
+羽扇豆	Lupine	Lupinus micranthus	豆科	多彩	鲁冰花	母爱	春夏	多彩花穗，母亲的赞歌。	多年生或一年生草本，花多彩，总状花序高耸。	象征母爱，鲁冰花。	原产北美，喜凉光，忌高温。
+香豌豆	Sweet pea	Lathyrus odoratus	豆科	多彩	花豌豆	温柔的回忆	春夏	蝶形小花，芳香清甜。	一年生缠绕藤本，花多彩，蝶形，芳香。	象征温柔的回忆，花豌豆。	原产意大利，喜凉光。
+豌豆花	Garden pea flower	Pisum sativum	豆科	白、粉、紫	荷兰豆花	喜悦	春夏	朴素小花，田园气息。	一年生蔓生草本，花白粉紫，蝶形，田园气息。	象征喜悦，荷兰豆花。	原产欧亚，喜凉光。
+红花酢浆草	Pink sorrel	Oxalis corymbosa	豆科	粉、红	三叶草	璀璨的心	春夏	粉色小花成簇开放。	多年生草本，三小叶，花粉红，簇生成伞。	象征璀璨的心，三叶草。	原产南美，喜暖光，球茎繁殖。
+酢浆草	Creeping woodsorrel	Oxalis corniculata	酢浆草科	黄	酸酸草	快乐	春夏	黄色小花，生命力顽强。	多年生草本，三小叶，花黄色，路边小草。	象征快乐，酸酸草。	原产全球温热带，喜光耐旱。
+紫叶酢浆草	Purple shamrock	Oxalis triangularis	酢浆草科	粉、白	幸运草	幸运	春夏	紫叶粉花，精致可爱。	多年生草本，叶紫红三角，花白粉，观赏。	象征幸运，紫蝴蝶。	原产南美，喜半阴。
+长寿花	Kalanchoe	Kalanchoe blossfeldiana	景天科	红、粉、黄	寿星花	大吉大利	冬春	小花成团，花期超长。	多年生肉质草本，叶厚，花红粉黄，冬春繁盛。	象征大吉大利，寿星花。	原产马达加斯加，喜光，短日照促花。
+落地生根	Air plant	Bryophyllum pinnatum	景天科	红、紫	打不死	顽强	冬春	叶缘生芽，落地即活。	多年生肉质草本，叶缘生芽，落地即活。	象征顽强，打不死。	原产马达加斯加，喜暖光耐旱。
+八宝景天	Stonecrop	Hylotelephium erythrostictum	景天科	粉、白	华丽景天	长寿	夏秋	粉白花团，耐旱易养。	多年生肉质草本，叶厚，花白粉，伞房花序。	象征长寿，华丽景天。	原产东亚，喜光耐旱。
+佛甲草	Gold moss sedum	Sedum lineare	景天科	黄	指甲草	坚韧	春夏	金黄小花，屋顶绿化。	多年生肉质草本，茎匍匐，叶细，花金黄。	象征坚韧，指甲草。	原产东亚，喜光耐旱，屋顶绿化。
+瓦松	Fimbriate orostachys	Orostachys fimbriata	景天科	粉、白	天王瓦塔	古朴	夏秋	瓦片上的多肉小花。	二年生肉质草本，叶莲座状，花白粉，瓦上生。	象征古朴，天王瓦塔。	原产东亚，喜光耐旱。
+天竺葵	Geranium	Pelargonium hortorum	牻牛儿苗科	多彩	洋绣球、入腊红	幸福在身边	四季	花球饱满，窗台经典。	多年生草本，花球丰满，多彩，四季开花。	象征幸福在身边，洋绣球。	原产南非，喜暖光，忌涝。
+香叶天竺葵	Scented geranium	Pelargonium graveolens	牻牛儿苗科	粉	香葵、驱蚊草	思念	夏	叶片带香，可驱蚊虫。	多年生草本，叶含香，触之芬芳，可驱蚊。	象征思念，香葵。	原产南非，喜暖光耐旱。
+大花天竺葵	Regal geranium	Pelargonium domesticum	牻牛儿苗科	多彩	蝴蝶天竺葵	华丽	春夏	花大色艳，雍容舒展。	多年生草本，花大色艳，多彩，春开。	象征华丽，蝴蝶天竺葵。	原产南非，喜凉光。
+老鹳草	Cranesbill	Geranium wilfordii	牻牛儿苗科	粉、紫	牻牛儿苗	安宁	夏	野地小花，朴素雅致。	多年生草本，花紫粉，果喙似鹳嘴，山野小花。	象征安宁，牻牛儿苗。	原产东亚，喜光耐旱。
+非洲紫罗兰	African violet	Saintpaulia ionantha	苦苣苔科	紫、蓝、粉	非洲堇	永恒的爱	四季	四季开花的小型盆栽。	多年生草本，叶肉质，花紫蓝粉，四季开花。	象征永恒的爱，非洲堇。	原产东非，喜半阴温暖。
+大岩桐	Gloxinia	Sinningia speciosa	苦苣苔科	多彩	落雪泥	华丽	春夏	丝绒质感的硕大花朵。	多年生草本，块茎，花大丝绒质感，多彩。	象征华丽，落雪泥。	原产巴西，喜暖湿半阴。
+口红花	Lipstick plant	Aeschynanthus radicans	苦苣苔科	红	口红吊兰	热情	夏	花朵如口红破壳而出。	多年生附生藤本，花红管状，自苞片伸出如口红。	象征热情，口红吊兰。	原产亚洲热带，喜暖湿半阴。
+蓝雪花	Blue plumbago	Ceratostigma plumbaginoides	白花丹科	蓝	蓝花丹	冷淡	夏秋	清凉蓝花，夏日解暑。	常绿小灌木，花蓝色，簇生成球，夏日清凉。	象征冷淡，蓝花丹。	原产南非，喜暖光，忌涝。
+金铃花	Flowering maple	Abution pictum	锦葵科	橙、红	灯笼花、摇钱树	珍惜	夏秋	红灯笼般的垂挂小花。	常绿灌木，花橙红，钟形下垂，如金铃。	象征珍惜，灯笼花。	原产南美，喜暖光湿润。
+小木槿	African mallow	Anisodontea capensis	锦葵科	粉	南非葵	温柔	四季	粉色小花，日日开放。	常绿灌木，花粉红，五瓣，几乎全年开放。	象征温柔，南非葵。	原产南非，喜暖光，勤开花。
+悬铃花	Slipper flower	Malvaviscus arboreus	锦葵科	红	垂花悬铃花	永远	四季	花苞不展开，如悬铃。	常绿灌木，花红色，花冠不展开，如悬铃。	象征永远，垂花悬铃花。	原产墨西哥，喜暖光湿润。
+洋金凤	Peacock flower	Caesalpinia pulcherrima	豆科	红、黄	金凤花	热情	四季	花瓣如凤尾，绚烂夺目。	常绿灌木，花红黄，瓣如凤尾，四季开花。	象征热情，金凤花。	原产美洲热带，喜暖光耐旱。
+双荚决明	Candle bush	Senna bicapsularis	豆科	黄	双荚槐	光明	秋冬	金黄小花，冬日暖阳。	常绿灌木，花金黄，总状花序，秋冬开放。	象征光明，双荚槐。	原产南美，喜暖光。
+黄槐	Sunshine tree	Senna surattensis	豆科	黄	粉叶决明	乐观	夏秋	满树金黄，明媚开朗。	落叶乔木，花金黄，总状花序，夏秋满树。	象征乐观，粉叶决明。	原产印度与东南亚，喜暖光。
+蒲包花	Slipperwort	Calceolaria herbeohybrida	玄参科	黄、橙	荷包花	富贵	春	花形如荷包，逗趣可爱。	一年生草本，花黄橙，唇瓣膨大如荷包。	象征富贵，荷包花。	原产南美，喜凉湿半阴。
+耧斗菜	Columbine	Aquilegia viridiflora	毛茛科	蓝、紫	漏斗花	胜利	春	花形奇特，如漏斗展翅。	多年生草本，花蓝紫，距细长如漏斗，奇特。	象征胜利，漏斗花。	原产北温带，喜凉爽半阴。
+大花耧斗菜	Gland columbine	Aquilegia glandulosa	毛茛科	蓝、紫、白	洋牡丹	坦率	春夏	蓝紫大花，高山精灵。	多年生草本，花大，蓝紫白，重瓣或单瓣。	象征坦率，洋牡丹。	原产东亚，喜凉爽湿润。
+蓝盆花	Scabiosa	Scabiosa japonica	忍冬科	蓝、紫	松虫草	清静	夏秋	花球如针垫，轻盈柔美。	多年生草本，花蓝紫，头状花序如针垫，轻盈。	象征清静，松虫草。	原产欧亚，喜光耐旱。
+蓟花	Japanese thistle	Cirsium japonicum	菊科	紫	大蓟	独立	夏	紫色刺头，野性之美。	多年生草本，花紫色，头状花序，叶有刺。	象征独立，大蓟。	原产东亚，喜光耐旱。
+蓝刺头	Globe thistle	Echinops latifolius	菊科	蓝	禹州漏芦	智慧	夏	蓝色球状花序，别致硬朗。	多年生草本，花蓝色，球状花序，硬朗别致。	象征智慧，禹州漏芦。	原产欧亚，喜光耐旱。
+落新妇	False goat's beard	Astilbe chinensis	虎耳草科	粉、红、白	升麻花	欣喜	夏	羽毛状花穗，柔美朦胧。	多年生草本，花白粉红，羽状花穗，朦胧柔美。	象征欣喜，升麻花。	原产东亚，喜半阴湿润。
+虎耳草	Strawberry geranium	Saxifraga stolonifera	虎耳草科	白	金线吊芙蓉	真实	春夏	白花细巧，叶片斑纹。	多年生草本，叶肾形有斑纹，花白色，细巧。	象征真实，金线吊芙蓉。	原产东亚，喜阴湿。
+山梅花	Mock orange	Philadelphus incanus	绣球花科	白	四月雪	清雅	春末夏	白花成簇，香如茉莉。	落叶灌木，花白色，成簇，香如茉莉，春末开。	象征清雅，四月雪。	原产中国，喜光耐寒。
+溲疏	Deutzia	Deutzia scabra	绣球花科	白、粉	空疏	随和	春末夏	细碎白花，繁密如雪。	落叶灌木，花白粉，细碎繁密如雪，初夏开。	象征随和，空疏。	原产东亚，喜光耐半阴。
+金银木花	Amur honeysuckle	Lonicera maackii	忍冬科	白、黄	金银忍冬	快乐	春夏	白花初开，渐变金黄。	落叶灌木，花白黄，成对开放，秋果红艳。	象征快乐，金银忍冬。	原产东亚，喜光耐寒。
+接骨木花	Elderflower	Sambucus nigra	忍冬科	白	西洋接骨木	热心	春夏	乳白花簇，香气温和。	落叶灌木，花乳白，伞房花序，香气温和。	象征热心，西洋接骨木。	原产欧洲，喜光湿润。
+琼花	Viburnum	Viburnum macrocephalum	忍冬科	白	聚八仙	美丽	春	八朵白花环绕中心，如绣球。	落叶灌木，聚伞花序，外圈白色大萼片如蝶。	象征美丽，聚八仙。	原产中国，喜半阴湿润。
+木绣球	Chinese snowball	Viburnum macrocephalum f. keteleeri	忍冬科	白	绣球荚蒾	清纯	春	雪白花球，初青后白。	落叶灌木，花球纯白，初开淡绿，春末繁盛。	象征清纯，绣球荚蒾。	原产中国，喜光湿润。
+金银花	Honeysuckle	Lonicera japonica	忍冬科	白、黄	忍冬、鸳鸯藤	忠贞	春夏	花开先白后黄，香气清甜。	半常绿藤本，花初白后黄，成对开放，芳香。	象征忠贞，鸳鸯藤。	原产中国，喜光耐寒，花可入药。
+石楠花	Photinia flower	Photinia serratifolia	蔷薇科	白	千年红	孤傲	春	白花成伞，红果如珠。	常绿灌木或小乔木，花白色，伞房花序，秋果红。	象征孤傲，千年红。	原产中国，喜光耐旱。
+火棘花	Firethorn flower	Pyracantha fortuneana	蔷薇科	白	救军粮	吉祥	春	白色小花，秋果红艳。	常绿灌木，花白色，簇生，秋果红艳。	象征吉祥，救军粮。	原产中国，喜光耐旱，果可食。
+郁李花	Japanese bush cherry	Prunus japonica	蔷薇科	粉、白	爵梅	温柔	春	粉白小花，娇小玲珑。	落叶灌木，花白粉，先叶开放，娇小玲珑。	象征温柔，爵梅。	原产东亚，喜光耐寒。
+紫叶李花	Purple leaf plum	Prunus cerasifera f. atropurpurea	蔷薇科	粉、白	红叶李	幸福	春	花叶同放，粉白满枝。	落叶小乔木，叶紫红，花白粉，与叶同放。	象征幸福，红叶李。	原产亚洲，喜光。
+草莓花	Strawberry flower	Fragaria ananassa	蔷薇科	白	地莓花	甜蜜	春	白花素雅，果香在前。	多年生草本，花白色，五瓣，果香甜。	象征甜蜜，地莓花。	原产全球温带，喜光湿润。
+蛇莓花	Indian strawberry	Duchesnea indica	蔷薇科	黄	三匹风	童年	春夏	金黄色小花，田埂记忆。	多年生匍匐草本，花黄色，果红，田埂记忆。	象征童年，三匹风。	原产东亚，喜光湿润。
+枇杷花	Loquat flower	Eriobotrya japonica	蔷薇科	白	卢橘花	温暖	冬	冬日开放，来年果甜。	常绿乔木，花白色，圆锥花序，冬日开放。	象征温暖，来年果甜。	原产中国，喜光温暖。
+米兰花	Aglaia flower	Aglaia odorata	楝科	黄	米仔兰	有爱	夏秋	小米粒般的金黄小花，香远益清。	常绿灌木或小乔木，花黄色如小米，极香。	象征有爱，米仔兰。	原产中国南方，喜暖光湿润。
+九里香	Orange jessamine	Murraya exotica	芸香科	白	七里香	勇敢	春夏	花香浓郁，可绕九里。	常绿灌木或小乔木，花白色，芳香，可绕九里。	象征勇敢，七里香。	原产亚洲热带，喜暖光。
+柚花	Pomelo flower	Citrus maxima	芸香科	白	文旦花	清新	春	洁白花瓣，馥郁甜香。	常绿乔木，花白色，大而芳香，春开。	象征清新，文旦花。	原产东南亚，喜暖光湿润。
+橙花	Orange blossom	Citrus sinensis	芸香科	白	甜橙花	新娘的喜悦	春	洁白小花，婚礼经典香氛。	常绿小乔木，花白色，芳香，春开，可提香精。	象征新娘的喜悦，婚礼香调。	原产亚洲，喜暖光。
+柠檬花	Lemon blossom	Citrus limon	芸香科	白、粉	柠檬树花	忠诚	春	紫红花苞，洁白花瓣。	常绿小乔木，花白带紫晕，芳香，果酸。	象征忠诚，柠檬树花。	原产南亚，喜暖光。
+络石花	Star jasmine	Trachelospermum jasminoides	夹竹桃科	白	风车茉莉	宁静	春夏	白色风车状小花，香如茉莉。	常绿藤本，花白色，风车状，香如茉莉。	象征宁静，风车茉莉。	原产东亚，喜光耐半阴。
+龙吐珠	Bleeding glory bower	Clerodendrum thomsoniae	唇形科	白、红	珍珠宝莲	珍贵	夏	白色萼片托起红色花心。	常绿灌木，花白色萼片托红心，如珠吐露。	象征珍贵，珍珠宝莲。	原产西非，喜暖光湿润。
+嘉兰	Glory lily	Gloriosa superba	秋水仙科	橙、红、黄	火焰百合	荣光	夏秋	花瓣反卷如火焰。	多年生攀援草本，花橙红黄，瓣反卷如火焰。	象征荣光，火焰百合。	原产非洲与亚洲热带，喜暖光。
+朱顶红	Barbados lily	Hippeastrum vittatum	石蒜科	红、粉、白	孤挺花、百枝莲	渴望被爱	春夏	硕大喇叭花，喜庆夺目。	多年生草本，鳞茎，花大喇叭形，红粉白。	象征渴望被爱，孤挺花。	原产南美，喜暖光，忌涝。
+蓝星花	Blue star	Isotoma axillaris	桔梗科	蓝	星辰花	幸福	春夏	蓝色星花，清澈明亮。	多年生草本，花蓝色，星形，簇生，日开。	象征幸福，星辰花。	原产澳洲，喜暖光，忌涝。
+松红梅	Manuka	Leptospermum scoparium	桃金娘科	红、粉、白	新西兰茶花	坚定	冬春	细碎小花，覆满枝头。	常绿灌木，花红粉白，细碎覆满枝头，冬春开。	象征坚定，新西兰茶花。	原产新西兰，喜光耐旱。
+蓝莓花	Blueberry blossom	Vaccinium corymbosum	杜鹃花科	白、粉	越橘花	甜美	春	铃铛状白花，清雅可爱。	落叶灌木，花白粉，铃铛状，垂挂，春开。	象征甜美，越橘花。	原产北美，喜酸性土，喜光。
+红千层	Bottlebrush	Callistemon rigidus	桃金娘科	红	瓶刷子树	热情	春夏	红色刷状花序，独特醒目。	常绿灌木或小乔木，花红，刷状花序，独特。	象征热情，瓶刷子树。	原产澳洲，喜暖光。
+桃金娘花	Rose myrtle	Rhodomyrtus tomentosa	桃金娘科	粉、紫	山稔子	思念	夏	粉紫小花，山野果香。	常绿灌木，花粉紫，单生，夏开，果香甜。	象征思念，山稔子。	原产中国南方，喜暖光耐旱。
+金缕梅	Chinese witch hazel	Hamamelis mollis	金缕梅科	黄	木里香	灵感	冬春	细瓣如丝，冬日早花。	落叶灌木，花黄，细瓣如丝，冬春早开。	象征灵感，木里香。	原产中国，喜半阴湿润。
+蜡瓣花	Chinese winter hazel	Corylopsis sinensis	金缕梅科	黄	连核梅	喜悦	春	金黄垂序，清香淡雅。	落叶灌木，花金黄，下垂总状，先叶开放。	象征喜悦，连核梅。	原产中国，喜半阴湿润。
+檵木花	Loropetalum flower	Loropetalum chinense	金缕梅科	白	纸末花	清新	春	白色细瓣，如纸屑纷飞。	常绿灌木，花白色，细瓣如纸屑，春开。	象征清新，纸末花。	原产中国，喜光耐旱。
+红花檵木	Red loropetalum	Loropetalum chinense var. rubrum	金缕梅科	紫、红	红桎木	热烈	春	紫红花带，春意红火。	常绿灌木，花紫红，细瓣繁密，春开成带。	象征热烈，红桎木。	原产中国，栽培变种，喜光。
+白鹃梅	Pearl bush	Exochorda racemosa	蔷薇科	白	茧子花	纯洁	春	满树白花，如雪覆枝。	落叶灌木，花白色，总状花序，满树如雪。	象征纯洁，茧子花。	原产中国，喜光耐寒。
+帝王花	King protea	Protea cynaroides	山龙眼科	粉、红	菩提花、花中之王	圆满	秋冬	南非国花，硕大华贵。	常绿灌木，花球硕大，苞片粉红，南非国花。	象征圆满，花中之王。	原产南非，喜光，忌涝。
+针垫花	Pincushion protea	Leucospermum cordifolium	山龙眼科	红、橙	针垫山龙眼	热情	秋冬	红色针状花蕊如针垫。	常绿灌木，花红色，雄蕊针状如针垫，奇特。	象征热情，针垫山龙眼。	原产南非，喜光，忌涝。
+木百合	Sunshine conebush	Leucadendron salignum	山龙眼科	黄、红	银叶木百合	阳光	秋冬	苞片变色，四季观赏。	常绿灌木，苞片黄红变色，四季可观。	象征阳光，银叶木百合。	原产南非，喜光耐旱。
+光萼荷花	Urn plant	Aechmea fasciata	凤梨科	粉、蓝	蜻蜓凤梨	完美	四季	粉蓝花序，室内佳品。	多年生附生草本，花序粉蓝，苞片革质，室内观花。	象征完美，蜻蜓凤梨。	原产南美，喜暖湿半阴。
+秋海棠	Begonia	Begonia grandis	秋海棠科	粉、红	八月春	亲切	夏秋	花叶俱美，秋日清姿。	多年生草本，花红粉，叶不对称，秋日开放。	象征亲切，八月春。	原产中国，喜半阴湿润。
+四季海棠	Wax begonia	Begonia semperflorens	秋海棠科	多彩	玻璃翠	娇艳	四季	四季开花，窗台常客。	多年生草本，花多彩，叶光亮，四季开花。	象征娇艳，玻璃翠。	原产南美，喜暖光湿润。
+丽格海棠	Elatior begonia	Begonia hiemalis	秋海棠科	多彩	玫瑰海棠	华丽	冬春	层层花瓣，如玫瑰绽放。	多年生草本，花重瓣似玫瑰，多彩，冬春上市。	象征华丽，玫瑰海棠。	栽培杂交种，喜凉湿半阴。
+竹节海棠	Polka dot begonia	Begonia maculata	秋海棠科	粉、白	斑点秋海棠	优雅	四季	银点叶面，粉花垂挂。	多年生草本，叶银点，花白粉，垂吊清雅。	象征优雅，斑点秋海棠。	原产南美，喜暖湿半阴。
+蓝花藤	Purple wreath	Petrea volubilis	唇形科	蓝、紫	紫霞藤	浪漫	春夏	蓝紫串花，藤蔓如瀑。	常绿藤本，花蓝紫，串状花序，如紫霞垂挂。	象征浪漫，紫霞藤。	原产中美洲，喜暖光。
+使君子	Rangoon creeper	Combretum indicum	使君子科	红、粉、白	留求子	纯真	夏秋	花初白后红，芳香醉人。	落叶藤本，花白红渐变，芳香，夏秋开放。	象征纯真，留求子。	原产亚洲热带，喜暖光，果入药。
+无忧花	Ashoka flower	Saraca dives	豆科	黄	火焰花、无忧树花	无忧无虑	春	金黄簇花，树下无忧。	常绿乔木，花金黄，簇生枝顶，春开如焰。	象征无忧无虑，树下无忧。	原产南亚，喜暖湿光。
+黄花风铃木	Yellow trumpet tree	Handroanthus chrysanthus	紫葳科	黄	黄金风铃木	感谢	春	满树金黄，春日的风铃。	落叶乔木，花金黄，钟形，早春满树。	象征感谢，黄金风铃木。	原产南美，喜暖光，先花后叶。
+粉花风铃木	Pink trumpet tree	Tabebuia rosea	紫葳科	粉	蔷薇风铃木	美丽	春	粉色云霞，落英缤纷。	落叶乔木，花粉红，钟形，春开成云。	象征美丽，蔷薇风铃木。	原产中美洲，喜暖光。
+紫花风铃木	Purple trumpet tree	Handroanthus impetiginosus	紫葳科	紫	紫绣球	智慧	春	紫花满树，端庄大气。	落叶乔木，花紫色，钟形，春开满冠。	象征智慧，紫绣球。	原产南美，喜暖光。
+醉鱼草	Butterfly bush	Buddleja davidii	玄参科	紫、粉、白	大叶醉鱼草	魅力	夏秋	紫色花穗，蝴蝶纷至。	落叶灌木，花紫粉白，长穗花序，引蝶。	象征魅力，蝴蝶灌木。	原产中国，喜光耐旱。
+依兰花	Ylang ylang	Cananga odorata	番荔枝科	黄	香水树	优雅	四季	世界香水之树的芬芳。	常绿乔木，花黄绿，极香，可提香精。	象征优雅，香水树。	原产东南亚，喜暖湿光。
+蓝雏菊	Blue daisy	Felicia amelloides	菊科	蓝	费利菊	纯净	春夏	蓝色小花，清新如天空。	多年生草本，花蓝色，金心，春开成丛。	象征纯净，费利菊。	原产南非，喜暖光耐旱。
+黄金菊	Golden marguerite	Euryops pectinatus	菊科	黄	梳黄菊	光明	春夏	金黄小菊，灿烂成丛。	常绿灌木，花金黄，细瓣，四季零星开放。	象征光明，梳黄菊。	原产南非，喜暖光耐旱。
+蝴蝶花	Japanese iris (Iris japonica)	Iris japonica	鸢尾科	白、蓝	日本鸢尾	想念	春	白蓝小花，似蝶停栖。	多年生草本，花白蓝，斑纹如蝶，春开。	象征想念，日本鸢尾。	原产东亚，喜半阴湿润。
+花菖蒲	Japanese iris (Iris ensata)	Iris ensata	鸢尾科	蓝、紫、粉	玉蝉花	信任	初夏	硕大水边鸢尾，花色清丽。	多年生水生草本，花蓝紫粉，大而清丽，初夏开。	象征信任，玉蝉花。	原产东亚，喜水湿强光。
+阿拉伯婆婆纳	Field speedwell	Veronica persica	车前科	蓝	波斯婆婆纳	诚实	春	蓝色小星花，铺满春野。	一年生或多年生草本，花蓝，细小，铺满春野。	象征诚实，波斯婆婆纳。	原产西亚，喜光湿润。
+长叶婆婆纳	Longleaf speedwell	Veronica longifolia	车前科	蓝	穗花婆婆纳	忠贞	夏	蓝紫花穗，直立成束。	多年生草本，花蓝紫，长穗花序，直立成束。	象征忠贞，穗花婆婆纳。	原产欧亚，喜光湿润。
+猫薄荷花	Catmint flower	Nepeta cataria	唇形科	白、紫	荆芥花	治愈	夏	薄荷清香，猫咪最爱。	多年生草本，花白紫，薄荷香，猫喜爱。	象征治愈，荆芥花。	原产欧亚，喜光耐旱。
+罗勒花	Basil flower	Ocimum basilicum	唇形科	白、粉	九层塔花	好运	夏	香草之花，层层叠叠。	一年生草本，花白粉，层层轮生，香草。	象征好运，九层塔花。	原产亚洲热带，喜暖光。
+紫苏花	Perilla flower	Perilla frutescens	唇形科	粉、紫	苏子花	平凡	夏秋	朴素小花，叶香四溢。	一年生草本，花紫粉，叶紫红带香，可食。	象征平凡，苏子花。	原产东亚，喜光湿润。
+马醉木花	Japanese pieris	Pieris japonica	杜鹃花科	白、粉	梫木	清雅	春	白花串串，如铃垂挂。	常绿灌木，花白粉，壶形，下垂如铃。	象征清雅，梫木。	原产东亚，喜半阴酸性土。
+高山杜鹃	Alpine rhododendron	Rhododendron lapponicum	杜鹃花科	粉、紫	牛皮杜鹃	坚韧	夏	高山之上，花开如霞。	常绿灌木，花紫粉，高山之上花开如霞。	象征坚韧，牛皮杜鹃。	原产北温带高山，喜凉湿。
+蓝铃花	Bluebell	Hyacinthoides non-scripta	天门冬科	蓝、紫	野风信子	遗憾	春	英国林间的蓝色地毯。	多年生草本，花蓝紫，钟形，垂向一侧，林间成毯。	象征遗憾，野风信子。	原产欧洲，喜半阴湿润。
+雪滴花	Snowdrop	Galanthus nivalis	石蒜科	白	雪花莲	希望	冬春	雪中第一朵花，纯洁无畏。	多年生草本，花白，垂首如雪滴，早春雪中开。	象征希望，雪花莲。	原产欧洲，喜凉湿半阴。
+圣诞玫瑰	Christmas rose	Helleborus niger	毛茛科	白、粉	铁筷子	安慰	冬春	寒冬绽放，温暖安慰。	多年生草本，花白粉，冬春开放，寒冬之花。	象征安慰，铁筷子。	原产欧洲，喜半阴凉爽。
+铁筷子	Hellebore	Helleborus thibetanus	毛茛科	粉、紫、绿	嚏根草	坚强	冬春	垂首之花，山野精灵。	多年生草本，花紫粉绿，垂首，冬春开放。	象征坚强，嚏根草。	原产中国，喜凉湿半阴。
+紫堇花	Incisory fumewort	Corydalis incisa	罂粟科	紫、粉	断肠草	思念	春	紫色小花，清明时节。	一年生或多年生草本，花紫粉，早春林下开放。	象征思念，断肠草。	原产东亚，喜半阴湿润。
+雪片莲	Spring snowflake	Leucojum vernum	石蒜科	白	雪片水仙	纯洁	春	白花带绿点，清新脱俗。	多年生草本，花白带绿点，钟形，春开。	象征纯洁，雪片水仙。	原产欧洲，喜凉湿半阴。
+南天竹花	Heavenly bamboo flower	Nandina domestica	小檗科	白	南天竺	吉祥	夏	小白花簇，秋红果串。	常绿灌木，花白色，圆锥花序，秋果红串。	象征吉祥，南天竺。	原产东亚，喜半阴湿润。
+探春花	Flowering jasmine	Jasminum floridum	木犀科	黄	迎夏	快乐	夏	迎春之后，夏日再开。	常绿灌木，花黄色，春末夏初开放，迎夏。	象征快乐，迎夏。	原产中国，喜光耐寒。
+云南黄馨	Primrose jasmine	Jasminum mesnyi	木犀科	黄	云南迎春	明亮	春	垂枝黄花，亮丽活泼。	常绿藤状灌木，花黄色，早春垂枝繁花。	象征明亮，云南迎春。	原产中国西南，喜光湿润。
+倒挂金钟	Fuchsia	Fuchsia hybrida	柳叶菜科	红、粉、紫	灯笼花、吊钟海棠	相信爱情	春夏秋	花朵如彩灯倒挂。	常绿灌木或草本，花红紫粉，如灯笼倒挂。	象征相信爱情，吊钟海棠。	原产南美，喜凉湿半阴。
+墨西哥鼠尾草	Mexican bush sage	Salvia leucantha	唇形科	紫、白	紫绒鼠尾草	思念	秋冬	毛绒紫花，触感温柔。	常绿灌木，花紫白，毛绒花穗，秋冬开放。	象征思念，紫绒鼠尾草。	原产墨西哥，喜暖光耐旱。
+鸟尾花	Firecracker flower	Crossandra infundibuliformis	爵床科	橙	十字爵床	热情	四季	橙色花穗，热带明艳。	常绿灌木，花橙红，穗状花序，四季开花。	象征热情，十字爵床。	原产印度与斯里兰卡，喜暖湿半阴。
+蓝花草	Mexican petunia	Ruellia simplex	爵床科	蓝、紫	翠芦莉	自由	春夏秋	日日开花，蓝紫温柔。	多年生草本，花蓝紫，喇叭形，日日开花。	象征自由，翠芦莉。	原产墨西哥，喜暖光湿润。
+金苞花	Golden shrimp plant	Pachystachys lutea	爵床科	黄	金包花	富贵	四季	金黄苞片层层如宝塔。	常绿灌木，苞片金黄层层如宝塔，四季开花。	象征富贵，金包花。	原产秘鲁，喜暖湿半阴。
+虾衣花	Shrimp plant	Justicia brandegeeana	爵床科	白、红	狐尾木	俏皮	四季	红褐苞片如虾壳。	常绿灌木，苞片红褐层层，花白，如虾壳。	象征俏皮，狐尾木。	原产墨西哥，喜暖湿半阴。
+

@@ -19,7 +19,7 @@ export function parseSeed() {
     const parts = line.split('\t');
     if (parts.length < 9) continue;
     if (parts[0].trim() === 'name') continue;
-    const [name, en, latin, family, colors, aliases, meaning, season, blurb] = parts;
+    const [name, en, latin, family, colors, aliases, meaning, season, blurb, morph, culture, care] = parts;
     rows.push({
       name: name.trim(),
       en: (en || '').trim(),
@@ -29,7 +29,10 @@ export function parseSeed() {
       aliases: (aliases || '').split('、').map((s) => s.trim()).filter(Boolean),
       meaning: (meaning || '').trim(),
       season: (season || '').trim(),
-      blurb: (blurb || '').trim()
+      blurb: (blurb || '').trim(),
+      morph: (morph || '').trim(),
+      culture: (culture || '').trim(),
+      care: (care || '').trim()
     });
   }
   return rows;

@@ -18,6 +18,9 @@ globalThis.FLOWERS = [
     "meaning": "坚强、高洁",
     "season": "冬春",
     "blurb": "凌寒独自开，报春第一枝。",
+    "morph": "落叶乔木，先花后叶，花单生或并生，白粉或红色，香气清冽。",
+    "culture": "岁寒三友之一，象征坚强高洁，文人常以咏梅言志。",
+    "care": "原产中国，喜光耐寒，宜排水良好的微酸性土壤。",
     "image": "images/prunus-mume.webp",
     "credit": {
       "author": "Kakidai",
@@ -42,6 +45,9 @@ globalThis.FLOWERS = [
     "meaning": "慈爱、坚韧",
     "season": "冬",
     "blurb": "金黄色的花朵在寒冬中绽放。",
+    "morph": "落叶灌木，花蜡黄色，内层带紫红晕，冬季先叶开放，香气浓郁。",
+    "culture": "寒冬绽放，象征慈爱与坚韧，是岁朝清供之花。",
+    "care": "原产中国中部，喜光耐寒，耐修剪，忌积水。",
     "image": "images/chimonanthus-praecox.webp",
     "credit": {
       "author": "PPBC",
@@ -67,6 +73,9 @@ globalThis.FLOWERS = [
     "meaning": "爱情、好运",
     "season": "春",
     "blurb": "灼灼其华，春日的浪漫符号。",
+    "morph": "落叶小乔木，花单生枝顶，粉红或白色，先叶开放，烂漫成霞。",
+    "culture": "象征爱情与好运，桃花运即指美好缘分。",
+    "care": "原产中国，喜光喜排水，花后需疏枝。",
     "image": "images/prunus-persica.webp",
     "credit": {
       "author": "Fanghong",
@@ -91,6 +100,9 @@ globalThis.FLOWERS = [
     "meaning": "生命、希望",
     "season": "春",
     "blurb": "落樱如雪，短暂而绚烂。",
+    "morph": "落叶乔木，花三五朵成伞房状，白或淡粉，花瓣顶端有缺口。",
+    "culture": "象征生命与希望，落樱之美喻绚烂易逝。",
+    "care": "原产东亚，喜光喜湿润，注意防治蚜虫与流胶。",
     "image": "images/prunus-serrulata.webp",
     "credit": {
       "author": "Kropsoq",
@@ -115,6 +127,9 @@ globalThis.FLOWERS = [
     "meaning": "春色、羞涩",
     "season": "春",
     "blurb": "淡雅清秀，春意盎然的信使。",
+    "morph": "落叶乔木，花单生，白色或淡粉，先叶开放，花萼反折。",
+    "culture": "象征春色与羞涩，杏花春雨是经典江南意象。",
+    "care": "原产中国北方，喜光耐旱，忌低洼积水。",
     "image": "images/prunus-armeniaca.webp",
     "credit": {
       "author": "Andrey Butko",
@@ -138,6 +153,9 @@ globalThis.FLOWERS = [
     "meaning": "纯洁、陪伴",
     "season": "春",
     "blurb": "满树洁白，如雪落枝头。",
+    "morph": "落叶乔木，伞形花序，花白色，花药紫红，叶卵形。",
+    "culture": "象征纯洁，雨打梨花常喻孤寂与思念。",
+    "care": "原产中国，喜光，抗寒耐旱，注意梨锈病。",
     "image": "images/pyrus-pyrifolia.webp",
     "credit": {
       "author": "KENPEI",
@@ -161,6 +179,9 @@ globalThis.FLOWERS = [
     "meaning": "纯真",
     "season": "春",
     "blurb": "细碎白花，清新素雅。",
+    "morph": "落叶小乔木，花二三朵簇生，白色细小，繁密如雪。",
+    "culture": "象征纯真，桃李满天下喻育人成果。",
+    "care": "原产中国，喜光耐旱，结果枝需合理修剪。",
     "image": "images/prunus-salicina.webp",
     "credit": {
       "author": "Wikimedia Commons",
@@ -185,6 +206,9 @@ globalThis.FLOWERS = [
     "meaning": "平实、美好",
     "season": "春",
     "blurb": "花白微粉，果香的前奏。",
+    "morph": "落叶乔木，伞房花序，花白带粉晕，与叶同放。",
+    "culture": "象征平实与美好，亦喻丰收与圆满。",
+    "care": "原产亚洲与欧洲，喜光喜凉，需配置授粉树。",
     "image": "images/malus-domestica.webp",
     "credit": {
       "author": "Jörg Hempel",
@@ -208,6 +232,9 @@ globalThis.FLOWERS = [
     "meaning": "温柔、思念",
     "season": "春",
     "blurb": "花姿潇洒，花开似锦。",
+    "morph": "落叶小乔木，花簇生，粉红色，花梗细长，花姿潇洒。",
+    "culture": "海棠无香，花语温柔思念，是传统名花。",
+    "care": "原产中国，喜光耐寒，喜湿润怕涝。",
     "image": "images/malus-spectabilis.webp",
     "credit": {
       "author": "(c) angryphyco, some rights reserved (CC BY)",
@@ -231,6 +258,9 @@ globalThis.FLOWERS = [
     "meaning": "温婉",
     "season": "春",
     "blurb": "花梗下垂如丝，楚楚动人。",
+    "morph": "落叶小乔木，花梗细弱下垂，花粉红色，伞房花序。",
+    "culture": "象征温婉，垂丝之姿如少女低眉。",
+    "care": "原产中国，喜光，宜肥沃湿润土壤。",
     "image": "images/malus-halliana.webp",
     "credit": {
       "author": "(c) 정소민, some rights reserved (CC BY-NC)",
@@ -256,6 +286,9 @@ globalThis.FLOWERS = [
     "meaning": "热情",
     "season": "春",
     "blurb": "枝干遒劲，红花如火。",
+    "morph": "落叶灌木，花单生叶腋，猩红或粉白，枝干有刺。",
+    "culture": "象征热情，早春红艳如火。",
+    "care": "原产中国，喜光耐寒，萌蘖力强。",
     "image": "images/chaenomeles-speciosa.webp",
     "credit": {
       "author": "Hladac",
@@ -279,6 +312,9 @@ globalThis.FLOWERS = [
     "meaning": "春意",
     "season": "春",
     "blurb": "花似梅花叶如榆，粉霞满枝。",
+    "morph": "落叶灌木，花单瓣或重瓣，粉红色，叶形似榆。",
+    "culture": "象征春意，北方春日重要花灌木。",
+    "care": "原产中国北方，喜光耐寒，耐旱怕涝。",
     "image": "images/prunus-triloba.webp",
     "credit": {
       "author": "(c) darkflamew, some rights reserved (CC BY-NC)",
@@ -302,6 +338,9 @@ globalThis.FLOWERS = [
     "meaning": "清净",
     "season": "夏",
     "blurb": "白色小花成串，如珍珠瀑布。",
+    "morph": "落叶灌木，羽状复叶，白色小花密集成圆锥花序。",
+    "culture": "象征清净，夏日花似串串珍珠。",
+    "care": "原产东亚，喜光也耐半阴，病虫害少。",
     "image": "images/sorbaria-sorbifolia.webp",
     "credit": {
       "author": "Taken by Fanghong",
@@ -326,6 +365,9 @@ globalThis.FLOWERS = [
     "meaning": "纯洁",
     "season": "春夏",
     "blurb": "细碎小花簇拥成团。",
+    "morph": "落叶灌木，伞形或圆锥花序，白或粉色小花繁密。",
+    "culture": "象征纯洁，是庭院基础花灌木。",
+    "care": "原产北半球温带，喜光耐旱，萌芽力强。",
     "image": "images/spiraea-salicifolia.webp",
     "credit": {
       "author": "no rights reserved",
@@ -349,6 +391,9 @@ globalThis.FLOWERS = [
     "meaning": "守护",
     "season": "春",
     "blurb": "白花如雪，秋来红果满枝。",
+    "morph": "落叶小乔木，伞房花序，花白色，花药粉色。",
+    "culture": "象征守护，秋日红果寓意收获。",
+    "care": "原产中国，喜光耐寒，抗逆性强。",
     "image": "images/crataegus-pinnatifida.webp",
     "credit": {
       "author": "(c) Anthony Rw, some rights reserved (CC BY-NC)",
@@ -375,6 +420,9 @@ globalThis.FLOWERS = [
     "meaning": "热烈的爱",
     "season": "春夏",
     "blurb": "带刺而温柔，爱情与浪漫的象征。",
+    "morph": "落叶灌木，茎密生皮刺，花单瓣或重瓣，红粉白等色，香气浓郁。",
+    "culture": "爱情的象征，玫瑰之约是浪漫的代名词。",
+    "care": "原产东亚，喜光喜肥，需修剪通风防病。",
     "image": "images/rosa-rugosa.webp",
     "credit": {
       "author": "(c) carter, some rights reserved (CC BY-NC)",
@@ -399,6 +447,9 @@ globalThis.FLOWERS = [
     "meaning": "热情、持之以恒",
     "season": "四季",
     "blurb": "花中皇后，四季常开。",
+    "morph": "常绿或半常绿灌木，花多季开放，色彩极丰，花中皇后。",
+    "culture": "象征热情与持之以恒，中国十大名花之一。",
+    "care": "原产中国，喜光，需勤修剪与防治病虫害。",
     "image": "images/rosa-chinensis.webp",
     "credit": {
       "author": "(c) HM Emon, some rights reserved (CC BY)",
@@ -423,6 +474,9 @@ globalThis.FLOWERS = [
     "meaning": "浪漫、思念",
     "season": "春夏",
     "blurb": "爬满篱墙的粉色浪漫。",
+    "morph": "落叶攀援灌木，圆锥花序，粉白小花繁密带香。",
+    "culture": "象征浪漫与思念，爬满篱墙的经典意象。",
+    "care": "原产东亚，喜光耐寒，需支架牵引。",
     "image": "images/rosa-multiflora.webp",
     "credit": {
       "author": "(c) Douglas Goldman, some rights reserved (CC BY-SA), uploaded by Douglas Goldman",
@@ -448,6 +502,9 @@ globalThis.FLOWERS = [
     "meaning": "优雅",
     "season": "春夏",
     "blurb": "花香清甜，色韵柔和。",
+    "morph": "藤性灌木，花朵硕大，粉黄或白色，茶香馥郁。",
+    "culture": "象征优雅，是玫瑰园中的香气担当。",
+    "care": "栽培品种，喜光喜肥，冬季需防寒。",
     "image": "images/rosa-odorata.webp",
     "credit": {
       "author": "(c) Clive Freedman, some rights reserved (CC BY)",
@@ -473,6 +530,9 @@ globalThis.FLOWERS = [
     "meaning": "纯洁",
     "season": "春夏",
     "blurb": "花开成瀑，香飘数里。",
+    "morph": "落叶攀援灌木，花白或黄，多朵成伞形，香气远播。",
+    "culture": "象征纯洁，十里香是庭院经典。",
+    "care": "原产中国，喜光耐半阴，藤蔓需牵引。",
     "image": "images/rosa-banksiae.webp",
     "credit": {
       "author": "no rights reserved",
@@ -499,6 +559,9 @@ globalThis.FLOWERS = [
     "meaning": "理想的爱",
     "season": "冬春",
     "blurb": "花大色艳，经冬不凋。",
+    "morph": "常绿灌木或小乔木，花大，红粉白各色，花瓣层层叠叠。",
+    "culture": "象征理想的爱，云南名花，冬日盛放。",
+    "care": "原产东亚，喜半阴酸性土，怕涝怕晒。",
     "image": "images/camellia-japonica.webp",
     "credit": {
       "author": "(c) fentomfromjapan, some rights reserved (CC BY-NC)",
@@ -524,6 +587,9 @@ globalThis.FLOWERS = [
     "meaning": "谦让",
     "season": "秋冬",
     "blurb": "山茶与梅之间的清雅之花。",
+    "morph": "常绿灌木，花较小，粉红或白色，秋冬开放，叶似茶。",
+    "culture": "象征谦让，是冬园一景。",
+    "care": "原产日本与中国，喜半阴，耐修剪。",
     "image": "images/camellia-sasanqua.webp",
     "credit": {
       "author": "no rights reserved",
@@ -547,6 +613,9 @@ globalThis.FLOWERS = [
     "meaning": "稀有、珍贵",
     "season": "冬春",
     "blurb": "罕见的金黄色茶花。",
+    "morph": "常绿灌木，花瓣金黄色，蜡质光泽，山茶中最稀有。",
+    "culture": "象征珍贵稀有，有植物界大熊猫之称。",
+    "care": "原产广西，喜温暖湿润半阴环境。",
     "image": "images/camellia-nitidissima.webp",
     "credit": {
       "author": "(c) manassas, some rights reserved (CC BY-NC)",
@@ -573,6 +642,9 @@ globalThis.FLOWERS = [
     "meaning": "爱的喜悦",
     "season": "春",
     "blurb": "满山红遍，热烈奔放。",
+    "morph": "落叶或常绿灌木，花冠漏斗形，红粉白紫，簇生枝头。",
+    "culture": "映山红，象征爱的喜悦与热烈。",
+    "care": "原产东亚山地，喜酸性土，忌碱性水肥。",
     "image": "images/rhododendron-simsii.webp",
     "credit": {
       "author": "(c) memo_1, some rights reserved (CC BY-NC)",
@@ -596,6 +668,9 @@ globalThis.FLOWERS = [
     "meaning": "节制、喜悦",
     "season": "春夏",
     "blurb": "花色繁多，园艺宠儿。",
+    "morph": "常绿灌木，花色繁多，花大，多为重瓣盆栽品种。",
+    "culture": "象征节制与喜悦，是年宵花市宠儿。",
+    "care": "温室栽培品种，喜凉爽湿润半阴。",
     "image": "images/rhododendron-hybridum.webp",
     "credit": {
       "author": "(c) Вадим Рыбаков, some rights reserved (CC BY-NC)",
@@ -619,6 +694,9 @@ globalThis.FLOWERS = [
     "meaning": "热情",
     "season": "春",
     "blurb": "高山上的红色火焰。",
+    "morph": "常绿乔木状杜鹃，花深红色，簇生成球，高山壮丽。",
+    "culture": "象征热情，是高原花海的主角。",
+    "care": "原产中国西南高山，喜凉爽，忌酷热。",
     "image": "images/rhododendron-delavayi.webp",
     "credit": {
       "author": "(c) amicius, some rights reserved (CC BY-NC)",
@@ -644,6 +722,9 @@ globalThis.FLOWERS = [
     "meaning": "崇高、收获",
     "season": "秋",
     "blurb": "八月桂花香，清可绝尘。",
+    "morph": "常绿乔木或灌木，花小，黄白或橙红，聚伞花序，香气馥郁。",
+    "culture": "象征崇高与收获，蟾宫折桂喻功名有成。",
+    "care": "原产中国，喜光耐半阴，忌积水。",
     "image": "images/osmanthus-fragrans.webp",
     "credit": {
       "author": "(c) 振远 王, some rights reserved (CC BY)",
@@ -668,6 +749,9 @@ globalThis.FLOWERS = [
     "meaning": "纯洁、初恋",
     "season": "春",
     "blurb": "愁绪与思念化作一树紫云。",
+    "morph": "落叶灌木或小乔木，圆锥花序，紫白花色，芳香浓郁。",
+    "culture": "象征纯洁与初恋，结着愁怨的经典意象。",
+    "care": "原产中国华北，喜光耐寒，忌涝。",
     "image": "images/syringa-oblata.webp",
     "credit": {
       "author": "(c) Oleksandr Shynder, some rights reserved (CC BY)",
@@ -691,6 +775,9 @@ globalThis.FLOWERS = [
     "meaning": "忠贞、清纯",
     "season": "夏",
     "blurb": "一卉能熏一室香。",
+    "morph": "常绿灌木，花白色，单瓣或重瓣，清香四溢。",
+    "culture": "象征忠贞清纯，茉莉花歌传唱四方。",
+    "care": "原产南亚，喜温暖湿润强光，忌霜冻。",
     "image": "images/jasminum-sambac.webp",
     "credit": {
       "author": "(c) Sathida Deechaiyo, some rights reserved (CC BY-NC)",
@@ -714,6 +801,9 @@ globalThis.FLOWERS = [
     "meaning": "希望、坚强",
     "season": "春",
     "blurb": "百花未醒它先开。",
+    "morph": "落叶灌木，花黄色，先叶开放，枝条拱垂如金带。",
+    "culture": "象征希望与坚强，百花未醒它先开。",
+    "care": "原产中国，喜光耐寒，耐旱怕涝。",
     "image": "images/jasminum-nudiflorum.webp",
     "credit": {
       "author": "(c) viviancui, some rights reserved (CC BY-NC)",
@@ -737,6 +827,9 @@ globalThis.FLOWERS = [
     "meaning": "预言",
     "season": "春",
     "blurb": "金黄繁花，报春使者。",
+    "morph": "落叶灌木，花金黄色，四瓣，先叶开放，满枝金灿。",
+    "culture": "象征预言，是早春报信之花。",
+    "care": "原产中国，喜光耐寒，果实入药。",
     "image": "images/forsythia-suspensa.webp",
     "credit": {
       "author": "(c) Nathan Aaron, some rights reserved (CC BY)",
@@ -761,6 +854,9 @@ globalThis.FLOWERS = [
     "meaning": "清白",
     "season": "春夏",
     "blurb": "藤蔓攀援，清香四溢。",
+    "morph": "常绿攀援藤本，花白色或粉红，多朵成聚伞花序，香气清甜。",
+    "culture": "象征清白，是南国香花。",
+    "care": "原产中国南方，喜温暖湿润，需支架。",
     "image": "images/jasminum-polyanthum.webp",
     "credit": {
       "author": "(c) KENPEI, some rights reserved (CC BY-SA)",
@@ -784,6 +880,9 @@ globalThis.FLOWERS = [
     "meaning": "思念、依依不舍",
     "season": "春",
     "blurb": "紫色花串垂如瀑布。",
+    "morph": "落叶木质藤本，总状花序下垂，紫蓝色花如帘幕。",
+    "culture": "象征思念与依依不舍，是庭院花瀑。",
+    "care": "原产中国，喜光，藤粗壮需强支撑。",
     "image": "images/wisteria-sinensis.webp",
     "credit": {
       "author": "(c) JESSIKA LYNN ROBERTS, some rights reserved (CC BY-NC)",
@@ -807,6 +906,9 @@ globalThis.FLOWERS = [
     "meaning": "沉迷的爱",
     "season": "春",
     "blurb": "花穗更长，烂漫如帘。",
+    "morph": "落叶藤本，花序更长，紫蓝色小花密集下垂。",
+    "culture": "象征沉迷的爱，日本庭院常见。",
+    "care": "原产日本，喜光，需修剪控制生长。",
     "image": "images/wisteria-floribunda.webp",
     "credit": {
       "author": "(c) 104623964081378888743, some rights reserved (CC BY-NC), uploaded by 104623964081378888743",
@@ -830,6 +932,9 @@ globalThis.FLOWERS = [
     "meaning": "清新",
     "season": "夏",
     "blurb": "夏日街头的一抹清香。",
+    "morph": "落叶乔木，圆锥花序，花白或淡黄，清香，可食。",
+    "culture": "象征清新，夏初街头槐香是记忆符号。",
+    "care": "原产中国，喜光耐旱，抗污染。",
     "image": "images/sophora-japonica.webp",
     "credit": {
       "author": "(c) Michael Ellis, some rights reserved (CC BY), uploaded by Michael Ellis",
@@ -853,6 +958,9 @@ globalThis.FLOWERS = [
     "meaning": "童年的甜",
     "season": "春末",
     "blurb": "串串白花，蜜香扑鼻。",
+    "morph": "落叶乔木，总状花序下垂，白色蝶形花，蜜香浓。",
+    "culture": "象征童年的甜，槐花蜜是名品。",
+    "care": "原产北美，已广植中国，喜光耐旱。",
     "image": "images/robinia-pseudoacacia.webp",
     "credit": {
       "author": "(c) Eric Koberle, some rights reserved (CC BY-NC), uploaded by Eric Koberle",
@@ -877,6 +985,9 @@ globalThis.FLOWERS = [
     "meaning": "团圆、阖家欢乐",
     "season": "夏",
     "blurb": "粉色绒球，温柔缱绻。",
+    "morph": "落叶乔木，头状花序呈绒球状，粉红色，夜合昼开。",
+    "culture": "象征团圆，合欢寓意阖家欢乐。",
+    "care": "原产中国，喜光耐旱，不耐涝。",
     "image": "images/albizia-julibrissin.webp",
     "credit": {
       "author": "(c) Andrew Butko, some rights reserved (CC BY-SA)",
@@ -900,6 +1011,9 @@ globalThis.FLOWERS = [
     "meaning": "友情",
     "season": "冬春",
     "blurb": "金黄绒球，香气馥郁。",
+    "morph": "常绿灌木或小乔木，头状花序金黄绒球，香气馥郁。",
+    "culture": "象征友情，是温暖的香花树。",
+    "care": "原产美洲热带，喜温暖阳光。",
     "image": "images/acacia-farnesiana.webp",
     "credit": {
       "author": "(c) pleiovn, some rights reserved (CC BY-NC), uploaded by pleiovn",
@@ -924,6 +1038,9 @@ globalThis.FLOWERS = [
     "meaning": "离别、思念",
     "season": "夏",
     "blurb": "盛夏如火，花开满城。",
+    "morph": "落叶乔木，伞房花序，花鲜红带黄晕，夏开如火。",
+    "culture": "象征离别与思念，盛夏凤凰花季。",
+    "care": "原产马达加斯加，喜热带光热。",
     "image": "images/delonix-regia.webp",
     "credit": {
       "author": "(c) Raja Sekhar Chimirala, some rights reserved (CC BY)",
@@ -948,6 +1065,9 @@ globalThis.FLOWERS = [
     "meaning": "宁静、深远",
     "season": "春夏",
     "blurb": "一树蓝紫，如梦如幻。",
+    "morph": "落叶乔木，圆锥花序，蓝紫色花串，满树如紫云。",
+    "culture": "象征宁静深远，是梦幻花城的代表。",
+    "care": "原产南美，喜温暖，忌霜冻与积水。",
     "image": "images/jacaranda-mimosifolia.webp",
     "credit": {
       "author": "(c) mrt30, some rights reserved (CC BY-NC)",
@@ -972,6 +1092,9 @@ globalThis.FLOWERS = [
     "meaning": "热情似火",
     "season": "春夏",
     "blurb": "杯状红花，如火焰燃烧。",
+    "morph": "常绿乔木，杯状花簇生枝顶，鲜红如火焰。",
+    "culture": "象征热情似火，是热带行道树。",
+    "care": "原产热带非洲，喜高温强光。",
     "image": "images/spathodea-campanulata.webp",
     "credit": {
       "author": "(c) squirrelwatcher019, some rights reserved (CC BY-NC), uploaded by squirrelwatcher019",
@@ -997,6 +1120,9 @@ globalThis.FLOWERS = [
     "meaning": "慈爱、敬佩",
     "season": "夏",
     "blurb": "攀援而上，凌云之志。",
+    "morph": "落叶木质藤本，漏斗状花橙红色，攀援而上。",
+    "culture": "象征慈爱敬佩，凌霄之志喻志向高远。",
+    "care": "原产中国，喜光耐寒，需支架。",
     "image": "images/campsis-grandiflora.webp",
     "credit": {
       "author": "(c) turtlecrab, some rights reserved (CC BY)",
@@ -1021,6 +1147,9 @@ globalThis.FLOWERS = [
     "meaning": "喜庆",
     "season": "冬春",
     "blurb": "橙红成串，如炮仗高挂。",
+    "morph": "常绿藤本，花橙红色，密集成串，形如鞭炮垂挂。",
+    "culture": "象征喜庆，是新春庭院红火景致。",
+    "care": "原产南美，喜温暖阳光，华南常见。",
     "image": "images/pyrostegia-venusta.webp",
     "credit": {
       "author": "(c) pvrooman, some rights reserved (CC BY-NC)",
@@ -1048,6 +1177,9 @@ globalThis.FLOWERS = [
     "meaning": "好运、沉迷",
     "season": "夏秋",
     "blurb": "紫薇花开百日红。",
+    "morph": "落叶灌木或小乔木，圆锥花序，粉紫红白，夏秋百日红。",
+    "culture": "象征好运，痒痒树之名富趣味。",
+    "care": "原产中国，喜光耐旱，花后修剪。",
     "image": "images/lagerstroemia-indica.webp",
     "credit": {
       "author": "(c) Rich_Yang, some rights reserved (CC BY-NC), uploaded by Rich_Yang",
@@ -1071,6 +1203,9 @@ globalThis.FLOWERS = [
     "meaning": "幸福",
     "season": "夏",
     "blurb": "东南亚的夏日之花。",
+    "morph": "落叶乔木，花大，紫红色，圆锥花序，热带皇后。",
+    "culture": "象征幸福，是东南亚盛夏花树。",
+    "care": "原产东南亚，喜高温湿润。",
     "image": "images/lagerstroemia-speciosa.webp",
     "credit": {
       "author": "(c) Mark Roberts, some rights reserved (CC BY-NC), uploaded by Mark Roberts",
@@ -1094,6 +1229,9 @@ globalThis.FLOWERS = [
     "meaning": "成熟的美",
     "season": "夏",
     "blurb": "红艳如火，象征丰收与繁荣。",
+    "morph": "落叶灌木或小乔木，花萼筒状，花瓣红艳，五月如霞。",
+    "culture": "象征成熟的美与繁荣，多子多福。",
+    "care": "原产西亚，喜光耐旱，怕涝。",
     "image": "images/punica-granatum.webp",
     "credit": {
       "author": "(c) H. Zell, some rights reserved (CC BY-SA)",
@@ -1120,6 +1258,9 @@ globalThis.FLOWERS = [
     "meaning": "贞洁、纤细",
     "season": "秋",
     "blurb": "朝白暮红，一日三变。",
+    "morph": "落叶灌木或小乔木，花大，晨白午粉暮红，一日三变。",
+    "culture": "象征贞洁纤细，芙蓉国里尽朝晖。",
+    "care": "原产中国，喜光耐水湿，宜植水边。",
     "image": "images/hibiscus-mutabilis.webp",
     "credit": {
       "author": "(c) Suma Urang, some rights reserved (CC BY-NC), uploaded by Suma Urang",
@@ -1145,6 +1286,9 @@ globalThis.FLOWERS = [
     "meaning": "温柔、坚持",
     "season": "夏秋",
     "blurb": "朝开暮落，生生不息。",
+    "morph": "落叶灌木，花钟形，紫粉白，朝开暮落。",
+    "culture": "象征温柔坚持，是韩国国花无穷花。",
+    "care": "原产东亚，喜光耐旱，萌蘖力强。",
     "image": "images/hibiscus-syriacus.webp",
     "credit": {
       "author": "(c) Kai Yan,  Joseph Wong, some rights reserved (CC BY-NC-SA)",
@@ -1171,6 +1315,9 @@ globalThis.FLOWERS = [
     "meaning": "新鲜的恋情",
     "season": "夏",
     "blurb": "热情明艳，四季常开。",
+    "morph": "常绿灌木，花大，红粉黄，花柱长伸，四季开花。",
+    "culture": "象征新鲜恋情，热情明艳。",
+    "care": "原产中国南部，喜温暖强光。",
     "image": "images/hibiscus-rosa-sinensis.webp",
     "credit": {
       "author": "(c) ian_kinahan, some rights reserved (CC BY-NC)",
@@ -1196,6 +1343,9 @@ globalThis.FLOWERS = [
     "meaning": "魅力",
     "season": "夏秋",
     "blurb": "花瓣反卷，如吊灯垂挂。",
+    "morph": "常绿灌木，花瓣反卷上翘，红粉色，如吊灯垂挂。",
+    "culture": "象征魅力，是园林观赏佳品。",
+    "care": "原产非洲热带，喜温暖湿润。",
     "image": "images/hibiscus-schizopetalus.webp",
     "credit": {
       "author": "(c) Fahlatda Souliyadeth, some rights reserved (CC BY-NC)",
@@ -1220,6 +1370,9 @@ globalThis.FLOWERS = [
     "meaning": "梦想、温和",
     "season": "夏",
     "blurb": "高挑花柱，节节盛开。",
+    "morph": "二年生或多年生草本，茎直立高大，花多色，单瓣或重瓣，自下而上开放。",
+    "culture": "象征梦想与温和，一丈红之名。",
+    "care": "原产中国，喜光耐寒，自播力强。",
     "image": "images/alcea-rosea.webp",
     "credit": {
       "author": "(c) Jacqueline Worthington, some rights reserved (CC BY)",
@@ -1244,6 +1397,9 @@ globalThis.FLOWERS = [
     "meaning": "温婉",
     "season": "夏",
     "blurb": "朴素小花，田园风韵。",
+    "morph": "二年生或多年生草本，花紫红或粉色，瓣脉明显，田园风韵。",
+    "culture": "象征温婉，朴素小花不争春。",
+    "care": "原产欧洲与亚洲，喜光耐旱，自播力强。",
     "image": "images/malva-sylvestris.webp",
     "credit": {
       "author": "(c) Alvesgaspar, some rights reserved (CC BY-SA)",
@@ -1268,6 +1424,9 @@ globalThis.FLOWERS = [
     "meaning": "纯洁、真挚",
     "season": "春",
     "blurb": "净若清荷，先花后叶。",
+    "morph": "落叶乔木，花大洁白，先叶开放，杯状挺立，清香。",
+    "culture": "象征纯洁真挚，望春花是早春信使。",
+    "care": "原产中国中部，喜光，喜肥沃深厚土壤。",
     "image": "images/magnolia-denudata.webp",
     "credit": {
       "author": "(c) thorn133, some rights reserved (CC BY-NC)",
@@ -1292,6 +1451,9 @@ globalThis.FLOWERS = [
     "meaning": "芳香的情思",
     "season": "春",
     "blurb": "紫花亭亭，古意盎然。",
+    "morph": "落叶灌木，花紫色或紫红，直立杯状，先叶开放。",
+    "culture": "象征芳香的情思，辛夷可入药。",
+    "care": "原产中国，喜光耐寒，忌积水。",
     "image": "images/magnolia-liliiflora.webp",
     "credit": {
       "author": "(c) m. m. v., some rights reserved (CC BY)",
@@ -1316,6 +1478,9 @@ globalThis.FLOWERS = [
     "meaning": "优雅",
     "season": "春",
     "blurb": "白紫交融，如二乔并立。",
+    "morph": "落叶小乔木，花白紫相间，内外轮颜色不同，典雅。",
+    "culture": "象征优雅，是玉兰与紫玉兰的杂交种。",
+    "care": "栽培广泛，喜光，喜湿润肥沃土。",
     "image": "images/magnolia-soulangeana.webp",
     "credit": {
       "author": "(c) Kew on Flickr, some rights reserved (CC BY-NC-SA)",
@@ -1339,6 +1504,9 @@ globalThis.FLOWERS = [
     "meaning": "生生不息",
     "season": "夏",
     "blurb": "叶大花硕，清雅大方。",
+    "morph": "常绿乔木，花大如荷，乳白色，夏日开放，叶革质油亮。",
+    "culture": "象征生生不息，是南方常见庭荫树。",
+    "care": "原产北美东南部，喜光湿润。",
     "image": "images/magnolia-grandiflora.webp",
     "credit": {
       "author": "(c) 潘立傑 LiChieh Pan, some rights reserved (CC BY-NC-SA)",
@@ -1363,6 +1531,9 @@ globalThis.FLOWERS = [
     "meaning": "含蓄、矜持",
     "season": "春",
     "blurb": "花半开似含笑，香如香蕉。",
+    "morph": "常绿灌木，花半开似含笑，乳白带黄晕，香如香蕉。",
+    "culture": "象征含蓄矜持，花小而香远。",
+    "care": "原产中国南部，喜半阴湿润。",
     "image": "images/michelia-figo.webp",
     "credit": {
       "author": "(c) Chris Trestick, some rights reserved (CC BY-NC)",
@@ -1387,6 +1558,9 @@ globalThis.FLOWERS = [
     "meaning": "纯真",
     "season": "夏",
     "blurb": "夏日街头，香气袭人。",
+    "morph": "常绿乔木，花白色狭长，极香，夏季盛放。",
+    "culture": "象征纯真，是街头串花经典。",
+    "care": "原产东南亚，喜温暖湿润强光。",
     "image": "images/michelia-alba.webp",
     "credit": {
       "author": "(c) hollythefrog, some rights reserved (CC BY-NC), uploaded by hollythefrog",
@@ -1410,6 +1584,9 @@ globalThis.FLOWERS = [
     "meaning": "永恒的爱",
     "season": "夏",
     "blurb": "金黄花朵，香气浓郁。",
+    "morph": "常绿乔木，花金黄色，狭长浓香，与白兰同属。",
+    "culture": "象征永恒的爱，热带香花。",
+    "care": "原产印度与东南亚，喜暖湿。",
     "image": "images/michelia-champaca.webp",
     "credit": {
       "author": "(c) Ong Jyh Seng, some rights reserved (CC BY-SA), uploaded by Ong Jyh Seng",
@@ -1434,6 +1611,9 @@ globalThis.FLOWERS = [
     "meaning": "秋日",
     "season": "春",
     "blurb": "花似郁金香，叶如马褂。",
+    "morph": "落叶乔木，花黄绿色，形似郁金香，叶如马褂。",
+    "culture": "象征秋日与山林，古老孑遗植物。",
+    "care": "原产中国中部，喜凉爽湿润。",
     "image": "images/liriodendron-chinense.webp",
     "credit": {
       "author": "(c) pheonix_qiu, some rights reserved (CC BY-NC)",
@@ -1458,6 +1638,9 @@ globalThis.FLOWERS = [
     "meaning": "英雄气概",
     "season": "春",
     "blurb": "红棉怒放，英雄之花。",
+    "morph": "落叶大乔木，花红色杯状，先叶开放，满树如炬。",
+    "culture": "象征英雄气概，英雄树之名由此而来。",
+    "care": "原产中国南方，喜光耐旱。",
     "image": "images/bombax-ceiba.webp",
     "credit": {
       "author": "(c) Raymond Khoo, some rights reserved (CC BY-NC), uploaded by Raymond Khoo",
@@ -1482,6 +1665,9 @@ globalThis.FLOWERS = [
     "meaning": "浪漫",
     "season": "秋冬",
     "blurb": "冬日里的粉色浪漫。",
+    "morph": "落叶乔木，花粉色，花瓣反卷，秋冬开放。",
+    "culture": "象征浪漫，是冬日里的粉色云霞。",
+    "care": "原产南美，华南常见，喜暖光。",
     "image": "images/ceiba-speciosa.webp",
     "credit": {
       "author": "(c) Maria Patricia Gorges, some rights reserved (CC BY-NC)",
@@ -1508,6 +1694,9 @@ globalThis.FLOWERS = [
     "meaning": "孕育希望",
     "season": "夏",
     "blurb": "热带风情的五瓣小花。",
+    "morph": "落叶小乔木，花白心黄或粉红，五瓣旋生，香气清甜。",
+    "culture": "象征孕育希望，是热带海岛符号。",
+    "care": "原产美洲热带，喜光耐旱。",
     "image": "images/plumeria-rubra.webp",
     "credit": {
       "author": "(c) Raja Sekhar Chimirala, some rights reserved (CC BY)",
@@ -1531,6 +1720,9 @@ globalThis.FLOWERS = [
     "meaning": "活泼",
     "season": "夏秋",
     "blurb": "喇叭状黄花，明亮夺目。",
+    "morph": "常绿灌木，花黄色漏斗状，明艳夺目，花期长。",
+    "culture": "象征活泼，是热带花篱常用种。",
+    "care": "原产南美，喜温暖湿润强光。",
     "image": "images/allamanda-schottii.webp",
     "credit": {
       "author": "(c) Luís A. Funez, some rights reserved (CC BY-NC), uploaded by Luís A. Funez",
@@ -1556,6 +1748,9 @@ globalThis.FLOWERS = [
     "meaning": "注意危险",
     "season": "夏秋",
     "blurb": "花美但全株有毒，只可远观。",
+    "morph": "常绿灌木，花粉红白或红，聚伞花序，全株有毒。",
+    "culture": "花美而危险，只可远观，可抗污染。",
+    "care": "原产南亚，喜光耐旱，适应性强。",
     "image": "images/nerium-oleander.webp",
     "credit": {
       "author": "(c) Cheng-wei, Liu (Jack), some rights reserved (CC BY-NC), uploaded by Cheng-wei, Liu (Jack)",
@@ -1582,6 +1777,9 @@ globalThis.FLOWERS = [
     "meaning": "愉快的回忆",
     "season": "夏秋",
     "blurb": "花期极长，日日见春。",
+    "morph": "亚灌木状草本，花红粉白，单生叶腋，几乎全年开花。",
+    "culture": "象征愉快的回忆，日日春名不虚传。",
+    "care": "原产马达加斯加，喜暖光，忌涝。",
     "image": "images/catharanthus-roseus.webp",
     "credit": {
       "author": "(c) James Bailey, some rights reserved (CC BY-NC), uploaded by James Bailey",
@@ -1606,6 +1804,9 @@ globalThis.FLOWERS = [
     "meaning": "和睦、亲情",
     "season": "冬春",
     "blurb": "香港市花，花形如蝶。",
+    "morph": "常绿乔木，花紫红色，形似蝴蝶，冬季至早春盛开。",
+    "culture": "象征和睦亲情，是香港区花。",
+    "care": "原产华南，喜暖湿，宜酸性土。",
     "image": "images/bauhinia-blakeana.webp",
     "credit": {
       "author": "(c) annecasson, some rights reserved (CC BY-NC)",
@@ -1631,6 +1832,9 @@ globalThis.FLOWERS = [
     "meaning": "亲情",
     "season": "秋冬",
     "blurb": "粉紫满树，南国风情。",
+    "morph": "落叶乔木，花粉紫，叶先端二裂如羊蹄。",
+    "culture": "象征亲情，南国秋冬花树。",
+    "care": "原产南亚，喜暖光，耐旱。",
     "image": "images/bauhinia-purpurea.webp",
     "credit": {
       "author": "no rights reserved",
@@ -1654,6 +1858,9 @@ globalThis.FLOWERS = [
     "meaning": "红火",
     "season": "春",
     "blurb": "红色花序如珊瑚串。",
+    "morph": "落叶乔木，花红色，花序如珊瑚串，先叶开放。",
+    "culture": "象征红火，是南国热烈之花。",
+    "care": "原产亚洲热带，喜暖光。",
     "image": "images/erythrina-variegata.webp",
     "credit": {
       "author": "(c) wanyu_, some rights reserved (CC BY-NC)",
@@ -1677,6 +1884,9 @@ globalThis.FLOWERS = [
     "meaning": "热情",
     "season": "夏",
     "blurb": "弯月形红花，热烈奔放。",
+    "morph": "落叶灌木或小乔木，花猩红，弯月形，成簇开放。",
+    "culture": "象征热情，是庭园焦点。",
+    "care": "原产南美，喜温暖阳光。",
     "image": "images/erythrina-corallodendron.webp",
     "credit": {
       "author": "(c) Christian Grenier, some rights reserved (CC BY-NC), uploaded by Christian Grenier",
@@ -1700,6 +1910,9 @@ globalThis.FLOWERS = [
     "meaning": "谦逊",
     "season": "春夏",
     "blurb": "金黄小花如雀鸟飞舞。",
+    "morph": "落叶灌木，花金黄色，蝶形，如雀鸟栖枝。",
+    "culture": "象征谦逊，山野春光。",
+    "care": "原产中国，喜光耐旱，忌涝。",
     "image": "images/caragana-sinica.webp",
     "credit": {
       "author": "(c) 강민재, some rights reserved (CC BY-NC)",
@@ -1723,6 +1936,9 @@ globalThis.FLOWERS = [
     "meaning": "家庭和睦",
     "season": "春",
     "blurb": "老干生花，紫气满枝。",
+    "morph": "落叶灌木或小乔木，花紫红，簇生老干，满条红。",
+    "culture": "象征家庭和睦，先花后叶。",
+    "care": "原产中国，喜光耐寒。",
     "image": "images/cercis-chinensis.webp",
     "credit": {
       "author": "(c) Chicago Botanic Garden 2010, some rights reserved (CC BY-NC-SA)",
@@ -1747,6 +1963,9 @@ globalThis.FLOWERS = [
     "meaning": "清净",
     "season": "春",
     "blurb": "白色流苏，如四月飘雪。",
+    "morph": "落叶乔木，花白色，花瓣细长流苏状，四五月如雪。",
+    "culture": "象征清净，四月雪之名雅致。",
+    "care": "原产中国，喜光，耐寒耐旱。",
     "image": "images/chionanthus-retusus.webp",
     "credit": {
       "author": "(c) Penny Wang, some rights reserved (CC BY-NC), uploaded by Penny Wang",
@@ -1771,6 +1990,9 @@ globalThis.FLOWERS = [
     "meaning": "爱恋",
     "season": "夏",
     "blurb": "细白小花如碎雪。",
+    "morph": "常绿小灌木，花白色或淡粉，细小繁密如碎雪。",
+    "culture": "象征爱恋，是盆景经典素材。",
+    "care": "原产中国长江流域，喜半阴湿润。",
     "image": "images/serissa-japonica.webp",
     "credit": {
       "author": "(c) r0829, some rights reserved (CC BY-NC)",
@@ -1796,6 +2018,9 @@ globalThis.FLOWERS = [
     "meaning": "热情",
     "season": "夏秋",
     "blurb": "团团锦簇，如龙舟竞渡。",
+    "morph": "常绿灌木，花红橙黄，聚生成球，夏秋繁盛。",
+    "culture": "象征热情，端午前后盛开似龙舟。",
+    "care": "原产中国南方，喜暖湿强光。",
     "image": "images/ixora-chinensis.webp",
     "credit": {
       "author": "PPBC",
@@ -1820,6 +2045,9 @@ globalThis.FLOWERS = [
     "meaning": "永恒的爱",
     "season": "夏",
     "blurb": "素洁芬芳，一生的守候。",
+    "morph": "常绿灌木，花白色，重瓣浓香，夏初开放。",
+    "culture": "象征永恒的爱，水横枝之名清雅。",
+    "care": "原产中国，喜酸性土，喜光耐半阴。",
     "image": "images/gardenia-jasminoides.webp",
     "credit": {
       "author": "no rights reserved, uploaded by 葉子",
@@ -1844,6 +2072,9 @@ globalThis.FLOWERS = [
     "meaning": "宁静",
     "season": "夏",
     "blurb": "白色萼片如叶片般舒展。",
+    "morph": "常绿灌木，白色萼片似叶，金色小花居中，奇特。",
+    "culture": "象征宁静，园林观赏灌木。",
+    "care": "原产中国南方，喜暖湿半阴。",
     "image": "images/mussaenda-pubescens.webp",
     "credit": {
       "author": "(c) 孟尝君, some rights reserved (CC BY-NC)",
@@ -1871,6 +2102,9 @@ globalThis.FLOWERS = [
     "meaning": "团圆美满",
     "season": "夏",
     "blurb": "绣球般的花团，美满的祝福。",
+    "morph": "落叶灌木，花球硕大，蓝粉紫白随土壤酸碱变化。",
+    "culture": "象征团圆美满，八仙花之名传世。",
+    "care": "原产中国与日本，喜半阴湿润，酸性土开蓝花。",
     "image": "images/hydrangea-macrophylla.webp",
     "credit": {
       "author": "(c) miyuu, some rights reserved (CC BY-NC)",
@@ -1895,6 +2129,9 @@ globalThis.FLOWERS = [
     "meaning": "希望",
     "season": "夏秋",
     "blurb": "圆锥花序，由白转粉。",
+    "morph": "落叶灌木，圆锥花序，花白渐变粉，夏秋开放。",
+    "culture": "象征希望，庭院新宠。",
+    "care": "原产东亚，喜光耐寒，宜湿润。",
     "image": "images/hydrangea-paniculata.webp",
     "credit": {
       "author": "PPBC",
@@ -1918,6 +2155,9 @@ globalThis.FLOWERS = [
     "meaning": "神秘",
     "season": "夏",
     "blurb": "金色丝蕊，灿烂夺目。",
+    "morph": "半常绿灌木，花金黄色，雄蕊细长如丝，灿烂。",
+    "culture": "象征神秘，亮丽而不张扬。",
+    "care": "原产中国，喜光耐半阴，忌涝。",
     "image": "images/hypericum-monogynum.webp",
     "credit": {
       "author": "(c) Hugo Sun, some rights reserved (CC BY-NC)",
@@ -1941,6 +2181,9 @@ globalThis.FLOWERS = [
     "meaning": "光明",
     "season": "春夏",
     "blurb": "花瓣金黄，蕊丝纤细。",
+    "morph": "半常绿灌木，花金黄，雄蕊短于金丝桃，夏季开放。",
+    "culture": "象征光明，山坡灌丛常见。",
+    "care": "原产中国，喜光耐旱。",
     "image": "images/hypericum-patulum.webp",
     "credit": {
       "author": "PPBC",
@@ -1967,6 +2210,9 @@ globalThis.FLOWERS = [
     "meaning": "祥瑞",
     "season": "冬春",
     "blurb": "花香浓郁，瑞气盈门。",
+    "morph": "常绿灌木，花白粉或紫红，头状花序，浓香袭人。",
+    "culture": "象征祥瑞，睡香之名叫人神往。",
+    "care": "原产中国长江流域，喜半阴，忌暴晒。",
     "image": "images/daphne-odora.webp",
     "credit": {
       "author": "(c) Lyn, some rights reserved (CC BY-NC)",
@@ -1991,6 +2237,9 @@ globalThis.FLOWERS = [
     "meaning": "喜结连枝",
     "season": "冬春",
     "blurb": "枝条可打结，花黄如球。",
+    "morph": "落叶灌木，花黄色，头状花序下垂，枝软可打结。",
+    "culture": "象征喜结连枝，梦花之名浪漫。",
+    "care": "原产中国，喜半阴湿润，耐寒。",
     "image": "images/edgeworthia-chrysantha.webp",
     "credit": {
       "author": "(c) Ben Zerante, some rights reserved (CC BY-NC), uploaded by Ben Zerante",
@@ -2015,6 +2264,9 @@ globalThis.FLOWERS = [
     "meaning": "祝福你",
     "season": "冬",
     "blurb": "圣诞节的经典红。",
+    "morph": "常绿灌木，苞片鲜红似花，聚生枝顶，冬春上市。",
+    "culture": "象征祝福，是圣诞节经典盆花。",
+    "care": "原产墨西哥，喜温暖，短日照促花。",
     "image": "images/euphorbia-pulcherrima.webp",
     "credit": {
       "author": "PPBC",
@@ -2040,6 +2292,9 @@ globalThis.FLOWERS = [
     "meaning": "倔强坚强",
     "season": "四季",
     "blurb": "带刺的茎上开出小花。",
+    "morph": "多刺灌木，花小，红粉或黄色，几乎全年开花。",
+    "culture": "象征倔强坚强，带刺的温柔。",
+    "care": "原产马达加斯加，喜暖光，忌涝。",
     "image": "images/euphorbia-milii.webp",
     "credit": {
       "author": "(c) dirlid, some rights reserved (CC BY-NC), uploaded by dirlid",
@@ -2067,6 +2322,9 @@ globalThis.FLOWERS = [
     "meaning": "热情",
     "season": "四季",
     "blurb": "彩色苞片如花瓣般艳丽。",
+    "morph": "常绿藤状灌木，彩色苞片似花，红粉紫白，四季常开。",
+    "culture": "象征热情，是华南花墙主角。",
+    "care": "原产南美，喜强光，控水促花。",
     "image": "images/bougainvillea-spectabilis.webp",
     "credit": {
       "author": "(c) Prenn, some rights reserved (CC BY-SA)",
@@ -2090,6 +2348,9 @@ globalThis.FLOWERS = [
     "meaning": "默默的爱",
     "season": "夏",
     "blurb": "黄昏绽放，暗香浮动。",
+    "morph": "二年生草本，花黄色，傍晚开放，次日凋谢。",
+    "culture": "象征默默的爱，待霄草之名诗意。",
+    "care": "原产美洲，已逸生中国，喜光耐旱。",
     "image": "images/oenothera-biennis.webp",
     "credit": {
       "author": "PPBC",
@@ -2114,6 +2375,9 @@ globalThis.FLOWERS = [
     "meaning": "刹那永恒",
     "season": "夏秋",
     "blurb": "昙花一现，为韦陀而开。",
+    "morph": "附生肉质灌木，花白色硕大，夜间开放，数小时即谢。",
+    "culture": "象征刹那永恒，昙花一现为韦陀。",
+    "care": "原产中美洲，喜半阴湿润，忌暴晒。",
     "image": "images/epiphyllum-oxypetalum.webp",
     "credit": {
       "author": "no rights reserved, uploaded by 葉子",
@@ -2138,6 +2402,9 @@ globalThis.FLOWERS = [
     "meaning": "热烈",
     "season": "春夏",
     "blurb": "扁平如令箭，花开如荷。",
+    "morph": "附生肉质灌木，茎扁平如令箭，花大红粉，春夏开放。",
+    "culture": "象征热烈，似荷非荷。",
+    "care": "原产墨西哥，喜半阴，冬季需凉。",
     "image": "images/nopalxochia-ackermannii.webp",
     "credit": {
       "author": "PPBC",
@@ -2162,6 +2429,9 @@ globalThis.FLOWERS = [
     "meaning": "坚强",
     "season": "夏",
     "blurb": "荒漠中的金色花朵。",
+    "morph": "肉质植物，花黄橙或红，生于刺座，荒漠亮色。",
+    "culture": "象征坚强，沙漠中的温柔。",
+    "care": "原产美洲，喜强光干燥，忌水湿。",
     "image": "images/opuntia-ficus-indica.webp",
     "credit": {
       "author": "(c) Richard Boon, some rights reserved (CC BY-NC), uploaded by Richard Boon",
@@ -2187,6 +2457,9 @@ globalThis.FLOWERS = [
     "meaning": "鸿运当头",
     "season": "冬",
     "blurb": "节节相连，冬日盛放。",
+    "morph": "附生肉质灌木，茎节相连如蟹爪，花红粉白，冬季开放。",
+    "culture": "象征鸿运当头，圣诞仙人掌。",
+    "care": "原产巴西，喜半阴湿润，短日照促花。",
     "image": "images/schlumbergera-truncata.webp",
     "credit": {
       "author": "(c) Felipe Tubarão, some rights reserved (CC BY-NC), uploaded by Felipe Tubarão",
@@ -2210,6 +2483,9 @@ globalThis.FLOWERS = [
     "meaning": "吉祥",
     "season": "夏秋",
     "blurb": "巨大的白色夜花。",
+    "morph": "攀援肉质植物，花白色巨大，夜间开放，果为火龙果。",
+    "culture": "象征吉祥，月夜巨花。",
+    "care": "原产中美洲，喜暖光，耐旱。",
     "image": "images/hylocereus-undatus.webp",
     "credit": {
       "author": "no rights reserved, uploaded by 葉子",
@@ -2234,6 +2510,9 @@ globalThis.FLOWERS = [
     "meaning": "高贵、谦谦君子",
     "season": "春",
     "blurb": "端庄典雅，君子之风。",
+    "morph": "多年生草本，叶宽带形，花橙红或黄，伞形花序。",
+    "culture": "象征高贵谦和，君子之风。",
+    "care": "原产南非，喜半阴凉爽，忌暴晒。",
     "image": "images/clivia-miniata.webp",
     "credit": {
       "author": "(c) Allister Starke, some rights reserved (CC BY-NC), uploaded by Allister Starke",
@@ -2258,6 +2537,9 @@ globalThis.FLOWERS = [
     "meaning": "与君同行",
     "season": "夏",
     "blurb": "洁白大花，香气幽远。",
+    "morph": "多年生草本，叶宽大，花白色，伞形花序，芳香。",
+    "culture": "象征与君同行，十八学士之名。",
+    "care": "原产亚洲热带，喜暖湿半阴。",
     "image": "images/crinum-asiaticum.webp",
     "credit": {
       "author": "PPBC",
@@ -2283,6 +2565,9 @@ globalThis.FLOWERS = [
     "meaning": "思念、纯洁",
     "season": "冬春",
     "blurb": "凌波仙子，岁朝清供。",
+    "morph": "多年生草本，鳞茎球状，花白瓣黄心，冬春开放。",
+    "culture": "象征思念与纯洁，凌波仙子。",
+    "care": "原产中国，喜冷凉，水养或土栽。",
     "image": "images/narcissus-tazetta.webp",
     "credit": {
       "author": "(c) Mathis Buriasco, some rights reserved (CC BY-NC), uploaded by Mathis Buriasco",
@@ -2307,6 +2592,9 @@ globalThis.FLOWERS = [
     "meaning": "自信",
     "season": "春",
     "blurb": "金黄喇叭，春天使节。",
+    "morph": "多年生草本，花黄或白，副冠喇叭状，春日开放。",
+    "culture": "象征自信，是春天使节。",
+    "care": "原产欧洲，喜冷凉，球根需春化。",
     "image": "images/narcissus-pseudonarcissus.webp",
     "credit": {
       "author": "PPBC",
@@ -2331,6 +2619,9 @@ globalThis.FLOWERS = [
     "meaning": "离别、重逢",
     "season": "夏秋",
     "blurb": "花叶永不相见。",
+    "morph": "多年生草本，花鲜红，花瓣反卷，花叶不相见。",
+    "culture": "象征离别与重逢，彼岸花之名凄美。",
+    "care": "原产中国与日本，喜半阴湿润。",
     "image": "images/lycoris-radiata.webp",
     "credit": {
       "author": "(c) Aidan Campos, some rights reserved (CC BY-NC), uploaded by Aidan Campos",
@@ -2354,6 +2645,9 @@ globalThis.FLOWERS = [
     "meaning": "快乐",
     "season": "夏秋",
     "blurb": "花先叶后，灿烂金黄。",
+    "morph": "多年生草本，花金黄，形似石蒜，夏秋开放。",
+    "culture": "象征快乐，金色彼岸花。",
+    "care": "原产中国，喜半阴湿润。",
     "image": "images/lycoris-aurea.webp",
     "credit": {
       "author": "no rights reserved, uploaded by 葉子",
@@ -2378,6 +2672,9 @@ globalThis.FLOWERS = [
     "meaning": "初恋",
     "season": "夏秋",
     "blurb": "雨后清丽，素白如葱。",
+    "morph": "多年生草本，叶细如葱，花白色，单生，雨后清新。",
+    "culture": "象征初恋，风雨过后仍盛开。",
+    "care": "原产美洲，喜光耐旱，球根植物。",
     "image": "images/zephyranthes-candida.webp",
     "credit": {
       "author": "(c) Forest and Kim Starr, some rights reserved (CC BY)",
@@ -2402,6 +2699,9 @@ globalThis.FLOWERS = [
     "meaning": "坚强",
     "season": "夏",
     "blurb": "风雨过后，依然盛开。",
+    "morph": "多年生草本，叶似韭菜，花粉红，雨后盛开。",
+    "culture": "象征坚强，风雨花之名贴切。",
+    "care": "原产南美，喜光，耐热耐旱。",
     "image": "images/zephyranthes-grandiflora.webp",
     "credit": {
       "author": "(c) kak_satelite, some rights reserved (CC BY-NC)",
@@ -2427,6 +2727,9 @@ globalThis.FLOWERS = [
     "meaning": "恋爱的造访",
     "season": "夏",
     "blurb": "蓝色花球，清凉一夏。",
+    "morph": "多年生草本，叶带状，花蓝紫，伞形花序成球。",
+    "culture": "象征恋爱的造访，夏日清凉色。",
+    "care": "原产南非，喜光，喜湿润肥沃。",
     "image": "images/agapanthus-africanus.webp",
     "credit": {
       "author": "(c) Nick Helme, some rights reserved (CC BY-NC), uploaded by Nick Helme",
@@ -2451,6 +2754,9 @@ globalThis.FLOWERS = [
     "meaning": "危险的快乐",
     "season": "夏秋",
     "blurb": "夜晚香气格外浓郁。",
+    "morph": "多年生草本，花白色，穗状花序，夜晚香气尤浓。",
+    "culture": "象征危险的快乐，月下香之名。",
+    "care": "原产墨西哥，喜暖光，球茎栽植。",
     "image": "images/polianthes-tuberosa.webp",
     "credit": {
       "author": "(c) SONU KUMAR, some rights reserved (CC BY-NC), uploaded by SONU KUMAR",
@@ -2474,6 +2780,9 @@ globalThis.FLOWERS = [
     "meaning": "百年好合",
     "season": "夏",
     "blurb": "圣洁之花，幸福团圆。",
+    "morph": "多年生草本，鳞茎鳞片抱合，花白色或带紫纹，喇叭形。",
+    "culture": "象征百年好合，婚礼常用花。",
+    "care": "原产中国，喜凉光，喜排水良好土壤。",
     "image": "images/lilium-brownii.webp",
     "credit": {
       "author": "PPBC",
@@ -2498,6 +2807,9 @@ globalThis.FLOWERS = [
     "meaning": "财富、自信",
     "season": "夏",
     "blurb": "花瓣带斑如虎纹。",
+    "morph": "多年生草本，花橙红，花瓣反卷带紫黑斑，如虎纹。",
+    "culture": "象征财富与自信，虎皮百合。",
+    "care": "原产中国，喜光，球根可食。",
     "image": "images/lilium-lancifolium.webp",
     "credit": {
       "author": "(c) 이상길, some rights reserved (CC BY-NC)",
@@ -2521,6 +2833,9 @@ globalThis.FLOWERS = [
     "meaning": "伟大的爱",
     "season": "夏",
     "blurb": "洁白芬芳，婚礼常客。",
+    "morph": "多年生草本，花大洁白，重瓣或单瓣，浓香。",
+    "culture": "象征伟大的爱，卡萨布兰卡之名浪漫。",
+    "care": "栽培品种，喜凉光，忌闷热。",
     "image": "images/lilium-casa-blanca.webp",
     "credit": {
       "author": "PPBC",
@@ -2545,6 +2860,9 @@ globalThis.FLOWERS = [
     "meaning": "热烈",
     "season": "夏",
     "blurb": "山丹丹开花红艳艳。",
+    "morph": "多年生草本，花鲜红，花瓣反卷，山野明艳。",
+    "culture": "象征热烈，山丹丹开花红艳艳。",
+    "care": "原产中国北方，喜光耐寒。",
     "image": "images/lilium-pumilum.webp",
     "credit": {
       "author": "(c) Сойжина Цыдыпылова, some rights reserved (CC BY-NC)",
@@ -2568,6 +2886,9 @@ globalThis.FLOWERS = [
     "meaning": "博爱、祝福",
     "season": "春",
     "blurb": "荷兰国花，色彩斑斓。",
+    "morph": "多年生草本，鳞茎扁圆，花杯状单生，色彩极丰。",
+    "culture": "象征博爱与祝福，荷兰国花。",
+    "care": "原产中亚，喜冷凉，球根需低温春化。",
     "image": "images/tulipa-gesneriana.webp",
     "credit": {
       "author": "PPBC",
@@ -2591,6 +2912,9 @@ globalThis.FLOWERS = [
     "meaning": "喜悦、重生",
     "season": "春",
     "blurb": "花香浓郁，串串铃铛。",
+    "morph": "多年生草本，鳞茎球状，花穗密集，钟形，香浓。",
+    "culture": "象征喜悦与重生，五色水仙。",
+    "care": "原产地中海，喜冷凉，球根可水培。",
     "image": "images/hyacinthus-orientalis.webp",
     "credit": {
       "author": "(c) gemmamorabito, some rights reserved (CC BY-NC)",
@@ -2615,6 +2939,9 @@ globalThis.FLOWERS = [
     "meaning": "忧郁",
     "season": "春",
     "blurb": "蓝色小串，如葡萄挂枝。",
+    "morph": "多年生草本，花蓝紫，小钟形密生成串，如葡萄。",
+    "culture": "象征忧郁，蓝色小花串串垂。",
+    "care": "原产欧洲，喜凉光，球根植物。",
     "image": "images/muscari-botryoides.webp",
     "credit": {
       "author": "(c) Danila, some rights reserved (CC BY-NC)",
@@ -2639,6 +2966,9 @@ globalThis.FLOWERS = [
     "meaning": "幸福归来",
     "season": "春",
     "blurb": "白色铃铛，幸福摇响。",
+    "morph": "多年生草本，叶卵形，花白铃铛状，悬垂成串。",
+    "culture": "象征幸福归来，谷中百合。",
+    "care": "原产北半球温带，喜半阴湿润凉爽。",
     "image": "images/convallaria-majalis.webp",
     "credit": {
       "author": "PPBC",
@@ -2663,6 +2993,9 @@ globalThis.FLOWERS = [
     "meaning": "忘记忧愁",
     "season": "夏",
     "blurb": "一花一谢，日日新颜。",
+    "morph": "多年生草本，花橙黄，漏斗形，每朵仅开一日。",
+    "culture": "象征忘记忧愁，忘忧草之名。",
+    "care": "原产中国，喜光耐旱，花可食用。",
     "image": "images/hemerocallis-fulva.webp",
     "credit": {
       "author": "(c) Susan Elliott, some rights reserved (CC BY-NC), uploaded by Susan Elliott",
@@ -2686,6 +3019,9 @@ globalThis.FLOWERS = [
     "meaning": "快乐",
     "season": "夏",
     "blurb": "花色繁多，灿烂一夏。",
+    "morph": "多年生草本，花大色艳，多彩，花期长。",
+    "culture": "象征快乐，现代园艺杂交种。",
+    "care": "栽培品种，喜光，耐旱耐热。",
     "image": "images/hemerocallis-hybrida.webp",
     "credit": {
       "author": "PPBC",
@@ -2710,6 +3046,9 @@ globalThis.FLOWERS = [
     "meaning": "恬静",
     "season": "夏秋",
     "blurb": "白花如玉簪，幽香宜人。",
+    "morph": "多年生草本，叶大心形，花白色，芳香，黄昏开放。",
+    "culture": "象征恬静，玉春棒之名雅致。",
+    "care": "原产中国，喜阴湿，忌强光。",
     "image": "images/hosta-plantaginea.webp",
     "credit": {
       "author": "(c) Andrejus Gaidamavičius, some rights reserved (CC BY)",
@@ -2733,6 +3072,9 @@ globalThis.FLOWERS = [
     "meaning": "宁静",
     "season": "夏",
     "blurb": "紫色钟形花，清雅含蓄。",
+    "morph": "多年生草本，叶似玉簪，花紫色，钟形。",
+    "culture": "象征宁静，林下阴生佳品。",
+    "care": "原产中国，喜阴湿。",
     "image": "images/hosta-ventricosa.webp",
     "credit": {
       "author": "PPBC",
@@ -2757,6 +3099,9 @@ globalThis.FLOWERS = [
     "meaning": "爱的使者",
     "season": "春末",
     "blurb": "花大色艳，虹膜如彩。",
+    "morph": "多年生草本，根茎粗壮，花大，紫蓝黄白，垂瓣带须。",
+    "culture": "象征爱的使者，虹膜之名源于花色。",
+    "care": "原产欧洲，喜光，耐旱，忌涝。",
     "image": "images/iris-germanica.webp",
     "credit": {
       "author": "(c) wild_restoration, some rights reserved (CC BY-NC)",
@@ -2782,6 +3127,9 @@ globalThis.FLOWERS = [
     "meaning": "想念你",
     "season": "春",
     "blurb": "蓝色花瓣如蝴蝶飞舞。",
+    "morph": "多年生草本，花蓝紫色，外轮垂瓣，叶剑形。",
+    "culture": "象征想念你，蓝蝴蝶振翅欲飞。",
+    "care": "原产中国，喜半阴湿润。",
     "image": "images/iris-tectorum.webp",
     "credit": {
       "author": "(c) 非常豹, some rights reserved (CC BY-NC), uploaded by 非常豹",
@@ -2805,6 +3153,9 @@ globalThis.FLOWERS = [
     "meaning": "信守承诺",
     "season": "春末夏",
     "blurb": "水边的一抹亮黄。",
+    "morph": "多年生水生草本，花黄色，生于水边，叶剑形。",
+    "culture": "象征信守承诺，水边亮色。",
+    "care": "原产欧洲，已广植，喜水湿强光。",
     "image": "images/iris-pseudacorus.webp",
     "credit": {
       "author": "(c) Owen and Carol Fawcett., some rights reserved (CC BY)",
@@ -2829,6 +3180,9 @@ globalThis.FLOWERS = [
     "meaning": "优雅",
     "season": "初夏",
     "blurb": "花姿挺拔，蓝紫雅致。",
+    "morph": "多年生草本，花蓝紫，花茎直立，水边雅致。",
+    "culture": "象征优雅，东方鸢尾。",
+    "care": "原产东亚，喜湿润半阴。",
     "image": "images/iris-sanguinea.webp",
     "credit": {
       "author": "PPBC",
@@ -2853,6 +3207,9 @@ globalThis.FLOWERS = [
     "meaning": "善良",
     "season": "春",
     "blurb": "蓝紫色小花，韧性十足。",
+    "morph": "多年生草本，花蓝紫，叶坚韧，生于路旁草地。",
+    "culture": "象征善良，马兰花是儿歌主角。",
+    "care": "原产中国，耐旱耐盐碱，极强韧。",
     "image": "images/iris-lactea.webp",
     "credit": {
       "author": "(c) liam1294, some rights reserved (CC BY)",
@@ -2878,6 +3235,9 @@ globalThis.FLOWERS = [
     "meaning": "阳光",
     "season": "夏",
     "blurb": "花瓣橙红带斑，如蝶似星。",
+    "morph": "多年生草本，花橙红带斑，花后蒴果如黑色浆果。",
+    "culture": "象征阳光，扁竹兰之名。",
+    "care": "原产东亚，喜光耐旱。",
     "image": "images/belamcanda-chinensis.webp",
     "credit": {
       "author": "no rights reserved, uploaded by 葉子",
@@ -2902,6 +3262,9 @@ globalThis.FLOWERS = [
     "meaning": "用心",
     "season": "夏秋",
     "blurb": "剑形叶，花穗直上。",
+    "morph": "多年生草本，叶剑形，花穗直立，花色繁多。",
+    "culture": "象征用心，剑兰切花之王。",
+    "care": "原产非洲，喜光，球茎栽植。",
     "image": "images/gladiolus-gandavensis.webp",
     "credit": {
       "author": "PPBC",
@@ -2925,6 +3288,9 @@ globalThis.FLOWERS = [
     "meaning": "纯洁",
     "season": "春",
     "blurb": "花香清雅，色彩柔和。",
+    "morph": "多年生草本，花漏斗形，多彩，芳香清雅。",
+    "culture": "象征纯洁，香雪兰之名。",
+    "care": "原产南非，喜凉光，球茎植物。",
     "image": "images/freesia-refracta.webp",
     "credit": {
       "author": "(c) Patrick Lane, some rights reserved (CC BY-NC), uploaded by Patrick Lane",
@@ -2950,6 +3316,9 @@ globalThis.FLOWERS = [
     "meaning": "喜悦",
     "season": "秋",
     "blurb": "秋日里的紫色惊喜。",
+    "morph": "多年生草本，花紫白，柱头红色，秋季开放。",
+    "culture": "象征喜悦，藏红花为珍贵香料。",
+    "care": "原产欧洲与西亚，喜凉光，球茎栽植。",
     "image": "images/crocus-sativus.webp",
     "credit": {
       "author": "PPBC",
@@ -2974,6 +3343,9 @@ globalThis.FLOWERS = [
     "meaning": "聪明",
     "season": "春末",
     "blurb": "紫色花球，圆润可爱。",
+    "morph": "多年生草本，花紫红色，球状花序硕大，亭亭玉立。",
+    "culture": "象征聪明，巨型葱花。",
+    "care": "原产中亚，喜光，忌积水。",
     "image": "images/allium-giganteum.webp",
     "credit": {
       "author": "(c) Наталья Бешко, some rights reserved (CC BY-NC), uploaded by Наталья Бешко",
@@ -2998,6 +3370,9 @@ globalThis.FLOWERS = [
     "meaning": "坚强",
     "season": "夏",
     "blurb": "蒜香小花，紫色成丛。",
+    "morph": "多年生草本，叶似韭，花紫色，伞形花序，具蒜香。",
+    "culture": "象征坚强，非洲小百合。",
+    "care": "原产南非，喜光耐旱。",
     "image": "images/tulbaghia-violacea.webp",
     "credit": {
       "author": "PPBC",
@@ -3023,6 +3398,9 @@ globalThis.FLOWERS = [
     "meaning": "高洁、清雅",
     "season": "春",
     "blurb": "空谷幽兰，王者之香。",
+    "morph": "多年生草本，叶狭带形，花单生，黄绿色，幽香。",
+    "culture": "象征高洁清雅，空谷幽兰。",
+    "care": "原产中国，喜半阴凉爽湿润。",
     "image": "images/cymbidium-goeringii.webp",
     "credit": {
       "author": "(c) vico, some rights reserved (CC BY-NC), uploaded by vico",
@@ -3048,6 +3426,9 @@ globalThis.FLOWERS = [
     "meaning": "丰盛",
     "season": "春",
     "blurb": "花繁叶茂，气势挺拔。",
+    "morph": "多年生草本，叶直立，花茎挺出，花多黄绿，香浓。",
+    "culture": "象征丰盛，九子兰之名。",
+    "care": "原产中国，喜凉爽半阴。",
     "image": "images/cymbidium-faberi.webp",
     "credit": {
       "author": "(c) Linnunrata, some rights reserved (CC BY-NC), uploaded by Linnunrata",
@@ -3073,6 +3454,9 @@ globalThis.FLOWERS = [
     "meaning": "清雅",
     "season": "夏秋",
     "blurb": "四季可赏，香清色淡。",
+    "morph": "多年生草本，叶宽，花黄绿，夏秋开放，四季可赏。",
+    "culture": "象征清雅，四季兰之名。",
+    "care": "原产中国南方，喜温暖半阴。",
     "image": "images/cymbidium-ensifolium.webp",
     "credit": {
       "author": "PPBC",
@@ -3098,6 +3482,9 @@ globalThis.FLOWERS = [
     "meaning": "淡泊",
     "season": "冬春",
     "blurb": "花色深浓，岁末开花。",
+    "morph": "多年生草本，叶宽厚，花色深褐紫，冬春开放。",
+    "culture": "象征淡泊，报岁兰迎春。",
+    "care": "原产中国南方，喜温暖湿润半阴。",
     "image": "images/cymbidium-sinense.webp",
     "credit": {
       "author": "(c) 方偉宇, some rights reserved (CC BY-NC)",
@@ -3122,6 +3509,9 @@ globalThis.FLOWERS = [
     "meaning": "清冷",
     "season": "冬",
     "blurb": "花姿清瘦，幽香袭人。",
+    "morph": "多年生草本，叶窄，花绿紫，花姿清瘦，冬开。",
+    "culture": "象征清冷，幽香独守寒窗。",
+    "care": "原产中国南方，喜凉爽半阴。",
     "image": "images/cymbidium-kanran.webp",
     "credit": {
       "author": "PPBC",
@@ -3145,6 +3535,9 @@ globalThis.FLOWERS = [
     "meaning": "幸福飞来",
     "season": "冬春",
     "blurb": "形如彩蝶，优雅端庄。",
+    "morph": "多年生附生草本，花形如蝶，多彩，花序拱垂。",
+    "culture": "象征幸福飞来，年宵花之王。",
+    "care": "原产东南亚，喜暖湿半阴，附生栽培。",
     "image": "images/phalaenopsis-aphrodite.webp",
     "credit": {
       "author": "(c) 夏曼威廉斯, some rights reserved (CC BY-NC), uploaded by 夏曼威廉斯",
@@ -3169,6 +3562,9 @@ globalThis.FLOWERS = [
     "meaning": "高贵",
     "season": "冬春",
     "blurb": "花大色艳，年宵花卉。",
+    "morph": "多年生草本，花大色艳，花序直立，冬春上市。",
+    "culture": "象征高贵，年宵名品。",
+    "care": "栽培杂交种，喜凉爽昼夜温差。",
     "image": "images/cymbidium-hybridum.webp",
     "credit": {
       "author": "PPBC",
@@ -3194,6 +3590,9 @@ globalThis.FLOWERS = [
     "meaning": "谦逊",
     "season": "冬春",
     "blurb": "唇瓣如兜，奇特可爱。",
+    "morph": "多年生草本，唇瓣袋状如拖鞋，花形奇特。",
+    "culture": "象征谦逊，拖鞋兰之名。",
+    "care": "原产亚洲热带，喜暖湿半阴。",
     "image": "images/paphiopedilum-insigne.webp",
     "credit": {
       "author": "(c) Gabriel Camilo Jaramillo Giraldo, some rights reserved (CC BY-NC-SA), uploaded by Gabriel Camilo Jaramillo Giraldo",
@@ -3219,6 +3618,9 @@ globalThis.FLOWERS = [
     "meaning": "父爱",
     "season": "春夏",
     "blurb": "附生兰花，药食同源。",
+    "morph": "多年生附生草本，茎节状，花白粉紫，可观可药。",
+    "culture": "象征父爱，金钗石斛是名药材。",
+    "care": "原产亚洲热带，喜暖湿半阴，附生栽培。",
     "image": "images/dendrobium-nobile.webp",
     "credit": {
       "author": "PPBC",
@@ -3242,6 +3644,9 @@ globalThis.FLOWERS = [
     "meaning": "欢迎",
     "season": "夏秋",
     "blurb": "花似蝴蝶，色彩明快。",
+    "morph": "多年生附生草本，花似蝴蝶，色彩明快，秋开。",
+    "culture": "象征欢迎，蝴蝶石斛。",
+    "care": "原产大洋洲热带，喜暖光湿润。",
     "image": "images/dendrobium-phalaenopsis.webp",
     "credit": {
       "author": "(c) Jason Searle, some rights reserved (CC BY-NC), uploaded by Jason Searle",
@@ -3266,6 +3671,9 @@ globalThis.FLOWERS = [
     "meaning": "隐藏的爱",
     "season": "秋冬",
     "blurb": "金色小花如舞者翩跹。",
+    "morph": "多年生附生草本，花金黄，唇瓣似舞裙，繁密。",
+    "culture": "象征隐藏的爱，跳舞兰之名。",
+    "care": "原产美洲热带，喜暖湿半阴。",
     "image": "images/oncidium-flexuosum.webp",
     "credit": {
       "author": "PPBC",
@@ -3289,6 +3697,9 @@ globalThis.FLOWERS = [
     "meaning": "敬爱",
     "season": "秋冬",
     "blurb": "兰中皇后，花大华美。",
+    "morph": "多年生附生草本，花大华美，唇瓣突出，兰中皇后。",
+    "culture": "象征敬爱，嘉德丽亚兰。",
+    "care": "原产美洲热带，喜暖湿强光。",
     "image": "images/cattleya-labiata.webp",
     "credit": {
       "author": "(c) Jose Amorin, some rights reserved (CC BY-NC-SA)",
@@ -3313,6 +3724,9 @@ globalThis.FLOWERS = [
     "meaning": "高雅",
     "season": "夏秋",
     "blurb": "天蓝色花朵，稀有美丽。",
+    "morph": "多年生附生草本，花蓝紫，唇瓣深色，附生气生根。",
+    "culture": "象征高雅，天蓝花朵稀有。",
+    "care": "原产东南亚，喜高温强光湿润。",
     "image": "images/vanda-coerulea.webp",
     "credit": {
       "author": "PPBC",
@@ -3337,6 +3751,9 @@ globalThis.FLOWERS = [
     "meaning": "庄重",
     "season": "春夏",
     "blurb": "花梗高挺，花似仙鹤。",
+    "morph": "多年生地生兰，花梗高，花棕红，似仙鹤。",
+    "culture": "象征庄重，大花地生兰。",
+    "care": "原产亚洲热带，喜暖湿半阴。",
     "image": "images/phaius-tankervilleae.webp",
     "credit": {
       "author": "(c) gumnutbabies, some rights reserved (CC BY-NC)",
@@ -3362,6 +3779,9 @@ globalThis.FLOWERS = [
     "meaning": "纯洁",
     "season": "春",
     "blurb": "紫粉小花，林下精灵。",
+    "morph": "多年生地生兰，花紫粉，唇瓣明显，块茎入药。",
+    "culture": "象征纯洁，林下精灵。",
+    "care": "原产东亚，喜凉爽半阴湿润。",
     "image": "images/bletilla-striata.webp",
     "credit": {
       "author": "(c) Laurent Quéno, some rights reserved (CC BY-NC), uploaded by Laurent Quéno",
@@ -3386,6 +3806,9 @@ globalThis.FLOWERS = [
     "meaning": "清秀",
     "season": "春",
     "blurb": "花姿小巧，山林野趣。",
+    "morph": "多年生地生兰，花紫白，小巧，早春开放。",
+    "culture": "象征清秀，山林野趣。",
+    "care": "原产东亚，喜凉爽湿润半阴。",
     "image": "images/calanthe-discolor.webp",
     "credit": {
       "author": "PPBC",
@@ -3410,6 +3833,9 @@ globalThis.FLOWERS = [
     "meaning": "谦逊",
     "season": "春末夏",
     "blurb": "唇瓣如靴，欧洲珍品。",
+    "morph": "多年生地生兰，唇瓣囊状如靴，黄紫相间。",
+    "culture": "象征谦逊，仙履兰之名。",
+    "care": "原产北温带，喜凉爽湿润。",
     "image": "images/cypripedium-calceolus.webp",
     "credit": {
       "author": "(c) walidnemer, some rights reserved (CC BY-NC)",
@@ -3435,6 +3861,9 @@ globalThis.FLOWERS = [
     "meaning": "青春美丽",
     "season": "夏",
     "blurb": "花球如蜡，清甜芬芳。",
+    "morph": "常绿攀援藤本，叶肉质，花球状，粉白蜡质，香。",
+    "culture": "象征青春美丽，蜡花之名。",
+    "care": "原产亚洲热带，喜半阴，忌暴晒。",
     "image": "images/hoya-carnosa.webp",
     "credit": {
       "author": "no rights reserved, uploaded by 葉子",
@@ -3460,6 +3889,9 @@ globalThis.FLOWERS = [
     "meaning": "自由",
     "season": "四季",
     "blurb": "形如仙鹤，展翅欲飞。",
+    "morph": "多年生草本，叶似芭蕉，花橙蓝，形如仙鹤。",
+    "culture": "象征自由，天堂鸟之花。",
+    "care": "原产南非，喜暖光，忌涝。",
     "image": "images/strelitzia-reginae.webp",
     "credit": {
       "author": "PPBC",
@@ -3483,6 +3915,9 @@ globalThis.FLOWERS = [
     "meaning": "热情",
     "season": "四季",
     "blurb": "扇形大叶，洁白花序。",
+    "morph": "常绿乔木状草本，叶扇形巨大，花白色。",
+    "culture": "象征热情，马达加斯加国树。",
+    "care": "原产马达加斯加，喜暖湿强光。",
     "image": "images/ravenala-madagascariensis.webp",
     "credit": {
       "author": "(c) nikschmidt, some rights reserved (CC BY-NC)",
@@ -3507,6 +3942,9 @@ globalThis.FLOWERS = [
     "meaning": "热情",
     "season": "四季",
     "blurb": "垂吊红花，热带风情。",
+    "morph": "多年生草本，花序垂挂，红黄苞片如龙虾爪。",
+    "culture": "象征热情，热带花材。",
+    "care": "原产南美热带，喜暖湿半阴。",
     "image": "images/heliconia-rostrata.webp",
     "credit": {
       "author": "(c) Martin Jung, some rights reserved (CC BY)",
@@ -3533,6 +3971,9 @@ globalThis.FLOWERS = [
     "meaning": "热情、好运",
     "season": "四季",
     "blurb": "佛焰苞明艳，寓意大展宏图。",
+    "morph": "多年生草本，佛焰苞红粉白，肉穗花序金黄，四季开花。",
+    "culture": "象征热情好运，大展宏图。",
+    "care": "原产南美热带，喜暖湿半阴。",
     "image": "images/anthurium-andraeanum.webp",
     "credit": {
       "author": "PPBC",
@@ -3557,6 +3998,9 @@ globalThis.FLOWERS = [
     "meaning": "平静",
     "season": "四季",
     "blurb": "白色佛焰苞如白帆。",
+    "morph": "多年生草本，佛焰苞白色，似白帆，四季开花。",
+    "culture": "象征平静，一帆风顺。",
+    "care": "原产美洲热带，喜半阴湿润。",
     "image": "images/spathiphyllum-wallisii.webp",
     "credit": {
       "author": "(c) ignputraa, some rights reserved (CC BY-NC), uploaded by ignputraa",
@@ -3583,6 +4027,9 @@ globalThis.FLOWERS = [
     "meaning": "忠贞不渝",
     "season": "春",
     "blurb": "马蹄形花朵，清丽脱俗。",
+    "morph": "多年生草本，佛焰苞白黄粉，漏斗形，挺立。",
+    "culture": "象征忠贞不渝，慈姑花之名。",
+    "care": "原产非洲，喜暖湿半阴。",
     "image": "images/zantedeschia-aethiopica.webp",
     "credit": {
       "author": "PPBC",
@@ -3606,6 +4053,9 @@ globalThis.FLOWERS = [
     "meaning": "纯净",
     "season": "夏",
     "blurb": "巨型佛焰苞，亭亭玉立。",
+    "morph": "多年生草本，叶巨大箭形，佛焰苞白色，亭亭玉立。",
+    "culture": "象征纯净，滴水观音。",
+    "care": "原产亚洲热带，喜暖湿半阴。",
     "image": "images/alocasia-macrorrhiza.webp",
     "credit": {
       "author": "(c) SunGW, some rights reserved (CC BY-NC), uploaded by SunGW",
@@ -3631,6 +4081,9 @@ globalThis.FLOWERS = [
     "meaning": "纯洁高雅",
     "season": "夏",
     "blurb": "出淤泥而不染，濯清涟而不妖。",
+    "morph": "多年生水生草本，叶盾形，花粉白，挺出水面。",
+    "culture": "出淤泥而不染，象征纯洁高雅。",
+    "care": "原产亚洲，喜温暖强光，水池栽植。",
     "image": "images/nelumbo-nucifera.webp",
     "credit": {
       "author": "PPBC",
@@ -3654,6 +4107,9 @@ globalThis.FLOWERS = [
     "meaning": "洁净、纯真",
     "season": "夏",
     "blurb": "清晨绽放，午后闭合。",
+    "morph": "多年生水生草本，叶圆形浮水，花多彩，昼开夜合。",
+    "culture": "象征洁净纯真，子午莲之名。",
+    "care": "原产全球温热带，喜暖光静水。",
     "image": "images/nymphaea-tetragona.webp",
     "credit": {
       "author": "(c) naokitakebayashi, some rights reserved (CC BY-SA), uploaded by naokitakebayashi",
@@ -3679,6 +4135,9 @@ globalThis.FLOWERS = [
     "meaning": "霸气",
     "season": "夏秋",
     "blurb": "叶片可载人，花硕大。",
+    "morph": "多年生水生草本，叶巨大如盘，可载人，花白转粉。",
+    "culture": "象征霸气，亚马逊王莲。",
+    "care": "原产南美亚马逊，喜高温强光。",
     "image": "images/victoria-amazonica.webp",
     "credit": {
       "author": "PPBC",
@@ -3702,6 +4161,9 @@ globalThis.FLOWERS = [
     "meaning": "宁静",
     "season": "夏",
     "blurb": "金黄小花浮于水面。",
+    "morph": "多年生水生草本，叶心形浮水，花金黄，挺出水面。",
+    "culture": "象征宁静，黄金莲。",
+    "care": "原产北半球，喜暖光浅水。",
     "image": "images/nuphar-pumila.webp",
     "credit": {
       "author": "no rights reserved, uploaded by 葉子",
@@ -3725,6 +4187,9 @@ globalThis.FLOWERS = [
     "meaning": "含蓄",
     "season": "夏",
     "blurb": "紫花出水，果可食用。",
+    "morph": "一年生水生草本，叶面多刺，花紫，果可食。",
+    "culture": "象征含蓄，鸡头米之花。",
+    "care": "原产亚洲，喜暖光静水。",
     "image": "images/euryale-ferox.webp",
     "credit": {
       "author": "(c) Yokogawa, some rights reserved (CC BY-NC)",
@@ -3749,6 +4214,9 @@ globalThis.FLOWERS = [
     "meaning": "夏日的清凉",
     "season": "夏",
     "blurb": "水边紫红花穗。",
+    "morph": "多年生湿生草本，花紫红，穗状花序，水边成丛。",
+    "culture": "象征夏日的清凉，水柳之名。",
+    "care": "原产欧亚，喜水湿强光。",
     "image": "images/lythrum-salicaria.webp",
     "credit": {
       "author": "PPBC",
@@ -3773,6 +4241,9 @@ globalThis.FLOWERS = [
     "meaning": "清逸",
     "season": "夏秋",
     "blurb": "水生挺拔，花穗雅致。",
+    "morph": "多年生水生草本，叶大，花紫白，花梗挺拔。",
+    "culture": "象征清逸，水竹芋。",
+    "care": "原产美洲，喜暖湿强光。",
     "image": "images/thalia-dealbata.webp",
     "credit": {
       "author": "(c) Pauline Zinn, some rights reserved (CC BY-NC), uploaded by Pauline Zinn",
@@ -3798,6 +4269,9 @@ globalThis.FLOWERS = [
     "meaning": "坚实的未来",
     "season": "夏秋",
     "blurb": "大叶大花，热带风情。",
+    "morph": "多年生草本，叶大，花红黄橙，总状花序，热带风情。",
+    "culture": "象征坚实的未来，红艳蕉。",
+    "care": "原产美洲热带，喜暖光湿润。",
     "image": "images/canna-indica.webp",
     "credit": {
       "author": "PPBC",
@@ -3821,6 +4295,9 @@ globalThis.FLOWERS = [
     "meaning": "热恋",
     "season": "夏秋",
     "blurb": "花大色艳，庭院焦点。",
+    "morph": "多年生草本，花大色艳，多彩，花期长。",
+    "culture": "象征热恋，庭院焦点。",
+    "care": "栽培杂交种，喜暖光湿润。",
     "image": "images/canna-generalis.webp",
     "credit": {
       "author": "(c) kathrynhammond20, some rights reserved (CC BY-NC)",
@@ -3845,6 +4322,9 @@ globalThis.FLOWERS = [
     "meaning": "不安",
     "season": "夏秋",
     "blurb": "蓝紫花朵，浮水而生。",
+    "morph": "多年生浮水草本，叶柄膨大如葫芦，花蓝紫，上有黄斑。",
+    "culture": "象征不安，水葫芦之害。",
+    "care": "原产南美，繁殖极快，需控养。",
     "image": "images/eichhornia-crassipes.webp",
     "credit": {
       "author": "PPBC",
@@ -3869,6 +4349,9 @@ globalThis.FLOWERS = [
     "meaning": "清新",
     "season": "夏",
     "blurb": "水边蓝紫色花穗。",
+    "morph": "多年生水生草本，叶箭形，花蓝紫，穗状花序。",
+    "culture": "象征清新，海寿花。",
+    "care": "原产北美，喜暖湿强光。",
     "image": "images/pontederia-cordata.webp",
     "credit": {
       "author": "(c) Laura Gaudette, some rights reserved (CC BY)",
@@ -3893,6 +4376,9 @@ globalThis.FLOWERS = [
     "meaning": "信仰",
     "season": "夏",
     "blurb": "水边绿剑，端午香草。",
+    "morph": "多年生水生草本，叶剑形如蒲，花黄绿，肉穗花序。",
+    "culture": "象征信仰，端午香草。",
+    "care": "原产东亚，喜水湿半阴。",
     "image": "images/acorus-calamus.webp",
     "credit": {
       "author": "(c) Eduard Garin, some rights reserved (CC BY-NC), uploaded by Eduard Garin",
@@ -3916,6 +4402,9 @@ globalThis.FLOWERS = [
     "meaning": "坚韧",
     "season": "夏",
     "blurb": "三白花瓣，水中清影。",
+    "morph": "多年生水生草本，叶箭形，花白色，三枚花瓣。",
+    "culture": "象征坚韧，燕尾草之花。",
+    "care": "原产亚洲，喜暖湿浅水。",
     "image": "images/sagittaria-trifolia.webp",
     "credit": {
       "author": "no rights reserved, uploaded by 葉子",
@@ -3940,6 +4429,9 @@ globalThis.FLOWERS = [
     "meaning": "清幽",
     "season": "夏",
     "blurb": "细小白花，亭立水畔。",
+    "morph": "多年生水生草本，叶卵形，花白粉，伞形花序。",
+    "culture": "象征清幽，水白菜之花。",
+    "care": "原产欧亚，喜水湿强光。",
     "image": "images/alisma-plantago-aquatica.webp",
     "credit": {
       "author": "(c) Ольга Курякова, some rights reserved (CC BY-NC), uploaded by Ольга Курякова",
@@ -3964,6 +4456,9 @@ globalThis.FLOWERS = [
     "meaning": "忠诚、向阳",
     "season": "夏秋",
     "blurb": "永远追逐太阳的光芒。",
+    "morph": "一年生草本，茎粗壮，头状花序金黄，随日转。",
+    "culture": "象征忠诚向阳，永远的追光者。",
+    "care": "原产北美，喜光，耐旱耐热。",
     "image": "images/helianthus-annuus.webp",
     "credit": {
       "author": "(c) Emily Scherer, some rights reserved (CC BY-NC), uploaded by Emily Scherer",
@@ -3988,6 +4483,9 @@ globalThis.FLOWERS = [
     "meaning": "天真、和平",
     "season": "春",
     "blurb": "小小雏菊，纯真无邪。",
+    "morph": "多年生草本，头状花序白粉，花心金黄，矮小丛生。",
+    "culture": "象征天真和平，延命菊。",
+    "care": "原产欧洲，喜凉光，耐寒。",
     "image": "images/bellis-perennis.webp",
     "credit": {
       "author": "PPBC",
@@ -4014,6 +4512,9 @@ globalThis.FLOWERS = [
     "meaning": "自由、少女心",
     "season": "夏秋",
     "blurb": "随风摇曳，浪漫花海。",
+    "morph": "一年生草本，花白粉紫，舌状花八枚，轻盈摇曳。",
+    "culture": "象征自由与少女心，秋英。",
+    "care": "原产墨西哥，喜光耐旱，自播力强。",
     "image": "images/cosmos-bipinnatus.webp",
     "credit": {
       "author": "(c) Francisco J. Muñoz Nolasco, some rights reserved (CC BY-NC), uploaded by Francisco J. Muñoz Nolasco",
@@ -4038,6 +4539,9 @@ globalThis.FLOWERS = [
     "meaning": "野性美",
     "season": "夏秋",
     "blurb": "金黄色调，热烈明快。",
+    "morph": "一年生草本，花金黄橙红，花瓣舒展，热烈。",
+    "culture": "象征野性美，黄秋英。",
+    "care": "原产墨西哥，喜光，花期长。",
     "image": "images/cosmos-sulphureus.webp",
     "credit": {
       "author": "PPBC",
@@ -4063,6 +4567,9 @@ globalThis.FLOWERS = [
     "meaning": "离别、惜别",
     "season": "春夏",
     "blurb": "金黄灿烂，花期长久。",
+    "morph": "一年生或多年生草本，花黄橙，花瓣重，春日开放。",
+    "culture": "象征离别惜别，长生菊。",
+    "care": "原产地中海，喜凉光，耐寒。",
     "image": "images/calendula-officinalis.webp",
     "credit": {
       "author": "(c) Ульяна Ярцева, some rights reserved (CC BY)",
@@ -4087,6 +4594,9 @@ globalThis.FLOWERS = [
     "meaning": "可靠的爱",
     "season": "夏秋",
     "blurb": "花色繁多，明丽清新。",
+    "morph": "一年生草本，花多彩，头状花序，夏秋开放。",
+    "culture": "象征可靠的爱，江西腊。",
+    "care": "原产中国，喜光，忌连作。",
     "image": "images/callistephus-chinensis.webp",
     "credit": {
       "author": "(c) Emőke Dénes, some rights reserved (CC BY-SA)",
@@ -4111,6 +4621,9 @@ globalThis.FLOWERS = [
     "meaning": "追忆",
     "season": "秋",
     "blurb": "秋日紫色小菊，淡雅宜人。",
+    "morph": "多年生草本，花紫蓝，头状花序，秋日开放。",
+    "culture": "象征追忆，秋色小菊。",
+    "care": "原产东亚，喜光耐寒。",
     "image": "images/aster-tataricus.webp",
     "credit": {
       "author": "PPBC",
@@ -4135,6 +4648,9 @@ globalThis.FLOWERS = [
     "meaning": "高洁、长寿",
     "season": "秋",
     "blurb": "采菊东篱下，悠然见南山。",
+    "morph": "多年生草本，花型花色极丰，秋日盛放，凌霜不凋。",
+    "culture": "象征高洁长寿，花中四君子之一。",
+    "care": "原产中国，喜光，短日照促花。",
     "image": "images/dendranthema-morifolium.webp",
     "credit": {
       "author": "(c) Erica Dunlap, some rights reserved (CC BY-NC), uploaded by Erica Dunlap",
@@ -4160,6 +4676,9 @@ globalThis.FLOWERS = [
     "meaning": "健康长寿",
     "season": "夏秋",
     "blurb": "金黄花球，寓意长寿。",
+    "morph": "一年生草本，花金黄橙红，球状重瓣，夏秋开放。",
+    "culture": "象征健康长寿，臭芙蓉。",
+    "care": "原产墨西哥，喜光，耐热。",
     "image": "images/tagetes-erecta.webp",
     "credit": {
       "author": "PPBC",
@@ -4184,6 +4703,9 @@ globalThis.FLOWERS = [
     "meaning": "惜别",
     "season": "夏秋",
     "blurb": "红黄花边，热闹明快。",
+    "morph": "一年生草本，花黄橙带红晕，密集，夏秋开放。",
+    "culture": "象征惜别，小万寿菊。",
+    "care": "原产墨西哥，喜光，花坛常用。",
     "image": "images/tagetes-patula.webp",
     "credit": {
       "author": "PPBC",
@@ -4208,6 +4730,9 @@ globalThis.FLOWERS = [
     "meaning": "友谊",
     "season": "夏秋",
     "blurb": "节节升高，寓意上进。",
+    "morph": "一年生草本，花多彩，头状花序单生，节节升高。",
+    "culture": "象征友谊与上进，步步高。",
+    "care": "原产墨西哥，喜光耐旱。",
     "image": "images/zinnia-elegans.webp",
     "credit": {
       "author": "(c) Erick Noe Tapia Banda, some rights reserved (CC BY-NC), uploaded by Erick Noe Tapia Banda",
@@ -4232,6 +4757,9 @@ globalThis.FLOWERS = [
     "meaning": "大方、富贵",
     "season": "夏秋",
     "blurb": "花型多变，雍容华丽。",
+    "morph": "多年生草本，块根，花型硕大多变，多彩。",
+    "culture": "象征大方富贵，天竺牡丹。",
+    "care": "原产墨西哥，喜凉光，忌霜。",
     "image": "images/dahlia-pinnata.webp",
     "credit": {
       "author": "PPBC",
@@ -4255,6 +4783,9 @@ globalThis.FLOWERS = [
     "meaning": "风趣",
     "season": "夏秋",
     "blurb": "小巧精致，花园点缀。",
+    "morph": "多年生草本，花型似大丽花而小巧，多彩。",
+    "culture": "象征风趣，迷你大丽花。",
+    "care": "栽培品种，喜光，花期长。",
     "image": "images/dahlia-hybrida.webp",
     "credit": {
       "author": "PPBC",
@@ -4279,6 +4810,9 @@ globalThis.FLOWERS = [
     "meaning": "神秘、互敬互爱",
     "season": "四季",
     "blurb": "花大色艳，瓶插之选。",
+    "morph": "多年生草本，花大，多彩，花茎长，切花之王。",
+    "culture": "象征互敬互爱，扶郎花。",
+    "care": "原产南非，喜暖光，忌涝。",
     "image": "images/gerbera-jamesonii.webp",
     "credit": {
       "author": "PPBC",
@@ -4305,6 +4839,9 @@ globalThis.FLOWERS = [
     "meaning": "期待的爱",
     "season": "春夏",
     "blurb": "白色小花，温柔清新。",
+    "morph": "多年生草本，花白粉黄，细瓣繁密，春开成球。",
+    "culture": "象征期待的爱，木茼蒿。",
+    "care": "原产加那利群岛，喜凉光。",
     "image": "images/argyranthemum-frutescens.webp",
     "credit": {
       "author": "PPBC",
@@ -4329,6 +4866,9 @@ globalThis.FLOWERS = [
     "meaning": "逆境中的坚强",
     "season": "春夏",
     "blurb": "香气清甜，安神佳品。",
+    "morph": "一年生草本，花白瓣黄心，气味清甜，可代茶。",
+    "culture": "象征逆境中的坚强，母菊。",
+    "care": "原产欧亚，喜凉光，自播力强。",
     "image": "images/matricaria-chamomilla.webp",
     "credit": {
       "author": "PPBC",
@@ -4353,6 +4893,9 @@ globalThis.FLOWERS = [
     "meaning": "治愈",
     "season": "春夏",
     "blurb": "金黄芯，白花瓣，清雅。",
+    "morph": "一年生草本，花白瓣黄心，茎中空，精油入药。",
+    "culture": "象征治愈，洋甘菊茶之源。",
+    "care": "原产欧洲，喜光，耐旱。",
     "image": "images/matricaria-recutita.webp",
     "credit": {
       "author": "(c) anaxvp, some rights reserved (CC BY-NC), uploaded by anaxvp",
@@ -4376,6 +4919,9 @@ globalThis.FLOWERS = [
     "meaning": "公正",
     "season": "夏秋",
     "blurb": "金黄花瓣，明艳照人。",
+    "morph": "多年生草本，花金黄，舌状花下垂，花心高起。",
+    "culture": "象征公正，黄菊芋。",
+    "care": "原产北美，喜光，耐旱。",
     "image": "images/rudbeckia-laciniata.webp",
     "credit": {
       "author": "PPBC",
@@ -4399,6 +4945,9 @@ globalThis.FLOWERS = [
     "meaning": "公平",
     "season": "夏秋",
     "blurb": "金黄花瓣配深色花心。",
+    "morph": "一年生或多年生草本，花金黄，花心黑褐，明艳。",
+    "culture": "象征公平，黑眼菊。",
+    "care": "原产北美，喜光耐旱。",
     "image": "images/rudbeckia-hirta.webp",
     "credit": {
       "author": "PPBC",
@@ -4423,6 +4972,9 @@ globalThis.FLOWERS = [
     "meaning": "健康",
     "season": "夏秋",
     "blurb": "花心突起如松果。",
+    "morph": "多年生草本，花紫粉，花心球状凸起如松果。",
+    "culture": "象征健康，紫锥菊是草药明星。",
+    "care": "原产北美，喜光耐旱。",
     "image": "images/echinacea-purpurea.webp",
     "credit": {
       "author": "PPBC",
@@ -4447,6 +4999,9 @@ globalThis.FLOWERS = [
     "meaning": "团结",
     "season": "夏秋",
     "blurb": "红黄双色，热烈粗犷。",
+    "morph": "一年生或多年生草本，花红黄双色，粗犷热烈。",
+    "culture": "象征团结，虎皮菊。",
+    "care": "原产北美，喜光耐旱耐热。",
     "image": "images/gaillardia-pulchella.webp",
     "credit": {
       "author": "PPBC",
@@ -4470,6 +5025,9 @@ globalThis.FLOWERS = [
     "meaning": "自由、坚持",
     "season": "春",
     "blurb": "黄花满地，绒球随风。",
+    "morph": "多年生草本，花金黄，果序白色绒球，随风散播。",
+    "culture": "象征自由坚持，婆婆丁。",
+    "care": "原产北半球，喜光，适应性强。",
     "image": "images/taraxacum-officinale.webp",
     "credit": {
       "author": "PPBC",
@@ -4494,6 +5052,9 @@ globalThis.FLOWERS = [
     "meaning": "治愈",
     "season": "夏",
     "blurb": "羽状细叶，伞形小花。",
+    "morph": "多年生草本，叶羽状细裂，花白粉，伞房花序。",
+    "culture": "象征治愈，千叶蓍。",
+    "care": "原产北半球，喜光耐旱。",
     "image": "images/achillea-millefolium.webp",
     "credit": {
       "author": "PPBC",
@@ -4517,6 +5078,9 @@ globalThis.FLOWERS = [
     "meaning": "真诚",
     "season": "夏",
     "blurb": "纯白花瓣，金黄花心。",
+    "morph": "多年生草本，花白瓣金心，花大，夏开。",
+    "culture": "象征真诚，西洋滨菊。",
+    "care": "原产欧洲，喜光耐寒。",
     "image": "images/leucanthemum-maximum.webp",
     "credit": {
       "author": "PPBC",
@@ -4540,6 +5104,9 @@ globalThis.FLOWERS = [
     "meaning": "友谊",
     "season": "夏",
     "blurb": "田野里的经典白菊。",
+    "morph": "多年生草本，花白瓣金心，田野经典白菊。",
+    "culture": "象征友谊，牛眼菊。",
+    "care": "原产欧洲，喜光耐旱。",
     "image": "images/leucanthemum-vulgare.webp",
     "credit": {
       "author": "PPBC",
@@ -4564,6 +5131,9 @@ globalThis.FLOWERS = [
     "meaning": "诚信",
     "season": "秋",
     "blurb": "紫色小花，秋日盛放。",
+    "morph": "多年生草本，花紫粉，头状花序密集，秋开。",
+    "culture": "象征诚信，纽约紫菀。",
+    "care": "原产北美，喜光耐寒。",
     "image": "images/aster-novi-belgii.webp",
     "credit": {
       "author": "PPBC",
@@ -4588,6 +5158,9 @@ globalThis.FLOWERS = [
     "meaning": "平安",
     "season": "夏秋",
     "blurb": "花瓣外展，中心凸起。",
+    "morph": "多年生草本，花黄橙，花瓣外展，花心高凸。",
+    "culture": "象征平安，臭菊。",
+    "care": "原产北美，喜光湿润。",
     "image": "images/helenium-autumnale.webp",
     "credit": {
       "author": "PPBC",
@@ -4613,6 +5186,9 @@ globalThis.FLOWERS = [
     "meaning": "活力",
     "season": "春夏",
     "blurb": "蓝紫色花心如眼眸。",
+    "morph": "多年生草本，花白蓝紫，花心蓝紫如眼眸。",
+    "culture": "象征活力，蓝目菊。",
+    "care": "原产南非，喜暖光耐旱。",
     "image": "images/osteospermum-ecklonis.webp",
     "credit": {
       "author": "PPBC",
@@ -4637,6 +5213,9 @@ globalThis.FLOWERS = [
     "meaning": "辉煌",
     "season": "春夏",
     "blurb": "花色斑斓如勋章。",
+    "morph": "多年生草本，花橙黄带斑纹，如勋章华丽。",
+    "culture": "象征辉煌，非洲太阳花。",
+    "care": "原产南非，喜强光，日开夜合。",
     "image": "images/gazania-rigens.webp",
     "credit": {
       "author": "PPBC",
@@ -4660,6 +5239,9 @@ globalThis.FLOWERS = [
     "meaning": "竞争心",
     "season": "夏秋",
     "blurb": "金黄小花，灿烂成片。",
+    "morph": "多年生草本，花金黄，舌状花四至六枚，灿烂。",
+    "culture": "象征竞争心，剑叶波斯菊。",
+    "care": "原产北美，喜光耐旱。",
     "image": "images/coreopsis-lanceolata.webp",
     "credit": {
       "author": "PPBC",
@@ -4684,6 +5266,9 @@ globalThis.FLOWERS = [
     "meaning": "热情",
     "season": "夏秋",
     "blurb": "紫色花穗自下而上开放。",
+    "morph": "多年生草本，花紫粉，穗状花序自下而上开放。",
+    "culture": "象征热情，麒麟菊。",
+    "care": "原产北美，喜光湿润。",
     "image": "images/liatris-spicata.webp",
     "credit": {
       "author": "PPBC",
@@ -4708,6 +5293,9 @@ globalThis.FLOWERS = [
     "meaning": "永恒的记忆",
     "season": "夏秋",
     "blurb": "花瓣干燥如蜡，久放不谢。",
+    "morph": "一年生或多年生草本，苞片干燥如蜡，久放不谢。",
+    "culture": "象征永恒的记忆，蜡菊。",
+    "care": "原产澳洲，喜光，宜干花。",
     "image": "images/xerochrysum-bracteatum.webp",
     "credit": {
       "author": "PPBC",
@@ -4733,6 +5321,9 @@ globalThis.FLOWERS = [
     "meaning": "遇见幸福",
     "season": "春",
     "blurb": "深邃蓝紫，清新灵动。",
+    "morph": "一年生草本，花蓝紫，头状花序，边缘花裂。",
+    "culture": "象征遇见幸福，蓝芙蓉。",
+    "care": "原产欧洲，喜凉光，蜜源植物。",
     "image": "images/centaurea-cyanus.webp",
     "credit": {
       "author": "PPBC",
@@ -4758,6 +5349,9 @@ globalThis.FLOWERS = [
     "meaning": "自由",
     "season": "春夏",
     "blurb": "花穗高挑，如燕群飞。",
+    "morph": "一年生草本，花蓝紫粉，总状花序高挑，如燕群飞。",
+    "culture": "象征自由，千鸟草。",
+    "care": "原产欧洲，喜凉光，忌暑湿。",
     "image": "images/consolida-ajacis.webp",
     "credit": {
       "author": "PPBC",
@@ -4782,6 +5376,9 @@ globalThis.FLOWERS = [
     "meaning": "清静",
     "season": "夏",
     "blurb": "蓝色花穗，园艺名角。",
+    "morph": "多年生草本，花蓝紫，距细长，花穗挺拔。",
+    "culture": "象征清静，大花飞燕草。",
+    "care": "原产北温带，喜凉光，忌高温。",
     "image": "images/delphinium-grandiflorum.webp",
     "credit": {
       "author": "PPBC",
@@ -4806,6 +5403,9 @@ globalThis.FLOWERS = [
     "meaning": "梦幻",
     "season": "春夏",
     "blurb": "花姿轻盈，果如气泡。",
+    "morph": "一年生草本，花蓝白，叶细裂，果如气泡。",
+    "culture": "象征梦幻，波斯黑种草。",
+    "care": "原产地中海，喜凉光，自播力强。",
     "image": "images/nigella-damascena.webp",
     "credit": {
       "author": "PPBC",
@@ -4831,6 +5431,9 @@ globalThis.FLOWERS = [
     "meaning": "期待",
     "season": "春夏",
     "blurb": "色彩浓艳，花心深邃。",
+    "morph": "多年生草本，花红粉蓝，瓣多而薄，花心深色。",
+    "culture": "象征期待，罂粟秋牡丹。",
+    "care": "原产地中海，喜凉光，忌湿热。",
     "image": "images/anemone-coronaria.webp",
     "credit": {
       "author": "PPBC",
@@ -4855,6 +5458,9 @@ globalThis.FLOWERS = [
     "meaning": "魅力",
     "season": "春",
     "blurb": "层叠花瓣如牡丹。",
+    "morph": "多年生草本，块根，花重瓣似牡丹，多彩。",
+    "culture": "象征魅力，洋牡丹。",
+    "care": "原产西亚，喜凉光，忌暑湿。",
     "image": "images/ranunculus-asiaticus.webp",
     "credit": {
       "author": "PPBC",
@@ -4878,6 +5484,9 @@ globalThis.FLOWERS = [
     "meaning": "童真",
     "season": "春",
     "blurb": "金黄小花，田边常见。",
+    "morph": "多年生草本，花金黄，具光泽，田边常见。",
+    "culture": "象征童真，老虎脚爪草。",
+    "care": "原产东亚，喜湿润半阴。",
     "image": "images/ranunculus-japonicus.webp",
     "credit": {
       "author": "PPBC",
@@ -4901,6 +5510,9 @@ globalThis.FLOWERS = [
     "meaning": "追忆",
     "season": "春",
     "blurb": "紫花垂首，果毛如翁。",
+    "morph": "多年生草本，花紫，果序银发如翁，早春开放。",
+    "culture": "象征追忆，老公花。",
+    "care": "原产东亚，喜光耐寒，忌涝。",
     "image": "images/pulsatilla-chinensis.webp",
     "credit": {
       "author": "PPBC",
@@ -4926,6 +5538,9 @@ globalThis.FLOWERS = [
     "meaning": "高洁",
     "season": "春夏",
     "blurb": "花大色繁，藤蔓优雅。",
+    "morph": "多年生藤本，花大，紫白粉，花瓣状萼片，藤本皇后。",
+    "culture": "象征高洁，攀援成墙。",
+    "care": "原产北温带，喜光，根喜阴凉。",
     "image": "images/clematis-florida.webp",
     "credit": {
       "author": "PPBC",
@@ -4949,6 +5564,9 @@ globalThis.FLOWERS = [
     "meaning": "心灵之美",
     "season": "春夏",
     "blurb": "碗状大花，色彩丰富。",
+    "morph": "多年生藤本，花碗状硕大，多彩，春夏盛开。",
+    "culture": "象征心灵之美，花园明星。",
+    "care": "栽培品种，喜光，忌暴晒根部。",
     "image": "images/clematis-patens.webp",
     "credit": {
       "author": "PPBC",
@@ -4976,6 +5594,9 @@ globalThis.FLOWERS = [
     "meaning": "富贵圆满",
     "season": "春末",
     "blurb": "花中之王，国色天香。",
+    "morph": "落叶灌木，花大色艳，层层叠瓣，花中之王。",
+    "culture": "象征富贵圆满，国色天香。",
+    "care": "原产中国，喜凉光，忌积水，宜秋栽。",
     "image": "images/paeonia-suffruticosa.webp",
     "credit": {
       "author": "PPBC",
@@ -5000,6 +5621,9 @@ globalThis.FLOWERS = [
     "meaning": "情有所钟",
     "season": "春末夏初",
     "blurb": "花相之美，依依惜别。",
+    "morph": "多年生草本，花大，瓣多，粉红白紫，春末开放。",
+    "culture": "象征情有所钟，将离之花。",
+    "care": "原产中国，喜光耐寒，花后可分株。",
     "image": "images/paeonia-lactiflora.webp",
     "credit": {
       "author": "PPBC",
@@ -5025,6 +5649,9 @@ globalThis.FLOWERS = [
     "meaning": "同情",
     "season": "春夏",
     "blurb": "心形花朵，串串垂挂。",
+    "morph": "多年生草本，花心形悬垂，粉红白，串串如荷包。",
+    "culture": "象征同情，兔儿牡丹。",
+    "care": "原产东亚与北美，喜半阴凉爽。",
     "image": "images/dicentra-spectabilis.webp",
     "credit": {
       "author": "PPBC",
@@ -5049,6 +5676,9 @@ globalThis.FLOWERS = [
     "meaning": "安慰",
     "season": "春夏",
     "blurb": "花瓣如绸，轻盈摇曳。",
+    "morph": "一年生草本，花红粉，瓣薄如绸，随风摇曳。",
+    "culture": "象征安慰，丽春花。",
+    "care": "原产欧亚，喜凉光，自播力强。",
     "image": "images/papaver-rhoeas.webp",
     "credit": {
       "author": "PPBC",
@@ -5072,6 +5702,9 @@ globalThis.FLOWERS = [
     "meaning": "安然",
     "season": "春夏",
     "blurb": "薄如蝉翼，色彩明快。",
+    "morph": "多年生草本，花多彩，瓣薄，花梗细长。",
+    "culture": "象征安然，北极虞美人。",
+    "care": "原产寒带，喜凉光，忌暑热。",
     "image": "images/papaver-nudicaule.webp",
     "credit": {
       "author": "PPBC",
@@ -5096,6 +5729,9 @@ globalThis.FLOWERS = [
     "meaning": "成功",
     "season": "春夏",
     "blurb": "金黄花朵，加州州花。",
+    "morph": "一年生或多年生草本，花金黄橙，瓣如绸，日开夜合。",
+    "culture": "象征成功，加州罂粟。",
+    "care": "原产北美西部，喜光耐旱。",
     "image": "images/eschscholzia-californica.webp",
     "credit": {
       "author": "PPBC",
@@ -5121,6 +5757,9 @@ globalThis.FLOWERS = [
     "meaning": "永恒的美",
     "season": "春",
     "blurb": "香气馥郁，紫色浪漫。",
+    "morph": "多年生或二年生草本，花紫粉白，总状花序，芳香。",
+    "culture": "象征永恒的美，草紫罗兰。",
+    "care": "原产地中海，喜凉光，香花植物。",
     "image": "images/matthiola-incana.webp",
     "credit": {
       "author": "PPBC",
@@ -5146,6 +5785,9 @@ globalThis.FLOWERS = [
     "meaning": "甜蜜",
     "season": "春夏",
     "blurb": "白色小花如雪球铺地。",
+    "morph": "多年生草本，花白粉紫，密集如雪球铺地。",
+    "culture": "象征甜蜜，庭荠。",
+    "care": "原产地中海，喜凉光，耐旱。",
     "image": "images/lobularia-maritima.webp",
     "credit": {
       "author": "PPBC",
@@ -5170,6 +5812,9 @@ globalThis.FLOWERS = [
     "meaning": "逆境中的忠诚",
     "season": "春",
     "blurb": "橙黄小花，芳香怡人。",
+    "morph": "多年生草本，花黄橙，芳香，春日开放。",
+    "culture": "象征逆境中的忠诚，七里黄。",
+    "care": "原产欧洲，喜凉光，忌湿热。",
     "image": "images/cheiranthus-cheiri.webp",
     "credit": {
       "author": "PPBC",
@@ -5193,6 +5838,9 @@ globalThis.FLOWERS = [
     "meaning": "谦逊",
     "season": "春",
     "blurb": "紫色花海，早春铺地。",
+    "morph": "一二年生草本，花紫色，四瓣，早春铺地成海。",
+    "culture": "象征谦逊，诸葛菜。",
+    "care": "原产中国，喜半阴，自播力强。",
     "image": "images/orychophragmus-violaceus.webp",
     "credit": {
       "author": "PPBC",
@@ -5216,6 +5864,9 @@ globalThis.FLOWERS = [
     "meaning": "加油、奉献",
     "season": "春",
     "blurb": "金黄田野，春天的画卷。",
+    "morph": "一年生草本，花金黄，总状花序，春日成海。",
+    "culture": "象征加油与奉献，春天的画卷。",
+    "care": "原产欧亚，喜凉光，经济作物。",
     "image": "images/brassica-napus.webp",
     "credit": {
       "author": "PPBC",
@@ -5242,6 +5893,9 @@ globalThis.FLOWERS = [
     "meaning": "思念",
     "season": "春夏",
     "blurb": "花瓣如猫脸，俏皮可爱。",
+    "morph": "一二年生草本，花紫黄白，瓣如猫脸，春秋开。",
+    "culture": "象征思念，猫儿脸。",
+    "care": "原产欧洲，喜凉光，耐寒。",
     "image": "images/viola-tricolor.webp",
     "credit": {
       "author": "PPBC",
@@ -5265,6 +5919,9 @@ globalThis.FLOWERS = [
     "meaning": "快乐",
     "season": "春夏",
     "blurb": "小巧花容，色彩斑斓。",
+    "morph": "一二年生草本，花小而繁，多彩，冬春开放。",
+    "culture": "象征快乐，小三色堇。",
+    "care": "原产欧洲，喜凉光，耐寒。",
     "image": "images/viola-cornuta.webp",
     "credit": {
       "author": "PPBC",
@@ -5288,6 +5945,9 @@ globalThis.FLOWERS = [
     "meaning": "真诚的爱",
     "season": "春",
     "blurb": "路边小紫花，朴素动人。",
+    "morph": "多年生草本，花紫色，早春路边开放。",
+    "culture": "象征真诚的爱，野堇菜。",
+    "care": "原产东亚，喜光耐旱，自播力强。",
     "image": "images/viola-philippica.webp",
     "credit": {
       "author": "PPBC",
@@ -5313,6 +5973,9 @@ globalThis.FLOWERS = [
     "meaning": "纯洁的爱",
     "season": "夏",
     "blurb": "花瓣边缘如锯齿。",
+    "morph": "多年生草本，花红粉白，瓣缘齿裂，夏开。",
+    "culture": "象征纯洁的爱，洛阳花。",
+    "care": "原产中国，喜光耐旱。",
     "image": "images/dianthus-chinensis.webp",
     "credit": {
       "author": "PPBC",
@@ -5336,6 +5999,9 @@ globalThis.FLOWERS = [
     "meaning": "母爱",
     "season": "四季",
     "blurb": "母亲节之花，温柔馨香。",
+    "morph": "多年生草本，花多彩，重瓣，芳香，四季可开。",
+    "culture": "象征母爱，康乃馨。",
+    "care": "原产地中海，喜凉光，温室栽培。",
     "image": "images/dianthus-caryophyllus.webp",
     "credit": {
       "author": "PPBC",
@@ -5360,6 +6026,9 @@ globalThis.FLOWERS = [
     "meaning": "思念、配角",
     "season": "春夏",
     "blurb": "白色小花如满天星辰。",
+    "morph": "多年生草本，花白色细小，密生成雾状。",
+    "culture": "象征思念，花束中的配角。",
+    "care": "原产欧亚，喜凉光，忌湿热。",
     "image": "images/gypsophila-paniculata.webp",
     "credit": {
       "author": "PPBC",
@@ -5384,6 +6053,9 @@ globalThis.FLOWERS = [
     "meaning": "激情",
     "season": "夏",
     "blurb": "红色小花，热烈醒目。",
+    "morph": "多年生草本，花红橙，瓣缘齿裂，夏日明艳。",
+    "culture": "象征激情，剪红纱花。",
+    "care": "原产东亚，喜光湿润。",
     "image": "images/lychnis-fulgens.webp",
     "credit": {
       "author": "PPBC",
@@ -5408,6 +6080,9 @@ globalThis.FLOWERS = [
     "meaning": "沉默的爱",
     "season": "春夏",
     "blurb": "粉嫩小花，垂枝优雅。",
+    "morph": "一年生或多年生草本，花粉色，瓣端微凹，垂枝。",
+    "culture": "象征沉默的爱，矮雪轮。",
+    "care": "原产欧洲，喜凉光，自播力强。",
     "image": "images/silene-pendula.webp",
     "credit": {
       "author": "PPBC",
@@ -5432,6 +6107,9 @@ globalThis.FLOWERS = [
     "meaning": "清净",
     "season": "夏",
     "blurb": "根可起泡，花团锦簇。",
+    "morph": "多年生草本，花白粉，密集，根可起泡。",
+    "culture": "象征清净，石碱花。",
+    "care": "原产欧洲，喜光耐旱。",
     "image": "images/saponaria-officinalis.webp",
     "credit": {
       "author": "PPBC",
@@ -5458,6 +6136,9 @@ globalThis.FLOWERS = [
     "meaning": "永恒",
     "season": "夏",
     "blurb": "纸质花瓣，久放不谢。",
+    "morph": "多年生草本，花蓝紫黄，苞片纸质，久放不谢。",
+    "culture": "象征永恒，星辰花。",
+    "care": "原产地中海，喜光耐旱，宜干花。",
     "image": "images/limonium-sinuatum.webp",
     "credit": {
       "author": "PPBC",
@@ -5481,6 +6162,9 @@ globalThis.FLOWERS = [
     "meaning": "永恒的爱",
     "season": "春夏",
     "blurb": "蓝色小花，诉说不忘。",
+    "morph": "多年生草本，花蓝色，五瓣，春日开放。",
+    "culture": "象征永恒的爱，勿忘草。",
+    "care": "原产欧洲，喜凉光湿润。",
     "image": "images/myosotis-sylvatica.webp",
     "credit": {
       "author": "PPBC",
@@ -5504,6 +6188,9 @@ globalThis.FLOWERS = [
     "meaning": "勇气",
     "season": "夏",
     "blurb": "蓝色星花，清新药草。",
+    "morph": "一年生草本，花蓝色星形，叶带黄瓜香，可食。",
+    "culture": "象征勇气，星花。",
+    "care": "原产地中海，喜光，自播力强。",
     "image": "images/borago-officinalis.webp",
     "credit": {
       "author": "PPBC",
@@ -5528,6 +6215,9 @@ globalThis.FLOWERS = [
     "meaning": "静谧",
     "season": "夏",
     "blurb": "蓝色花穗，蜜源植物。",
+    "morph": "二年生草本，花蓝紫，穗状花序，蜜源植物。",
+    "culture": "象征静谧，蓝箭。",
+    "care": "原产欧洲，喜光耐旱。",
     "image": "images/echium-vulgare.webp",
     "credit": {
       "author": "PPBC",
@@ -5551,6 +6241,9 @@ globalThis.FLOWERS = [
     "meaning": "和乐",
     "season": "春夏秋",
     "blurb": "花球铺地，色彩缤纷。",
+    "morph": "多年生或一年生草本，花多彩，伞房花序成球，铺地。",
+    "culture": "象征和乐，铺地锦。",
+    "care": "原产南美，喜暖光湿润。",
     "image": "images/verbena-hybrida.webp",
     "credit": {
       "author": "PPBC",
@@ -5574,6 +6267,9 @@ globalThis.FLOWERS = [
     "meaning": "正义",
     "season": "夏秋",
     "blurb": "细长花穗，药草芬芳。",
+    "morph": "多年生草本，花紫色，细长穗状花序，药草芬芳。",
+    "culture": "象征正义，紫顶龙芽。",
+    "care": "原产欧亚，喜光耐旱。",
     "image": "images/verbena-officinalis.webp",
     "credit": {
       "author": "PPBC",
@@ -5597,6 +6293,9 @@ globalThis.FLOWERS = [
     "meaning": "浪漫",
     "season": "夏秋",
     "blurb": "紫色花海，轻盈摇曳。",
+    "morph": "多年生草本，花紫，聚伞花序，花海轻盈。",
+    "culture": "象征浪漫，南美马鞭草。",
+    "care": "原产南美，喜暖光湿润。",
     "image": "images/verbena-bonariensis.webp",
     "credit": {
       "author": "PPBC",
@@ -5621,6 +6320,9 @@ globalThis.FLOWERS = [
     "meaning": "等待爱情",
     "season": "夏",
     "blurb": "紫色花田，香气安宁。",
+    "morph": "常绿小灌木，花蓝紫，穗状花序，香气安宁。",
+    "culture": "象征等待爱情，普罗旺斯花田。",
+    "care": "原产地中海，喜光干燥，忌涝。",
     "image": "images/lavandula-angustifolia.webp",
     "credit": {
       "author": "PPBC",
@@ -5644,6 +6346,9 @@ globalThis.FLOWERS = [
     "meaning": "神秘",
     "season": "春夏",
     "blurb": "顶部兔耳状苞片。",
+    "morph": "常绿小灌木，花紫，顶部苞片如兔耳，芳香。",
+    "culture": "象征神秘，西班牙薰衣草。",
+    "care": "原产地中海，喜光干燥。",
     "image": "images/lavandula-stoechas.webp",
     "credit": {
       "author": "PPBC",
@@ -5668,6 +6373,9 @@ globalThis.FLOWERS = [
     "meaning": "家庭观念",
     "season": "夏秋",
     "blurb": "紫色花穗，清新自然。",
+    "morph": "多年生草本，花蓝紫，轮伞花序，清新。",
+    "culture": "象征家庭观念，洋苏草。",
+    "care": "原产东亚，喜光耐旱。",
     "image": "images/salvia-japonica.webp",
     "credit": {
       "author": "PPBC",
@@ -5692,6 +6400,9 @@ globalThis.FLOWERS = [
     "meaning": "思念",
     "season": "夏秋",
     "blurb": "蓝紫色花穗，成片种植。",
+    "morph": "多年生草本，花蓝紫，穗状花序，成片清凉。",
+    "culture": "象征思念，蓝花鼠尾草。",
+    "care": "原产北美，喜暖光。",
     "image": "images/salvia-farinacea.webp",
     "credit": {
       "author": "PPBC",
@@ -5716,6 +6427,9 @@ globalThis.FLOWERS = [
     "meaning": "热情",
     "season": "夏秋",
     "blurb": "红色花串，喜庆热烈。",
+    "morph": "多年生或一年生草本，花红，串状花序，喜庆。",
+    "culture": "象征热情，爆竹红。",
+    "care": "原产南美，喜暖光，忌涝。",
     "image": "images/salvia-splendens.webp",
     "credit": {
       "author": "PPBC",
@@ -5739,6 +6453,9 @@ globalThis.FLOWERS = [
     "meaning": "活力",
     "season": "夏秋",
     "blurb": "猩红小花，蜂蝶喜爱。",
+    "morph": "多年生草本，花猩红，唇形小花，蜂蝶喜爱。",
+    "culture": "象征活力，红花鼠尾草。",
+    "care": "原产北美，喜暖光耐旱。",
     "image": "images/salvia-coccinea.webp",
     "credit": {
       "author": "PPBC",
@@ -5763,6 +6480,9 @@ globalThis.FLOWERS = [
     "meaning": "回忆",
     "season": "春夏",
     "blurb": "香气浓郁，地中海香草。",
+    "morph": "常绿灌木，叶针形，花蓝紫，香气浓郁，可入菜。",
+    "culture": "象征回忆，海洋之露。",
+    "care": "原产地中海，喜光干燥，忌涝。",
     "image": "images/rosmarinus-officinalis.webp",
     "credit": {
       "author": "PPBC",
@@ -5787,6 +6507,9 @@ globalThis.FLOWERS = [
     "meaning": "勇气",
     "season": "夏",
     "blurb": "细小紫花，芳香扑鼻。",
+    "morph": "常绿小灌木，叶小，花紫粉，芳香，可入菜。",
+    "culture": "象征勇气，地椒。",
+    "care": "原产欧亚，喜光干燥耐旱。",
     "image": "images/thymus-mongolicus.webp",
     "credit": {
       "author": "PPBC",
@@ -5811,6 +6534,9 @@ globalThis.FLOWERS = [
     "meaning": "美德",
     "season": "夏",
     "blurb": "清新小紫花，清凉香气。",
+    "morph": "多年生草本，叶对生，花紫白轮生，清凉香气。",
+    "culture": "象征美德，薄荷之香。",
+    "care": "原产北半球，喜光湿润，蔓延快。",
     "image": "images/mentha-haplocalyx.webp",
     "credit": {
       "author": "(c) Ethan S, some rights reserved (CC BY-NC)",
@@ -5834,6 +6560,9 @@ globalThis.FLOWERS = [
     "meaning": "活泼",
     "season": "春夏",
     "blurb": "花形如金鱼张口。",
+    "morph": "多年生或一年生草本，花多彩，唇形如金鱼张口。",
+    "culture": "象征活泼，龙口花。",
+    "care": "原产地中海，喜凉光。",
     "image": "images/antirrhinum-majus.webp",
     "credit": {
       "author": "PPBC",
@@ -5858,6 +6587,9 @@ globalThis.FLOWERS = [
     "meaning": "宽容",
     "season": "春夏",
     "blurb": "橙黄小花如飞鸟。",
+    "morph": "多年生草本，花黄橙，唇形，总状花序。",
+    "culture": "象征宽容，小金鱼草。",
+    "care": "原产欧亚，喜光耐旱。",
     "image": "images/linaria-vulgaris.webp",
     "credit": {
       "author": "PPBC",
@@ -5883,6 +6615,9 @@ globalThis.FLOWERS = [
     "meaning": "热爱",
     "season": "夏",
     "blurb": "钟形花朵，串串高挂。",
+    "morph": "二年生草本，花钟形，粉紫白带斑，总状高挑。",
+    "culture": "象征热爱，洋地黄，全株有毒。",
+    "care": "原产欧洲，喜半阴凉爽。",
     "image": "images/digitalis-purpurea.webp",
     "credit": {
       "author": "PPBC",
@@ -5907,6 +6642,9 @@ globalThis.FLOWERS = [
     "meaning": "真诚",
     "season": "夏",
     "blurb": "红色管状花，蜂鸟喜爱。",
+    "morph": "多年生草本，花红粉，管状，花穗直立。",
+    "culture": "象征真诚，吊钟柳。",
+    "care": "原产北美，喜光耐旱。",
     "image": "images/penstemon-barbatus.webp",
     "credit": {
       "author": "PPBC",
@@ -5932,6 +6670,9 @@ globalThis.FLOWERS = [
     "meaning": "感谢",
     "season": "春夏",
     "blurb": "花朵如铃，随风轻响。",
+    "morph": "二年生或多年生草本，花钟形，蓝紫粉，摇曳。",
+    "culture": "象征感谢，钟花。",
+    "care": "原产欧洲，喜凉光。",
     "image": "images/campanula-medium.webp",
     "credit": {
       "author": "PPBC",
@@ -5956,6 +6697,9 @@ globalThis.FLOWERS = [
     "meaning": "团结",
     "season": "夏",
     "blurb": "花簇成球，蓝紫迷人。",
+    "morph": "多年生草本，花蓝紫，簇生成球，夏日开放。",
+    "culture": "象征团结，聚铃花。",
+    "care": "原产欧洲，喜凉光。",
     "image": "images/campanula-glomerata.webp",
     "credit": {
       "author": "PPBC",
@@ -5981,6 +6725,9 @@ globalThis.FLOWERS = [
     "meaning": "永恒的爱",
     "season": "夏秋",
     "blurb": "花苞如气球，绽放成星。",
+    "morph": "多年生草本，花蓝紫白，钟形，花苞如气球。",
+    "culture": "象征永恒的爱，铃铛花。",
+    "care": "原产东亚，喜光耐旱，根入药。",
     "image": "images/platycodon-grandiflorus.webp",
     "credit": {
       "author": "PPBC",
@@ -6004,6 +6751,9 @@ globalThis.FLOWERS = [
     "meaning": "不变的爱",
     "season": "夏秋",
     "blurb": "层叠花瓣，温婉优雅。",
+    "morph": "多年生草本，花多彩，重瓣，层叠如玫瑰。",
+    "culture": "象征不变的爱，草原龙胆。",
+    "care": "原产北美，喜暖光，切花名品。",
     "image": "images/eustoma-grandiflorum.webp",
     "credit": {
       "author": "PPBC",
@@ -6028,6 +6778,9 @@ globalThis.FLOWERS = [
     "meaning": "喜欢忧伤",
     "season": "秋",
     "blurb": "深蓝花朵，高山精灵。",
+    "morph": "多年生草本，花蓝紫，筒钟形，秋日山野亮色。",
+    "culture": "象征喜欢忧伤，高山精灵。",
+    "care": "原产东亚，喜凉湿半阴。",
     "image": "images/gentiana-scabra.webp",
     "credit": {
       "author": "PPBC",
@@ -6053,6 +6806,9 @@ globalThis.FLOWERS = [
     "meaning": "希望",
     "season": "春",
     "blurb": "春日最早的报信者。",
+    "morph": "多年生草本，花白粉紫，伞形花序，早春第一花。",
+    "culture": "象征希望，春日信使。",
+    "care": "原产中国，喜凉湿半阴。",
     "image": "images/primula-malacoides.webp",
     "credit": {
       "author": "PPBC",
@@ -6076,6 +6832,9 @@ globalThis.FLOWERS = [
     "meaning": "青春",
     "season": "春夏",
     "blurb": "花色繁多，四季可赏。",
+    "morph": "多年生草本，花多彩，冬春开放，盆栽常客。",
+    "culture": "象征青春，鄂报春。",
+    "care": "原产中国，喜凉湿半阴。",
     "image": "images/primula-obconica.webp",
     "credit": {
       "author": "PPBC",
@@ -6100,6 +6859,9 @@ globalThis.FLOWERS = [
     "meaning": "纯洁",
     "season": "春",
     "blurb": "中国原产，花色娇艳。",
+    "morph": "多年生草本，花粉红，层叠娇艳，中国原产。",
+    "culture": "象征纯洁，年景花。",
+    "care": "原产中国西南，喜凉湿半阴。",
     "image": "images/primula-sinensis.webp",
     "credit": {
       "author": "PPBC",
@@ -6126,6 +6888,9 @@ globalThis.FLOWERS = [
     "meaning": "羞怯",
     "season": "冬春",
     "blurb": "花瓣反卷如兔耳。",
+    "morph": "多年生草本，块茎，花瓣反卷如兔耳，冬春开放。",
+    "culture": "象征羞怯，兔耳花。",
+    "care": "原产地中海，喜凉光，忌暴晒。",
     "image": "images/cyclamen-persicum.webp",
     "credit": {
       "author": "PPBC",
@@ -6149,6 +6914,9 @@ globalThis.FLOWERS = [
     "meaning": "喜悦",
     "season": "冬春",
     "blurb": "花团锦簇，年宵佳品。",
+    "morph": "多年生草本，花多彩，密集如球，冬春上市。",
+    "culture": "象征喜悦，富贵菊。",
+    "care": "原产加那利群岛，喜凉光湿润。",
     "image": "images/pericallis-hybrida.webp",
     "credit": {
       "author": "PPBC",
@@ -6174,6 +6942,9 @@ globalThis.FLOWERS = [
     "meaning": "可怜",
     "season": "春夏",
     "blurb": "蓝色小花，悬吊佳品。",
+    "morph": "多年生草本，花蓝紫白，密集成串，垂吊佳品。",
+    "culture": "象征可怜可爱，半边莲。",
+    "care": "原产南非，喜凉光湿润。",
     "image": "images/lobelia-erinus.webp",
     "credit": {
       "author": "PPBC",
@@ -6198,6 +6969,9 @@ globalThis.FLOWERS = [
     "meaning": "诚实",
     "season": "夏",
     "blurb": "蓝紫花穗，水边清影。",
+    "morph": "多年生草本，花蓝紫，总状花序，水边清影。",
+    "culture": "象征诚实，水苋菜。",
+    "care": "原产东亚，喜湿润半阴。",
     "image": "images/lobelia-sessilifolia.webp",
     "credit": {
       "author": "PPBC",
@@ -6222,6 +6996,9 @@ globalThis.FLOWERS = [
     "meaning": "坚持",
     "season": "夏",
     "blurb": "小巧粉花，药草之用。",
+    "morph": "多年生草本，花淡紫粉，花冠偏向一侧，药草。",
+    "culture": "象征坚持，细米草。",
+    "care": "原产东亚，喜湿润强光。",
     "image": "images/lobelia-chinensis.webp",
     "credit": {
       "author": "PPBC",
@@ -6247,6 +7024,9 @@ globalThis.FLOWERS = [
     "meaning": "爱情永固",
     "season": "夏秋",
     "blurb": "清晨绽放，朝颜之美。",
+    "morph": "一年生缠绕藤本，花喇叭形，蓝紫粉，朝开午谢。",
+    "culture": "象征爱情永固，朝颜之美。",
+    "care": "原产热带美洲，喜光，攀援。",
     "image": "images/ipomoea-nil.webp",
     "credit": {
       "author": "PPBC",
@@ -6271,6 +7051,9 @@ globalThis.FLOWERS = [
     "meaning": "平静",
     "season": "夏秋",
     "blurb": "藤蔓绕篱，紫色花铃。",
+    "morph": "一年生缠绕藤本，叶心形，花紫粉，篱间常见。",
+    "culture": "象征平静，紫牵牛。",
+    "care": "原产热带美洲，喜光，自播力强。",
     "image": "images/ipomoea-purpurea.webp",
     "credit": {
       "author": "PPBC",
@@ -6294,6 +7077,9 @@ globalThis.FLOWERS = [
     "meaning": "相互关怀",
     "season": "夏秋",
     "blurb": "红色星花，纤巧藤蔓。",
+    "morph": "一年生缠绕藤本，叶羽状细裂，花红五角星形。",
+    "culture": "象征相互关怀，五角星花。",
+    "care": "原产美洲热带，喜暖光。",
     "image": "images/ipomoea-quamoclit.webp",
     "credit": {
       "author": "PPBC",
@@ -6318,6 +7104,9 @@ globalThis.FLOWERS = [
     "meaning": "童年",
     "season": "春夏",
     "blurb": "喇叭小花，田野记忆。",
+    "morph": "多年生缠绕草本，花粉白，喇叭形，田野记忆。",
+    "culture": "象征童年，小旋花。",
+    "care": "原产东亚，喜光耐旱。",
     "image": "images/calystegia-hederacea.webp",
     "credit": {
       "author": "PPBC",
@@ -6342,6 +7131,9 @@ globalThis.FLOWERS = [
     "meaning": "坚韧",
     "season": "夏",
     "blurb": "匍匐藤蔓，粉白小花。",
+    "morph": "多年生缠绕草本，花白粉，漏斗形，田间韧草。",
+    "culture": "象征坚韧，旋花。",
+    "care": "原产欧亚，喜光耐旱。",
     "image": "images/convolvulus-arvensis.webp",
     "credit": {
       "author": "PPBC",
@@ -6365,6 +7157,9 @@ globalThis.FLOWERS = [
     "meaning": "夜晚之美",
     "season": "夏秋",
     "blurb": "白色大花，月夜绽放。",
+    "morph": "一年生缠绕藤本，花白色大喇叭，夜间开放。",
+    "culture": "象征夜晚之美，夕颜。",
+    "care": "原产美洲热带，喜暖光。",
     "image": "images/ipomoea-alba.webp",
     "credit": {
       "author": "PPBC",
@@ -6391,6 +7186,9 @@ globalThis.FLOWERS = [
     "meaning": "爱国心",
     "season": "春夏",
     "blurb": "圆叶如荷，花如金盏。",
+    "morph": "一年生或多年生草本，叶圆如荷，花黄橙红，可食。",
+    "culture": "象征爱国心，金莲花。",
+    "care": "原产南美，喜凉光湿润。",
     "image": "images/tropaeolum-majus.webp",
     "credit": {
       "author": "PPBC",
@@ -6415,6 +7213,9 @@ globalThis.FLOWERS = [
     "meaning": "怀念",
     "season": "夏秋",
     "blurb": "染红指甲的童年记忆。",
+    "morph": "一年生草本，花多彩，瓣如凤羽，果荚弹射。",
+    "culture": "象征怀念，指甲花。",
+    "care": "原产亚洲，喜暖光湿润。",
     "image": "images/impatiens-balsamina.webp",
     "credit": {
       "author": "PPBC",
@@ -6438,6 +7239,9 @@ globalThis.FLOWERS = [
     "meaning": "活力",
     "season": "春夏",
     "blurb": "叶色深亮，花色缤纷。",
+    "morph": "多年生草本，叶色亮，花多彩，耐半阴。",
+    "culture": "象征活力，新几内亚凤仙花。",
+    "care": "原产新几内亚，喜暖湿半阴。",
     "image": "images/impatiens-hawkeri.webp",
     "credit": {
       "author": "PPBC",
@@ -6462,6 +7266,9 @@ globalThis.FLOWERS = [
     "meaning": "甜蜜",
     "season": "春夏秋",
     "blurb": "耐阴花丛，四季繁茂。",
+    "morph": "多年生草本，花多彩，耐阴，四季繁茂。",
+    "culture": "象征甜蜜，玻璃翠。",
+    "care": "原产东非，喜暖湿半阴。",
     "image": "images/impatiens-walleriana.webp",
     "credit": {
       "author": "PPBC",
@@ -6486,6 +7293,9 @@ globalThis.FLOWERS = [
     "meaning": "真爱",
     "season": "夏秋",
     "blurb": "花序如鸡冠，热烈夺目。",
+    "morph": "一年生草本，花序扁平如鸡冠，红黄。",
+    "culture": "象征真爱，鸡髻花。",
+    "care": "原产亚洲热带，喜暖光耐旱。",
     "image": "images/celosia-cristata.webp",
     "credit": {
       "author": "PPBC",
@@ -6511,6 +7321,9 @@ globalThis.FLOWERS = [
     "meaning": "永恒的爱",
     "season": "夏秋",
     "blurb": "干花不谢，寓意长久。",
+    "morph": "一年生草本，花紫红白，苞片纸质，干花不谢。",
+    "culture": "象征永恒的爱，火球花。",
+    "care": "原产美洲热带，喜暖光耐旱。",
     "image": "images/gomphrena-globosa.webp",
     "credit": {
       "author": "PPBC",
@@ -6535,6 +7348,9 @@ globalThis.FLOWERS = [
     "meaning": "含蓄",
     "season": "夏秋",
     "blurb": "傍晚开放，香气幽幽。",
+    "morph": "一年生或多年生草本，花多彩，傍晚开放，香。",
+    "culture": "象征含蓄，晚饭花。",
+    "care": "原产美洲热带，喜暖光，自播力强。",
     "image": "images/mirabilis-jalapa.webp",
     "credit": {
       "author": "PPBC",
@@ -6559,6 +7375,9 @@ globalThis.FLOWERS = [
     "meaning": "危险的快乐",
     "season": "夏秋",
     "blurb": "入夜香气浓郁迷人。",
+    "morph": "常绿藤状灌木，花黄绿，入夜香气浓郁。",
+    "culture": "象征危险的快乐，夜香木。",
+    "care": "原产美洲热带，喜暖光湿润。",
     "image": "images/cestrum-nocturnum.webp",
     "credit": {
       "author": "PPBC",
@@ -6583,6 +7402,9 @@ globalThis.FLOWERS = [
     "meaning": "敬畏",
     "season": "夏秋",
     "blurb": "花大而美，全株有毒。",
+    "morph": "一年生草本，花白色或紫，喇叭形，全株有毒。",
+    "culture": "象征敬畏，洋金花。",
+    "care": "原产美洲，喜光耐旱，只宜远观。",
     "image": "images/datura-stramonium.webp",
     "credit": {
       "author": "PPBC",
@@ -6608,6 +7430,9 @@ globalThis.FLOWERS = [
     "meaning": "神秘",
     "season": "夏秋",
     "blurb": "巨型喇叭花垂挂枝头。",
+    "morph": "常绿灌木或小乔木，花白粉黄，喇叭形巨大下垂。",
+    "culture": "象征神秘，天使号角。",
+    "care": "原产南美，喜暖光湿润。",
     "image": "images/brugmansia-suaveolens.webp",
     "credit": {
       "author": "PPBC",
@@ -6631,6 +7456,9 @@ globalThis.FLOWERS = [
     "meaning": "安全感",
     "season": "春夏秋",
     "blurb": "花坛主角，色彩无尽。",
+    "morph": "多年生或一年生草本，花多彩，漏斗形，花坛主角。",
+    "culture": "象征安全感，碧冬茄。",
+    "care": "原产南美，喜暖光，忌涝。",
     "image": "images/petunia-hybrida.webp",
     "credit": {
       "author": "PPBC",
@@ -6655,6 +7483,9 @@ globalThis.FLOWERS = [
     "meaning": "夜的美丽",
     "season": "夏",
     "blurb": "傍晚开放，清香淡雅。",
+    "morph": "多年生或一年生草本，花白粉，傍晚开放，香。",
+    "culture": "象征夜的美丽，烟草花。",
+    "care": "原产南美，喜暖光。",
     "image": "images/nicotiana-alata.webp",
     "credit": {
       "author": "PPBC",
@@ -6679,6 +7510,9 @@ globalThis.FLOWERS = [
     "meaning": "开朗",
     "season": "四季",
     "blurb": "花球变色，四季常开。",
+    "morph": "常绿灌木，花球变色，黄橙红粉，四季常开。",
+    "culture": "象征开朗，马缨丹。",
+    "care": "原产美洲热带，喜暖光耐旱。",
     "image": "images/lantana-camara.webp",
     "credit": {
       "author": "PPBC",
@@ -6705,6 +7539,9 @@ globalThis.FLOWERS = [
     "meaning": "神秘",
     "season": "夏秋",
     "blurb": "雄蕊细长如蝶须。",
+    "morph": "一年生草本，花粉紫白，雄蕊细长如蝶须。",
+    "culture": "象征神秘，凤蝶草。",
+    "care": "原产美洲热带，喜暖光。",
     "image": "images/cleome-spinosa.webp",
     "credit": {
       "author": "PPBC",
@@ -6730,6 +7567,9 @@ globalThis.FLOWERS = [
     "meaning": "敏感",
     "season": "夏秋",
     "blurb": "轻轻触碰，叶片闭合。",
+    "morph": "多年生草本，羽叶触之闭合，花粉紫绒球。",
+    "culture": "象征敏感，知羞草。",
+    "care": "原产美洲热带，喜暖光。",
     "image": "images/mimosa-pudica.webp",
     "credit": {
       "author": "PPBC",
@@ -6754,6 +7594,9 @@ globalThis.FLOWERS = [
     "meaning": "幸福",
     "season": "春",
     "blurb": "南方田间的紫色花毯。",
+    "morph": "二年生草本，花紫红，早春田野生机，绿肥。",
+    "culture": "象征幸福，红花草。",
+    "care": "原产中国，喜凉湿。",
     "image": "images/astragalus-sinicus.webp",
     "credit": {
       "author": "PPBC",
@@ -6777,6 +7620,9 @@ globalThis.FLOWERS = [
     "meaning": "幸运",
     "season": "春夏",
     "blurb": "紫色小花，牧草之王。",
+    "morph": "多年生草本，花紫色，蝶形，簇生成头状花序。",
+    "culture": "象征幸运，紫花苜蓿。",
+    "care": "原产西亚，喜光耐旱，牧草之王。",
     "image": "images/medicago-sativa.webp",
     "credit": {
       "author": "PPBC",
@@ -6800,6 +7646,9 @@ globalThis.FLOWERS = [
     "meaning": "幸运",
     "season": "春夏",
     "blurb": "四叶草是幸运的传说。",
+    "morph": "多年生匍匐草本，花白色，头状花序，三小叶。",
+    "culture": "象征幸运，三叶草。",
+    "care": "原产欧洲，喜光湿润。",
     "image": "images/trifolium-repens.webp",
     "credit": {
       "author": "PPBC",
@@ -6824,6 +7673,9 @@ globalThis.FLOWERS = [
     "meaning": "幸福",
     "season": "春夏",
     "blurb": "粉红花球，蜜源植物。",
+    "morph": "多年生草本，花粉红，头状花序，蜜源植物。",
+    "culture": "象征幸福，红车轴草。",
+    "care": "原产欧洲，喜凉湿。",
     "image": "images/trifolium-pratense.webp",
     "credit": {
       "author": "PPBC",
@@ -6847,6 +7699,9 @@ globalThis.FLOWERS = [
     "meaning": "母爱",
     "season": "春夏",
     "blurb": "多彩花穗，母亲的赞歌。",
+    "morph": "多年生或一年生草本，花多彩，总状花序高耸。",
+    "culture": "象征母爱，鲁冰花。",
+    "care": "原产北美，喜凉光，忌高温。",
     "image": "images/lupinus-micranthus.webp",
     "credit": {
       "author": "PPBC",
@@ -6870,6 +7725,9 @@ globalThis.FLOWERS = [
     "meaning": "温柔的回忆",
     "season": "春夏",
     "blurb": "蝶形小花，芳香清甜。",
+    "morph": "一年生缠绕藤本，花多彩，蝶形，芳香。",
+    "culture": "象征温柔的回忆，花豌豆。",
+    "care": "原产意大利，喜凉光。",
     "image": "images/lathyrus-odoratus.webp",
     "credit": {
       "author": "PPBC",
@@ -6895,6 +7753,9 @@ globalThis.FLOWERS = [
     "meaning": "喜悦",
     "season": "春夏",
     "blurb": "朴素小花，田园气息。",
+    "morph": "一年生蔓生草本，花白粉紫，蝶形，田园气息。",
+    "culture": "象征喜悦，荷兰豆花。",
+    "care": "原产欧亚，喜凉光。",
     "image": "images/pisum-sativum.webp",
     "credit": {
       "author": "PPBC",
@@ -6919,6 +7780,9 @@ globalThis.FLOWERS = [
     "meaning": "璀璨的心",
     "season": "春夏",
     "blurb": "粉色小花成簇开放。",
+    "morph": "多年生草本，三小叶，花粉红，簇生成伞。",
+    "culture": "象征璀璨的心，三叶草。",
+    "care": "原产南美，喜暖光，球茎繁殖。",
     "image": "images/oxalis-corymbosa.webp",
     "credit": {
       "author": "PPBC",
@@ -6942,6 +7806,9 @@ globalThis.FLOWERS = [
     "meaning": "快乐",
     "season": "春夏",
     "blurb": "黄色小花，生命力顽强。",
+    "morph": "多年生草本，三小叶，花黄色，路边小草。",
+    "culture": "象征快乐，酸酸草。",
+    "care": "原产全球温热带，喜光耐旱。",
     "image": "images/oxalis-corniculata.webp",
     "credit": {
       "author": "PPBC",
@@ -6966,6 +7833,9 @@ globalThis.FLOWERS = [
     "meaning": "幸运",
     "season": "春夏",
     "blurb": "紫叶粉花，精致可爱。",
+    "morph": "多年生草本，叶紫红三角，花白粉，观赏。",
+    "culture": "象征幸运，紫蝴蝶。",
+    "care": "原产南美，喜半阴。",
     "image": "images/oxalis-triangularis.webp",
     "credit": {
       "author": "PPBC",
@@ -6991,6 +7861,9 @@ globalThis.FLOWERS = [
     "meaning": "大吉大利",
     "season": "冬春",
     "blurb": "小花成团，花期超长。",
+    "morph": "多年生肉质草本，叶厚，花红粉黄，冬春繁盛。",
+    "culture": "象征大吉大利，寿星花。",
+    "care": "原产马达加斯加，喜光，短日照促花。",
     "image": "images/kalanchoe-blossfeldiana.webp",
     "credit": {
       "author": "PPBC",
@@ -7015,6 +7888,9 @@ globalThis.FLOWERS = [
     "meaning": "顽强",
     "season": "冬春",
     "blurb": "叶缘生芽，落地即活。",
+    "morph": "多年生肉质草本，叶缘生芽，落地即活。",
+    "culture": "象征顽强，打不死。",
+    "care": "原产马达加斯加，喜暖光耐旱。",
     "image": "images/bryophyllum-pinnatum.webp",
     "credit": {
       "author": "PPBC",
@@ -7039,6 +7915,9 @@ globalThis.FLOWERS = [
     "meaning": "长寿",
     "season": "夏秋",
     "blurb": "粉白花团，耐旱易养。",
+    "morph": "多年生肉质草本，叶厚，花白粉，伞房花序。",
+    "culture": "象征长寿，华丽景天。",
+    "care": "原产东亚，喜光耐旱。",
     "image": "images/hylotelephium-erythrostictum.webp",
     "credit": {
       "author": "PPBC",
@@ -7062,6 +7941,9 @@ globalThis.FLOWERS = [
     "meaning": "坚韧",
     "season": "春夏",
     "blurb": "金黄小花，屋顶绿化。",
+    "morph": "多年生肉质草本，茎匍匐，叶细，花金黄。",
+    "culture": "象征坚韧，指甲草。",
+    "care": "原产东亚，喜光耐旱，屋顶绿化。",
     "image": "images/sedum-lineare.webp",
     "credit": {
       "author": "PPBC",
@@ -7086,6 +7968,9 @@ globalThis.FLOWERS = [
     "meaning": "古朴",
     "season": "夏秋",
     "blurb": "瓦片上的多肉小花。",
+    "morph": "二年生肉质草本，叶莲座状，花白粉，瓦上生。",
+    "culture": "象征古朴，天王瓦塔。",
+    "care": "原产东亚，喜光耐旱。",
     "image": "images/orostachys-fimbriata.webp",
     "credit": {
       "author": "PPBC",
@@ -7110,6 +7995,9 @@ globalThis.FLOWERS = [
     "meaning": "幸福在身边",
     "season": "四季",
     "blurb": "花球饱满，窗台经典。",
+    "morph": "多年生草本，花球丰满，多彩，四季开花。",
+    "culture": "象征幸福在身边，洋绣球。",
+    "care": "原产南非，喜暖光，忌涝。",
     "image": "images/pelargonium-hortorum.webp",
     "credit": {
       "author": "PPBC",
@@ -7134,6 +8022,9 @@ globalThis.FLOWERS = [
     "meaning": "思念",
     "season": "夏",
     "blurb": "叶片带香，可驱蚊虫。",
+    "morph": "多年生草本，叶含香，触之芬芳，可驱蚊。",
+    "culture": "象征思念，香葵。",
+    "care": "原产南非，喜暖光耐旱。",
     "image": "images/pelargonium-graveolens.webp",
     "credit": {
       "author": "PPBC",
@@ -7157,6 +8048,9 @@ globalThis.FLOWERS = [
     "meaning": "华丽",
     "season": "春夏",
     "blurb": "花大色艳，雍容舒展。",
+    "morph": "多年生草本，花大色艳，多彩，春开。",
+    "culture": "象征华丽，蝴蝶天竺葵。",
+    "care": "原产南非，喜凉光。",
     "image": "images/pelargonium-domesticum.webp",
     "credit": {
       "author": "PPBC",
@@ -7181,6 +8075,9 @@ globalThis.FLOWERS = [
     "meaning": "安宁",
     "season": "夏",
     "blurb": "野地小花，朴素雅致。",
+    "morph": "多年生草本，花紫粉，果喙似鹳嘴，山野小花。",
+    "culture": "象征安宁，牻牛儿苗。",
+    "care": "原产东亚，喜光耐旱。",
     "image": "images/geranium-wilfordii.webp",
     "credit": {
       "author": "PPBC",
@@ -7206,6 +8103,9 @@ globalThis.FLOWERS = [
     "meaning": "永恒的爱",
     "season": "四季",
     "blurb": "四季开花的小型盆栽。",
+    "morph": "多年生草本，叶肉质，花紫蓝粉，四季开花。",
+    "culture": "象征永恒的爱，非洲堇。",
+    "care": "原产东非，喜半阴温暖。",
     "image": "images/saintpaulia-ionantha.webp",
     "credit": {
       "author": "PPBC",
@@ -7229,6 +8129,9 @@ globalThis.FLOWERS = [
     "meaning": "华丽",
     "season": "春夏",
     "blurb": "丝绒质感的硕大花朵。",
+    "morph": "多年生草本，块茎，花大丝绒质感，多彩。",
+    "culture": "象征华丽，落雪泥。",
+    "care": "原产巴西，喜暖湿半阴。",
     "image": "images/sinningia-speciosa.webp",
     "credit": {
       "author": "PPBC",
@@ -7252,6 +8155,9 @@ globalThis.FLOWERS = [
     "meaning": "热情",
     "season": "夏",
     "blurb": "花朵如口红破壳而出。",
+    "morph": "多年生附生藤本，花红管状，自苞片伸出如口红。",
+    "culture": "象征热情，口红吊兰。",
+    "care": "原产亚洲热带，喜暖湿半阴。",
     "image": "images/aeschynanthus-radicans.webp",
     "credit": {
       "author": "PPBC",
@@ -7275,6 +8181,9 @@ globalThis.FLOWERS = [
     "meaning": "冷淡",
     "season": "夏秋",
     "blurb": "清凉蓝花，夏日解暑。",
+    "morph": "常绿小灌木，花蓝色，簇生成球，夏日清凉。",
+    "culture": "象征冷淡，蓝花丹。",
+    "care": "原产南非，喜暖光，忌涝。",
     "image": "images/ceratostigma-plumbaginoides.webp",
     "credit": {
       "author": "PPBC",
@@ -7300,6 +8209,9 @@ globalThis.FLOWERS = [
     "meaning": "珍惜",
     "season": "夏秋",
     "blurb": "红灯笼般的垂挂小花。",
+    "morph": "常绿灌木，花橙红，钟形下垂，如金铃。",
+    "culture": "象征珍惜，灯笼花。",
+    "care": "原产南美，喜暖光湿润。",
     "image": "images/abution-pictum.webp",
     "credit": {
       "author": "PPBC",
@@ -7323,6 +8235,9 @@ globalThis.FLOWERS = [
     "meaning": "温柔",
     "season": "四季",
     "blurb": "粉色小花，日日开放。",
+    "morph": "常绿灌木，花粉红，五瓣，几乎全年开放。",
+    "culture": "象征温柔，南非葵。",
+    "care": "原产南非，喜暖光，勤开花。",
     "image": "images/anisodontea-capensis.webp",
     "credit": {
       "author": "PPBC",
@@ -7346,6 +8261,9 @@ globalThis.FLOWERS = [
     "meaning": "永远",
     "season": "四季",
     "blurb": "花苞不展开，如悬铃。",
+    "morph": "常绿灌木，花红色，花冠不展开，如悬铃。",
+    "culture": "象征永远，垂花悬铃花。",
+    "care": "原产墨西哥，喜暖光湿润。",
     "image": "images/malvaviscus-arboreus.webp",
     "credit": {
       "author": "PPBC",
@@ -7370,6 +8288,9 @@ globalThis.FLOWERS = [
     "meaning": "热情",
     "season": "四季",
     "blurb": "花瓣如凤尾，绚烂夺目。",
+    "morph": "常绿灌木，花红黄，瓣如凤尾，四季开花。",
+    "culture": "象征热情，金凤花。",
+    "care": "原产美洲热带，喜暖光耐旱。",
     "image": "images/caesalpinia-pulcherrima.webp",
     "credit": {
       "author": "PPBC",
@@ -7393,6 +8314,9 @@ globalThis.FLOWERS = [
     "meaning": "光明",
     "season": "秋冬",
     "blurb": "金黄小花，冬日暖阳。",
+    "morph": "常绿灌木，花金黄，总状花序，秋冬开放。",
+    "culture": "象征光明，双荚槐。",
+    "care": "原产南美，喜暖光。",
     "image": "images/senna-bicapsularis.webp",
     "credit": {
       "author": "PPBC",
@@ -7416,6 +8340,9 @@ globalThis.FLOWERS = [
     "meaning": "乐观",
     "season": "夏秋",
     "blurb": "满树金黄，明媚开朗。",
+    "morph": "落叶乔木，花金黄，总状花序，夏秋满树。",
+    "culture": "象征乐观，粉叶决明。",
+    "care": "原产印度与东南亚，喜暖光。",
     "image": "images/senna-surattensis.webp",
     "credit": {
       "author": "PPBC",
@@ -7440,6 +8367,9 @@ globalThis.FLOWERS = [
     "meaning": "富贵",
     "season": "春",
     "blurb": "花形如荷包，逗趣可爱。",
+    "morph": "一年生草本，花黄橙，唇瓣膨大如荷包。",
+    "culture": "象征富贵，荷包花。",
+    "care": "原产南美，喜凉湿半阴。",
     "image": "images/calceolaria-herbeohybrida.webp",
     "credit": {
       "author": "PPBC",
@@ -7464,6 +8394,9 @@ globalThis.FLOWERS = [
     "meaning": "胜利",
     "season": "春",
     "blurb": "花形奇特，如漏斗展翅。",
+    "morph": "多年生草本，花蓝紫，距细长如漏斗，奇特。",
+    "culture": "象征胜利，漏斗花。",
+    "care": "原产北温带，喜凉爽半阴。",
     "image": "images/aquilegia-viridiflora.webp",
     "credit": {
       "author": "PPBC",
@@ -7489,6 +8422,9 @@ globalThis.FLOWERS = [
     "meaning": "坦率",
     "season": "春夏",
     "blurb": "蓝紫大花，高山精灵。",
+    "morph": "多年生草本，花大，蓝紫白，重瓣或单瓣。",
+    "culture": "象征坦率，洋牡丹。",
+    "care": "原产东亚，喜凉爽湿润。",
     "image": "images/aquilegia-glandulosa.webp",
     "credit": {
       "author": "PPBC",
@@ -7513,6 +8449,9 @@ globalThis.FLOWERS = [
     "meaning": "清静",
     "season": "夏秋",
     "blurb": "花球如针垫，轻盈柔美。",
+    "morph": "多年生草本，花蓝紫，头状花序如针垫，轻盈。",
+    "culture": "象征清静，松虫草。",
+    "care": "原产欧亚，喜光耐旱。",
     "image": "images/scabiosa-japonica.webp",
     "credit": {
       "author": "PPBC",
@@ -7536,6 +8475,9 @@ globalThis.FLOWERS = [
     "meaning": "独立",
     "season": "夏",
     "blurb": "紫色刺头，野性之美。",
+    "morph": "多年生草本，花紫色，头状花序，叶有刺。",
+    "culture": "象征独立，大蓟。",
+    "care": "原产东亚，喜光耐旱。",
     "image": "images/cirsium-japonicum.webp",
     "credit": {
       "author": "PPBC",
@@ -7559,6 +8501,9 @@ globalThis.FLOWERS = [
     "meaning": "智慧",
     "season": "夏",
     "blurb": "蓝色球状花序，别致硬朗。",
+    "morph": "多年生草本，花蓝色，球状花序，硬朗别致。",
+    "culture": "象征智慧，禹州漏芦。",
+    "care": "原产欧亚，喜光耐旱。",
     "image": "images/echinops-latifolius.webp",
     "credit": {
       "author": "(c) Nan Yang, some rights reserved (CC BY-NC), uploaded by Nan Yang",
@@ -7584,6 +8529,9 @@ globalThis.FLOWERS = [
     "meaning": "欣喜",
     "season": "夏",
     "blurb": "羽毛状花穗，柔美朦胧。",
+    "morph": "多年生草本，花白粉红，羽状花穗，朦胧柔美。",
+    "culture": "象征欣喜，升麻花。",
+    "care": "原产东亚，喜半阴湿润。",
     "image": "images/astilbe-chinensis.webp",
     "credit": {
       "author": "(c) carter, some rights reserved (CC BY-NC)",
@@ -7607,6 +8555,9 @@ globalThis.FLOWERS = [
     "meaning": "真实",
     "season": "春夏",
     "blurb": "白花细巧，叶片斑纹。",
+    "morph": "多年生草本，叶肾形有斑纹，花白色，细巧。",
+    "culture": "象征真实，金线吊芙蓉。",
+    "care": "原产东亚，喜阴湿。",
     "image": "images/saxifraga-stolonifera.webp",
     "credit": {
       "author": "(c) wiktorbort, some rights reserved (CC BY-NC)",
@@ -7630,6 +8581,9 @@ globalThis.FLOWERS = [
     "meaning": "清雅",
     "season": "春末夏",
     "blurb": "白花成簇，香如茉莉。",
+    "morph": "落叶灌木，花白色，成簇，香如茉莉，春末开。",
+    "culture": "象征清雅，四月雪。",
+    "care": "原产中国，喜光耐寒。",
     "image": "images/philadelphus-incanus.webp",
     "credit": {
       "author": "(c) MP Zhou, some rights reserved (CC BY-NC), uploaded by MP Zhou",
@@ -7654,6 +8608,9 @@ globalThis.FLOWERS = [
     "meaning": "随和",
     "season": "春末夏",
     "blurb": "细碎白花，繁密如雪。",
+    "morph": "落叶灌木，花白粉，细碎繁密如雪，初夏开。",
+    "culture": "象征随和，空疏。",
+    "care": "原产东亚，喜光耐半阴。",
     "image": "images/deutzia-scabra.webp",
     "credit": {
       "author": "(c) harum.koh, some rights reserved (CC BY-SA)",
@@ -7678,6 +8635,9 @@ globalThis.FLOWERS = [
     "meaning": "快乐",
     "season": "春夏",
     "blurb": "白花初开，渐变金黄。",
+    "morph": "落叶灌木，花白黄，成对开放，秋果红艳。",
+    "culture": "象征快乐，金银忍冬。",
+    "care": "原产东亚，喜光耐寒。",
     "image": "images/lonicera-maackii.webp",
     "credit": {
       "author": "(c) Andrew Conboy, some rights reserved (CC BY), uploaded by Andrew Conboy",
@@ -7701,6 +8661,9 @@ globalThis.FLOWERS = [
     "meaning": "热心",
     "season": "春夏",
     "blurb": "乳白花簇，香气温和。",
+    "morph": "落叶灌木，花乳白，伞房花序，香气温和。",
+    "culture": "象征热心，西洋接骨木。",
+    "care": "原产欧洲，喜光湿润。",
     "image": "images/sambucus-nigra.webp",
     "credit": {
       "author": "(c) Attila Oláh, some rights reserved (CC BY), uploaded by Attila Oláh",
@@ -7724,6 +8687,9 @@ globalThis.FLOWERS = [
     "meaning": "美丽",
     "season": "春",
     "blurb": "八朵白花环绕中心，如绣球。",
+    "morph": "落叶灌木，聚伞花序，外圈白色大萼片如蝶。",
+    "culture": "象征美丽，聚八仙。",
+    "care": "原产中国，喜半阴湿润。",
     "image": "images/viburnum-macrocephalum.webp",
     "credit": {
       "author": "(c) wrbuckbe, some rights reserved (CC BY-NC)",
@@ -7747,6 +8713,9 @@ globalThis.FLOWERS = [
     "meaning": "清纯",
     "season": "春",
     "blurb": "雪白花球，初青后白。",
+    "morph": "落叶灌木，花球纯白，初开淡绿，春末繁盛。",
+    "culture": "象征清纯，绣球荚蒾。",
+    "care": "原产中国，喜光湿润。",
     "image": "images/viburnum-macrocephalum-f-keteleeri.webp",
     "credit": {
       "author": "(c) wrbuckbe, some rights reserved (CC BY-NC)",
@@ -7772,6 +8741,9 @@ globalThis.FLOWERS = [
     "meaning": "忠贞",
     "season": "春夏",
     "blurb": "花开先白后黄，香气清甜。",
+    "morph": "半常绿藤本，花初白后黄，成对开放，芳香。",
+    "culture": "象征忠贞，鸳鸯藤。",
+    "care": "原产中国，喜光耐寒，花可入药。",
     "image": "images/lonicera-japonica.webp",
     "credit": {
       "author": "no rights reserved",
@@ -7795,6 +8767,9 @@ globalThis.FLOWERS = [
     "meaning": "孤傲",
     "season": "春",
     "blurb": "白花成伞，红果如珠。",
+    "morph": "常绿灌木或小乔木，花白色，伞房花序，秋果红。",
+    "culture": "象征孤傲，千年红。",
+    "care": "原产中国，喜光耐旱。",
     "image": "images/photinia-serratifolia.webp",
     "credit": {
       "author": "(c) hansoes, some rights reserved (CC BY-NC)",
@@ -7818,6 +8793,9 @@ globalThis.FLOWERS = [
     "meaning": "吉祥",
     "season": "春",
     "blurb": "白色小花，秋果红艳。",
+    "morph": "常绿灌木，花白色，簇生，秋果红艳。",
+    "culture": "象征吉祥，救军粮。",
+    "care": "原产中国，喜光耐旱，果可食。",
     "image": "images/pyracantha-fortuneana.webp",
     "credit": {
       "author": "(c) Leon Xu, some rights reserved (CC BY)",
@@ -7842,6 +8820,9 @@ globalThis.FLOWERS = [
     "meaning": "温柔",
     "season": "春",
     "blurb": "粉白小花，娇小玲珑。",
+    "morph": "落叶灌木，花白粉，先叶开放，娇小玲珑。",
+    "culture": "象征温柔，爵梅。",
+    "care": "原产东亚，喜光耐寒。",
     "image": "images/prunus-japonica.webp",
     "credit": {
       "author": "(c) Chuangzao, some rights reserved (CC BY-NC), uploaded by Chuangzao",
@@ -7866,6 +8847,9 @@ globalThis.FLOWERS = [
     "meaning": "幸福",
     "season": "春",
     "blurb": "花叶同放，粉白满枝。",
+    "morph": "落叶小乔木，叶紫红，花白粉，与叶同放。",
+    "culture": "象征幸福，红叶李。",
+    "care": "原产亚洲，喜光。",
     "image": "images/prunus-cerasifera-f-atropurpurea.webp",
     "credit": {
       "author": "(c) unmotivated_frog, some rights reserved (CC BY)",
@@ -7889,6 +8873,9 @@ globalThis.FLOWERS = [
     "meaning": "甜蜜",
     "season": "春",
     "blurb": "白花素雅，果香在前。",
+    "morph": "多年生草本，花白色，五瓣，果香甜。",
+    "culture": "象征甜蜜，地莓花。",
+    "care": "原产全球温带，喜光湿润。",
     "image": "images/fragaria-ananassa.webp",
     "credit": {
       "author": "(c) cinema, some rights reserved (CC BY-NC)",
@@ -7912,6 +8899,9 @@ globalThis.FLOWERS = [
     "meaning": "童年",
     "season": "春夏",
     "blurb": "金黄色小花，田埂记忆。",
+    "morph": "多年生匍匐草本，花黄色，果红，田埂记忆。",
+    "culture": "象征童年，三匹风。",
+    "care": "原产东亚，喜光湿润。",
     "image": "images/duchesnea-indica.webp",
     "credit": {
       "author": "(c) Rob Curtis, some rights reserved (CC BY-NC-SA), uploaded by Rob Curtis",
@@ -7935,6 +8925,9 @@ globalThis.FLOWERS = [
     "meaning": "温暖",
     "season": "冬",
     "blurb": "冬日开放，来年果甜。",
+    "morph": "常绿乔木，花白色，圆锥花序，冬日开放。",
+    "culture": "象征温暖，来年果甜。",
+    "care": "原产中国，喜光温暖。",
     "image": "images/eriobotrya-japonica.webp",
     "credit": {
       "author": "(c) ms_starla, some rights reserved (CC BY-NC)",
@@ -7958,6 +8951,9 @@ globalThis.FLOWERS = [
     "meaning": "有爱",
     "season": "夏秋",
     "blurb": "小米粒般的金黄小花，香远益清。",
+    "morph": "常绿灌木或小乔木，花黄色如小米，极香。",
+    "culture": "象征有爱，米仔兰。",
+    "care": "原产中国南方，喜暖光湿润。",
     "image": "images/aglaia-odorata.webp",
     "credit": {
       "author": "(c) multiplex, some rights reserved (CC BY-NC), uploaded by multiplex",
@@ -7981,6 +8977,9 @@ globalThis.FLOWERS = [
     "meaning": "勇敢",
     "season": "春夏",
     "blurb": "花香浓郁，可绕九里。",
+    "morph": "常绿灌木或小乔木，花白色，芳香，可绕九里。",
+    "culture": "象征勇敢，七里香。",
+    "care": "原产亚洲热带，喜暖光。",
     "image": "images/murraya-exotica.webp",
     "credit": {
       "author": "(c) jinze, some rights reserved (CC BY-NC), uploaded by jinze",
@@ -8004,6 +9003,9 @@ globalThis.FLOWERS = [
     "meaning": "清新",
     "season": "春",
     "blurb": "洁白花瓣，馥郁甜香。",
+    "morph": "常绿乔木，花白色，大而芳香，春开。",
+    "culture": "象征清新，文旦花。",
+    "care": "原产东南亚，喜暖光湿润。",
     "image": "images/citrus-maxima.webp",
     "credit": {
       "author": "no rights reserved, uploaded by 葉子",
@@ -8027,6 +9029,9 @@ globalThis.FLOWERS = [
     "meaning": "新娘的喜悦",
     "season": "春",
     "blurb": "洁白小花，婚礼经典香氛。",
+    "morph": "常绿小乔木，花白色，芳香，春开，可提香精。",
+    "culture": "象征新娘的喜悦，婚礼香调。",
+    "care": "原产亚洲，喜暖光。",
     "image": "images/citrus-sinensis.webp",
     "credit": {
       "author": "(c) Roberto R. Calderón, some rights reserved (CC BY-NC), uploaded by Roberto R. Calderón",
@@ -8051,6 +9056,9 @@ globalThis.FLOWERS = [
     "meaning": "忠诚",
     "season": "春",
     "blurb": "紫红花苞，洁白花瓣。",
+    "morph": "常绿小乔木，花白带紫晕，芳香，果酸。",
+    "culture": "象征忠诚，柠檬树花。",
+    "care": "原产南亚，喜暖光。",
     "image": "images/citrus-limon.webp",
     "credit": {
       "author": "(c) claire, some rights reserved (CC BY)",
@@ -8074,6 +9082,9 @@ globalThis.FLOWERS = [
     "meaning": "宁静",
     "season": "春夏",
     "blurb": "白色风车状小花，香如茉莉。",
+    "morph": "常绿藤本，花白色，风车状，香如茉莉。",
+    "culture": "象征宁静，风车茉莉。",
+    "care": "原产东亚，喜光耐半阴。",
     "image": "images/trachelospermum-jasminoides.webp",
     "credit": {
       "author": "(c) 羅忠良, some rights reserved (CC BY-NC), uploaded by 羅忠良",
@@ -8098,6 +9109,9 @@ globalThis.FLOWERS = [
     "meaning": "珍贵",
     "season": "夏",
     "blurb": "白色萼片托起红色花心。",
+    "morph": "常绿灌木，花白色萼片托红心，如珠吐露。",
+    "culture": "象征珍贵，珍珠宝莲。",
+    "care": "原产西非，喜暖光湿润。",
     "image": "images/clerodendrum-thomsoniae.webp",
     "credit": {
       "author": "no rights reserved, uploaded by 葉子",
@@ -8123,6 +9137,9 @@ globalThis.FLOWERS = [
     "meaning": "荣光",
     "season": "夏秋",
     "blurb": "花瓣反卷如火焰。",
+    "morph": "多年生攀援草本，花橙红黄，瓣反卷如火焰。",
+    "culture": "象征荣光，火焰百合。",
+    "care": "原产非洲与亚洲热带，喜暖光。",
     "image": "images/gloriosa-superba.webp",
     "credit": {
       "author": "(c) Tan Yi Hern, Tan Chin Qian, Tan Li TA, Tan Hou Aun, some rights reserved (CC BY-NC), uploaded by Tan Yi Hern, Tan Chin Qian, Tan Li TA, Tan Hou Aun",
@@ -8149,6 +9166,9 @@ globalThis.FLOWERS = [
     "meaning": "渴望被爱",
     "season": "春夏",
     "blurb": "硕大喇叭花，喜庆夺目。",
+    "morph": "多年生草本，鳞茎，花大喇叭形，红粉白。",
+    "culture": "象征渴望被爱，孤挺花。",
+    "care": "原产南美，喜暖光，忌涝。",
     "image": "images/hippeastrum-vittatum.webp",
     "credit": {
       "author": "(c) Rafael Tosi, some rights reserved (CC BY), uploaded by Rafael Tosi",
@@ -8172,6 +9192,9 @@ globalThis.FLOWERS = [
     "meaning": "幸福",
     "season": "春夏",
     "blurb": "蓝色星花，清澈明亮。",
+    "morph": "多年生草本，花蓝色，星形，簇生，日开。",
+    "culture": "象征幸福，星辰花。",
+    "care": "原产澳洲，喜暖光，忌涝。",
     "image": "images/isotoma-axillaris.webp",
     "credit": {
       "author": "(c) spacegecko, some rights reserved (CC BY)",
@@ -8197,6 +9220,9 @@ globalThis.FLOWERS = [
     "meaning": "坚定",
     "season": "冬春",
     "blurb": "细碎小花，覆满枝头。",
+    "morph": "常绿灌木，花红粉白，细碎覆满枝头，冬春开。",
+    "culture": "象征坚定，新西兰茶花。",
+    "care": "原产新西兰，喜光耐旱。",
     "image": "images/leptospermum-scoparium.webp",
     "credit": {
       "author": "no rights reserved, uploaded by Peter de Lange",
@@ -8221,6 +9247,9 @@ globalThis.FLOWERS = [
     "meaning": "甜美",
     "season": "春",
     "blurb": "铃铛状白花，清雅可爱。",
+    "morph": "落叶灌木，花白粉，铃铛状，垂挂，春开。",
+    "culture": "象征甜美，越橘花。",
+    "care": "原产北美，喜酸性土，喜光。",
     "image": "images/vaccinium-corymbosum.webp",
     "credit": {
       "author": "(c) Turner Brockman, some rights reserved (CC BY-SA)",
@@ -8244,6 +9273,9 @@ globalThis.FLOWERS = [
     "meaning": "热情",
     "season": "春夏",
     "blurb": "红色刷状花序，独特醒目。",
+    "morph": "常绿灌木或小乔木，花红，刷状花序，独特。",
+    "culture": "象征热情，瓶刷子树。",
+    "care": "原产澳洲，喜暖光。",
     "image": "images/callistemon-rigidus.webp",
     "credit": {
       "author": "(c) Tony Rebelo, some rights reserved (CC BY-SA), uploaded by Tony Rebelo",
@@ -8268,6 +9300,9 @@ globalThis.FLOWERS = [
     "meaning": "思念",
     "season": "夏",
     "blurb": "粉紫小花，山野果香。",
+    "morph": "常绿灌木，花粉紫，单生，夏开，果香甜。",
+    "culture": "象征思念，山稔子。",
+    "care": "原产中国南方，喜暖光耐旱。",
     "image": "images/rhodomyrtus-tomentosa.webp",
     "credit": {
       "author": "(c) LW Ridge, some rights reserved (CC BY-NC)",
@@ -8291,6 +9326,9 @@ globalThis.FLOWERS = [
     "meaning": "灵感",
     "season": "冬春",
     "blurb": "细瓣如丝，冬日早花。",
+    "morph": "落叶灌木，花黄，细瓣如丝，冬春早开。",
+    "culture": "象征灵感，木里香。",
+    "care": "原产中国，喜半阴湿润。",
     "image": "images/hamamelis-mollis.webp",
     "credit": {
       "author": "(c) Fred Gibbs, some rights reserved (CC BY-NC), uploaded by Fred Gibbs",
@@ -8314,6 +9352,9 @@ globalThis.FLOWERS = [
     "meaning": "喜悦",
     "season": "春",
     "blurb": "金黄垂序，清香淡雅。",
+    "morph": "落叶灌木，花金黄，下垂总状，先叶开放。",
+    "culture": "象征喜悦，连核梅。",
+    "care": "原产中国，喜半阴湿润。",
     "image": "images/corylopsis-sinensis.webp",
     "credit": {
       "author": "no rights reserved",
@@ -8337,6 +9378,9 @@ globalThis.FLOWERS = [
     "meaning": "清新",
     "season": "春",
     "blurb": "白色细瓣，如纸屑纷飞。",
+    "morph": "常绿灌木，花白色，细瓣如纸屑，春开。",
+    "culture": "象征清新，纸末花。",
+    "care": "原产中国，喜光耐旱。",
     "image": "images/loropetalum-chinense.webp",
     "credit": {
       "author": "(c) Stargazer, some rights reserved (CC BY-NC), uploaded by Stargazer",
@@ -8361,6 +9405,9 @@ globalThis.FLOWERS = [
     "meaning": "热烈",
     "season": "春",
     "blurb": "紫红花带，春意红火。",
+    "morph": "常绿灌木，花紫红，细瓣繁密，春开成带。",
+    "culture": "象征热烈，红桎木。",
+    "care": "原产中国，栽培变种，喜光。",
     "image": "images/loropetalum-chinense-var-rubrum.webp",
     "credit": {
       "author": "PPBC",
@@ -8384,6 +9431,9 @@ globalThis.FLOWERS = [
     "meaning": "纯洁",
     "season": "春",
     "blurb": "满树白花，如雪覆枝。",
+    "morph": "落叶灌木，花白色，总状花序，满树如雪。",
+    "culture": "象征纯洁，茧子花。",
+    "care": "原产中国，喜光耐寒。",
     "image": "images/exochorda-racemosa.webp",
     "credit": {
       "author": "(c) zhangqianyi, some rights reserved (CC BY-NC)",
@@ -8409,6 +9459,9 @@ globalThis.FLOWERS = [
     "meaning": "圆满",
     "season": "秋冬",
     "blurb": "南非国花，硕大华贵。",
+    "morph": "常绿灌木，花球硕大，苞片粉红，南非国花。",
+    "culture": "象征圆满，花中之王。",
+    "care": "原产南非，喜光，忌涝。",
     "image": "images/protea-cynaroides.webp",
     "credit": {
       "author": "no rights reserved, uploaded by Klaus Wehrlin",
@@ -8433,6 +9486,9 @@ globalThis.FLOWERS = [
     "meaning": "热情",
     "season": "秋冬",
     "blurb": "红色针状花蕊如针垫。",
+    "morph": "常绿灌木，花红色，雄蕊针状如针垫，奇特。",
+    "culture": "象征热情，针垫山龙眼。",
+    "care": "原产南非，喜光，忌涝。",
     "image": "images/leucospermum-cordifolium.webp",
     "credit": {
       "author": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad",
@@ -8457,6 +9513,9 @@ globalThis.FLOWERS = [
     "meaning": "阳光",
     "season": "秋冬",
     "blurb": "苞片变色，四季观赏。",
+    "morph": "常绿灌木，苞片黄红变色，四季可观。",
+    "culture": "象征阳光，银叶木百合。",
+    "care": "原产南非，喜光耐旱。",
     "image": "images/leucadendron-salignum.webp",
     "credit": {
       "author": "(c) Martina Fynbos Treurnicht, some rights reserved (CC BY-NC), uploaded by Martina Fynbos Treurnicht",
@@ -8481,6 +9540,9 @@ globalThis.FLOWERS = [
     "meaning": "完美",
     "season": "四季",
     "blurb": "粉蓝花序，室内佳品。",
+    "morph": "多年生附生草本，花序粉蓝，苞片革质，室内观花。",
+    "culture": "象征完美，蜻蜓凤梨。",
+    "care": "原产南美，喜暖湿半阴。",
     "image": "images/aechmea-fasciata.webp",
     "credit": {
       "author": "(c) stevj, some rights reserved (CC BY-NC)",
@@ -8505,6 +9567,9 @@ globalThis.FLOWERS = [
     "meaning": "亲切",
     "season": "夏秋",
     "blurb": "花叶俱美，秋日清姿。",
+    "morph": "多年生草本，花红粉，叶不对称，秋日开放。",
+    "culture": "象征亲切，八月春。",
+    "care": "原产中国，喜半阴湿润。",
     "image": "images/begonia-grandis.webp",
     "credit": {
       "author": "(c) Jernej Polajnar, some rights reserved (CC BY), uploaded by Jernej Polajnar",
@@ -8528,6 +9593,9 @@ globalThis.FLOWERS = [
     "meaning": "娇艳",
     "season": "四季",
     "blurb": "四季开花，窗台常客。",
+    "morph": "多年生草本，花多彩，叶光亮，四季开花。",
+    "culture": "象征娇艳，玻璃翠。",
+    "care": "原产南美，喜暖光湿润。",
     "image": "images/begonia-semperflorens.webp",
     "credit": {
       "author": "(c) Leyla Cárdenas, some rights reserved (CC BY-NC), uploaded by Leyla Cárdenas",
@@ -8551,6 +9619,9 @@ globalThis.FLOWERS = [
     "meaning": "华丽",
     "season": "冬春",
     "blurb": "层层花瓣，如玫瑰绽放。",
+    "morph": "多年生草本，花重瓣似玫瑰，多彩，冬春上市。",
+    "culture": "象征华丽，玫瑰海棠。",
+    "care": "栽培杂交种，喜凉湿半阴。",
     "image": "images/begonia-hiemalis.webp",
     "credit": {
       "author": "(c) Aleksandr_Levon, some rights reserved (CC BY-NC), uploaded by Aleksandr_Levon",
@@ -8575,6 +9646,9 @@ globalThis.FLOWERS = [
     "meaning": "优雅",
     "season": "四季",
     "blurb": "银点叶面，粉花垂挂。",
+    "morph": "多年生草本，叶银点，花白粉，垂吊清雅。",
+    "culture": "象征优雅，斑点秋海棠。",
+    "care": "原产南美，喜暖湿半阴。",
     "image": "images/begonia-maculata.webp",
     "credit": {
       "author": "(c) claudia_mermelstein, some rights reserved (CC BY-NC), uploaded by claudia_mermelstein",
@@ -8599,6 +9673,9 @@ globalThis.FLOWERS = [
     "meaning": "浪漫",
     "season": "春夏",
     "blurb": "蓝紫串花，藤蔓如瀑。",
+    "morph": "常绿藤本，花蓝紫，串状花序，如紫霞垂挂。",
+    "culture": "象征浪漫，紫霞藤。",
+    "care": "原产中美洲，喜暖光。",
     "image": "images/petrea-volubilis.webp",
     "credit": {
       "author": "(c) Gabrielly Benaducci Tolentino, some rights reserved (CC BY-NC), uploaded by Gabrielly Benaducci Tolentino",
@@ -8624,6 +9701,9 @@ globalThis.FLOWERS = [
     "meaning": "纯真",
     "season": "夏秋",
     "blurb": "花初白后红，芳香醉人。",
+    "morph": "落叶藤本，花白红渐变，芳香，夏秋开放。",
+    "culture": "象征纯真，留求子。",
+    "care": "原产亚洲热带，喜暖光，果入药。",
     "image": "images/combretum-indicum.webp",
     "credit": {
       "author": "(c) Raja Sekhar Chimirala, some rights reserved (CC BY)",
@@ -8648,6 +9728,9 @@ globalThis.FLOWERS = [
     "meaning": "无忧无虑",
     "season": "春",
     "blurb": "金黄簇花，树下无忧。",
+    "morph": "常绿乔木，花金黄，簇生枝顶，春开如焰。",
+    "culture": "象征无忧无虑，树下无忧。",
+    "care": "原产南亚，喜暖湿光。",
     "image": "images/saraca-dives.webp",
     "credit": {
       "author": "(c) 小铖/Smalltown, some rights reserved (CC BY-NC), uploaded by 小铖/Smalltown",
@@ -8671,6 +9754,9 @@ globalThis.FLOWERS = [
     "meaning": "感谢",
     "season": "春",
     "blurb": "满树金黄，春日的风铃。",
+    "morph": "落叶乔木，花金黄，钟形，早春满树。",
+    "culture": "象征感谢，黄金风铃木。",
+    "care": "原产南美，喜暖光，先花后叶。",
     "image": "images/handroanthus-chrysanthus.webp",
     "credit": {
       "author": "(c) Tony Bean, some rights reserved (CC BY-NC)",
@@ -8694,6 +9780,9 @@ globalThis.FLOWERS = [
     "meaning": "美丽",
     "season": "春",
     "blurb": "粉色云霞，落英缤纷。",
+    "morph": "落叶乔木，花粉红，钟形，春开成云。",
+    "culture": "象征美丽，蔷薇风铃木。",
+    "care": "原产中美洲，喜暖光。",
     "image": "images/tabebuia-rosea.webp",
     "credit": {
       "author": "(c) Jan Meerman, some rights reserved (CC BY-NC), uploaded by Jan Meerman",
@@ -8717,6 +9806,9 @@ globalThis.FLOWERS = [
     "meaning": "智慧",
     "season": "春",
     "blurb": "紫花满树，端庄大气。",
+    "morph": "落叶乔木，花紫色，钟形，春开满冠。",
+    "culture": "象征智慧，紫绣球。",
+    "care": "原产南美，喜暖光。",
     "image": "images/handroanthus-impetiginosus.webp",
     "credit": {
       "author": "(c) Paulo Nogueira, some rights reserved (CC BY)",
@@ -8742,6 +9834,9 @@ globalThis.FLOWERS = [
     "meaning": "魅力",
     "season": "夏秋",
     "blurb": "紫色花穗，蝴蝶纷至。",
+    "morph": "落叶灌木，花紫粉白，长穗花序，引蝶。",
+    "culture": "象征魅力，蝴蝶灌木。",
+    "care": "原产中国，喜光耐旱。",
     "image": "images/buddleja-davidii.webp",
     "credit": {
       "author": "(c) aquadragonfly, some rights reserved (CC BY-NC)",
@@ -8765,6 +9860,9 @@ globalThis.FLOWERS = [
     "meaning": "优雅",
     "season": "四季",
     "blurb": "世界香水之树的芬芳。",
+    "morph": "常绿乔木，花黄绿，极香，可提香精。",
+    "culture": "象征优雅，香水树。",
+    "care": "原产东南亚，喜暖湿光。",
     "image": "images/cananga-odorata.webp",
     "credit": {
       "author": "(c) 106611639464075912591, some rights reserved (CC BY-NC-SA), uploaded by 106611639464075912591",
@@ -8788,6 +9886,9 @@ globalThis.FLOWERS = [
     "meaning": "纯净",
     "season": "春夏",
     "blurb": "蓝色小花，清新如天空。",
+    "morph": "多年生草本，花蓝色，金心，春开成丛。",
+    "culture": "象征纯净，费利菊。",
+    "care": "原产南非，喜暖光耐旱。",
     "image": "images/felicia-amelloides.webp",
     "credit": {
       "author": "(c) pineapplerenee, some rights reserved (CC BY-NC)",
@@ -8811,6 +9912,9 @@ globalThis.FLOWERS = [
     "meaning": "光明",
     "season": "春夏",
     "blurb": "金黄小菊，灿烂成丛。",
+    "morph": "常绿灌木，花金黄，细瓣，四季零星开放。",
+    "culture": "象征光明，梳黄菊。",
+    "care": "原产南非，喜暖光耐旱。",
     "image": "images/euryops-pectinatus.webp",
     "credit": {
       "author": "(c) Vuyokazi Rubushe, some rights reserved (CC BY-NC), uploaded by Vuyokazi Rubushe",
@@ -8835,6 +9939,9 @@ globalThis.FLOWERS = [
     "meaning": "想念",
     "season": "春",
     "blurb": "白蓝小花，似蝶停栖。",
+    "morph": "多年生草本，花白蓝，斑纹如蝶，春开。",
+    "culture": "象征想念，日本鸢尾。",
+    "care": "原产东亚，喜半阴湿润。",
     "image": "images/iris-japonica.webp",
     "credit": {
       "author": "(c) Marz88, some rights reserved (CC BY-NC-SA)",
@@ -8860,6 +9967,9 @@ globalThis.FLOWERS = [
     "meaning": "信任",
     "season": "初夏",
     "blurb": "硕大水边鸢尾，花色清丽。",
+    "morph": "多年生水生草本，花蓝紫粉，大而清丽，初夏开。",
+    "culture": "象征信任，玉蝉花。",
+    "care": "原产东亚，喜水湿强光。",
     "image": "images/iris-ensata.webp",
     "credit": {
       "author": "(c) Gularjanz Grigoryi Mihajlovich, some rights reserved (CC BY-NC), uploaded by Gularjanz Grigoryi Mihajlovich",
@@ -8883,6 +9993,9 @@ globalThis.FLOWERS = [
     "meaning": "诚实",
     "season": "春",
     "blurb": "蓝色小星花，铺满春野。",
+    "morph": "一年生或多年生草本，花蓝，细小，铺满春野。",
+    "culture": "象征诚实，波斯婆婆纳。",
+    "care": "原产西亚，喜光湿润。",
     "image": "images/veronica-persica.webp",
     "credit": {
       "author": "(c) liriodendron_tulipifera, some rights reserved (CC BY-NC), uploaded by liriodendron_tulipifera",
@@ -8906,6 +10019,9 @@ globalThis.FLOWERS = [
     "meaning": "忠贞",
     "season": "夏",
     "blurb": "蓝紫花穗，直立成束。",
+    "morph": "多年生草本，花蓝紫，长穗花序，直立成束。",
+    "culture": "象征忠贞，穗花婆婆纳。",
+    "care": "原产欧亚，喜光湿润。",
     "image": "images/veronica-longifolia.webp",
     "credit": {
       "author": "(c) Марина Садыкова, some rights reserved (CC BY)",
@@ -8930,6 +10046,9 @@ globalThis.FLOWERS = [
     "meaning": "治愈",
     "season": "夏",
     "blurb": "薄荷清香，猫咪最爱。",
+    "morph": "多年生草本，花白紫，薄荷香，猫喜爱。",
+    "culture": "象征治愈，荆芥花。",
+    "care": "原产欧亚，喜光耐旱。",
     "image": "images/nepeta-cataria.webp",
     "credit": {
       "author": "(c) Mark Kluge, some rights reserved (CC BY-NC), uploaded by Mark Kluge",
@@ -8954,6 +10073,9 @@ globalThis.FLOWERS = [
     "meaning": "好运",
     "season": "夏",
     "blurb": "香草之花，层层叠叠。",
+    "morph": "一年生草本，花白粉，层层轮生，香草。",
+    "culture": "象征好运，九层塔花。",
+    "care": "原产亚洲热带，喜暖光。",
     "image": "images/ocimum-basilicum.webp",
     "credit": {
       "author": "(c) Sune Holt, some rights reserved (CC BY-NC), uploaded by Sune Holt",
@@ -8978,6 +10100,9 @@ globalThis.FLOWERS = [
     "meaning": "平凡",
     "season": "夏秋",
     "blurb": "朴素小花，叶香四溢。",
+    "morph": "一年生草本，花紫粉，叶紫红带香，可食。",
+    "culture": "象征平凡，苏子花。",
+    "care": "原产东亚，喜光湿润。",
     "image": "images/perilla-frutescens.webp",
     "credit": {
       "author": "(c) H. Wilson Montgomery, Jr., some rights reserved (CC BY-NC), uploaded by H. Wilson Montgomery, Jr.",
@@ -9002,6 +10127,9 @@ globalThis.FLOWERS = [
     "meaning": "清雅",
     "season": "春",
     "blurb": "白花串串，如铃垂挂。",
+    "morph": "常绿灌木，花白粉，壶形，下垂如铃。",
+    "culture": "象征清雅，梫木。",
+    "care": "原产东亚，喜半阴酸性土。",
     "image": "images/pieris-japonica.webp",
     "credit": {
       "author": "(c) pumpernickel, some rights reserved (CC BY-NC)",
@@ -9026,6 +10154,9 @@ globalThis.FLOWERS = [
     "meaning": "坚韧",
     "season": "夏",
     "blurb": "高山之上，花开如霞。",
+    "morph": "常绿灌木，花紫粉，高山之上花开如霞。",
+    "culture": "象征坚韧，牛皮杜鹃。",
+    "care": "原产北温带高山，喜凉湿。",
     "image": "images/rhododendron-lapponicum.webp",
     "credit": {
       "author": "(c) wanderingeden, some rights reserved (CC BY-NC), uploaded by wanderingeden",
@@ -9050,6 +10181,9 @@ globalThis.FLOWERS = [
     "meaning": "遗憾",
     "season": "春",
     "blurb": "英国林间的蓝色地毯。",
+    "morph": "多年生草本，花蓝紫，钟形，垂向一侧，林间成毯。",
+    "culture": "象征遗憾，野风信子。",
+    "care": "原产欧洲，喜半阴湿润。",
     "image": "images/hyacinthoides-non-scripta.webp",
     "credit": {
       "author": "(c) Ian Hayhurst, some rights reserved (CC BY-NC-SA)",
@@ -9073,6 +10207,9 @@ globalThis.FLOWERS = [
     "meaning": "希望",
     "season": "冬春",
     "blurb": "雪中第一朵花，纯洁无畏。",
+    "morph": "多年生草本，花白，垂首如雪滴，早春雪中开。",
+    "culture": "象征希望，雪花莲。",
+    "care": "原产欧洲，喜凉湿半阴。",
     "image": "images/galanthus-nivalis.webp",
     "credit": {
       "author": "(c) enhuii_w, some rights reserved (CC BY-NC)",
@@ -9097,6 +10234,9 @@ globalThis.FLOWERS = [
     "meaning": "安慰",
     "season": "冬春",
     "blurb": "寒冬绽放，温暖安慰。",
+    "morph": "多年生草本，花白粉，冬春开放，寒冬之花。",
+    "culture": "象征安慰，铁筷子。",
+    "care": "原产欧洲，喜半阴凉爽。",
     "image": "images/helleborus-niger.webp",
     "credit": {
       "author": "(c) Alberto Colatore, some rights reserved (CC BY-NC), uploaded by Alberto Colatore",
@@ -9122,6 +10262,9 @@ globalThis.FLOWERS = [
     "meaning": "坚强",
     "season": "冬春",
     "blurb": "垂首之花，山野精灵。",
+    "morph": "多年生草本，花紫粉绿，垂首，冬春开放。",
+    "culture": "象征坚强，嚏根草。",
+    "care": "原产中国，喜凉湿半阴。",
     "image": "images/helleborus-thibetanus.webp",
     "credit": {
       "author": "(c) zhangshen, some rights reserved (CC BY)",
@@ -9146,6 +10289,9 @@ globalThis.FLOWERS = [
     "meaning": "思念",
     "season": "春",
     "blurb": "紫色小花，清明时节。",
+    "morph": "一年生或多年生草本，花紫粉，早春林下开放。",
+    "culture": "象征思念，断肠草。",
+    "care": "原产东亚，喜半阴湿润。",
     "image": "images/corydalis-incisa.webp",
     "credit": {
       "author": "(c) 藜梓柠, some rights reserved (CC BY-NC), uploaded by 藜梓柠",
@@ -9169,6 +10315,9 @@ globalThis.FLOWERS = [
     "meaning": "纯洁",
     "season": "春",
     "blurb": "白花带绿点，清新脱俗。",
+    "morph": "多年生草本，花白带绿点，钟形，春开。",
+    "culture": "象征纯洁，雪片水仙。",
+    "care": "原产欧洲，喜凉湿半阴。",
     "image": "images/leucojum-vernum.webp",
     "credit": {
       "author": "(c) Alberto Colatore, some rights reserved (CC BY-NC), uploaded by Alberto Colatore",
@@ -9192,6 +10341,9 @@ globalThis.FLOWERS = [
     "meaning": "吉祥",
     "season": "夏",
     "blurb": "小白花簇，秋红果串。",
+    "morph": "常绿灌木，花白色，圆锥花序，秋果红串。",
+    "culture": "象征吉祥，南天竺。",
+    "care": "原产东亚，喜半阴湿润。",
     "image": "images/nandina-domestica.webp",
     "credit": {
       "author": "(c) Sam Kieschnick, some rights reserved (CC BY), uploaded by Sam Kieschnick",
@@ -9215,6 +10367,9 @@ globalThis.FLOWERS = [
     "meaning": "快乐",
     "season": "夏",
     "blurb": "迎春之后，夏日再开。",
+    "morph": "常绿灌木，花黄色，春末夏初开放，迎夏。",
+    "culture": "象征快乐，迎夏。",
+    "care": "原产中国，喜光耐寒。",
     "image": "images/jasminum-floridum.webp",
     "credit": {
       "author": "(c) johnnieinsh, some rights reserved (CC BY-NC)",
@@ -9238,6 +10393,9 @@ globalThis.FLOWERS = [
     "meaning": "明亮",
     "season": "春",
     "blurb": "垂枝黄花，亮丽活泼。",
+    "morph": "常绿藤状灌木，花黄色，早春垂枝繁花。",
+    "culture": "象征明亮，云南迎春。",
+    "care": "原产中国西南，喜光湿润。",
     "image": "images/jasminum-mesnyi.webp",
     "credit": {
       "author": "(c) Jesús Cabrera, some rights reserved (CC BY)",
@@ -9264,6 +10422,9 @@ globalThis.FLOWERS = [
     "meaning": "相信爱情",
     "season": "春夏秋",
     "blurb": "花朵如彩灯倒挂。",
+    "morph": "常绿灌木或草本，花红紫粉，如灯笼倒挂。",
+    "culture": "象征相信爱情，吊钟海棠。",
+    "care": "原产南美，喜凉湿半阴。",
     "image": "images/fuchsia-hybrida.webp",
     "credit": {
       "author": "(c) Maribel Armenteros, some rights reserved (CC BY-NC), uploaded by Maribel Armenteros",
@@ -9288,6 +10449,9 @@ globalThis.FLOWERS = [
     "meaning": "思念",
     "season": "秋冬",
     "blurb": "毛绒紫花，触感温柔。",
+    "morph": "常绿灌木，花紫白，毛绒花穗，秋冬开放。",
+    "culture": "象征思念，紫绒鼠尾草。",
+    "care": "原产墨西哥，喜暖光耐旱。",
     "image": "images/salvia-leucantha.webp",
     "credit": {
       "author": "(c) jl_alice, some rights reserved (CC BY-NC)",
@@ -9311,6 +10475,9 @@ globalThis.FLOWERS = [
     "meaning": "热情",
     "season": "四季",
     "blurb": "橙色花穗，热带明艳。",
+    "morph": "常绿灌木，花橙红，穗状花序，四季开花。",
+    "culture": "象征热情，十字爵床。",
+    "care": "原产印度与斯里兰卡，喜暖湿半阴。",
     "image": "images/crossandra-infundibuliformis.webp",
     "credit": {
       "author": "(c) Ng Yu Fei, some rights reserved (CC BY-NC), uploaded by Ng Yu Fei",
@@ -9335,6 +10502,9 @@ globalThis.FLOWERS = [
     "meaning": "自由",
     "season": "春夏秋",
     "blurb": "日日开花，蓝紫温柔。",
+    "morph": "多年生草本，花蓝紫，喇叭形，日日开花。",
+    "culture": "象征自由，翠芦莉。",
+    "care": "原产墨西哥，喜暖光湿润。",
     "image": "images/ruellia-simplex.webp",
     "credit": {
       "author": "(c) Te Chang, some rights reserved (CC BY-NC), uploaded by Te Chang",
@@ -9358,6 +10528,9 @@ globalThis.FLOWERS = [
     "meaning": "富贵",
     "season": "四季",
     "blurb": "金黄苞片层层如宝塔。",
+    "morph": "常绿灌木，苞片金黄层层如宝塔，四季开花。",
+    "culture": "象征富贵，金包花。",
+    "care": "原产秘鲁，喜暖湿半阴。",
     "image": "images/pachystachys-lutea.webp",
     "credit": {
       "author": "(c) Carmen Choussy, some rights reserved (CC BY-NC)",
@@ -9382,6 +10555,9 @@ globalThis.FLOWERS = [
     "meaning": "俏皮",
     "season": "四季",
     "blurb": "红褐苞片如虾壳。",
+    "morph": "常绿灌木，苞片红褐层层，花白，如虾壳。",
+    "culture": "象征俏皮，狐尾木。",
+    "care": "原产墨西哥，喜暖湿半阴。",
     "image": "images/justicia-brandegeeana.webp",
     "credit": {
       "author": "(c) sam-lira, some rights reserved (CC BY-NC)",

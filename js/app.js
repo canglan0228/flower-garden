@@ -110,6 +110,33 @@
     return colors + '<span class="tag">' + esc(flower.family) + '</span><span class="tag">花期 · ' + esc(flower.season) + '</span>';
   }
 
+  function sectionHtml(f, preview) {
+    const cls = preview ? 'detail-section is-preview' : 'detail-section';
+    return (
+      '<div class="detail-sections">' +
+        '<section class="' + cls + '"><h3 class="detail-section-title">形态特征</h3><p>' + esc(f.morph) + '</p></section>' +
+        '<section class="' + cls + '"><h3 class="detail-section-title">花语与文化</h3><p>' + esc(f.culture) + '</p></section>' +
+        '<section class="' + cls + '"><h3 class="detail-section-title">分布与养护</h3><p>' + esc(f.care) + '</p></section>' +
+      '</div>'
+    );
+  }
+
+  function todayCopyHtml(f, dateStr) {
+    return (
+      '<span class="eyebrow">' + svgIcon('calendar') + '每日一花 · ' + esc(formatDateCN(dateStr)) + '</span>' +
+      '<h1 class="today-title">' + esc(f.name) + '</h1>' +
+      '<div class="today-latin">' + esc(f.latin) + '</div>' +
+      '<div class="today-meaning">花语 · ' + esc(f.meaning) + '</div>' +
+      '<p class="today-blurb">' + esc(f.blurb) + '</p>' +
+      sectionHtml(f, true) +
+      '<div class="today-actions">' +
+        '<a class="btn btn-primary" href="#/flower/' + encodeURIComponent(f.id) + '">查看完整详情</a>' +
+        '<button class="btn btn-ghost" data-action="shuffle-today">' + svgIcon('shuffle') + '换一朵</button>' +
+      '</div>' +
+      '<div class="hero-tags">' + tagHtml(f) + '</div>'
+    );
+  }
+
   function svgIcon(name) {
     const icons = {
       search: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></svg>',
@@ -160,26 +187,21 @@
 
     app.innerHTML =
       '<div class="container">' +
-        '<section class="hero">' +
-          '<div class="hero-copy fade-up">' +
-            '<span class="eyebrow">' + svgIcon('calendar') + '每日一花 · ' + esc(formatDateCN(todayStr)) + '</span>' +
-            '<h1 class="hero-title">' + esc(hero.name) + '</h1>' +
-            '<div class="hero-latin">' + esc(hero.latin) + '</div>' +
-            '<div class="hero-meaning">花语 · ' + esc(hero.meaning) + '</div>' +
-            '<p class="hero-blurb">' + esc(hero.blurb) + '</p>' +
-            '<div class="hero-actions">' +
-              '<a class="btn btn-primary" href="#/flower/' + encodeURIComponent(hero.id) + '">查看详情</a>' +
-              '<button class="btn btn-ghost" data-action="shuffle">' + svgIcon('shuffle') + '换一朵</button>' +
-            '</div>' +
+        '<section class="today-card view-enter">' +
+          '<a class="today-card-media" href="#/flower/' + encodeURIComponent(hero.id) + '" aria-label="查看' + esc(hero.name) + '详情" tabindex="-1">' +
+            '<img data-img alt="' + esc(hero.name) + '的图片" src="' + esc(hero.image) + '">' +
+            '<span class="shimmer" aria-hidden="true"></span>' +
+          '</a>' +
+          '<div class="today-card-body">' +
+            '<span class="eyebrow">' + svgIcon('calendar') + '今日之花 · ' + esc(formatDateCN(todayStr)) + '</span>' +
+            '<h1 class="today-card-name">' + esc(hero.name) + '</h1>' +
+            '<div class="today-card-latin">' + esc(hero.latin) + '</div>' +
+            '<div class="today-card-meaning">花语 · ' + esc(hero.meaning) + '</div>' +
+            '<p class="today-card-blurb">' + esc(hero.blurb) + '</p>' +
             '<div class="hero-tags">' + tagHtml(hero) + '</div>' +
-          '</div>' +
-          '<div class="hero-art fade-up" id="hero-art" style="animation-delay:.08s">' +
-            '<span class="hero-leaf hero-leaf-one" aria-hidden="true"></span>' +
-            '<span class="hero-leaf hero-leaf-two" aria-hidden="true"></span>' +
-            '<div class="hero-frame">' +
-              '<img data-img alt="' + esc(hero.name) + '的图片" src="' + esc(hero.image) + '">' +
-              '<span class="shimmer" aria-hidden="true"></span>' +
-              '<span class="hero-badge">' + svgIcon('calendar') + '今日之花</span>' +
+            '<div class="today-card-actions">' +
+              '<a class="btn btn-primary" href="#/flower/' + encodeURIComponent(hero.id) + '">查看详情</a>' +
+              '<a class="btn btn-ghost" href="#/today">' + svgIcon('calendar') + '今日之花页</a>' +
             '</div>' +
           '</div>' +
         '</section>' +
@@ -215,27 +237,58 @@
     bindImages(app);
   }
 
-  function renderHeroOnly(hero) {
-    const art = document.getElementById('hero-art');
-    if (!art) return;
-    const frame = art.querySelector('.hero-frame');
-    frame.innerHTML =
-      '<img data-img alt="' + esc(hero.name) + '的图片" src="' + esc(hero.image) + '">' +
-      '<span class="shimmer" aria-hidden="true"></span>' +
-      '<span class="hero-badge">' + svgIcon('calendar') + '今日之花</span>';
-    bindImages(art);
-    const copy = document.querySelector('.hero-copy');
-    if (copy) {
-      copy.classList.remove('fade-up');
-      void copy.offsetWidth;
-      copy.classList.add('fade-up');
+  /* ---------- 今日之花页 ---------- */
+  function renderToday() {
+    const todayStr = localDateStr();
+    const dailyIndex = core.dailyIndex(FLOWERS, todayStr);
+    state.todayId = FLOWERS[dailyIndex] ? FLOWERS[dailyIndex].id : null;
+    const f = FLOWERS[dailyIndex];
+    if (!f) {
+      app.innerHTML = '<div class="container not-found"><p>数据尚未生成，请先运行数据流水线。</p></div>';
+      return;
     }
-    copy.querySelector('.hero-title').textContent = hero.name;
-    copy.querySelector('.hero-latin').textContent = hero.latin;
-    copy.querySelector('.hero-meaning').textContent = '花语 · ' + hero.meaning;
-    copy.querySelector('.hero-blurb').textContent = hero.blurb;
-    copy.querySelector('.btn-primary').setAttribute('href', '#/flower/' + encodeURIComponent(hero.id));
-    copy.querySelector('.hero-tags').innerHTML = tagHtml(hero);
+
+    const relatedList = core.relatedFlowers(FLOWERS, f, 3);
+    const related = (relatedList.length ? relatedList : randomPicks(3)).map(cardHtml).join('');
+
+    app.innerHTML =
+      '<div class="container">' +
+        '<section class="today-hero">' +
+          '<div class="today-hero-copy view-enter" id="today-copy">' + todayCopyHtml(f, todayStr) + '</div>' +
+          '<div class="today-hero-art view-enter" id="today-art">' +
+            '<div class="hero-frame">' +
+              '<img data-img alt="' + esc(f.name) + '的图片" src="' + esc(f.image) + '">' +
+              '<span class="shimmer" aria-hidden="true"></span>' +
+              '<span class="hero-badge">' + svgIcon('calendar') + '今日之花</span>' +
+            '</div>' +
+          '</div>' +
+        '</section>' +
+        '<section class="section">' +
+          '<div class="section-head"><h2 class="section-title">同色推荐</h2></div>' +
+          '<div class="flower-grid" id="today-related">' + related + '</div>' +
+        '</section>' +
+      '</div>';
+
+    bindImages(app);
+  }
+
+  function renderTodayOnly(f) {
+    const copy = document.getElementById('today-copy');
+    const art = document.getElementById('today-art');
+    if (!copy || !art) return;
+    copy.innerHTML = todayCopyHtml(f, localDateStr());
+    art.innerHTML =
+      '<div class="hero-frame">' +
+        '<img data-img alt="' + esc(f.name) + '的图片" src="' + esc(f.image) + '">' +
+        '<span class="shimmer" aria-hidden="true"></span>' +
+        '<span class="hero-badge">' + svgIcon('calendar') + '今日之花</span>' +
+      '</div>';
+    bindImages(art);
+    [copy, art].forEach(function (el) {
+      el.classList.remove('view-enter');
+      void el.offsetWidth;
+      el.classList.add('view-enter');
+    });
   }
 
   /* ---------- 探索页 ---------- */
@@ -379,17 +432,18 @@
         '<div class="detail fade-in">' +
           '<a class="detail-back" href="#/explore">' + svgIcon('left') + '返回花大全</a>' +
           '<div class="detail-layout">' +
-            '<div class="detail-media">' +
+            '<div class="detail-media media-enter">' +
               '<img data-img alt="' + esc(f.name) + '的图片" src="' + esc(f.image) + '">' +
               '<span class="shimmer" aria-hidden="true"></span>' +
             '</div>' +
             '<div class="detail-copy">' +
-              '<h1 class="detail-name">' + esc(f.name) + '</h1>' +
-              '<div class="detail-latin">' + esc(f.latin) + (f.en ? ' · ' + esc(f.en) : '') + '</div>' +
-              '<div class="detail-meaning">' + esc(f.meaning) + '</div>' +
-              '<p class="detail-blurb">' + esc(f.blurb) + '</p>' +
-              '<div class="detail-facts">' + facts + '</div>' +
-              '<div class="detail-credit">' +
+              '<h1 class="detail-name item-enter">' + esc(f.name) + '</h1>' +
+              '<div class="detail-latin item-enter" style="animation-delay:80ms">' + esc(f.latin) + (f.en ? ' · ' + esc(f.en) : '') + '</div>' +
+              '<div class="detail-meaning item-enter" style="animation-delay:160ms">' + esc(f.meaning) + '</div>' +
+              '<p class="detail-blurb item-enter" style="animation-delay:240ms">' + esc(f.blurb) + '</p>' +
+              '<div class="item-enter" style="animation-delay:320ms">' + sectionHtml(f, false) + '</div>' +
+              '<div class="detail-facts item-enter" style="animation-delay:420ms">' + facts + '</div>' +
+              '<div class="detail-credit item-enter" style="animation-delay:500ms">' +
                 '图片：' + esc(f.credit.author) + '，' + esc(f.credit.license) +
                 (f.credit.source ? '，<a href="' + esc(f.credit.source) + '" target="_blank" rel="noopener noreferrer">查看原图</a>' : '') +
                 '（来源 Wikimedia Commons）' +
@@ -424,6 +478,7 @@
   function setNav(current) {
     document.querySelectorAll('.nav-link').forEach(function (a) {
       if (a.getAttribute('href') === '#/' && current === 'home') a.setAttribute('aria-current', 'page');
+      else if (a.getAttribute('href') === '#/today' && current === 'today') a.setAttribute('aria-current', 'page');
       else if (a.getAttribute('href') === '#/explore' && (current === 'explore' || current === 'flower')) a.setAttribute('aria-current', 'page');
       else a.removeAttribute('aria-current');
     });
@@ -435,6 +490,7 @@
       state.routeKey = key;
       if (r.route === 'flower') renderDetail(r.id);
       else if (r.route === 'explore') renderExplore(true);
+      else if (r.route === 'today') renderToday();
       else renderHome();
       window.scrollTo(0, 0);
     }
@@ -443,13 +499,13 @@
 
   /* ---------- 事件 ---------- */
   document.addEventListener('click', function (e) {
-    const shuffleBtn = e.target.closest('[data-action="shuffle"]');
+    const shuffleBtn = e.target.closest('[data-action="shuffle-today"]');
     if (shuffleBtn) {
       e.preventDefault();
-      const currentIdx = FLOWERS.findIndex(function (f) { return f.id === state.heroId; });
+      const currentIdx = FLOWERS.findIndex(function (f) { return f.id === state.todayId; });
       const nextIdx = core.randomIndex(FLOWERS, currentIdx);
-      state.heroId = FLOWERS[nextIdx].id;
-      renderHeroOnly(FLOWERS[nextIdx]);
+      state.todayId = FLOWERS[nextIdx].id;
+      renderTodayOnly(FLOWERS[nextIdx]);
       return;
     }
 

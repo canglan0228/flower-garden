@@ -15,7 +15,10 @@ const flowers = [
     aliases: ['刺玫'],
     meaning: '热烈的爱',
     season: '春夏',
-    blurb: '带刺而温柔，爱情的象征。'
+    blurb: '带刺而温柔，爱情的象征。',
+    morph: '落叶灌木，枝干带刺，花朵单瓣或重瓣，色分红、粉、白。',
+    culture: '西方文化中象征爱情与浪漫，常用于婚礼与告白。',
+    care: '原产亚洲，喜光耐寒，栽培需通风透光。'
   },
   {
     id: 'tulipa-gesneriana',
@@ -27,7 +30,10 @@ const flowers = [
     aliases: ['洋荷花'],
     meaning: '博爱与祝福',
     season: '春',
-    blurb: '荷兰国花，色彩明丽。'
+    blurb: '荷兰国花，色彩明丽。',
+    morph: '鳞茎草本，花杯状单生，色彩极为丰富。',
+    culture: '荷兰国花，象征博爱与祝福。',
+    care: '原产中亚，喜冷凉气候，球根需低温春化。'
   },
   {
     id: 'lavandula-angustifolia',
@@ -39,7 +45,10 @@ const flowers = [
     aliases: ['香水草'],
     meaning: '等待爱情',
     season: '夏',
-    blurb: '紫色花海，香气安宁。'
+    blurb: '紫色花海，香气安宁。',
+    morph: '常绿小灌木，穗状花序，花朵蓝紫色。',
+    culture: '常与「等待爱情」的浪漫故事联系在一起。',
+    care: '原产地中海沿岸，喜干燥阳光，忌积水。'
   },
   {
     id: 'nelumbo-nucifera',
@@ -51,7 +60,10 @@ const flowers = [
     aliases: ['莲花'],
     meaning: '纯洁高雅',
     season: '夏',
-    blurb: '出淤泥而不染。'
+    blurb: '出淤泥而不染。',
+    morph: '多年生水生草本，叶盾形，花大色艳。',
+    culture: '「出淤泥而不染」出自周敦颐《爱莲说》。',
+    care: '中国南北广布，喜温暖水湿环境。'
   }
 ];
 
@@ -100,6 +112,12 @@ test('searchFlowers 按花语与颜色命中', () => {
   assert.equal(core.searchFlowers(flowers, '紫').length, 2);
 });
 
+test('searchFlowers 可命中形态特征、文化典故与养护内容', () => {
+  assert.equal(core.searchFlowers(flowers, '爱莲说').length, 1);
+  assert.equal(core.searchFlowers(flowers, '通风透光').length, 1);
+  assert.equal(core.searchFlowers(flowers, '鳞茎').length, 1);
+});
+
 test('searchFlowers 空查询返回全部', () => {
   assert.equal(core.searchFlowers(flowers, '').length, flowers.length);
 });
@@ -124,6 +142,7 @@ test('applyFilters 按中文名称排序', () => {
 test('parseHash 解析各路由', () => {
   assert.deepEqual(core.parseHash('#/flower/rosa-rugosa'), { route: 'flower', id: 'rosa-rugosa' });
   assert.deepEqual(core.parseHash('#/explore'), { route: 'explore', id: null });
+  assert.deepEqual(core.parseHash('#/today'), { route: 'today', id: null });
   assert.deepEqual(core.parseHash('#/explore?color=%E7%BA%A2'), { route: 'explore', id: null });
   assert.deepEqual(core.parseHash('#/explore?color=%E7%BA%A2&season=%E5%A4%8F'), { route: 'explore', id: null });
   assert.deepEqual(core.parseHash('#/flower/rosa-rugosa?from=home'), { route: 'flower', id: 'rosa-rugosa' });

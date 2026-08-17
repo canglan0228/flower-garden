@@ -30,6 +30,12 @@ for (const f of flowers || []) {
   }
   if (!Array.isArray(f.colors) || !f.colors.length) errors.push(`${f.id}: colors 为空`);
   if (!Array.isArray(f.aliases)) errors.push(`${f.id}: aliases 不是数组`);
+  for (const key of ['morph', 'culture', 'care']) {
+    const v = String(f[key] || '');
+    if (v.length < 8) errors.push(`${f.id}: ${key} 过短（${v.length} 字，要求 >= 8）`);
+  }
+  const detailLen = String(f.morph || '').length + String(f.culture || '').length + String(f.care || '').length;
+  if (detailLen < 35) errors.push(`${f.id}: 形态/文化/养护合计过短（${detailLen} 字，要求 >= 35）`);
   if (!f.credit || !f.credit.author || !f.credit.license || !f.credit.source) {
     errors.push(`${f.id}: 图片来源标注不完整`);
   }

@@ -53,6 +53,9 @@
         f.family,
         f.meaning,
         f.blurb,
+        f.morph,
+        f.culture,
+        f.care,
         (f.aliases || []).join(' '),
         (f.colors || []).join(' ')
       ].join(' ');
@@ -102,6 +105,7 @@
       return { route: 'flower', id: decodeURIComponent(parts[1]) };
     }
     if (parts[0] === 'explore') return { route: 'explore', id: null };
+    if (parts[0] === 'today') return { route: 'today', id: null };
     return { route: 'home', id: null };
   };
 

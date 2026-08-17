@@ -190,6 +190,168 @@ p { margin: 0; }
   padding: 64px 0 56px;
 }
 
+/* 首页今日之花精简卡片 */
+.today-card {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 0;
+  align-items: stretch;
+  background: linear-gradient(120deg, var(--paper), var(--blush-soft));
+  border: 1px solid var(--line);
+  border-radius: 32px;
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  margin-top: 44px;
+}
+
+.today-card-media {
+  position: relative;
+  display: block;
+  min-height: 340px;
+  overflow: hidden;
+}
+
+.today-card-media::before { content: ""; display: block; height: 100%; }
+
+.today-card-media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.4s ease;
+}
+
+.today-card-media img.is-ready { opacity: 1; }
+.today-card:hover .today-card-media img { transform: scale(1.04); }
+
+.today-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 44px;
+  max-width: 560px;
+}
+
+.today-card-name {
+  font-size: clamp(30px, 4vw, 42px);
+  margin-bottom: 4px;
+}
+
+.today-card-latin {
+  font-style: italic;
+  color: var(--ink-faint);
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+.today-card-meaning {
+  font-family: var(--font-display);
+  font-size: 19px;
+  color: var(--blush-deep);
+  margin-bottom: 10px;
+}
+
+.today-card-blurb {
+  color: var(--ink-soft);
+  margin-bottom: 18px;
+}
+
+.today-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+/* 今日之花独立页 */
+.today-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+  gap: 56px;
+  align-items: start;
+  padding: 52px 0 60px;
+}
+
+.today-hero-copy { max-width: 560px; }
+
+.today-title {
+  font-size: clamp(38px, 5vw, 56px);
+  margin-bottom: 6px;
+}
+
+.today-latin {
+  font-style: italic;
+  color: var(--ink-faint);
+  margin-bottom: 16px;
+}
+
+.today-meaning {
+  font-family: var(--font-display);
+  font-size: 22px;
+  color: var(--blush-deep);
+  background: var(--blush-soft);
+  display: inline-block;
+  border-radius: 999px;
+  padding: 8px 18px;
+  margin-bottom: 16px;
+}
+
+.today-blurb {
+  color: var(--ink-soft);
+  margin-bottom: 18px;
+}
+
+.today-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 22px 0 18px;
+}
+
+.today-hero-art {
+  position: sticky;
+  top: calc(var(--header-h) + 24px);
+}
+
+/* ---------- 详情段落 ---------- */
+.detail-sections {
+  display: grid;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+.detail-section {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-soft);
+  padding: 16px 18px;
+}
+
+.detail-section-title {
+  font-family: var(--font-body);
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  color: var(--sage-deep);
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.detail-section p {
+  color: var(--ink);
+  line-height: 1.9;
+}
+
+.detail-section.is-preview p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: var(--ink-soft);
+}
+
 .hero-copy { max-width: 520px; }
 
 .eyebrow {
@@ -773,6 +935,9 @@ p { margin: 0; }
 /* ---------- 动效 ---------- */
 .fade-up { animation: fadeUp 0.6s ease both; }
 .fade-in { animation: fadeIn 0.5s ease both; }
+.view-enter { animation: viewEnter 0.6s ease both; }
+.media-enter { animation: mediaEnter 0.7s ease both; }
+.item-enter { animation: itemEnter 0.55s ease both; }
 
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(14px); }
@@ -782,6 +947,21 @@ p { margin: 0; }
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
+}
+
+@keyframes viewEnter {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes mediaEnter {
+  from { opacity: 0; transform: scale(1.03); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes itemEnter {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .shimmer {
@@ -807,6 +987,12 @@ img.is-ready ~ .shimmer,
   .hero { grid-template-columns: 1fr; gap: 36px; padding-top: 44px; }
   .hero-copy { max-width: none; }
   .hero-frame { max-width: 560px; }
+  .today-card { grid-template-columns: 1fr; }
+  .today-card-media { min-height: 260px; }
+  .today-card-body { padding: 28px 26px; }
+  .today-hero { grid-template-columns: 1fr; gap: 32px; padding-top: 36px; }
+  .today-hero-copy { max-width: none; }
+  .today-hero-art { position: static; }
   .flower-grid { grid-template-columns: repeat(2, 1fr); }
   .color-grid { grid-template-columns: repeat(5, 1fr); }
   .detail-layout { grid-template-columns: 1fr; }
@@ -822,6 +1008,13 @@ img.is-ready ~ .shimmer,
   .nav-link { padding: 7px 12px; font-size: 14px; }
   .hero { padding-top: 34px; }
   .hero-title { font-size: 38px; }
+  .today-card { margin-top: 30px; }
+  .today-card-body { padding: 24px 20px; }
+  .today-card-actions { flex-direction: column; align-items: stretch; }
+  .today-card-actions .btn { width: 100%; }
+  .today-hero { padding-top: 28px; }
+  .today-actions { flex-direction: column; align-items: stretch; }
+  .today-actions .btn { width: 100%; }
   .stats { grid-template-columns: 1fr; }
   .flower-grid { grid-template-columns: 1fr; }
   .color-grid { grid-template-columns: repeat(3, 1fr); }
