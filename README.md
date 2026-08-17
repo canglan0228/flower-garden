@@ -7,9 +7,9 @@
 - 每日一花：按日期稳定生成，每天更换，可点「换一朵」随机浏览
 - 今日之花页：独立页面完整展示当日花朵的形态、花语与文化、分布与养护，可一键查看详情
 - 花大全：全文搜索（中文名、别名、学名、花语、颜色）、颜色/季节筛选、排序
-- 详情页：大图、花语、小故事（动漫/影视/游戏/传说出处）、形态特征/花语与文化/分布与养护三大板块、科属资料、来源标注、相关推荐，带柔和入场动画
-- 动漫风背景：内置 6 张 Pixabay 动漫风花卉/风景插画，右下角按钮一键切换，全屏交叉溶解动画，选择记忆在浏览器
-- 季节天气开场：每次打开网站先展示约 2.5 秒的「季节 + 当地天气」开场动画（IP 定位 + Open-Meteo 免费接口），可点击跳过，断网自动降级
+- 详情页：大图、花语、小故事（动漫/影视/游戏/传说出处，30 种常见花为 300-400 字三段式）、形态特征/花语与文化/分布与养护三大板块、科属资料、来源标注、相关推荐，带柔和入场动画
+- 动漫风背景：内置 6 张 Pixabay 动漫风花卉/风景插画，右下角按钮一键切换，圆环扩散转场动画，选择记忆在浏览器
+- 季节天气开场：每次打开网站先展示约 4 秒的分幕式「季节 + 当地天气」开场动画（大字季节 → 天气卡片 → 柔和淡出，IP 定位 + Open-Meteo 免费接口），可点击跳过，断网自动降级
 - 视觉：奶油白 + 淡粉 + 鼠尾草绿，圆润卡片、柔和光影、响应式、支持减少动效
 - 离线可用：双击 `index.html` 即可打开，无需服务器
 
@@ -32,7 +32,9 @@ scripts/ppbc-worker.py     ppbc 中国植物图像库浏览器抓取 worker（Sc
 scripts/lib/seed.mjs       种子清单解析等共享工具
 scripts/fetch-flowers.mjs  （备用）Wikimedia Commons 抓取
 scripts/apply-story-fixes.mjs  把补长稿合并进 stories.tsv
+scripts/apply-story-rewrites.mjs  把 30 种常见花的扩写稿整段替换进 stories.tsv
 scripts/merge-stories.mjs      把 stories.tsv 合并进 flowers.tsv 的第 13 列
+scripts/replace-story-tails.mjs  用新尾句替换 stories.tsv 中重复/冗余的末句（配合 seed/story-tail-fixes.tsv）
 scripts/make-backgrounds.mjs   把源图压缩为 backgrounds/*.webp
 scripts/build-data.mjs     生成 data/flowers.js
 scripts/check-data.mjs     数据完整性校验

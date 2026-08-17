@@ -191,6 +191,17 @@ test('weatherText 映射 WMO 天气码', () => {
   assert.equal(core.weatherText(0, 0).icon, '🌙');
 });
 
+test('splitStory 按 || 分段并清理空白', () => {
+  assert.deepEqual(core.splitStory('第一段。||第二段。||第三段。'), ['第一段。', '第二段。', '第三段。']);
+  assert.deepEqual(core.splitStory(' 第一段。 || 第二段。 '), ['第一段。', '第二段。']);
+});
+
+test('splitStory 无分隔符时返回单段，空值返回空数组', () => {
+  assert.deepEqual(core.splitStory('只有一段。'), ['只有一段。']);
+  assert.deepEqual(core.splitStory(''), []);
+  assert.deepEqual(core.splitStory(undefined), []);
+});
+
 test('relatedFlowers 优先同科属或同色并排除自身', () => {
   const related = core.relatedFlowers(flowers, flowers[0], 2);
   assert.ok(!related.some((f) => f.id === 'rosa-rugosa'));

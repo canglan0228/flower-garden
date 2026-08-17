@@ -453,6 +453,9 @@
     ].map(function (x) {
       return '<div class="fact"><div class="fact-label">' + esc(x.label) + '</div><div class="fact-value">' + esc(x.value) + '</div></div>';
     }).join('');
+    const storyParts = core.splitStory(f.story).map(function (p, i) {
+      return '<p' + (i === 0 ? ' class="story-lead"' : '') + '>' + esc(p) + '</p>';
+    }).join('');
 
     app.innerHTML =
       '<div class="container">' +
@@ -470,7 +473,7 @@
               '<p class="detail-blurb item-enter" style="animation-delay:240ms">' + esc(f.blurb) + '</p>' +
               '<div class="detail-story item-enter" style="animation-delay:320ms">' +
                 '<h3 class="detail-section-title">小故事 · 文艺与流行文化</h3>' +
-                '<p>' + esc(f.story) + '</p>' +
+                storyParts +
               '</div>' +
               '<div class="item-enter" style="animation-delay:420ms">' + sectionHtml(f, false) + '</div>' +
               '<div class="detail-facts item-enter" style="animation-delay:520ms">' + facts + '</div>' +
@@ -575,38 +578,50 @@
   function switchBg(nextIdx) {
     if (nextIdx < 0 || nextIdx >= BACKGROUNDS.length) return;
     if (nextIdx === state.bg) return;
+    if (state.bgBusy) return;
     const entry = BACKGROUNDS[nextIdx];
-    const veil = document.createElement('div');
-    veil.className = 'bg-veil' + (entry.css ? '' : ' is-cream');
-    veil.setAttribute('aria-hidden', 'true');
-    if (entry.css) veil.style.backgroundImage = entry.css;
-    document.body.appendChild(veil);
-    void veil.offsetWidth;
-    veil.classList.add('is-in');
-    let swapped = false;
-    veil.addEventListener('transitionend', function onVeilEnd(ev) {
-      if (ev.propertyName !== 'opacity') return;
-      if (!swapped) {
-        swapped = true;
-        applyBg(nextIdx);
-        veil.classList.remove('is-in');
-      } else {
-        veil.removeEventListener('transitionend', onVeilEnd);
-        veil.remove();
-      }
-    });
-    window.setTimeout(function () {
-      if (!swapped) {
-        swapped = true;
-        applyBg(nextIdx);
-        veil.classList.remove('is-in');
-      }
+    const btn = document.getElementById('bg-toggle');
+    const rect = btn ? btn.getBoundingClientRect() : null;
+    const x = rect ? Math.round(rect.left + rect.width / 2) : Math.round(window.innerWidth * 0.92);
+    const y = rect ? Math.round(rect.top + rect.height / 2) : Math.round(window.innerHeight * 0.9);
+
+    const reveal = document.createElement('div');
+    reveal.className = 'bg-reveal' + (entry.css ? '' : ' is-cream');
+    reveal.setAttribute('aria-hidden', 'true');
+    reveal.style.setProperty('--rx', x + 'px');
+    reveal.style.setProperty('--ry', y + 'px');
+    reveal.innerHTML =
+      '<div class="bg-reveal-img"></div>' +
+      '<div class="bg-reveal-veil"></div>';
+    if (entry.css) reveal.querySelector('.bg-reveal-img').style.backgroundImage = entry.css;
+    document.body.appendChild(reveal);
+    state.bgBusy = true;
+
+    if (btn) {
+      btn.classList.remove('is-pulse');
+      void btn.offsetWidth;
+      btn.classList.add('is-pulse');
+      window.setTimeout(function () { btn.classList.remove('is-pulse'); }, 650);
+    }
+
+    let done = false;
+    function finish() {
+      if (done) return;
+      done = true;
+      applyBg(nextIdx);
+      if (reveal.parentNode) reveal.remove();
       state.bg = nextIdx;
+      state.bgBusy = false;
       try { localStorage.setItem(BG_KEY, String(nextIdx)); } catch (e) {}
-    }, 1200);
-    window.setTimeout(function () {
-      if (veil.parentNode) veil.remove();
-    }, 3000);
+    }
+    reveal.addEventListener('transitionend', function onEnd(ev) {
+      if (ev.propertyName !== 'clip-path' && ev.propertyName !== '-webkit-clip-path') return;
+      reveal.removeEventListener('transitionend', onEnd);
+      finish();
+    });
+    void reveal.offsetWidth;
+    reveal.classList.add('is-in');
+    window.setTimeout(finish, 1600);
   }
 
   state.bg = (function () {
@@ -614,6 +629,7 @@
     try { idx = Number(localStorage.getItem(BG_KEY)); } catch (e) {}
     return (idx >= 0 && idx < BACKGROUNDS.length) ? idx : 0;
   })();
+  state.bgBusy = false;
   applyBg(state.bg);
 
   const bgBtn = document.getElementById('bg-toggle');
@@ -637,19 +653,19 @@
     const wrap = overlay.querySelector('.intro-particles');
     if (!wrap) return;
     const kind = type || 'petal';
-    const count = kind === 'sun' ? 14 : 20;
+    const count = kind === 'sun' ? 24 : 40;
     for (let i = 0; i < count; i++) {
       const p = document.createElement('span');
       p.className = 'intro-particle particle-' + kind;
       p.style.left = (Math.random() * 100) + '%';
       if (kind === 'sun') {
         p.style.animationDelay = (Math.random() * 2.5) + 's';
-        p.style.animationDuration = (2.6 + Math.random() * 2.6) + 's';
+        p.style.animationDuration = (3.2 + Math.random() * 3.2) + 's';
       } else {
-        p.style.animationDelay = (Math.random() * 4) + 's';
-        p.style.animationDuration = (5 + Math.random() * 5) + 's';
+        p.style.animationDelay = (Math.random() * 5) + 's';
+        p.style.animationDuration = (7 + Math.random() * 5) + 's';
       }
-      p.style.transform = 'scale(' + (0.6 + Math.random() * 0.9).toFixed(2) + ')';
+      p.style.transform = 'scale(' + (0.8 + Math.random() * 1.1).toFixed(2) + ')';
       wrap.appendChild(p);
     }
   }
@@ -659,26 +675,34 @@
     const overlay = document.createElement('div');
     overlay.className = 'intro-overlay';
     overlay.innerHTML =
-      '<div class="intro-card">' +
-        '<div class="intro-season" aria-hidden="true"></div>' +
-        '<div class="intro-line"></div>' +
-        '<div class="intro-weather"></div>' +
-        '<div class="intro-hint">点击任意处跳过</div>' +
-      '</div>' +
+      '<div class="intro-sky" aria-hidden="true"></div>' +
       '<div class="intro-particles" aria-hidden="true"></div>';
+    const stage = document.createElement('div');
+    stage.className = 'intro-stage';
+    stage.innerHTML =
+      '<div class="intro-season act-1" aria-hidden="true"></div>' +
+      '<div class="intro-line act-1"></div>' +
+      '<div class="intro-weather act-2">' +
+        '<span class="intro-weather-icon"></span>' +
+        '<span class="intro-weather-text">天气加载中…</span>' +
+      '</div>' +
+      '<div class="intro-hint">点击任意处跳过</div>';
+    overlay.appendChild(stage);
     document.body.appendChild(overlay);
 
     const seasonEl = overlay.querySelector('.intro-season');
     const lineEl = overlay.querySelector('.intro-line');
     const weatherEl = overlay.querySelector('.intro-weather');
+    const weatherIcon = overlay.querySelector('.intro-weather-icon');
+    const weatherText = overlay.querySelector('.intro-weather-text');
 
     let season = core.seasonForDate(localDateStr(), null);
     let weather = core.weatherText(Number.NaN, 1);
     let place = '';
 
+    overlay.classList.add('sky-' + season.key);
     seasonEl.textContent = season.name;
     lineEl.textContent = season.line;
-    weatherEl.innerHTML = '<span class="intro-weather-icon">' + weather.icon + '</span>' + weather.label;
     if (!reduced) spawnParticles(overlay, season.particle);
 
     fetchJson('https://ipwho.is/', 4000)
@@ -687,6 +711,8 @@
         const lat = Number(data.latitude);
         if (!isNaN(lat)) {
           season = core.seasonForDate(localDateStr(), lat);
+          overlay.classList.remove('sky-spring', 'sky-summer', 'sky-autumn', 'sky-winter');
+          overlay.classList.add('sky-' + season.key);
           seasonEl.textContent = season.name;
           lineEl.textContent = season.line;
         }
@@ -702,22 +728,23 @@
         if (!w || !w.current) throw new Error('weather fail');
         const cur = w.current;
         weather = core.weatherText(cur.weather_code, cur.is_day);
-        weatherEl.innerHTML =
-          '<span class="intro-weather-icon">' + weather.icon + '</span>' +
+        weatherIcon.textContent = weather.icon;
+        weatherText.innerHTML =
           esc(weather.label) + ' ' + Math.round(cur.temperature_2m) + '°C' +
           (place ? ' · ' + esc(place) : '');
       })
       .catch(function () {
-        weatherEl.innerHTML = '<span class="intro-weather-icon">🌿</span>天气未知 · 愿花常开';
+        weatherIcon.textContent = '🌿';
+        weatherText.textContent = '天气未知 · 愿花常开';
       });
 
     let done = false;
     function dismiss() {
       if (done) return;
       done = true;
-      overlay.classList.add('is-hidden');
+      overlay.classList.add('is-exit');
       overlay.addEventListener('transitionend', function onEnd(ev) {
-        if (ev.propertyName === 'opacity') {
+        if (ev.propertyName === 'opacity' || ev.propertyName === 'transform') {
           overlay.removeEventListener('transitionend', onEnd);
           overlay.remove();
         }
@@ -730,7 +757,7 @@
     }
     overlay.addEventListener('click', dismiss);
     document.addEventListener('keydown', onKey);
-    window.setTimeout(dismiss, 2600);
+    window.setTimeout(dismiss, reduced ? 1600 : 4000);
   }
 
   showIntro();

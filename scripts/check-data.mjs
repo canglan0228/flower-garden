@@ -9,6 +9,13 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 await import('../data/flowers.js');
 const flowers = globalThis.FLOWERS;
 
+const LONG_STORY_NAMES = new Set(
+  readFileSync(path.join(ROOT, 'seed', 'story-long.tsv'), 'utf8')
+    .split(/\r?\n/)
+    .map((l) => l.replace(/\r$/, '').trim())
+    .filter((l) => l && !l.startsWith('#'))
+);
+
 const errors = [];
 const warnings = [];
 
@@ -35,8 +42,13 @@ for (const f of flowers || []) {
     if (v.length < 8) errors.push(`${f.id}: ${key} 过短（${v.length} 字，要求 >= 8）`);
   }
   const storyLen = String(f.story || '').length;
-  if (storyLen < 60) errors.push(`${f.id}: story 过短（${storyLen} 字，要求 >= 60）`);
-  else if (storyLen < 100) warnings.push(`${f.id}: story 偏短（${storyLen} 字，建议 100-150）`);
+  if (LONG_STORY_NAMES.has(f.name)) {
+    if (storyLen < 250) errors.push(`${f.id}: story 过短（${storyLen} 字，扩写名单要求 >= 250）`);
+    else if (storyLen < 300) warnings.push(`${f.id}: story 偏短（${storyLen} 字，扩写名单建议 300-400）`);
+  } else {
+    if (storyLen < 60) errors.push(`${f.id}: story 过短（${storyLen} 字，要求 >= 60）`);
+    else if (storyLen < 100) warnings.push(`${f.id}: story 偏短（${storyLen} 字，建议 100-150）`);
+  }
   const detailLen = String(f.morph || '').length + String(f.culture || '').length + String(f.care || '').length;
   if (detailLen < 35) errors.push(`${f.id}: 形态/文化/养护合计过短（${detailLen} 字，要求 >= 35）`);
   if (!f.credit || !f.credit.author || !f.credit.license || !f.credit.source) {

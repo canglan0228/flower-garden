@@ -15,9 +15,13 @@ function readLines(file) {
 }
 
 const fixes = new Map();
-const files = readdirSync(SEED_DIR)
+let files = readdirSync(SEED_DIR)
   .filter((f) => /^story-fixes-.*\.tsv$/.test(f))
   .sort();
+if (process.argv.length > 2) {
+  const wanted = new Set(process.argv.slice(2));
+  files = files.filter((f) => wanted.has(f));
+}
 for (const file of files) {
   for (const raw of readLines(path.join(SEED_DIR, file))) {
     if (!raw || raw.startsWith('#')) continue;

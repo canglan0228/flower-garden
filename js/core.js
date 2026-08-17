@@ -104,6 +104,13 @@
     return { label: label, icon: icon };
   };
 
+  core.splitStory = function (story) {
+    const s = String(story || '').trim();
+    if (!s) return [];
+    const parts = s.split('||').map(function (x) { return x.trim(); }).filter(Boolean);
+    return parts.length ? parts : [s];
+  };
+
   core.seasonTags = function (seasonText) {
     const tags = [];
     const s = String(seasonText || '');
