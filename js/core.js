@@ -90,19 +90,20 @@
     let label = '天气未知';
     let icon = '🌿';
     let effect = 'none';
+    let heavy = false;
     if (c === 0) { label = '晴'; icon = day ? '☀️' : '🌙'; effect = 'clear'; }
     else if (c === 1) { label = '大致晴朗'; icon = '🌤️'; effect = 'clear'; }
     else if (c === 2) { label = '多云'; icon = '⛅'; effect = 'clouds'; }
-    else if (c === 3) { label = '阴'; icon = '☁️'; effect = 'clouds'; }
+    else if (c === 3) { label = '阴'; icon = '☁️'; effect = 'clouds'; heavy = true; }
     else if (c === 45 || c === 48) { label = '雾'; icon = '🌫️'; effect = 'fog'; }
     else if (c >= 51 && c <= 57) { label = '毛毛雨'; icon = '🌦️'; effect = 'rain'; }
-    else if (c >= 61 && c <= 67) { label = '大雨'; icon = '🌧️'; effect = 'rain'; }
+    else if (c >= 61 && c <= 67) { label = '大雨'; icon = '🌧️'; effect = 'rain'; heavy = true; }
     else if (c >= 71 && c <= 77) { label = '雪'; icon = '❄️'; effect = 'snow'; }
     else if (c >= 80 && c <= 82) { label = '阵雨'; icon = '🌦️'; effect = 'rain'; }
     else if (c === 85 || c === 86) { label = '阵雪'; icon = '❄️'; effect = 'snow'; }
-    else if (c === 95) { label = '雷暴'; icon = '⛈️'; effect = 'thunder'; }
-    else if (c === 96 || c === 99) { label = '雷暴伴冰雹'; icon = '⛈️'; effect = 'thunder'; }
-    return { label: label, icon: icon, effect: effect };
+    else if (c === 95) { label = '雷暴'; icon = '⛈️'; effect = 'thunder'; heavy = true; }
+    else if (c === 96 || c === 99) { label = '雷暴伴冰雹'; icon = '⛈️'; effect = 'thunder'; heavy = true; }
+    return { label: label, icon: icon, effect: effect, heavy: heavy };
   };
 
   core.splitStory = function (story) {

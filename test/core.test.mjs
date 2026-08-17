@@ -197,6 +197,11 @@ test('weatherText 映射 WMO 天气码', () => {
   assert.equal(core.weatherText(71, 1).effect, 'snow');
   assert.equal(core.weatherText(95, 1).effect, 'thunder');
   assert.equal(core.weatherText(999, 1).effect, 'none');
+  assert.equal(core.weatherText(3, 1).heavy, true);
+  assert.equal(core.weatherText(2, 1).heavy, false);
+  assert.equal(core.weatherText(61, 1).heavy, true);
+  assert.equal(core.weatherText(51, 1).heavy, false);
+  assert.equal(core.weatherText(95, 1).heavy, true);
 });
 
 test('splitStory 按 || 分段并清理空白', () => {

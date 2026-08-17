@@ -72,31 +72,29 @@ body {
   position: absolute;
   inset: 0;
   background: rgba(255, 251, 244, 0.86);
+  transition: opacity 0.45s ease;
+}
+
+.site-bg.is-exposed::after {
+  opacity: 0;
 }
 
 .site-bg[data-mode="cream"]::after {
   background: transparent;
 }
 
-/* 背景切换的圆环扩散 */
+/* 背景切换：Wallpaper Engine 式淡入淡出 */
 .bg-reveal {
   position: fixed;
   inset: 0;
-  z-index: 90;
+  z-index: -1;
   pointer-events: none;
-  clip-path: circle(0% at var(--rx, 92%) var(--ry, 90%));
-  -webkit-clip-path: circle(0% at var(--rx, 92%) var(--ry, 90%));
-  transition: clip-path 0.75s cubic-bezier(0.4, 0, 0.2, 1), -webkit-clip-path 0.75s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  transition: opacity 1.2s ease;
 }
 
 .bg-reveal.is-in {
-  clip-path: circle(150% at var(--rx, 92%) var(--ry, 90%));
-  -webkit-clip-path: circle(150% at var(--rx, 92%) var(--ry, 90%));
-}
-
-.bg-reveal.is-done {
-  opacity: 0;
-  transition: opacity 0.45s ease;
+  opacity: 1;
 }
 
 .bg-reveal-img {
@@ -107,17 +105,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   transform: scale(1.05);
-  transition: transform 0.75s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 1.2s ease;
 }
 
 .bg-reveal.is-in .bg-reveal-img {
   transform: scale(1);
-}
-
-.bg-reveal-veil {
-  position: absolute;
-  inset: 0;
-  background: rgba(255, 251, 244, 0.86);
 }
 
 .bg-reveal.is-cream .bg-reveal-img {
@@ -125,10 +117,6 @@ body {
     radial-gradient(1100px 500px at 85% -10%, rgba(244, 220, 210, 0.8), transparent 60%),
     radial-gradient(900px 480px at -10% 20%, rgba(228, 237, 226, 0.9), transparent 55%),
     var(--cream);
-}
-
-.bg-reveal.is-cream .bg-reveal-veil {
-  background: transparent;
 }
 
 img { display: block; max-width: 100%; }
@@ -189,6 +177,7 @@ p { margin: 0; }
   font-size: 21px;
   letter-spacing: 0.04em;
   color: var(--ink);
+  white-space: nowrap;
 }
 
 .site-nav { display: flex; gap: 6px; }
@@ -199,6 +188,7 @@ p { margin: 0; }
   color: var(--ink-soft);
   font-size: 15px;
   transition: background 0.2s ease, color 0.2s ease;
+  white-space: nowrap;
 }
 
 .nav-link:hover { background: var(--blush-soft); color: var(--ink); }
@@ -1252,20 +1242,38 @@ p { margin: 0; }
 .intro-weather {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
-  font-size: 17px;
+  gap: 14px;
   color: var(--ink);
   background: rgba(255, 255, 255, 0.82);
   border: 1px solid var(--line);
   border-radius: 999px;
-  padding: 12px 26px;
+  padding: 10px 26px 12px;
   box-shadow: 0 14px 34px rgba(95, 122, 95, 0.14);
   opacity: 0;
   transform: translateY(26px);
   animation: actWeather 0.8s cubic-bezier(0.22, 1, 0.36, 1) 1.25s both;
 }
 
-.intro-weather-icon { font-size: 42px; line-height: 1; }
+.intro-weather-icon { font-size: 46px; line-height: 1; }
+
+.intro-weather-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.35;
+}
+
+.intro-weather-city {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+}
+
+.intro-weather-text {
+  font-size: 13.5px;
+  color: var(--ink-soft);
+}
 
 .intro-hint {
   margin-top: 32px;
@@ -1419,6 +1427,11 @@ p { margin: 0; }
   animation: fxCloud linear infinite;
 }
 
+.fx-cloud.is-heavy {
+  background: rgba(196, 202, 210, 0.88);
+  filter: blur(26px);
+}
+
 @keyframes fxCloud {
   from { transform: translateX(-12vw); }
   to { transform: translateX(160vw); }
@@ -1448,6 +1461,64 @@ p { margin: 0; }
   background: radial-gradient(circle, #F7E3B0, rgba(231, 201, 139, 0.2));
   box-shadow: 0 0 14px rgba(231, 201, 139, 0.95);
   animation: fxClear ease-in-out infinite;
+}
+
+.fx-sun {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 72vmin;
+  height: 72vmin;
+  margin: -36vmin 0 0 -36vmin;
+  border-radius: 50%;
+  opacity: 0.5;
+  background: radial-gradient(circle, rgba(247, 227, 176, 0.55), rgba(247, 227, 176, 0) 62%);
+  animation: sunSpin 60s linear infinite, sunPulse 4s ease-in-out infinite;
+}
+
+.fx-sun::before,
+.fx-sun::after {
+  content: "";
+  position: absolute;
+  inset: -6%;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 0deg,
+    rgba(247, 227, 176, 0.5) 0deg 14deg,
+    transparent 14deg 40deg,
+    rgba(247, 227, 176, 0.5) 40deg 54deg,
+    transparent 54deg 80deg,
+    rgba(247, 227, 176, 0.5) 80deg 94deg,
+    transparent 94deg 120deg,
+    rgba(247, 227, 176, 0.5) 120deg 134deg,
+    transparent 134deg 160deg,
+    rgba(247, 227, 176, 0.5) 160deg 174deg,
+    transparent 174deg 200deg,
+    rgba(247, 227, 176, 0.5) 200deg 214deg,
+    transparent 214deg 240deg,
+    rgba(247, 227, 176, 0.5) 240deg 254deg,
+    transparent 254deg 280deg,
+    rgba(247, 227, 176, 0.5) 280deg 294deg,
+    transparent 294deg 320deg,
+    rgba(247, 227, 176, 0.5) 320deg 334deg,
+    transparent 334deg 360deg
+  );
+  -webkit-mask-image: radial-gradient(circle, transparent 30%, #000 62%, transparent 78%);
+  mask-image: radial-gradient(circle, transparent 30%, #000 62%, transparent 78%);
+}
+
+.fx-sun::after {
+  animation: sunSpin 60s linear infinite reverse;
+}
+
+@keyframes sunSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes sunPulse {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 0.6; }
 }
 
 @keyframes fxClear {
@@ -1569,7 +1640,7 @@ img.is-ready ~ .shimmer,
   .intro-line { font-size: 20px; }
   .intro-weather { font-size: 15px; padding: 10px 18px; }
   .intro-weather-icon { font-size: 32px; }
-  .bg-toggle { right: 16px; bottom: 16px; width: 42px; height: 42px; }
+  .bg-toggle { right: 16px; bottom: 16px; width: 44px; height: 44px; }
 }
 
 @media (max-width: 400px) {
@@ -1577,6 +1648,21 @@ img.is-ready ~ .shimmer,
   .site-nav { gap: 2px; }
   .brand-name { font-size: 15px; }
   .nav-link { padding: 5px 6px; font-size: 12px; }
+}
+
+@media (max-width: 360px) {
+  .brand-name { display: none; }
+}
+
+@media (max-width: 420px) {
+  .site-nav {
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .site-nav::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 /* ---------- 减少动效 ---------- */

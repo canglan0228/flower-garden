@@ -603,22 +603,18 @@
     if (nextIdx === state.bg) return;
     if (state.bgBusy) return;
     const entry = BACKGROUNDS[nextIdx];
+    const siteBg = document.getElementById('site-bg');
     const btn = document.getElementById('bg-toggle');
-    const rect = btn ? btn.getBoundingClientRect() : null;
-    const x = rect ? Math.round(rect.left + rect.width / 2) : Math.round(window.innerWidth * 0.92);
-    const y = rect ? Math.round(rect.top + rect.height / 2) : Math.round(window.innerHeight * 0.9);
+    const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     const reveal = document.createElement('div');
     reveal.className = 'bg-reveal' + (entry.css ? '' : ' is-cream');
     reveal.setAttribute('aria-hidden', 'true');
-    reveal.style.setProperty('--rx', x + 'px');
-    reveal.style.setProperty('--ry', y + 'px');
-    reveal.innerHTML =
-      '<div class="bg-reveal-img"></div>' +
-      '<div class="bg-reveal-veil"></div>';
+    reveal.innerHTML = '<div class="bg-reveal-img"></div>';
     if (entry.css) reveal.querySelector('.bg-reveal-img').style.backgroundImage = entry.css;
     document.body.appendChild(reveal);
     state.bgBusy = true;
+    if (siteBg) siteBg.classList.add('is-exposed');
 
     if (btn) {
       btn.classList.remove('is-pulse');
@@ -627,33 +623,36 @@
       window.setTimeout(function () { btn.classList.remove('is-pulse'); }, 650);
     }
 
-    let ended = false;
-    function settle() {
-      if (ended) return;
-      ended = true;
+    let swapped = false;
+    function swap() {
+      if (swapped) return;
+      swapped = true;
       applyBg(nextIdx);
-      state.bg = nextIdx;
-      try { localStorage.setItem(BG_KEY, String(nextIdx)); } catch (e) {}
-      reveal.classList.add('is-done');
-      reveal.addEventListener('transitionend', function onFade(ev) {
-        if (ev.propertyName !== 'opacity') return;
-        reveal.removeEventListener('transitionend', onFade);
-        reveal.remove();
-        state.bgBusy = false;
-      });
-      window.setTimeout(function () {
-        if (reveal.parentNode) reveal.remove();
-        state.bgBusy = false;
-      }, 700);
     }
-    reveal.addEventListener('transitionend', function onEnd(ev) {
-      if (ev.propertyName !== 'clip-path' && ev.propertyName !== '-webkit-clip-path') return;
-      reveal.removeEventListener('transitionend', onEnd);
-      settle();
-    });
+    function finish() {
+      swap();
+      if (reveal.parentNode) reveal.remove();
+      if (siteBg) siteBg.classList.remove('is-exposed');
+      state.bg = nextIdx;
+      state.bgBusy = false;
+      try { localStorage.setItem(BG_KEY, String(nextIdx)); } catch (e) {}
+    }
+
+    if (reduced) {
+      swap();
+      window.setTimeout(finish, 240);
+      return;
+    }
+
     void reveal.offsetWidth;
     reveal.classList.add('is-in');
-    window.setTimeout(settle, 1200);
+    reveal.addEventListener('transitionend', function onEnd(ev) {
+      if (ev.propertyName !== 'opacity') return;
+      reveal.removeEventListener('transitionend', onEnd);
+      finish();
+    });
+    window.setTimeout(swap, 800);
+    window.setTimeout(finish, 2200);
   }
 
   state.bg = (function () {
@@ -715,11 +714,13 @@
     }
   }
 
-  function spawnWeatherEffect(overlay, kind) {
+  function spawnWeatherEffect(overlay, kind, heavy) {
     const wrap = overlay.querySelector('.intro-effect');
     if (!wrap) return;
     wrap.innerHTML = '';
-    if (kind === 'rain' || kind === 'thunder') spawnRain(wrap, kind === 'thunder' ? 48 : 64);
+    if (kind === 'rain' || kind === 'thunder') {
+      spawnRain(wrap, kind === 'thunder' ? 48 : (heavy ? 64 : 34));
+    }
     if (kind === 'snow') {
       for (let i = 0; i < 40; i++) {
         const d = document.createElement('i');
@@ -732,9 +733,10 @@
       }
     }
     if (kind === 'clouds') {
-      for (let i = 0; i < 3; i++) {
+      const count = heavy ? 4 : 3;
+      for (let i = 0; i < count; i++) {
         const d = document.createElement('i');
-        d.className = 'fx-cloud';
+        d.className = 'fx-cloud' + (heavy ? ' is-heavy' : '');
         d.style.top = (8 + Math.random() * 30) + '%';
         d.style.animationDelay = (Math.random() * 6) + 's';
         d.style.animationDuration = (20 + Math.random() * 10) + 's';
@@ -753,6 +755,9 @@
       }
     }
     if (kind === 'clear') {
+      const sun = document.createElement('i');
+      sun.className = 'fx-sun';
+      wrap.appendChild(sun);
       for (let i = 0; i < 14; i++) {
         const d = document.createElement('i');
         d.className = 'fx-clear';
@@ -770,6 +775,12 @@
     }
   }
 
+  function seasonDefaultEffect(season) {
+    if (season.key === 'winter') return 'snow';
+    if (season.key === 'autumn') return 'clouds';
+    return 'clear';
+  }
+
   function showIntro() {
     const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const overlay = document.createElement('div');
@@ -785,7 +796,10 @@
       '<div class="intro-line act-1"></div>' +
       '<div class="intro-weather act-2">' +
         '<span class="intro-weather-icon"></span>' +
-        '<span class="intro-weather-text">天气加载中…</span>' +
+        '<span class="intro-weather-info">' +
+          '<span class="intro-weather-city"></span>' +
+          '<span class="intro-weather-text">天气加载中…</span>' +
+        '</span>' +
       '</div>' +
       '<div class="intro-hint">单击或双击任意处跳过</div>';
     overlay.appendChild(stage);
@@ -795,6 +809,7 @@
     const lineEl = overlay.querySelector('.intro-line');
     const weatherEl = overlay.querySelector('.intro-weather');
     const weatherIcon = overlay.querySelector('.intro-weather-icon');
+    const weatherCity = overlay.querySelector('.intro-weather-city');
     const weatherText = overlay.querySelector('.intro-weather-text');
 
     let season = core.seasonForDate(localDateStr(), null);
@@ -805,6 +820,7 @@
     seasonEl.textContent = season.name;
     lineEl.textContent = season.line;
     if (!reduced) spawnParticles(overlay, season.particle);
+    if (!reduced) spawnWeatherEffect(overlay, seasonDefaultEffect(season));
 
     fetchJson('https://ipwho.is/', 4000)
       .then(function (data) {
@@ -830,13 +846,14 @@
         const cur = w.current;
         weather = core.weatherText(cur.weather_code, cur.is_day);
         weatherIcon.textContent = weather.icon;
+        weatherCity.textContent = place || '';
         weatherText.innerHTML =
-          esc(weather.label) + ' ' + Math.round(cur.temperature_2m) + '°C' +
-          (place ? ' · ' + esc(place) : '');
-        if (!reduced) spawnWeatherEffect(overlay, weather.effect);
+          esc(weather.label) + ' ' + Math.round(cur.temperature_2m) + '°C';
+        if (!reduced) spawnWeatherEffect(overlay, weather.effect, weather.heavy);
       })
       .catch(function () {
         weatherIcon.textContent = '🌿';
+        weatherCity.textContent = '';
         weatherText.textContent = '天气未知 · 愿花常开';
       });
 
