@@ -148,6 +148,7 @@ test('parseHash 解析各路由', () => {
   assert.deepEqual(core.parseHash('#/flower/rosa-rugosa'), { route: 'flower', id: 'rosa-rugosa' });
   assert.deepEqual(core.parseHash('#/explore'), { route: 'explore', id: null });
   assert.deepEqual(core.parseHash('#/today'), { route: 'today', id: null });
+  assert.deepEqual(core.parseHash('#/garden'), { route: 'garden', id: null });
   assert.deepEqual(core.parseHash('#/explore?color=%E7%BA%A2'), { route: 'explore', id: null });
   assert.deepEqual(core.parseHash('#/explore?color=%E7%BA%A2&season=%E5%A4%8F'), { route: 'explore', id: null });
   assert.deepEqual(core.parseHash('#/flower/rosa-rugosa?from=home'), { route: 'flower', id: 'rosa-rugosa' });
@@ -184,11 +185,18 @@ test('weatherText 映射 WMO 天气码', () => {
   assert.equal(core.weatherText(2, 1).label, '多云');
   assert.equal(core.weatherText(3, 1).label, '阴');
   assert.equal(core.weatherText(45, 1).label, '雾');
-  assert.equal(core.weatherText(61, 1).label, '雨');
+  assert.equal(core.weatherText(61, 1).label, '大雨');
   assert.equal(core.weatherText(71, 1).label, '雪');
   assert.equal(core.weatherText(95, 1).label, '雷暴');
   assert.equal(core.weatherText(999, 1).label, '天气未知');
   assert.equal(core.weatherText(0, 0).icon, '🌙');
+  assert.equal(core.weatherText(0, 1).effect, 'clear');
+  assert.equal(core.weatherText(3, 1).effect, 'clouds');
+  assert.equal(core.weatherText(45, 1).effect, 'fog');
+  assert.equal(core.weatherText(61, 1).effect, 'rain');
+  assert.equal(core.weatherText(71, 1).effect, 'snow');
+  assert.equal(core.weatherText(95, 1).effect, 'thunder');
+  assert.equal(core.weatherText(999, 1).effect, 'none');
 });
 
 test('splitStory 按 || 分段并清理空白', () => {

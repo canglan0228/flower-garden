@@ -94,6 +94,11 @@ body {
   -webkit-clip-path: circle(150% at var(--rx, 92%) var(--ry, 90%));
 }
 
+.bg-reveal.is-done {
+  opacity: 0;
+  transition: opacity 0.45s ease;
+}
+
 .bg-reveal-img {
   position: absolute;
   inset: 0;
@@ -1040,6 +1045,62 @@ p { margin: 0; }
 .not-found-title { font-size: 34px; margin-bottom: 10px; }
 .not-found-text { color: var(--ink-soft); margin-bottom: 26px; }
 
+/* ---------- 虚拟养花（建设中占位） ---------- */
+.garden-soon {
+  margin: 64px auto 80px;
+  max-width: 560px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  padding: 56px 40px 48px;
+  text-align: center;
+  box-shadow: var(--shadow-card);
+}
+
+.garden-soon-icon {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--sage-deep);
+  background:
+    radial-gradient(420px 120px at 50% 0%, rgba(244, 220, 210, 0.7), transparent 70%),
+    var(--sage-soft);
+  border: 1px solid rgba(143, 169, 143, 0.4);
+  animation: sproutBreath 3s ease-in-out infinite;
+}
+
+@keyframes sproutBreath {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-6px) scale(1.04); }
+}
+
+.garden-soon-title {
+  font-size: 34px;
+  margin-bottom: 14px;
+}
+
+.garden-soon-text {
+  color: var(--ink-soft);
+  line-height: 1.9;
+  margin-bottom: 24px;
+}
+
+.garden-soon-badge {
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  color: var(--blush-deep);
+  background: var(--blush-soft);
+  border: 1px dashed rgba(197, 138, 118, 0.5);
+  border-radius: 999px;
+  padding: 8px 18px;
+  margin-bottom: 28px;
+}
+
 /* ---------- 页脚 ---------- */
 .site-footer {
   border-top: 1px solid var(--line);
@@ -1151,7 +1212,7 @@ p { margin: 0; }
 
 .intro-stage {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   text-align: center;
   padding: 36px 48px;
 }
@@ -1233,7 +1294,7 @@ p { margin: 0; }
 .intro-particles {
   position: absolute;
   inset: 0;
-  z-index: 1;
+  z-index: 2;
   overflow: hidden;
   pointer-events: none;
 }
@@ -1305,6 +1366,108 @@ p { margin: 0; }
   0% { opacity: 0; transform: translate3d(0, 0, 0) scale(0.6); }
   30% { opacity: 0.9; }
   100% { opacity: 0; transform: translate3d(30px, -112vh, 0) scale(1.2); }
+}
+
+/* ---------- 天气特效层 ---------- */
+.intro-effect {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.fx-rain {
+  position: absolute;
+  top: -12%;
+  width: 1.5px;
+  border-radius: 2px;
+  background: linear-gradient(180deg, rgba(122, 158, 186, 0), rgba(122, 158, 186, 0.85));
+  animation: rainFall linear infinite;
+}
+
+@keyframes rainFall {
+  from { transform: translateY(-10vh) rotate(14deg); }
+  to { transform: translateY(112vh) rotate(14deg); }
+}
+
+.fx-snow {
+  position: absolute;
+  top: -6%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+  animation: fxSnow linear infinite;
+}
+
+@keyframes fxSnow {
+  0% { opacity: 0; transform: translateY(-6vh); }
+  10% { opacity: 0.95; }
+  100% { opacity: 0.5; transform: translateY(108vh) translateX(40px); }
+}
+
+.fx-cloud {
+  position: absolute;
+  left: -35%;
+  width: 46vw;
+  height: 15vh;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.75);
+  filter: blur(22px);
+  animation: fxCloud linear infinite;
+}
+
+@keyframes fxCloud {
+  from { transform: translateX(-12vw); }
+  to { transform: translateX(160vw); }
+}
+
+.fx-fog {
+  position: absolute;
+  left: -45%;
+  width: 190vw;
+  height: 32vh;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  filter: blur(42px);
+  animation: fxFog ease-in-out infinite alternate;
+}
+
+@keyframes fxFog {
+  from { transform: translateX(0); }
+  to { transform: translateX(26vw); }
+}
+
+.fx-clear {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #F7E3B0, rgba(231, 201, 139, 0.2));
+  box-shadow: 0 0 14px rgba(231, 201, 139, 0.95);
+  animation: fxClear ease-in-out infinite;
+}
+
+@keyframes fxClear {
+  0%, 100% { opacity: 0.15; transform: scale(0.7); }
+  50% { opacity: 0.9; transform: scale(1.25); }
+}
+
+.fx-flash {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.85);
+  opacity: 0;
+  animation: fxFlash 4.2s linear infinite;
+}
+
+@keyframes fxFlash {
+  0%, 6.5%, 100% { opacity: 0; }
+  3% { opacity: 0.85; }
+  4.2% { opacity: 0.05; }
+  5% { opacity: 0.55; }
 }
 
 /* ---------- 动效 ---------- */
@@ -1379,8 +1542,12 @@ img.is-ready ~ .shimmer,
 @media (max-width: 600px) {
   .container { padding: 0 18px; }
   .site-header { padding: 0 16px; }
-  .brand-name { font-size: 18px; }
-  .nav-link { padding: 7px 12px; font-size: 14px; }
+  .site-nav { gap: 4px; }
+  .brand-name { font-size: 16px; }
+  .brand-mark { width: 26px; height: 26px; }
+  .nav-link { padding: 6px 8px; font-size: 13px; }
+  .garden-soon { margin: 40px auto 56px; padding: 40px 24px 36px; }
+  .garden-soon-title { font-size: 28px; }
   .hero { padding-top: 34px; }
   .hero-title { font-size: 38px; }
   .today-card { margin-top: 30px; }
@@ -1403,6 +1570,13 @@ img.is-ready ~ .shimmer,
   .intro-weather { font-size: 15px; padding: 10px 18px; }
   .intro-weather-icon { font-size: 32px; }
   .bg-toggle { right: 16px; bottom: 16px; width: 42px; height: 42px; }
+}
+
+@media (max-width: 400px) {
+  .site-header { padding: 0 12px; }
+  .site-nav { gap: 2px; }
+  .brand-name { font-size: 15px; }
+  .nav-link { padding: 5px 6px; font-size: 12px; }
 }
 
 /* ---------- 减少动效 ---------- */

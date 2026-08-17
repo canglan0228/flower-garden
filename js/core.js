@@ -89,19 +89,20 @@
     const day = isDay !== 0;
     let label = '天气未知';
     let icon = '🌿';
-    if (c === 0) { label = '晴'; icon = day ? '☀️' : '🌙'; }
-    else if (c === 1) { label = '大致晴朗'; icon = '🌤️'; }
-    else if (c === 2) { label = '多云'; icon = '⛅'; }
-    else if (c === 3) { label = '阴'; icon = '☁️'; }
-    else if (c === 45 || c === 48) { label = '雾'; icon = '🌫️'; }
-    else if (c >= 51 && c <= 57) { label = '毛毛雨'; icon = '🌦️'; }
-    else if (c >= 61 && c <= 67) { label = '雨'; icon = '🌧️'; }
-    else if (c >= 71 && c <= 77) { label = '雪'; icon = '❄️'; }
-    else if (c >= 80 && c <= 82) { label = '阵雨'; icon = '🌦️'; }
-    else if (c === 85 || c === 86) { label = '阵雪'; icon = '❄️'; }
-    else if (c === 95) { label = '雷暴'; icon = '⛈️'; }
-    else if (c === 96 || c === 99) { label = '雷暴伴冰雹'; icon = '⛈️'; }
-    return { label: label, icon: icon };
+    let effect = 'none';
+    if (c === 0) { label = '晴'; icon = day ? '☀️' : '🌙'; effect = 'clear'; }
+    else if (c === 1) { label = '大致晴朗'; icon = '🌤️'; effect = 'clear'; }
+    else if (c === 2) { label = '多云'; icon = '⛅'; effect = 'clouds'; }
+    else if (c === 3) { label = '阴'; icon = '☁️'; effect = 'clouds'; }
+    else if (c === 45 || c === 48) { label = '雾'; icon = '🌫️'; effect = 'fog'; }
+    else if (c >= 51 && c <= 57) { label = '毛毛雨'; icon = '🌦️'; effect = 'rain'; }
+    else if (c >= 61 && c <= 67) { label = '大雨'; icon = '🌧️'; effect = 'rain'; }
+    else if (c >= 71 && c <= 77) { label = '雪'; icon = '❄️'; effect = 'snow'; }
+    else if (c >= 80 && c <= 82) { label = '阵雨'; icon = '🌦️'; effect = 'rain'; }
+    else if (c === 85 || c === 86) { label = '阵雪'; icon = '❄️'; effect = 'snow'; }
+    else if (c === 95) { label = '雷暴'; icon = '⛈️'; effect = 'thunder'; }
+    else if (c === 96 || c === 99) { label = '雷暴伴冰雹'; icon = '⛈️'; effect = 'thunder'; }
+    return { label: label, icon: icon, effect: effect };
   };
 
   core.splitStory = function (story) {
@@ -154,6 +155,7 @@
     }
     if (parts[0] === 'explore') return { route: 'explore', id: null };
     if (parts[0] === 'today') return { route: 'today', id: null };
+    if (parts[0] === 'garden') return { route: 'garden', id: null };
     return { route: 'home', id: null };
   };
 

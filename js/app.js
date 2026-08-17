@@ -514,8 +514,30 @@
       if (a.getAttribute('href') === '#/' && current === 'home') a.setAttribute('aria-current', 'page');
       else if (a.getAttribute('href') === '#/today' && current === 'today') a.setAttribute('aria-current', 'page');
       else if (a.getAttribute('href') === '#/explore' && (current === 'explore' || current === 'flower')) a.setAttribute('aria-current', 'page');
+      else if (a.getAttribute('href') === '#/garden' && current === 'garden') a.setAttribute('aria-current', 'page');
       else a.removeAttribute('aria-current');
     });
+  }
+
+  /* ---------- 虚拟养花（建设中占位） ---------- */
+  function renderGarden() {
+    app.innerHTML =
+      '<div class="container">' +
+        '<section class="garden-soon">' +
+          '<div class="garden-soon-icon" aria-hidden="true">' +
+            '<svg width="72" height="72" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">' +
+              '<path d="M24 42V22"/>' +
+              '<path d="M24 26C24 18 18 14 10 14c0 8 5 14 14 14Z"/>' +
+              '<path d="M24 26c0-8 6-12 14-12 0 8-5 14-14 14Z"/>' +
+              '<path d="M24 32c-6-2-10-7-12-13"/>' +
+            '</svg>' +
+          '</div>' +
+          '<h1 class="garden-soon-title">虚拟养花</h1>' +
+          '<p class="garden-soon-text">在这里领养一朵只属于你的花，浇水、晒太阳，陪它从种子长到盛开。</p>' +
+          '<div class="garden-soon-badge">正在建设中 · 敬请期待</div>' +
+          '<a class="btn btn-primary" href="#/">回首页逛逛</a>' +
+        '</section>' +
+      '</div>';
   }
 
   function render() {
@@ -525,6 +547,7 @@
       if (r.route === 'flower') renderDetail(r.id);
       else if (r.route === 'explore') renderExplore(true);
       else if (r.route === 'today') renderToday();
+      else if (r.route === 'garden') renderGarden();
       else renderHome();
       window.scrollTo(0, 0);
     }
@@ -604,24 +627,33 @@
       window.setTimeout(function () { btn.classList.remove('is-pulse'); }, 650);
     }
 
-    let done = false;
-    function finish() {
-      if (done) return;
-      done = true;
+    let ended = false;
+    function settle() {
+      if (ended) return;
+      ended = true;
       applyBg(nextIdx);
-      if (reveal.parentNode) reveal.remove();
       state.bg = nextIdx;
-      state.bgBusy = false;
       try { localStorage.setItem(BG_KEY, String(nextIdx)); } catch (e) {}
+      reveal.classList.add('is-done');
+      reveal.addEventListener('transitionend', function onFade(ev) {
+        if (ev.propertyName !== 'opacity') return;
+        reveal.removeEventListener('transitionend', onFade);
+        reveal.remove();
+        state.bgBusy = false;
+      });
+      window.setTimeout(function () {
+        if (reveal.parentNode) reveal.remove();
+        state.bgBusy = false;
+      }, 700);
     }
     reveal.addEventListener('transitionend', function onEnd(ev) {
       if (ev.propertyName !== 'clip-path' && ev.propertyName !== '-webkit-clip-path') return;
       reveal.removeEventListener('transitionend', onEnd);
-      finish();
+      settle();
     });
     void reveal.offsetWidth;
     reveal.classList.add('is-in');
-    window.setTimeout(finish, 1600);
+    window.setTimeout(settle, 1200);
   }
 
   state.bg = (function () {
@@ -670,12 +702,81 @@
     }
   }
 
+  function spawnRain(wrap, count) {
+    for (let i = 0; i < count; i++) {
+      const d = document.createElement('i');
+      d.className = 'fx-rain';
+      d.style.left = (Math.random() * 100) + '%';
+      d.style.animationDelay = (Math.random() * 1.4) + 's';
+      d.style.animationDuration = (0.75 + Math.random() * 0.5) + 's';
+      d.style.height = (16 + Math.random() * 16) + 'vh';
+      d.style.opacity = (0.3 + Math.random() * 0.35).toFixed(2);
+      wrap.appendChild(d);
+    }
+  }
+
+  function spawnWeatherEffect(overlay, kind) {
+    const wrap = overlay.querySelector('.intro-effect');
+    if (!wrap) return;
+    wrap.innerHTML = '';
+    if (kind === 'rain' || kind === 'thunder') spawnRain(wrap, kind === 'thunder' ? 48 : 64);
+    if (kind === 'snow') {
+      for (let i = 0; i < 40; i++) {
+        const d = document.createElement('i');
+        d.className = 'fx-snow';
+        d.style.left = (Math.random() * 100) + '%';
+        d.style.animationDelay = (Math.random() * 4) + 's';
+        d.style.animationDuration = (6 + Math.random() * 5) + 's';
+        d.style.transform = 'scale(' + (0.6 + Math.random() * 0.9).toFixed(2) + ')';
+        wrap.appendChild(d);
+      }
+    }
+    if (kind === 'clouds') {
+      for (let i = 0; i < 3; i++) {
+        const d = document.createElement('i');
+        d.className = 'fx-cloud';
+        d.style.top = (8 + Math.random() * 30) + '%';
+        d.style.animationDelay = (Math.random() * 6) + 's';
+        d.style.animationDuration = (20 + Math.random() * 10) + 's';
+        d.style.transform = 'scale(' + (0.7 + Math.random() * 0.8).toFixed(2) + ')';
+        wrap.appendChild(d);
+      }
+    }
+    if (kind === 'fog') {
+      for (let i = 0; i < 2; i++) {
+        const d = document.createElement('i');
+        d.className = 'fx-fog';
+        d.style.top = (30 + i * 28) + '%';
+        d.style.animationDelay = (i * 5) + 's';
+        d.style.animationDuration = (26 + i * 6) + 's';
+        wrap.appendChild(d);
+      }
+    }
+    if (kind === 'clear') {
+      for (let i = 0; i < 14; i++) {
+        const d = document.createElement('i');
+        d.className = 'fx-clear';
+        d.style.left = (Math.random() * 100) + '%';
+        d.style.top = (10 + Math.random() * 60) + '%';
+        d.style.animationDelay = (Math.random() * 3) + 's';
+        d.style.animationDuration = (3 + Math.random() * 3) + 's';
+        wrap.appendChild(d);
+      }
+    }
+    if (kind === 'thunder') {
+      const f = document.createElement('i');
+      f.className = 'fx-flash';
+      wrap.appendChild(f);
+    }
+  }
+
   function showIntro() {
     const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const overlay = document.createElement('div');
     overlay.className = 'intro-overlay';
     overlay.innerHTML =
       '<div class="intro-sky" aria-hidden="true"></div>' +
+      '<div class="intro-effect" aria-hidden="true"></div>' +
       '<div class="intro-particles" aria-hidden="true"></div>';
     const stage = document.createElement('div');
     stage.className = 'intro-stage';
@@ -686,7 +787,7 @@
         '<span class="intro-weather-icon"></span>' +
         '<span class="intro-weather-text">天气加载中…</span>' +
       '</div>' +
-      '<div class="intro-hint">点击任意处跳过</div>';
+      '<div class="intro-hint">单击或双击任意处跳过</div>';
     overlay.appendChild(stage);
     document.body.appendChild(overlay);
 
@@ -732,6 +833,7 @@
         weatherText.innerHTML =
           esc(weather.label) + ' ' + Math.round(cur.temperature_2m) + '°C' +
           (place ? ' · ' + esc(place) : '');
+        if (!reduced) spawnWeatherEffect(overlay, weather.effect);
       })
       .catch(function () {
         weatherIcon.textContent = '🌿';
@@ -756,8 +858,9 @@
       if (e.key === 'Escape' || e.key === 'Enter' || e.key === ' ') dismiss();
     }
     overlay.addEventListener('click', dismiss);
+    overlay.addEventListener('dblclick', dismiss);
     document.addEventListener('keydown', onKey);
-    window.setTimeout(dismiss, reduced ? 1600 : 4000);
+    window.setTimeout(dismiss, reduced ? 1800 : 5600);
   }
 
   showIntro();
