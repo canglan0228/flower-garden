@@ -781,6 +781,87 @@ p { margin: 0; }
   max-width: 55%;
 }
 
+/* ---------- 首页「随便逛逛」错落拼图 ---------- */
+.section-head-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.section-head .btn {
+  flex: none;
+  padding: 9px 18px;
+  font-size: 14px;
+}
+
+.browse-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 150px;
+  gap: 14px;
+}
+
+.browse-card {
+  position: relative;
+  display: block;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  background: linear-gradient(150deg, var(--blush-soft), var(--sage-soft));
+}
+
+.browse-card.featured { grid-column: span 2; grid-row: span 2; }
+.browse-card.tall { grid-row: span 2; }
+.browse-card.wide { grid-column: span 2; }
+
+.browse-card img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.6s ease;
+}
+
+.browse-card img.is-ready { opacity: 1; }
+
+.browse-card:hover img { transform: scale(1.06); }
+
+.browse-info {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 34px 16px 12px;
+  background: linear-gradient(180deg, transparent, rgba(63, 58, 52, 0.62));
+  color: #FFFFFF;
+  pointer-events: none;
+}
+
+.browse-name {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+}
+
+.browse-meaning {
+  font-size: 12.5px;
+  opacity: 0.92;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.browse-card.featured .browse-info { padding: 48px 20px 16px; }
+.browse-card.featured .browse-name { font-size: 24px; }
+.browse-card.featured .browse-meaning { font-size: 14px; }
+
 /* 图片加载失败兜底 */
 .img-failed {
   display: flex !important;
@@ -1603,6 +1684,10 @@ img.is-ready ~ .shimmer,
   .today-hero-copy { max-width: none; }
   .today-hero-art { position: static; }
   .flower-grid { grid-template-columns: repeat(2, 1fr); }
+  .browse-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 130px; }
+  .browse-card.featured { grid-column: span 2; grid-row: span 2; }
+  .browse-card.tall { grid-row: span 2; }
+  .browse-card.wide { grid-column: span 2; }
   .color-grid { grid-template-columns: repeat(5, 1fr); }
   .detail-layout { grid-template-columns: 1fr; }
   .stats { gap: 12px; }
@@ -1630,6 +1715,10 @@ img.is-ready ~ .shimmer,
   .today-actions .btn { width: 100%; }
   .stats { grid-template-columns: 1fr; }
   .flower-grid { grid-template-columns: 1fr; }
+  .browse-grid { grid-template-columns: 1fr; grid-auto-rows: 160px; }
+  .browse-card.featured { grid-column: span 1; grid-row: span 2; }
+  .browse-card.tall { grid-column: span 1; grid-row: span 2; }
+  .browse-card.wide { grid-column: span 1; grid-row: span 1; }
   .color-grid { grid-template-columns: repeat(3, 1fr); }
   .explore-controls { position: static; }
   .detail-facts { grid-template-columns: 1fr; }

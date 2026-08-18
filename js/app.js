@@ -128,6 +128,21 @@
     );
   }
 
+  /* 首页「随便逛逛」错落拼图卡片：i=0 大图主角，1-2 竖卡，3-4 方卡，5 横卡 */
+  function browseCardHtml(f, i) {
+    const cls = i === 0 ? 'featured' : (i <= 2 ? 'tall' : (i === 5 ? 'wide' : 'square'));
+    return (
+      '<a class="browse-card ' + cls + ' fade-up" href="#/flower/' + encodeURIComponent(f.id) + '">' +
+        '<img data-img alt="' + esc(f.name) + '的图片" src="' + esc(f.image) + '" loading="lazy" decoding="async">' +
+        '<span class="shimmer" aria-hidden="true"></span>' +
+        '<span class="browse-info">' +
+          '<span class="browse-name">' + esc(f.name) + '</span>' +
+          '<span class="browse-meaning">' + esc(f.meaning) + '</span>' +
+        '</span>' +
+      '</a>'
+    );
+  }
+
   function tagHtml(flower) {
     const colors = (flower.colors || []).slice(0, 3)
       .map(function (c) {
@@ -210,7 +225,7 @@
       );
     }).join('');
 
-    const picks = randomPicks(6).map(cardHtml).join('');
+    const picks = randomPicks(6).map(browseCardHtml).join('');
 
     app.innerHTML =
       '<div class="container">' +
@@ -254,10 +269,13 @@
         '</section>' +
         '<section class="section">' +
           '<div class="section-head">' +
-            '<h2 class="section-title">随便逛逛</h2>' +
-            '<span class="section-sub">六朵小花，送给此刻的你</span>' +
+            '<div class="section-head-text">' +
+              '<h2 class="section-title">随便逛逛</h2>' +
+              '<span class="section-sub">六朵小花，送给此刻的你</span>' +
+            '</div>' +
+            '<button class="btn btn-ghost" data-action="shuffle-browse">' + svgIcon('shuffle') + '换一批</button>' +
           '</div>' +
-          '<div class="flower-grid">' + picks + '</div>' +
+          '<div class="browse-grid" id="browse-grid">' + picks + '</div>' +
         '</section>' +
       '</div>';
 
@@ -556,6 +574,17 @@
 
   /* ---------- 事件 ---------- */
   document.addEventListener('click', function (e) {
+    const browseBtn = e.target.closest('[data-action="shuffle-browse"]');
+    if (browseBtn) {
+      e.preventDefault();
+      const grid = document.getElementById('browse-grid');
+      if (grid) {
+        grid.innerHTML = randomPicks(6).map(browseCardHtml).join('');
+        bindImages(grid);
+      }
+      return;
+    }
+
     const shuffleBtn = e.target.closest('[data-action="shuffle-today"]');
     if (shuffleBtn) {
       e.preventDefault();
